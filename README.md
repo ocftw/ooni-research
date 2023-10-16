@@ -4,7 +4,7 @@
 
 [OONI](https://ooni.org/)（Open Observatory of Network Interference）是一個觀察網路審查的專案。由全球的志工協助執行[觀測應用程式](https://ooni.org/install/)並偵測阻擋與回報其[觀察結果](https://explorer.ooni.org/)到該組織。
 
-開放文化基金會（Open Culture Foundation, OCF）身為 OONI 的[社群夥伴](https://ooni.org/partners/open-culture-foundation/)之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
+開放文化基金會（Open Culture Foundation, [OCF](https://ocf.tw/)）身為 OONI 的[社群夥伴](https://ooni.org/partners/open-culture-foundation/)之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
 
 ## OONI Probe
 
@@ -53,3 +53,37 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
 ## 如何參與
 
 目前可以透過兩個方式參與專案：[寄信報名](mailto:"OCF%20財團法人開放文化基金會"%20<hi@ocf.tw>?subject=[OONI]%20參與計畫&body=請簡短自我介紹，後續會有專案人員與您聯絡)或[實習計畫](https://blog.ocf.tw/2023/09/ooni.html)，歡迎加入我們一起研究 OONI！
+
+---
+
+# OONI-Research
+
+Open Culture Foundation ([OCF](https://ocf.tw/)), as a partner of the OONI community, supports censorship measurement from a local perspective and shares internet censorship findings with the public.
+
+You can find more introductions about OONI, OONI Probe, and OONI Explore [here](https://ooni.org/).
+
+## Research Items
+
+The following items are our ongoing or in-progress research projects.
+
+### Censorship Measurement with an ASN Coverage Rate Analysis
+
+- status: `ongoing`
+
+- subject: Analyzing OONI's current observational data alongside the known ASN coverage in different regions, to observe whether the data is evenly distributed across various telecommunications or network infrastructures in different areas.
+
+- methods:
+    1. Create a local database using the OONI Data Mining (from AWS S3) approach for preliminary comparisons with a global known ASN list.
+    2. Develop online charts to display observation coverage data in various regions.
+    3. Establish real-time data integration with OONI Data on the backend.
+
+### Country-specific Test Lists Updated
+
+- status: `in-progress`
+
+- subject: Check if the website list in the `TW` test list is accessible.
+
+- methods:
+    1. Write the scripts or modify the [`citizenlab/test-lists`](https://github.com/citizenlab/test-lists) scripts to support country-specific testing.
+    2. Check if there are website lists ending with `.tw` in other regions.
+    3. Update the list of websites to be included in observation testing.
