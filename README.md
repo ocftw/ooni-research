@@ -50,6 +50,17 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
     2. 檢查是否在其他區域有 `.tw` 結尾的網站列表。
     3. 更新需要放入觀察檢測的網站名單。
 
+### 正體中文化翻譯
+
+- 進行狀態：`籌備中`
+
+- 進行內容：OONI 網頁、檢測軟體與文件正體中文化（`zh-tw`, `zh-hant`）
+
+- 進行方式：
+   1. 整理 OONI 相關產品清單，並註記目前有無正體中文語系與如何貢獻方式。
+   2. 校閱目前已翻譯的文字內容。
+   3. 建立詞彙表（Glossary）。
+
 ## 如何參與
 
 目前可以透過兩個方式參與專案：[寄信報名](mailto:"OCF%20財團法人開放文化基金會"%20<hi@ocf.tw>?subject=[OONI]%20參與計畫&body=請簡短自我介紹，後續會有專案人員與您聯絡)或[實習計畫](https://blog.ocf.tw/2023/09/ooni.html)，歡迎加入我們一起研究 OONI！
@@ -87,3 +98,14 @@ The following items are our ongoing or in-progress research projects.
     1. Write the scripts or modify the [`citizenlab/test-lists`](https://github.com/citizenlab/test-lists) scripts to support country-specific testing.
     2. Check if there are website lists ending with `.tw` in other regions.
     3. Update the list of websites to be included in observation testing.
+
+### Localization(l10n)
+
+- status: `in-progress`
+
+- subject: Translations for the web, applications, documents of OONI in `zh-tw`, `zh-hant`.
+
+- methods:
+    1. Compile a list of OONI-related products and note whether they currently support Traditional Chinese language and how to contribute, include the platform for translation.
+    2. Review the content that had been translated.
+    3. Maintain a glossary list for `zh-tw` and `zh-hant`.
