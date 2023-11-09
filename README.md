@@ -30,6 +30,8 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
 
 ### 各區域觀察資料與 ASN 涵蓋率
 
+![ooni asn data flow](asn_coverage/img/ooni-asn.svg)
+
 - 研究狀態：`進行中`
 
 - 研究主題：主要解析目前 OONI 的觀測資料與各區域已知的 [ASN](https://www.cloudflare.com/zh-tw/learning/network-layer/what-is-an-autonomous-system/) 涵蓋狀況，觀察資料是否平均分散在各區域不同的電信或網路架構中。
