@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ocftw-ooni-research-asn-coverage"
+version = "0.1.0"
+description = ""
+authors = ["Toomore Chiang (ocf.tw) <toomore@ocf.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
