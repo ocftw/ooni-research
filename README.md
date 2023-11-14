@@ -2,6 +2,8 @@
 
 [安裝 OONI Probe](https://ooni.org/install/) | [觀測資料](https://explorer.ooni.org/)
 
+`English below`
+
 [OONI](https://ooni.org/)（Open Observatory of Network Interference）是一個觀察網路審查的專案。由全球的志工協助執行[觀測應用程式](https://ooni.org/install/)並偵測阻擋與回報其[觀察結果](https://explorer.ooni.org/)到該組織。
 
 開放文化基金會（Open Culture Foundation, [OCF](https://ocf.tw/)）身為 OONI 的[社群夥伴](https://ooni.org/partners/open-culture-foundation/)之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
