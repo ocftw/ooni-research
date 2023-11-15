@@ -12,6 +12,9 @@ jobs:
         os: ["ubuntu-20.04", "ubuntu-22.04"]
         python-version: ["3.11", "3.12"]
     runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: ./asn_coverage
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,8 +34,8 @@ jobs:
           virtualenvs-in-project: true
           installer-parallel: true
       - name: Install dependencies
-        run: cd ./asn_coverage; poetry install -v
+        run: poetry install -v
       - name: Show packages
         run: poetry show --tree
       - name: Run Download ASN Lists
-        run: cd ./asn_coverage; poetry run python3 ./ripe.py
+        run: poetry run python3 ./ripe.py
