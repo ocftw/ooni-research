@@ -1,6 +1,7 @@
 """ Main """
 import re
-from requests import Session, Response
+
+from requests import Response, Session
 
 
 class RIPEData(Session):
