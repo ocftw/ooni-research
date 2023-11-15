@@ -32,7 +32,7 @@ class OONIS3:
         )
 
 
-def lookback(units=3):
+def lookback(units=36):
     ''' lookback the datas '''
     oonis3 = OONIS3()
     counts = {}
