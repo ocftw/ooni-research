@@ -5,6 +5,7 @@ import json
 from pprint import pprint
 
 import boto3
+import click
 from arrow import Arrow
 from boto3.s3.transfer import TransferConfig
 from botocore import UNSIGNED
@@ -32,7 +33,10 @@ class OONIS3:
         )
 
 
-def lookback(units=36):
+@click.command()
+@click.option('--units', default=36, help='lookback by hours')
+@click.option('--loc', default='TW', help='location')
+def lookback(units=36, loc='TW'):
     ''' lookback the datas '''
     oonis3 = OONIS3()
     counts = {}
@@ -42,6 +46,7 @@ def lookback(units=36):
         result = oonis3.list_webconnectivity(
             date=date[0].format('YYYYMMDD'),
             hour=date[0].format('HH'),
+            location=loc,
         )
 
         pprint(result)

@@ -9,8 +9,8 @@ jobs:
   check_list:
     strategy:
       matrix:
-        os: ["ubuntu-20.04", "ubuntu-22.04"]
-        python-version: ["3.11", "3.12"]
+        os: ["ubuntu-20.04"]
+        python-version: ["3.11"]
     runs-on: ${{ matrix.os }}
     defaults:
       run:
@@ -37,5 +37,11 @@ jobs:
         run: poetry install -v
       - name: Show packages
         run: poetry show --tree
-      - name: Run Lookback OONI Data
-        run: poetry run python3 ./ooni.py
+      - name: Run Lookback OONI Data TW
+        run: poetry run python3 ./ooni.py --units=36 --loc=TW
+      - name: Run Lookback OONI Data JP
+        run: poetry run python3 ./ooni.py --units=36 --loc=JP
+      - name: Run Lookback OONI Data HK
+        run: poetry run python3 ./ooni.py --units=36 --loc=HK
+      - name: Run Lookback OONI Data CN
+        run: poetry run python3 ./ooni.py --units=36 --loc=CN
