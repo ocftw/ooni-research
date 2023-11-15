@@ -24,6 +24,7 @@ class RIPEData(Session):
             re.compile(
                 r"(?P<no>\d+) (?P<org_id>[\w\-]+)? ?(?P<registrar>[\w\ \-\.\&\,\(\)\"/@:?#*'`!+\]\[]+)?, (?P<location>[A-Z]{2})"),
             re.compile(r"(?P<no>23456) (?P<name>.+)"),
+            re.compile(r"(?P<no>\d+) , "),
         )
 
         result = []
