@@ -1,6 +1,7 @@
 name: RIPE ASNname Lists
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: '20 8 * * *'
 
