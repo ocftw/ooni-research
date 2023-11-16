@@ -17,9 +17,19 @@
 - https://ooni.org/post/mining-ooni-data
 - https://registry.opendata.aws/ooni/
 
+### s5cmd
+
 > [!NOTE]
 > 無法使用 `s3cmd` 來取得公開 bucket 的資料，可以改用 [s5cmd](https://github.com/peak/s5cmd) 取得。
+
+只需要抓取 `jsonl.gz` 的檔案即可，例如抓取「網路」觀察資料。
+
+```bash
+# 2023/07/15 17:00 (UTC+0) 區間的 TW 資料
+AWS_REGION=eu-central-1 s5cmd --no-sign-request --stat cp s3://ooni-data-eu-fra/raw/20230715/17/TW/webconnectivity/*.jsonl.gz ./
+```
 
 ### 已發現的資料問題
 
 1. `AS38136` 註冊為 HK，但在 TW 觀測資料中發現。
+2. `measurement_uid` 目前無法對回（確認中） S3 raw data，只能使用 `report_id`。
