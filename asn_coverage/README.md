@@ -19,3 +19,7 @@
 
 > [!NOTE]
 > 無法使用 `s3cmd` 來取得公開 bucket 的資料，可以改用 [s5cmd](https://github.com/peak/s5cmd) 取得。
+
+### 已發現的資料問題
+
+1. `AS38136` 註冊為 HK，但在 TW 觀測資料中發現。

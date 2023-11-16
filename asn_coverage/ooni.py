@@ -40,6 +40,7 @@ def lookback(units=36, loc='TW'):
     ''' lookback the datas '''
     oonis3 = OONIS3()
     counts = {}
+    network_type = {}
     for date in Arrow.span_range('hour',
                                  Arrow.utcnow().shift(hours=units*-1).datetime,
                                  Arrow.utcnow().datetime):
@@ -73,13 +74,23 @@ def lookback(units=36, loc='TW'):
 
                         counts[json_data['probe_asn']] += 1
 
+                        if 'network_type' in json_data['annotations']:
+                            if json_data['annotations']['network_type'] not in network_type:
+                                network_type[json_data['annotations']
+                                             ['network_type']] = 0
+
+                            network_type[json_data['annotations']
+                                         ['network_type']] += 1
+
                         # print(f"""[{json_data['probe_asn']} - {
                         #    json_data['probe_cc']}] {json_data['resolver_asn']} {
                         #    json_data['resolver_ip']} {json_data['resolver_network_name']}""")
 
         pprint(counts)
+        pprint(network_type)
 
     pprint(counts)
+    pprint(network_type)
 
 
 def span_date():
