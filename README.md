@@ -34,7 +34,7 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
 
 ![ooni asn data flow](asn_coverage/img/ooni-asn.svg)
 
-- 研究狀態：`進行中`
+- 研究狀態：`進行中` ([./asn_coverage](./asn_coverage/))
 
 - 研究主題：主要解析目前 OONI 的觀測資料與各區域已知的 [ASN](https://www.cloudflare.com/zh-tw/learning/network-layer/what-is-an-autonomous-system/) 涵蓋狀況，觀察資料是否平均分散在各區域不同的電信或網路架構中。
 
@@ -44,6 +44,8 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
     3. 後端建立與 OONI Data 即時資料串接。
 
 ### 檢測名單更新
+
+![update test-lists](https://ocf.tw/p/ooni/ooni_research_slide_28.png)
 
 - 進行狀態：`籌備中`
 
@@ -56,6 +58,8 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
 
 ### 正體中文化翻譯
 
+![l10n](https://ocf.tw/p/ooni/ooni_research_slide_32.png)
+
 - 進行狀態：`籌備中`
 
 - 進行內容：OONI 網頁、檢測軟體與文件正體中文化（`zh-tw`, `zh-hant`）
@@ -67,7 +71,7 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
 
 ## 如何參與
 
-目前可以透過兩個方式參與專案：[寄信報名](mailto:"OCF%20財團法人開放文化基金會"%20<hi@ocf.tw>?subject=[OONI]%20參與計畫&body=請簡短自我介紹，後續會有專案人員與您聯絡)或[實習計畫](https://blog.ocf.tw/2023/09/ooni.html)，歡迎加入我們一起研究 OONI！
+目前可以透過兩個方式參與專案：[寄信報名](mailto:"OCF%20財團法人開放文化基金會"%20<hi@ocf.tw>?subject=[OONI]%20參與計畫&body=請簡短自我介紹，後續會有專案人員與您聯絡)或[實習計畫](https://blog.ocf.tw/2023/09/ooni.html)或[討論區](https://github.com/ocftw/ooni-research/discussions)簡單的自我介紹，歡迎加入我們一起研究 OONI！
 
 ---
 
@@ -83,7 +87,9 @@ The following items are our ongoing or in-progress research projects.
 
 ### Censorship Measurement with an ASN Coverage Rate Analysis
 
-- status: `ongoing`
+![ooni asn data flow](asn_coverage/img/ooni-asn.svg)
+
+- status: `ongoing` ([./asn_coverage](./asn_coverage/))
 
 - subject: Analyzing OONI's current observational data alongside the known ASN coverage in different regions, to observe whether the data is evenly distributed across various telecommunications or network infrastructures in different areas.
 
@@ -93,6 +99,8 @@ The following items are our ongoing or in-progress research projects.
     3. Establish real-time data integration with OONI Data on the backend.
 
 ### Country-specific Test Lists Updated
+
+![update test-lists](https://ocf.tw/p/ooni/ooni_research_slide_28.png)
 
 - status: `in-progress`
 
@@ -104,6 +112,8 @@ The following items are our ongoing or in-progress research projects.
     3. Update the list of websites to be included in observation testing.
 
 ### Localization(l10n)
+
+![l10n](https://ocf.tw/p/ooni/ooni_research_slide_32.png)
 
 - status: `in-progress`
 
