@@ -7,7 +7,7 @@ from pprint import pprint
 
 import boto3
 import click
-from arrow import Arrow
+import arrow
 from boto3.s3.transfer import TransferConfig
 from botocore import UNSIGNED
 from botocore.config import Config
@@ -32,23 +32,6 @@ class OONIS3:
             Prefix=f'raw/{date}/{hour}/{location.upper()}/webconnectivity/',
             Delimiter='/',
         )
-
-
-@click.command()
-@click.option('--units', default=36, help='lookback by hours')
-@click.option('--loc', default='TW', help='location')
-def lookback(units=36, loc='TW'):
-    ''' lookback the datas '''
-    oonis3 = OONIS3()
-    result_total = {'counts': Counter(), 'network_type': Counter()}
-    for date in Arrow.span_range('hour',
-                                 Arrow.utcnow().shift(hours=units*-1).datetime,
-                                 Arrow.utcnow().datetime):
-        result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
-        result_total['counts'].update(result['counts'])
-        result_total['network_type'].update(result['network_type'])
-
-    pprint(dict(result_total))
 
 
 def count_asn(date, loc, oonis3=None):
@@ -101,14 +84,57 @@ def count_asn(date, loc, oonis3=None):
 
 def span_date():
     ''' Span date '''
-    for date in Arrow.span_range('hour',
-                                 Arrow.utcnow().shift(hours=-10).datetime,
-                                 Arrow.utcnow().datetime):
+    for date in arrow.Arrow.span_range('hour',
+                                       arrow.Arrow.utcnow().shift(hours=-10).datetime,
+                                       arrow.Arrow.utcnow().datetime):
         print(date)
         print(date[0].format('YYYYMMDD'))
         print(date[0].format('HH'))
 
 
+@click.group()
+def cli():
+    ''' cli for groups '''
+
+
+@cli.command('lookback', short_help='lookback datas by frame')
+@click.option('--units', default=36, help='lookback by frame')
+@click.option('--loc', default='TW', help='location')
+@click.option('--frame', default='hours', help='location')
+def lookback(units=36, loc='TW', frame='hour'):
+    ''' lookback the datas '''
+    oonis3 = OONIS3()
+    result_total = {'counts': Counter(), 'network_type': Counter()}
+    for date in arrow.Arrow.span_range(frame,
+                                       arrow.Arrow.utcnow().shift(
+                                           **{frame: units*-1}).datetime,
+                                       arrow.Arrow.utcnow().datetime):
+        result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
+        result_total['counts'].update(result['counts'])
+        result_total['network_type'].update(result['network_type'])
+
+    pprint(dict(result_total))
+
+
+@cli.command('span', short_help='Period of datas')
+@click.option('--start', help='start date, YYYY/MM/DD')
+@click.option('--end', help='end date, YYYY/MM/DD')
+@click.option('--loc', default='TW', help='location')
+def span(start, end, loc='TW'):
+    ''' Period of datas '''
+    oonis3 = OONIS3()
+    result_total = {'counts': Counter(), 'network_type': Counter()}
+
+    for date in arrow.Arrow.span_range('hour',
+                                       arrow.get(start).datetime,
+                                       arrow.get(end).datetime):
+        result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
+        result_total['counts'].update(result['counts'])
+        result_total['network_type'].update(result['network_type'])
+
+    pprint(dict(result_total))
+
+
 if __name__ == '__main__':
-    lookback()
+    cli()
     # span_date()

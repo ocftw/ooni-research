@@ -38,10 +38,10 @@ jobs:
       - name: Show packages
         run: poetry show --tree
       - name: Run Lookback OONI Data TW
-        run: poetry run python3 ./ooni.py --units=36 --loc=TW
+        run: poetry run python3 ./ooni.py lookback --units=36 --loc=TW
       - name: Run Lookback OONI Data JP
-        run: poetry run python3 ./ooni.py --units=36 --loc=JP
+        run: poetry run python3 ./ooni.py lookback --units=36 --loc=JP
       - name: Run Lookback OONI Data HK
-        run: poetry run python3 ./ooni.py --units=36 --loc=HK
+        run: poetry run python3 ./ooni.py lookback --units=36 --loc=HK
       - name: Run Lookback OONI Data CN
-        run: poetry run python3 ./ooni.py --units=36 --loc=CN
+        run: poetry run python3 ./ooni.py lookback --units=36 --loc=CN
