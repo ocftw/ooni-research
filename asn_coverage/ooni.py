@@ -44,53 +44,68 @@ def lookback(units=36, loc='TW'):
     for date in Arrow.span_range('hour',
                                  Arrow.utcnow().shift(hours=units*-1).datetime,
                                  Arrow.utcnow().datetime):
-        result = oonis3.list_webconnectivity(
-            date=date[0].format('YYYYMMDD'),
-            hour=date[0].format('HH'),
-            location=loc,
-        )
+        result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
 
-        pprint(result)
+        for asn, value in result['counts'].items():
+            if asn not in counts:
+                counts[asn] = 0
+            counts[asn] += value
 
-        if 'Contents' not in result:
-            continue
-
-        for file_info in result['Contents']:
-            if not file_info['Key'].endswith('jsonl.gz'):
-                continue
-
-            print(file_info['Key'])
-            with io.BytesIO() as file_obj:
-                oonis3.s3client.download_fileobj(Key=file_info['Key'],
-                                                 Bucket='ooni-data-eu-fra',
-                                                 Fileobj=file_obj,
-                                                 Config=TransferConfig())
-
-                with gzip.GzipFile(fileobj=io.BytesIO(file_obj.getvalue())) as raw_data:
-                    for raw in raw_data:
-                        json_data = json.loads(raw)
-                        if json_data['probe_asn'] not in counts:
-                            counts[json_data['probe_asn']] = 0
-
-                        counts[json_data['probe_asn']] += 1
-
-                        if 'network_type' in json_data['annotations']:
-                            if json_data['annotations']['network_type'] not in network_type:
-                                network_type[json_data['annotations']
-                                             ['network_type']] = 0
-
-                            network_type[json_data['annotations']
-                                         ['network_type']] += 1
-
-                        # print(f"""[{json_data['probe_asn']} - {
-                        #    json_data['probe_cc']}] {json_data['resolver_asn']} {
-                        #    json_data['resolver_ip']} {json_data['resolver_network_name']}""")
-
-        pprint(counts)
-        pprint(network_type)
+        for nw_type, value in result['network_type'].items():
+            if nw_type not in network_type:
+                network_type[nw_type] = 0
+            network_type[nw_type] += value
 
     pprint(counts)
     pprint(network_type)
+
+
+def count_asn(date, loc, oonis3=None):
+    ''' Count ASN '''
+    if oonis3 is None:
+        oonis3 = OONIS3()
+
+    result = {'counts': {}, 'network_type': {}}
+
+    s3_object = oonis3.list_webconnectivity(
+        date=date.format('YYYYMMDD'),
+        hour=date.format('HH'),
+        location=loc,
+    )
+
+    pprint(s3_object)
+
+    if 'Contents' not in s3_object:
+        return result
+
+    for file_info in s3_object['Contents']:
+        if not file_info['Key'].endswith('jsonl.gz'):
+            continue
+
+        print(file_info['Key'])
+        with io.BytesIO() as file_obj:
+            oonis3.s3client.download_fileobj(Key=file_info['Key'],
+                                             Bucket='ooni-data-eu-fra',
+                                             Fileobj=file_obj,
+                                             Config=TransferConfig())
+
+            with gzip.GzipFile(fileobj=io.BytesIO(file_obj.getvalue())) as raw_data:
+                for raw in raw_data:
+                    json_data = json.loads(raw)
+                    if json_data['probe_asn'] not in result['counts']:
+                        result['counts'][json_data['probe_asn']] = 0
+
+                    result['counts'][json_data['probe_asn']] += 1
+
+                    if 'network_type' in json_data['annotations']:
+                        if json_data['annotations']['network_type'] not in result['network_type']:
+                            result['network_type'][json_data['annotations']
+                                                   ['network_type']] = 0
+
+                        result['network_type'][json_data['annotations']
+                                               ['network_type']] += 1
+
+    return result
 
 
 def span_date():
