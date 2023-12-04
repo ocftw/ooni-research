@@ -2,6 +2,7 @@
 import gzip
 import io
 import json
+from collections import Counter
 from pprint import pprint
 
 import boto3
@@ -39,25 +40,15 @@ class OONIS3:
 def lookback(units=36, loc='TW'):
     ''' lookback the datas '''
     oonis3 = OONIS3()
-    counts = {}
-    network_type = {}
+    result_total = {'counts': Counter(), 'network_type': Counter()}
     for date in Arrow.span_range('hour',
                                  Arrow.utcnow().shift(hours=units*-1).datetime,
                                  Arrow.utcnow().datetime):
         result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
+        result_total['counts'].update(result['counts'])
+        result_total['network_type'].update(result['network_type'])
 
-        for asn, value in result['counts'].items():
-            if asn not in counts:
-                counts[asn] = 0
-            counts[asn] += value
-
-        for nw_type, value in result['network_type'].items():
-            if nw_type not in network_type:
-                network_type[nw_type] = 0
-            network_type[nw_type] += value
-
-    pprint(counts)
-    pprint(network_type)
+    pprint(dict(result_total))
 
 
 def count_asn(date, loc, oonis3=None):
