@@ -1,8 +1,10 @@
 ''' OONI '''
+import csv
 import gzip
 import io
 import json
 from collections import Counter
+from os import path
 from pprint import pprint
 
 import boto3
@@ -105,13 +107,28 @@ def lookback(units=36, loc='TW', frame='hour'):
     ''' lookback the datas '''
     oonis3 = OONIS3()
     result_total = {'counts': Counter(), 'network_type': Counter()}
-    for date in arrow.Arrow.span_range(frame,
-                                       arrow.Arrow.utcnow().shift(
-                                           **{frame: units*-1}).datetime,
-                                       arrow.Arrow.utcnow().datetime):
-        result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
-        result_total['counts'].update(result['counts'])
-        result_total['network_type'].update(result['network_type'])
+    with open(f'./lookback_{loc}_{arrow.Arrow.utcnow().format('YYYYMMDD')}_{units}_{frame}.csv',
+              'w+', encoding='UTF8') as csv_files:
+        csv_write = csv.DictWriter(
+            csv_files,
+            fieldnames=('loc', 'date', 'hour', 'statistics'),
+            quoting=csv.QUOTE_MINIMAL,
+        )
+        csv_write.writeheader()
+        for date in arrow.Arrow.span_range('hour',
+                                           arrow.Arrow.utcnow().shift(
+                                               **{frame: units*-1}).datetime,
+                                           arrow.Arrow.utcnow().datetime,
+                                           exact=True):
+            result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
+            csv_write.writerow({'date': date[0].format('YYYY/MM/DD'),
+                                'hour': date[0].format('HH'),
+                                'statistics': json.dumps(result),
+                                'loc': loc,
+                                })
+
+            result_total['counts'].update(result['counts'])
+            result_total['network_type'].update(result['network_type'])
 
     pprint(dict(result_total))
 
@@ -125,16 +142,48 @@ def span(start, end, loc='TW'):
     oonis3 = OONIS3()
     result_total = {'counts': Counter(), 'network_type': Counter()}
 
-    for date in arrow.Arrow.span_range('hour',
-                                       arrow.get(start).datetime,
-                                       arrow.get(end).datetime):
-        result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
-        result_total['counts'].update(result['counts'])
-        result_total['network_type'].update(result['network_type'])
+    with open(f'./span_{loc}_{arrow.get(start).format('YYYYMMDD')}_{arrow.get(end).format('YYYYMMDD')}.csv',
+              'w+', encoding='UTF8') as csv_files:
+        csv_write = csv.DictWriter(
+            csv_files,
+            fieldnames=('loc', 'date', 'hour', 'statistics'),
+            quoting=csv.QUOTE_MINIMAL,
+        )
+        csv_write.writeheader()
+        for date in arrow.Arrow.span_range('hour',
+                                           arrow.get(start).datetime,
+                                           arrow.get(end).datetime,
+                                           exact=True):
+            result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
+            csv_write.writerow({'date': date[0].format('YYYY/MM/DD'),
+                                'hour': date[0].format('HH'),
+                                'statistics': json.dumps(result),
+                                'loc': loc,
+                                })
+            result_total['counts'].update(result['counts'])
+            result_total['network_type'].update(result['network_type'])
 
     pprint(dict(result_total))
 
 
+@cli.command('sheetrow', short_help='Convert raw data to rows format')
+@click.option('--path', 'input_path', help='path of raw data, CSV format')
+def sheetrow(input_path):
+    ''' Convert raw data to rows format '''
+    with open(input_path, 'r+', encoding='UTF8') as csv_files:
+        csv_reader = csv.DictReader(csv_files)
+        with open(f'./rows_{path.basename(input_path)}', 'w+', encoding='UTF8') as csv_save_files:
+            csv_writer = csv.DictWriter(csv_save_files, fieldnames=(
+                'loc', 'date', 'hour', 'asn', 'count'))
+            csv_writer.writeheader()
+            for raw in csv_reader:
+                rows = []
+                asns = json.loads(raw['statistics'])['counts']
+                for asn, count in asns.items():
+                    rows.append({'loc': raw['loc'], 'date': raw['date'], 'hour': raw['hour'],
+                                'asn': asn, 'count': count, })
+                csv_writer.writerows(rows)
+
+
 if __name__ == '__main__':
     cli()
-    # span_date()
