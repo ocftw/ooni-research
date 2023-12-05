@@ -113,7 +113,7 @@ def lookback(units=36, loc='TW', frame='hour'):
     ''' lookback the datas '''
     oonis3 = OONIS3()
     result_total = {'counts': Counter(), 'network_type': Counter()}
-    with open(f'./lookback_{loc}_{arrow.Arrow.utcnow().format('YYYYMMDD')}_{units}_{frame}.csv',
+    with open(f'./lookback_{loc}_{arrow.Arrow.utcnow().format("YYYYMMDD")}_{units}_{frame}.csv',
               'w+', encoding='UTF8') as csv_files:
         csv_write = csv.DictWriter(
             csv_files,
@@ -165,7 +165,7 @@ def span(start, end, loc='TW'):
     oonis3 = OONIS3()
     result_total = {'counts': Counter(), 'network_type': Counter()}
 
-    with open(f'./span_{loc}_{arrow.get(start).format('YYYYMMDD')}_{arrow.get(end).format('YYYYMMDD')}.csv',
+    with open(f'./span_{loc}_{arrow.get(start).format("YYYYMMDD")}_{arrow.get(end).format("YYYYMMDD")}.csv',
               'w+', encoding='UTF8') as csv_files:
         csv_write = csv.DictWriter(
             csv_files,
