@@ -1,6 +1,9 @@
 """ Main """
+import csv
 import re
 
+import arrow
+import click
 from requests import Response, Session
 
 
@@ -20,7 +23,7 @@ class RIPEData(Session):
         asn_data = self.fetch_asn()
         pattens = (
             re.compile(
-                r"(?P<no>\d+) (?P<r>-Reserved AS-), (?P<location>[A-Z]{2})"),
+                r"(?P<no>\d+) (?P<reserved>-Reserved AS-), (?P<location>[A-Z]{2})"),
             re.compile(
                 r"(?P<no>\d+) (?P<org_id>[\w\-]+)? ?(?P<registrar>[\w\ \-\.\&\,\(\)\"/@:?#*'`!+\]\[]+)?, (?P<location>[A-Z]{2})"),
             re.compile(r"(?P<no>23456) (?P<name>.+)"),
@@ -35,14 +38,56 @@ class RIPEData(Session):
             for splitor in pattens:
                 matched = splitor.match(raw)
                 if matched:
-                    result.append(matched.groupdict())
+                    base = {'no': 0, 'location': '',
+                            'org_id': '', 'registrar': '', 'reserved': ''}
+                    base.update(matched.groupdict())
+                    result.append(base)
                     break
             else:
                 raise NotImplementedError(f'`{raw}`')
         return result
 
 
-if __name__ == '__main__':
+@click.group()
+def cli():
+    ''' cli for groups '''
+
+
+@cli.command('list', short_help='list ASNs')
+@click.option('--loc', help='location, two-letters')
+def asn_list(loc=None):
+    ''' List ASNs'''
+    num = 1
     for asn in RIPEData().get_asn_name():
-        if 'location' in asn and asn['location'] == 'TW':
-            print(asn)
+        if loc is None:
+            num += 1
+            print(num, asn)
+            continue
+
+        if asn['location'] == loc:
+            num += 1
+            print(num, asn)
+
+
+@cli.command('save', short_help='save ASNs lists')
+@click.option('--loc', help='location, two-letters')
+def save_to_csv(loc=None):
+    ''' Save datas to CSV '''
+    with open(f'./asns_{arrow.utcnow().format("YYYYMMDD")}.csv', 'w+', encoding='UTF8') as csv_files:
+        csv_writer = csv.DictWriter(csv_files,
+                                    fieldnames=(
+                                        'no', 'location', 'org_id', 'registrar', 'reserved'),
+                                    quoting=csv.QUOTE_MINIMAL)
+        csv_writer.writeheader()
+
+        for asn in RIPEData().get_asn_name():
+            if loc is None:
+                csv_writer.writerow(asn)
+                continue
+
+            if asn['location'] == loc:
+                csv_writer.writerow(asn)
+
+
+if __name__ == '__main__':
+    cli()

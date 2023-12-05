@@ -29,7 +29,7 @@ jobs:
       - name: Install and configure Poetry
         uses: snok/install-poetry@v1
         with:
-          version: 1.7.0
+          version: 1.7.1
           virtualenvs-create: true
           virtualenvs-in-project: true
           installer-parallel: true
@@ -37,5 +37,7 @@ jobs:
         run: poetry install -v
       - name: Show packages
         run: poetry show --tree
-      - name: Run Download ASN Lists
-        run: poetry run python3 ./ripe.py
+      - name: Run Download ASN Lists (ALL)
+        run: poetry run python3 ./ripe.py list
+      - name: Run Download ASN Lists (TW)
+        run: poetry run python3 ./ripe.py list --loc TW
