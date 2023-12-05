@@ -6,6 +6,7 @@ import json
 from collections import Counter
 from os import path
 from pprint import pprint
+from threading import Thread
 
 import boto3
 import click
@@ -84,6 +85,11 @@ def count_asn(date, loc, oonis3=None):
     return result
 
 
+def asn_count_container(container, serios, *args, **kwargs):
+    ''' with save container '''
+    container[serios] = count_asn(*args, **kwargs)
+
+
 def span_date():
     ''' Span date '''
     for date in arrow.Arrow.span_range('hour',
@@ -115,20 +121,37 @@ def lookback(units=36, loc='TW', frame='hour'):
             quoting=csv.QUOTE_MINIMAL,
         )
         csv_write.writeheader()
-        for date in arrow.Arrow.span_range('hour',
-                                           arrow.Arrow.utcnow().shift(
-                                               **{frame: units*-1}).datetime,
-                                           arrow.Arrow.utcnow().datetime,
-                                           exact=True):
-            result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
-            csv_write.writerow({'date': date[0].format('YYYY/MM/DD'),
-                                'hour': date[0].format('HH'),
-                                'statistics': json.dumps(result),
-                                'loc': loc,
-                                })
+        periods = list(arrow.Arrow.span_range('hour',
+                                              arrow.Arrow.utcnow().shift(
+                                                  **{frame: units*-1}).datetime,
+                                              arrow.Arrow.utcnow().datetime,
+                                              exact=True))[:-1]
+        chunks = [periods[n:n+5] for n in range(0, len(periods), 5)]
 
-            result_total['counts'].update(result['counts'])
-            result_total['network_type'].update(result['network_type'])
+        for dates in chunks:
+            gathers = []
+            results = [None] * 5
+            for num, date in enumerate(dates):
+                gathers.append(Thread(target=asn_count_container, kwargs={
+                    'container': results, 'serios': num,
+                    'date': date[0], 'loc': loc, 'oonis3': oonis3}))
+
+            for gather in gathers:
+                gather.start()
+
+            for gather in gathers:
+                gather.join()
+
+            for num, date in enumerate(dates):
+                csv_write.writerow({'date': date[0].format('YYYY/MM/DD'),
+                                    'hour': date[0].format('HH'),
+                                    'statistics': json.dumps(results[num]),
+                                    'loc': loc,
+                                    })
+
+                result_total['counts'].update(results[num]['counts'])
+                result_total['network_type'].update(
+                    results[num]['network_type'])
 
     pprint(dict(result_total))
 
@@ -150,18 +173,36 @@ def span(start, end, loc='TW'):
             quoting=csv.QUOTE_MINIMAL,
         )
         csv_write.writeheader()
-        for date in arrow.Arrow.span_range('hour',
-                                           arrow.get(start).datetime,
-                                           arrow.get(end).datetime,
-                                           exact=True):
-            result = count_asn(date=date[0], loc=loc, oonis3=oonis3)
-            csv_write.writerow({'date': date[0].format('YYYY/MM/DD'),
-                                'hour': date[0].format('HH'),
-                                'statistics': json.dumps(result),
-                                'loc': loc,
-                                })
-            result_total['counts'].update(result['counts'])
-            result_total['network_type'].update(result['network_type'])
+        periods = list(arrow.Arrow.span_range('hour',
+                                              arrow.get(start).datetime,
+                                              arrow.get(end).datetime,
+                                              exact=True))
+        chunks = [periods[n:n+5] for n in range(0, len(periods), 5)]
+
+        for dates in chunks:
+            gathers = []
+            results = [None] * 5
+            for num, date in enumerate(dates):
+                gathers.append(Thread(target=asn_count_container, kwargs={
+                    'container': results, 'serios': num,
+                    'date': date[0], 'loc': loc, 'oonis3': oonis3}))
+
+            for gather in gathers:
+                gather.start()
+
+            for gather in gathers:
+                gather.join()
+
+            print(results)
+            for num, date in enumerate(dates):
+                csv_write.writerow({'date': date[0].format('YYYY/MM/DD'),
+                                    'hour': date[0].format('HH'),
+                                    'statistics': json.dumps(results[num]),
+                                    'loc': loc,
+                                    })
+                result_total['counts'].update(results[num]['counts'])
+                result_total['network_type'].update(
+                    results[num]['network_type'])
 
     pprint(dict(result_total))
 
