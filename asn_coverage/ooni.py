@@ -2,15 +2,15 @@
 import csv
 import gzip
 import io
-import json
 from collections import Counter
 from os import path
 from pprint import pprint
 from threading import Thread
 
+import arrow
 import boto3
 import click
-import arrow
+import orjson as json
 from boto3.s3.transfer import TransferConfig
 from botocore import UNSIGNED
 from botocore.config import Config
@@ -177,11 +177,13 @@ def span(start, end, loc='TW'):
                                               arrow.get(start).datetime,
                                               arrow.get(end).datetime,
                                               exact=True))
-        chunks = [periods[n:n+5] for n in range(0, len(periods), 5)]
+        chunk_nums = 40
+        chunks = [periods[n:n+chunk_nums]
+                  for n in range(0, len(periods), chunk_nums)]
 
         for dates in chunks:
             gathers = []
-            results = [None] * 5
+            results = [None] * chunk_nums
             for num, date in enumerate(dates):
                 gathers.append(Thread(target=asn_count_container, kwargs={
                     'container': results, 'serios': num,
