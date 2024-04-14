@@ -2,6 +2,7 @@
 import csv
 import gzip
 import io
+import sys
 from collections import Counter
 from os import path
 from pprint import pprint
@@ -50,8 +51,6 @@ def count_asn(date, loc, oonis3=None):
         location=loc,
     )
 
-    pprint(s3_object)
-
     if 'Contents' not in s3_object:
         return result
 
@@ -59,12 +58,26 @@ def count_asn(date, loc, oonis3=None):
         if not file_info['Key'].endswith('jsonl.gz'):
             continue
 
-        print(file_info['Key'])
+        print(
+            f"\r\n{file_info['Size']/1000000}MB {file_info['LastModified']} {file_info['Key']}")
+
+        downloaded = 0
+
+        def progress_bar(chunk):
+            nonlocal downloaded
+            downloaded += chunk
+            done = int(20 * downloaded / file_info['Size'])
+            sys.stdout.write("\r[%s%s] %s/%s %s" % (
+                '=' * done, ' ' * (20-done), downloaded/1000000, file_info['Size']/1000000, file_info['Key']))
+            sys.stdout.flush()
+
         with io.BytesIO() as file_obj:
             oonis3.s3client.download_fileobj(Key=file_info['Key'],
                                              Bucket='ooni-data-eu-fra',
                                              Fileobj=file_obj,
-                                             Config=TransferConfig())
+                                             Config=TransferConfig(),
+                                             Callback=progress_bar,
+                                             )
 
             with gzip.GzipFile(fileobj=io.BytesIO(file_obj.getvalue())) as raw_data:
                 for raw in raw_data:
@@ -160,8 +173,10 @@ def lookback(units=36, loc='TW', frame='hour'):
 @click.option('--start', help='start date, YYYY/MM/DD')
 @click.option('--end', help='end date, YYYY/MM/DD')
 @click.option('--loc', default='TW', help='location')
-def span(start, end, loc='TW'):
+@click.option('--chunk', default=40, help='chunk nums')
+def span(start, end, loc='TW', chunk=40):
     ''' Period of datas '''
+    process_start = arrow.now()
     oonis3 = OONIS3()
     result_total = {'counts': Counter(), 'network_type': Counter()}
 
@@ -177,7 +192,7 @@ def span(start, end, loc='TW'):
                                               arrow.get(start).datetime,
                                               arrow.get(end).datetime,
                                               exact=True))
-        chunk_nums = 40
+        chunk_nums = int(chunk)
         chunks = [periods[n:n+chunk_nums]
                   for n in range(0, len(periods), chunk_nums)]
 
@@ -207,6 +222,7 @@ def span(start, end, loc='TW'):
                     results[num]['network_type'])
 
     pprint(dict(result_total))
+    print(f'Processing time: {arrow.now() - process_start}')
 
 
 @cli.command('sheetrow', short_help='Convert raw data to rows format')
