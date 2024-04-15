@@ -2,6 +2,7 @@
 import csv
 import gzip
 import io
+import re
 import sys
 from collections import Counter
 from os import path
@@ -237,7 +238,11 @@ def sheetrow(input_path):
             csv_writer.writeheader()
             for raw in csv_reader:
                 rows = []
-                asns = json.loads(raw['statistics'])['counts']
+                if raw['statistics'][0] == 'b':
+                    raw['statistics'] = re.findall(
+                        r"b'(.+)'", raw['statistics'])[0]
+
+                asns = json.loads(bytes(raw['statistics'], 'UTF-8'))['counts']
                 for asn, count in asns.items():
                     rows.append({'loc': raw['loc'], 'date': raw['date'], 'hour': raw['hour'],
                                 'asn': asn, 'count': count, })
