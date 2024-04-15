@@ -25,7 +25,7 @@ class RIPEData(Session):
             re.compile(
                 r"(?P<no>\d+) (?P<reserved>-Reserved AS-), (?P<location>[A-Z]{2})"),
             re.compile(
-                r"(?P<no>\d+) (?P<org_id>[\w\-]+)? ?(?P<registrar>[\w\ \-\.\&\,\(\)\"/@:?#*'`!+\]\[]+)?, (?P<location>[A-Z]{2})"),
+                r"(?P<no>\d+) (?P<org_id>[\w\-]+)? ?(?P<registrar>[\w\ \-\.\&\,\(\)\"|/@:?#*'`!+\]\[]+)?, (?P<location>[A-Z]{2})"),
             re.compile(r"(?P<no>23456) (?P<name>.+)"),
             re.compile(r"(?P<no>\d+) , "),
         )
@@ -39,7 +39,7 @@ class RIPEData(Session):
                 matched = splitor.match(raw)
                 if matched:
                     base = {'no': 0, 'location': '',
-                            'org_id': '', 'registrar': '', 'reserved': ''}
+                            'org_id': '', 'registrar': '', 'reserved': '', 'name': ''}
                     base.update(matched.groupdict())
                     result.append(base)
                     break
@@ -76,7 +76,7 @@ def save_to_csv(loc=None):
     with open(f'./asns_{arrow.utcnow().format("YYYYMMDD")}.csv', 'w+', encoding='UTF8') as csv_files:
         csv_writer = csv.DictWriter(csv_files,
                                     fieldnames=(
-                                        'no', 'location', 'org_id', 'registrar', 'reserved'),
+                                        'no', 'location', 'org_id', 'registrar', 'reserved', 'name'),
                                     quoting=csv.QUOTE_MINIMAL)
         csv_writer.writeheader()
 
