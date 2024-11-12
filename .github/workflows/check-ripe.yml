@@ -3,14 +3,14 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '20 0 * * *'
+    - cron: "20 0 * * *"
 
 jobs:
   check_list:
     strategy:
       matrix:
-        os: ["ubuntu-20.04", "ubuntu-22.04"]
-        python-version: ["3.10", "3.11", "3.12"]
+        os: ["ubuntu-20.04", "ubuntu-22.04", "ubuntu-24.04"]
+        python-version: ["3.11", "3.12", "3.13"]
     runs-on: ${{ matrix.os }}
     defaults:
       run:
@@ -23,13 +23,13 @@ jobs:
       - name: Install certificates
         run: sudo apt-get install ca-certificates
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install and configure Poetry
         uses: snok/install-poetry@v1
         with:
-          version: 1.7.1
+          version: 1.8.4
           virtualenvs-create: true
           virtualenvs-in-project: true
           installer-parallel: true
