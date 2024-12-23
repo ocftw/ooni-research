@@ -73,7 +73,7 @@ def asn_list(loc=None):
 @click.option('--loc', help='location, two-letters')
 def save_to_csv(loc=None):
     ''' Save datas to CSV '''
-    with open(f'./asns_{arrow.utcnow().format("YYYYMMDD")}.csv', 'w+', encoding='UTF8') as csv_files:
+    with open(f'./asns_{arrow.utcnow().format("YYYYMMDDTHH")}.csv', 'w+', encoding='UTF8') as csv_files:
         csv_writer = csv.DictWriter(csv_files,
                                     fieldnames=(
                                         'no', 'location', 'org_id', 'registrar', 'reserved', 'name'),
