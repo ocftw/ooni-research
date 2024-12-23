@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "ocf-ooni-research-docs"
+version = "2024.12.31"
+description = "About OONI Probe and ASNs finding in Taiwan."
+authors = ["Toomore Chiang <toomore@ocf.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
