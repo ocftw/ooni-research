@@ -1,0 +1,48 @@
+site_name: OONI-Research Docs
+site_url: https://ooni-research.ocf.tw/docs/
+site_description: OONI Probe and ASNs finding in Taiwan.
+site_author: OCF OONI-Research Volunteer
+repo_url: https://github.com/ocftw/ooni-research
+repo_name: ocftw/ooni-research
+edit_uri: https://github.com/ocftw/ooni-research/blob/main/docs/docs/
+copyright: "CC-BY 4.0 2023-2025 OCF OONI-Research Project"
+nav:
+  - 首頁: index.md
+theme:
+  name: material
+  icon:
+    logo: material/database-search-outline
+    repo: fontawesome/brands/github
+  favicon: assets/images/favicon.svg
+  font:
+    text: "Roboto"
+    code: "Noto Sans Mono"
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      accent: lime
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  language: en
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: iso_date
