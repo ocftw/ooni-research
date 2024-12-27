@@ -1,4 +1,4 @@
-site_name: OONI-Research Docs
+site_name: OONI-Research 網路干預開放觀察計畫
 site_url: https://ooni-research.ocf.tw/docs/
 site_description: OONI Probe and ASNs finding in Taiwan.
 site_author: OCF OONI-Research Volunteer
@@ -8,6 +8,14 @@ edit_uri: https://github.com/ocftw/ooni-research/blob/main/docs/docs/
 copyright: "CC-BY 4.0 2023-2025 OCF OONI-Research Project"
 nav:
   - 首頁: index.md
+  - 近期公告: blogs.md
+  - 什麼是 OONI？: whatis-ooni.md
+  - 網路自由為什麼重要？: internet-freedem.md
+  - 參與專案:
+      - ASNs 自治網路觀測資料分析: ooni-asns-coverage.md
+      - OONI 網站檢測清單: ooni-weblists.md
+      - 中文化與文件翻譯: ooni-i18n.md
+  - 近期活動: events.md
 theme:
   name: material
   icon:
@@ -36,13 +44,23 @@ theme:
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
-  language: en
+  language: zh-TW
   features:
     - navigation.top
+    - navigation.expand
+    - navigation.sections
     - search.suggest
     - search.highlight
     - search.share
 plugins:
   - search
   - git-revision-date-localized:
-      type: iso_date
+      type: iso_datetime
+      locale: en
+      enable_creation_date: true
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
