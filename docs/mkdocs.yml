@@ -7,14 +7,14 @@ repo_name: ocftw/ooni-research
 edit_uri: https://github.com/ocftw/ooni-research/blob/main/docs/docs/
 copyright: "CC-BY 4.0 2023-2025 OCF OONI-Research Project"
 nav:
-  - 首頁: index.md
-  - 近期公告: blogs.md
-  - 什麼是 OONI？: whatis-ooni.md
+  - index.md
+  - what-is-ooni.md
   - 網路自由為什麼重要？: internet-freedem.md
   - 參與專案:
       - ASNs 自治網路觀測資料分析: ooni-asns-coverage.md
       - OONI 網站檢測清單: ooni-weblists.md
       - 中文化與文件翻譯: ooni-i18n.md
+  - 近期公告: blogs.md
   - 近期活動: events.md
 theme:
   name: material
@@ -50,13 +50,31 @@ theme:
     - navigation.expand
     - navigation.sections
     - navigation.footer
+    - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
     - content.action.view
     - content.action.edit
+    - content.tooltips
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh-TW
+          name: 臺灣正體 (zh-TW)
+          default: true
+          build: true
+        - locale: en
+          name: English (en-US)
+          default: false
+          build: true
   - git-revision-date-localized:
       type: iso_datetime
       locale: en
@@ -64,6 +82,12 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {}

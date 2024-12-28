@@ -1,3 +1,7 @@
+---
+title: 首頁
+icon: material/home-circle
+---
 # OONI-Research
 
 此專案主要協助 OONI 在地社群的研究，我們會定期資料整理與監測台灣目前的網路自由狀況，透過 ASN 比對查詢、OONI 檢測網站清單整理以及 OONI 在地化推廣與中文化維護。
@@ -8,7 +12,7 @@ OONI（Open Observatory of Network Interference）是一個觀察網路審查的
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-regular-circle-question: 什麼是 OONI？](./whatis-ooni.md)
+- [:fontawesome-regular-circle-question: 什麼是 OONI？](./what-is-ooni.md)
 - :fontawesome-regular-circle-question: 網路自由為什麼重要？
 - :material-bullhorn-outline: 近期公告
 - :material-calendar-clock: 近期活動
