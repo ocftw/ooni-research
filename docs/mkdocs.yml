@@ -49,9 +49,12 @@ theme:
     - navigation.top
     - navigation.expand
     - navigation.sections
+    - navigation.footer
     - search.suggest
     - search.highlight
     - search.share
+    - content.action.view
+    - content.action.edit
 plugins:
   - search
   - git-revision-date-localized:
