@@ -80,7 +80,7 @@ OONI Probe 觀測程式提供[行動裝置版本](https://ooni.org/install/){tar
 
 檢測到的觀察資料會即時回傳到 OONI 的資料庫，可透過 [OONI Explorer](https://explorer.ooni.org/zh-Hant/chart/mat?probe_cc=TW&since=2024-10-01&until=2025-01-01&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity){target="_blank"} 線上分析各個區域的狀況及不同檢測項目的結果。此外，也可以直接存取 [S3 儲存空間（Registry of Open Data on AWS）](https://registry.opendata.aws/ooni/){target="_blank"}，下載延遲一小時的原始觀測資料，以便進行更深入的交叉分析。可根據分析議題需求選擇即時查閱或下載詳細資料進行進一步研究。
 
-!!! info "觀察 ASN 資料"
+!!! info "觀察 AS 資料"
 
     可將「縱軸」項目選成 ASN 篩選分離各 ASN 觀測資料狀況。
 

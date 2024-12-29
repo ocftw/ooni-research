@@ -1,8 +1,8 @@
 ---
-title: 近期公告
+title: Recent Updates
 icon: material/newspaper-variant-outline
 ---
 
-# 近期公告
+# Recent Updates
 
-專案更新進度、訊息公告。
+Project updates and announcements.
