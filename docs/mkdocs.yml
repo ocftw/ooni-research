@@ -14,7 +14,7 @@ nav:
       - ASNs 自治網路觀測資料分析: ooni-asns-coverage.md
       - OONI 網站檢測清單: ooni-weblists.md
       - 中文化與文件翻譯: ooni-i18n.md
-  - 近期公告: blogs.md
+  - blog/index.md
   - 近期活動: events.md
 theme:
   name: material
@@ -45,6 +45,7 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
   language: zh-TW
+  custom_dir: overrides
   features:
     - navigation.top
     - navigation.expand
@@ -57,10 +58,21 @@ theme:
     - content.action.view
     - content.action.edit
     - content.tooltips
+extra:
+  alternate:
+    - name: 台灣正體（zh-TW）
+      link: /docs/zh-tw/
+      lang: zh-TW
+    - name: English (en-US)
+      link: /docs/en-us/
+      lang: en-us
 extra_css:
   - stylesheets/extra.css
 plugins:
-  - search
+  - search:
+      lang:
+        - zh
+        - en
   - social:
       cards_layout: default/invert
       cards_layout_options:
@@ -68,24 +80,11 @@ plugins:
         color: "#ffffff"
         background_color: "#0287cf"
   - privacy
-  - i18n:
-      docs_structure: suffix
-      fallback_to_default: true
-      reconfigure_material: true
-      reconfigure_search: true
-      languages:
-        - locale: zh-TW
-          name: 臺灣正體 (zh-TW)
-          default: true
-          build: true
-        - locale: en
-          name: English (en-US)
-          default: false
-          build: true
   - git-revision-date-localized:
       type: iso_datetime
       locale: en
       enable_creation_date: true
+  - blog
 markdown_extensions:
   - attr_list
   - md_in_html
