@@ -1,6 +1,8 @@
 ---
 title: 什麼是 OONI？
+description: OONI，全名為「Open Observatory of Network Interference」（網路干擾開放觀測），是一項全球性倡議，主要目標是監測和報告網路審查及干擾情況。
 icon: material/chat-question
+
 ---
 # 什麼是 OONI？
 

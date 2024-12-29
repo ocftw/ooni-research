@@ -61,6 +61,13 @@ extra_css:
   - stylesheets/extra.css
 plugins:
   - search
+  - social:
+      cards_layout: default/invert
+      cards_layout_options:
+        font_family: Noto Sans TC
+        color: "#ffffff"
+        background_color: "#0287cf"
+  - privacy
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
