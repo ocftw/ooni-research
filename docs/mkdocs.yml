@@ -15,7 +15,7 @@ copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
 nav:
   - index.md
   - what-is-ooni.md
-  - internet-freedem.md
+  - internet-freedom-matter.md
   - !ENV [NAV_PP, "參與專案"]:
       - ooni-asns-coverage.md
       - ooni-weblists.md
@@ -105,3 +105,4 @@ markdown_extensions:
   - toc:
       permalink: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify {}
+  - footnotes

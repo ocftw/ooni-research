@@ -13,7 +13,7 @@ OONI（Open Observatory of Network Interference）是一個觀察網路審查的
 <div class="grid cards" markdown>
 
 - [:fontawesome-regular-circle-question: 什麼是 OONI？](./what-is-ooni.md)
-- :fontawesome-regular-circle-question: 網路自由為什麼重要？
+- [:fontawesome-regular-circle-question: 網路自由為什麼重要？](./internet-freedom-matter.md)
 - :material-bullhorn-outline: 近期公告
 - :material-calendar-clock: 近期活動
 
