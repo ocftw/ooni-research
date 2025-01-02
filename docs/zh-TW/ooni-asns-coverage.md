@@ -75,3 +75,94 @@ AS 可以被理解為一個單一的管理實體（例如：一家公司、一�
 詳細的內容可以參考以下報告。
 
 [2023/12 觀察報告](https://ocf.tw/p/ooni/report/202312.html){ .md-button .md-button--primary target="_blank" }
+
+## 觀測資料分析
+
+!!! info "招募"
+
+    目前我們正在招募志工夥伴一起來參與，如果對於循線解析、研究資料、解釋資料有興趣，可以加入我們一起討論與研究。
+
+### 如何分析？
+
+如果你尚未使用過 OONI Probe，請嘗試透過以下路徑瞭解運作過程：
+
+1. 下載 OONI Probe，不論是行動裝置版本或桌面版本。
+2. 開啟 OONI Probe、選擇「網站」項目並「執行」檢測。
+3. 檢測完成後前往「測試結果」，找到剛剛完成的「網站」檢測結果，檢視是否有「！」或「？」的項目。
+4. 點擊任一「！」、「？」的檢測項目查看可能的檢測問題。其中可以看到「數據」、「在 OONI Explorer 中顯示」的連結按鈕。
+5. 點擊任一連結就可以查看原始數據資料的檢測結果。
+
+### 如何檢視檢測資料？
+
+例如某一項測量資料，其 UID 為：
+
+- [`20241024185921.623617_TW_webconnectivity_578b6d3845fed2e2`](https://explorer.ooni.org/zh-Hant/m/20241024185921.623617_TW_webconnectivity_578b6d3845fed2e2){target="_blank"}
+
+以此範例結果呈現為`在 AS3462 上執行檢測失敗`，失敗的訊息為 `unknown_failure: dial tcp [scrubbed]: connect: host is down`，可斷定為網站已不提供服務斷線了。而在「DNS 查詢」的段落可以看到是 `www.asap.com.tw` 有設定 DNS `A` 指向 `60.250.151.72 (AS3462 (Chunghwa Telecom Co., Ltd.)`，其來自 `162.158.242.36` Cloudflare DNS 的查詢結果。
+
+最後可以在「原始測量資料」看到所有檢測項目的原始資料，有些資料不會完整的呈現在結果網頁上，但可以從「原始測量資料」中再找到更多的資料進行蒐集與分析。
+
+<figure markdown="span">
+    <a target="_blank"
+       href="../assets/images/ooni_raw_data.png">
+        <img src="../assets/images/ooni_raw_data.png"
+            alt="OONI Probe 「原始測量資料」的資訊。"
+            title="OONI Probe 「原始測量資料」的資訊。"
+            style="border: 1px solid #000000; border-radius: 10px;"
+        >
+    </a>
+    <caption>OONI Probe 「原始測量資料」的資訊。</caption>
+</figure>
+
+!!! question "檢測發現 AS 與 DNS 的差異"
+
+    在這個範例說明過程中，可以發現 OONI Probe 會將檢測過程都記錄下來。例如我們就可以發現檢測資料即使是透過中華電信的網路上網，但是在查詢 DNS 的服務是使用 Cloudflare 的 DNS 查詢。
+
+    - 問題：網站受到阻擋無法連線存取，是 AS 還是 DNS 的問題呢？
+
+### 資料擷取
+
+透過 OONI Probe 的檢測後的觀測資料會回傳到 OONI 的 [AWS S3 Open Data](https://registry.opendata.aws/ooni/){target="_blank"} 中儲存。在 [OONI Docs](https://docs.ooni.org/data){target="_blank"} 中有簡單的擷取方式教學，或是透過我們已經完成的[擷取程式](https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py){target="_blank"}來使用，資料的欄位結構可以參考 [ooni/spec](https://github.com/ooni/spec){target="_blank"}。
+
+!!! question "如何設定專案環境？"
+
+    如何設定專案環境與安裝需求套件，請參考「專案研究預先準備」章節，接下來的說明將會省略前置準備過程。
+
+#### 回看觀察資料
+
+```bash
+
+python3 ./ooni.py lookback [--unit=36] [--loc=TW] [--frame=hours]
+```
+
+區間單位為 `小時`，預設為 `36` 個單位（36 小時），區域為臺灣（`TW`）。執行後會在依單位儲存以下格式的檔案。
+
+- `lookback_{loc}_{YYYYMMDD}_{units}_{frame}.csv`
+
+#### 取得區間資料
+
+```bash
+python3 ./ooni.py span --start=YYYY/MM/DD --end=YYYY/MM/DD [--loc=TW]
+```
+
+區間單位為 `小時`，帶入開始時間（`start`）與結束時間（`end`），取得臺灣（`TW`）這期間的各小時區間的資料。
+
+#### 轉換為試算表資料
+
+```bash
+python3 ./ooni.py sheetrow --path={資料路徑}
+```
+
+將已擷取的資料展開方便在試算表中進行計算使用，將另存一份開頭為 `rows_` 的資料檔案。
+
+### 計算統計 ASNs
+
+建議使用 `取得區間資料` + `轉換為試算表資料` 後，就可以統計各 ASNs 出現的次數與不重複統計計算。再取得目前臺灣所有的 ASNs 資料，即可計算占比等統計資料。
+
+```python
+python3 ./ripe.py save --loc=TW
+```
+
+詳細的計算統計可以參考以下資料：
+
+[20230901-20231204-TW](https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/){ .md-button .md-button--primary target="_blank" }
