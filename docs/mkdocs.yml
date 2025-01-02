@@ -64,6 +64,7 @@ theme:
     - content.action.view
     - content.action.edit
     - content.tooltips
+    - content.code.copy
 extra:
   alternate:
     - name: 台灣正體（zh-TW）

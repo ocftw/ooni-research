@@ -68,7 +68,7 @@ AS 可以被理解為一個單一的管理實體（例如：一家公司、一�
 
 2023/11 ~ 2024/03 期間，我們有透過[程式抓取](https://github.com/ocftw/ooni-research/tree/main/asn_coverage){target="_blank"}分析公開資料，初步檢視目前觀測資料的樣態，究竟是觀測資料不足還存在其他的問題。
 
-根據 2023/12 的[報告](https://ocf.tw/p/ooni/report/202312.html){target="_blank"}中的發現，目前臺灣的觀察資料在 OONI Explorer 資料庫中排名在前十名，以數量上來說是足夠的，但就資料樣本而言，大部份的觀察資料都集中在 AS3462 與 AS18041 所貢獻的觀測資料，約佔所有觀測資料的 78.94%。臺灣目前約有 437 組 ASNs，觀測資料中不重複的 ASNs 數量僅有 7.32%，多樣性的觀測顯為不足。
+根據 2023/12 的[報告](https://ocf.tw/p/ooni/report/202312.html){target="_blank"}中的發現，目前臺灣的觀察資料在 OONI Explorer 資料庫中排名在前十名，以數量上來說是足夠的，但就資料樣本而言，大部份的觀察資料都集中在 [AS3462](https://radar.cloudflare.com/zh-tw/as3462){target="_blank"} 與 [AS18041](https://radar.cloudflare.com/zh-tw/as18041){target="_blank"} 所貢獻的觀測資料，約佔所有觀測資料的 78.94%。臺灣目前約有 437 組 ASNs，觀測資料中不重複的 ASNs 數量僅有 7.32%，多樣性的觀測顯為不足。
 
 此時的資料顯示，目前的觀察還不夠全面與多樣，無法反應目前臺灣的網路樣態，如包含：三大電信業者、有線電視的寬頻服務、固網、第二類電信（虛擬行動網路服務）⋯等。
 
@@ -124,13 +124,13 @@ AS 可以被理解為一個單一的管理實體（例如：一家公司、一�
 
 透過 OONI Probe 的檢測後的觀測資料會回傳到 OONI 的 [AWS S3 Open Data](https://registry.opendata.aws/ooni/){target="_blank"} 中儲存。在 [OONI Docs](https://docs.ooni.org/data){target="_blank"} 中有簡單的擷取方式教學，或是透過我們已經完成的[擷取程式](https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py){target="_blank"}來使用，資料的欄位結構可以參考 [ooni/spec](https://github.com/ooni/spec){target="_blank"}。
 
-!!! question "如何設定專案環境？"
+以下將透過[擷取程式](https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py){target="_blank"}來操作如何擷取檢測觀察資料。
+
+??? question "如何設定專案環境？"
 
     如何設定專案環境與安裝需求套件，請參考「專案研究預先準備」章節，接下來的說明將會省略前置準備過程。
 
-#### 回看觀察資料
-
-```bash
+```bash title="回看觀察資料"
 
 python3 ./ooni.py lookback [--unit=36] [--loc=TW] [--frame=hours]
 ```
@@ -139,30 +139,33 @@ python3 ./ooni.py lookback [--unit=36] [--loc=TW] [--frame=hours]
 
 - `lookback_{loc}_{YYYYMMDD}_{units}_{frame}.csv`
 
-#### 取得區間資料
-
-```bash
+```bash title="取得區間資料"
 python3 ./ooni.py span --start=YYYY/MM/DD --end=YYYY/MM/DD [--loc=TW]
 ```
 
 區間單位為 `小時`，帶入開始時間（`start`）與結束時間（`end`），取得臺灣（`TW`）這期間的各小時區間的資料。
 
-#### 轉換為試算表資料
-
-```bash
+```bash title="轉換為試算表資料"
 python3 ./ooni.py sheetrow --path={資料路徑}
 ```
 
-將已擷取的資料展開方便在試算表中進行計算使用，將另存一份開頭為 `rows_` 的資料檔案。
-
-### 計算統計 ASNs
+將已擷取的資料展開後、方便在試算表中進行計算使用，將另存一份開頭為 `rows_` 的資料檔案。
 
 建議使用 `取得區間資料` + `轉換為試算表資料` 後，就可以統計各 ASNs 出現的次數與不重複統計計算。再取得目前臺灣所有的 ASNs 資料，即可計算占比等統計資料。
 
-```python
+```bash title="計算統計 ASNs"
 python3 ./ripe.py save --loc=TW
 ```
 
 詳細的計算統計可以參考以下資料：
 
 [20230901-20231204-TW](https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/){ .md-button .md-button--primary target="_blank" }
+
+## :fontawesome-solid-diagram-project: 下一步
+
+<div class="grid cards" markdown>
+
+- :material-arrow-right-circle-outline: 專案研究預先準備
+- [:material-arrow-right-circle-outline: 什麼是 OONI？](./what-is-ooni.md)
+
+</div>
