@@ -49,3 +49,13 @@ icon: material/list-status
 !!! warning "後續規劃"
 
     如何新增與募集挑選這部份還需要規劃後進行，預計在 2025/Q2、待名單初步修正後再來規劃「新增」的項目。
+
+## :fontawesome-solid-diagram-project: 下一步
+
+<div class="grid cards" markdown>
+
+- [:material-chat-question: 什麼是 OONI？](./what-is-ooni.md)
+- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
+- [:octicons-mark-github-24: 專案研究預先準備](./setup-repo.md)
+
+</div>
