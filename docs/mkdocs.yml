@@ -14,7 +14,6 @@ repo_name: ocftw/ooni-research
 copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
 nav:
   - index.md
-  - blog/index.md
   - !ENV [NAV_INTRO, "專案簡介"]:
       - what-is-ooni.md
       - internet-freedom-matter.md
@@ -24,6 +23,8 @@ nav:
       - ooni-i18n.md
   - !ENV [NAV_PPP, "參與準備"]:
       - setup-repo.md
+  - !ENV [NAV_POST, "資訊更新"]:
+      - blog/index.md
 theme:
   name: material
   icon:
@@ -96,6 +97,9 @@ plugins:
   - blog:
       post_url_date_format: yyyy/MM
       post_url_format: "{date}/{slug}"
+      archive: false
+      categories: true
+      categories_name: !ENV [CATE_NAME, "文章類型"]
 markdown_extensions:
   - attr_list
   - md_in_html
