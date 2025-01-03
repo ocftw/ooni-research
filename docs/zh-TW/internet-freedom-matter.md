@@ -3,7 +3,7 @@ title: 網路自由為什麼重要？
 icon: material/chat-question
 ---
 
-# 網路自由為什麼重要？
+# :material-chat-question: 網路自由為什麼重要？
 
 在當今的資訊快速流通的數位時代中，網路自由已經成為我們日常生活中不可或缺的一部分了。這不僅涉及到我們如何獲取資訊，還影響到我們如何溝通、工作以及參與社群與倡議活動。對於生活在亞洲地區的我們來說，網路自由就顯得特別重要，因此參與像 OONI 和 Tor 關注在網路審查、匿名網路基礎建設的專案，對於保護、改善和提升網路自由別具有深遠意義！
 
@@ -63,9 +63,9 @@ icon: material/chat-question
 
 <div class="grid cards" markdown>
 
-- :material-access-point-network: [ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
-- :material-list-status: OONI 網站檢測清單
-- :material-translate-variant: 中文化與文件翻譯
+- [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
+- [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
+- [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
 
 </div>
 

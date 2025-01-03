@@ -1,8 +1,8 @@
 ---
 title: 近期公告
-icon: material/newspaper-variant-outline
+icon: material/bullhorn-outline
 ---
 
-# 近期公告
+# :material-bullhorn-outline: 近期公告
 
 專案更新進度、訊息公告。

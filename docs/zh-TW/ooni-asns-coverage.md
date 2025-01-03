@@ -74,7 +74,7 @@ AS 可以被理解為一個單一的管理實體（例如：一家公司、一�
 
 詳細的內容可以參考以下報告。
 
-[2023/12 觀察報告](https://ocf.tw/p/ooni/report/202312.html){ .md-button .md-button--primary target="_blank" }
+[:material-chart-bar: 2023/12 觀察報告](https://ocf.tw/p/ooni/report/202312.html){ .md-button .md-button--primary target="_blank" }
 
 ## 觀測資料分析
 
@@ -159,13 +159,13 @@ python3 ./ripe.py save --loc=TW
 
 詳細的計算統計可以參考以下資料：
 
-[20230901-20231204-TW](https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/){ .md-button .md-button--primary target="_blank" }
+[:material-google-spreadsheet: 20230901-20231204-TW](https://docs.google.com/spreadsheets/d/1lMDsqX8Oa3GKW68y8TuFeKQW2nKM7X0u4z-RopfJIaA/){ .md-button .md-button--primary target="_blank" }
 
 ## :fontawesome-solid-diagram-project: 下一步
 
 <div class="grid cards" markdown>
 
-- :material-arrow-right-circle-outline: 專案研究預先準備
-- [:material-arrow-right-circle-outline: 什麼是 OONI？](./what-is-ooni.md)
+- [:octicons-mark-github-24: 專案研究預先準備](./setup-repo.md)
+- [:material-chat-question: 什麼是 OONI？](./what-is-ooni.md)
 
 </div>

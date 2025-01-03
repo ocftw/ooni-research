@@ -14,14 +14,16 @@ repo_name: ocftw/ooni-research
 copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
 nav:
   - index.md
-  - what-is-ooni.md
-  - internet-freedom-matter.md
+  - blog/index.md
+  - !ENV [NAV_INTRO, "專案簡介"]:
+      - what-is-ooni.md
+      - internet-freedom-matter.md
   - !ENV [NAV_PP, "參與專案"]:
       - ooni-asns-coverage.md
       - ooni-weblists.md
       - ooni-i18n.md
-  - blog/index.md
-  - events.md
+  - !ENV [NAV_PPP, "參與準備"]:
+      - setup-repo.md
 theme:
   name: material
   icon:

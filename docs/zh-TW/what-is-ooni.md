@@ -4,7 +4,7 @@ description: OONI，全名為「Open Observatory of Network Interference」（�
 icon: material/chat-question
 
 ---
-# 什麼是 OONI？
+# :material-chat-question: 什麼是 OONI？
 
 OONI，全名為「Open Observatory of Network Interference」（網路干擾開放觀測），是一項全球性倡議，主要目標是監測和報告網路審查及干擾情況。OONI 透過提供開放原始碼的工具與收集網路測試數據資料，協助使用者識別是否存在網際網路封鎖、監控或降速等現象，並提供即時與公開的網路審查觀測資料分析。
 
@@ -97,8 +97,8 @@ OONI Probe 觀測程式提供[行動裝置版本](https://ooni.org/install/){tar
 
 <div class="grid cards" markdown>
 
-- :material-access-point-network: [ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
-- :material-list-status: OONI 網站檢測清單
-- :material-translate-variant: 中文化與文件翻譯
+- [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
+- [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
+- [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
 
 </div>
