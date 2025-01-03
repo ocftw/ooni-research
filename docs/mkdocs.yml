@@ -100,6 +100,14 @@ plugins:
       archive: false
       categories: true
       categories_name: !ENV [CATE_NAME, "文章類型"]
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+        as_update: git
+      categories:
+        - categories
+        - tages
 markdown_extensions:
   - attr_list
   - md_in_html

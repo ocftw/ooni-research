@@ -13,5 +13,17 @@
     "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
     "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format",
     "tag:yaml.org,2002:python/object/apply:pymdownx.slugs.slugify mapping"
-  ]
+  ],
+  // Markdown
+  "markdown.updateLinksOnFileMove.enabled": "prompt",
+  "markdown.updateLinksOnFileMove.enableForDirectories": true,
+  "markdown.validate.enabled": true,
+  "markdown.validate.fileLinks.markdownFragmentLinks": "warning",
+  "markdown.validate.fragmentLinks.enabled": "warning",
+  "[markdown]": {
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "files.trimTrailingWhitespace": false,
+  }
 }
