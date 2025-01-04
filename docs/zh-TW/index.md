@@ -8,22 +8,34 @@ icon: material/home-circle
 
 OONI（Open Observatory of Network Interference）是一個觀察網路審查的專案。由全球的志工協助執行觀測應用程式並偵測阻擋與回報其觀察結果到該組織。[開放文化基金會](https://ocf.tw/){target="_blank"}（Open Culture Foundation, OCF）身為 OONI 的[社群夥伴](https://ooni.org/partners/open-culture-foundation/){target="_blank"}之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
 
-## :fontawesome-regular-circle-question: 了解計畫
+!!! tip "招募專案志工與活動預告！"
+
+    目前 OONI-Research 專案正在招募志工，有興趣的夥伴可以先加入[郵件群組](https://groups.google.com/g/ocftw-ooni-research){target="_blank"}，等待申請流程確定後會再第一時間告知。另外我們也將在 **2/23 （日）下午與晚上、於台北舉辦 Tor、OONI 工作坊與國際講座**，也請先加入郵件群組以獲取報名資訊。
+
+## :fontawesome-regular-circle-question: 專案簡介
 
 <div class="grid cards" markdown>
 
 - [:fontawesome-regular-circle-question: 什麼是 OONI？](./what-is-ooni.md)
 - [:fontawesome-regular-circle-question: 網路自由為什麼重要？](./internet-freedom-matter.md)
-- [:material-bullhorn-outline: 近期公告](./blog/index.md)
 
 </div>
 
-## :fontawesome-solid-diagram-project: 專案項目
+## :fontawesome-solid-diagram-project: 參與專案
 
 <div class="grid cards" markdown>
 
 - [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
 - [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
 - [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
+
+</div>
+
+## :material-update: 持續追蹤進度
+
+<div class="grid cards" markdown>
+
+- [:material-bullhorn-outline: 近期公告](./blog/index.md)
+- [:material-email-fast-outline: 訂閱郵件群組](https://groups.google.com/g/ocftw-ooni-research){target="_blank"}
 
 </div>
