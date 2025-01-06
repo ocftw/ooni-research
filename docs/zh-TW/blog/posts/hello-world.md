@@ -24,9 +24,9 @@ OONI-Research 計畫目前包含三個子專案項目，涵蓋資料分析、檢
 
 預計也將建立資料流程基礎架構（data pipeline architecture），在研究過程中的資料蒐集與整理，透過程式自動化完成，能與 OONI Data 達到即時呈現結果的可能。
 
-[瞭解更多此專案的說明](../../ooni-asns-coverage.md){ .md-button target="_blank" }
+[:material-arrow-right-circle-outline: 瞭解更多此專案的說明](../../ooni-asns-coverage.md){ .md-button target="_blank" }
 
-!!! note "資料流程基礎架構（Data Pipeline Architecture）"
+??? note "資料流程基礎架構（Data Pipeline Architecture）"
 
     可能的作法，但不侷限：
 
@@ -37,9 +37,9 @@ OONI-Research 計畫目前包含三個子專案項目，涵蓋資料分析、檢
 
 OONI Probe 網站檢測來自於各地區提供的名單，而臺灣（`tw.csv`）的部分自從最後一次更新（2017）後，已有好長一段時間沒有調整與檢視，名單上的網站會影響到觀測程式的結果，因此需要花點時間修正調整目前的名單，後續再進行 2025 可以收錄觀察的網站項目。
 
-[瞭解更多此專案的說明](../../ooni-weblists.md){ .md-button target="_blank" }
+[:material-arrow-right-circle-outline: 瞭解更多此專案的說明](../../ooni-weblists.md){ .md-button target="_blank" }
 
-!!! note "檢測名單目前的狀況"
+??? note "檢測名單目前的狀況"
 
     1. 2017 年後沒有檢視與更新，許多網站不存在或網址已更換。
     2. 許多 `http` 開頭的網址未修正成 `https`。
@@ -48,7 +48,7 @@ OONI Probe 網站檢測來自於各地區提供的名單，而臺灣（`tw.csv`�
 
 目前 OONI 的服務與工具也越來越多，中文化也將持續協助進行，保持在地化的詞彙與用語。另外我們也打算翻譯重要的公告與技術文件，讓理解與參與的門檻再降低，希望能吸引更多人加入研究與貢獻。
 
-[瞭解更多此專案的說明](../../ooni-i18n.md){ .md-button target="_blank" }
+[:material-arrow-right-circle-outline: 瞭解更多此專案的說明](../../ooni-i18n.md){ .md-button target="_blank" }
 
 ## 參與方式
 
@@ -58,6 +58,6 @@ OONI Probe 網站檢測來自於各地區提供的名單，而臺灣（`tw.csv`�
 
 由於 [RightsCon 2025](https://rightscon.summit.tc/catalog/rightscon-2025){target="_blank"} 將在台北舉辦，許多國際專案團隊與社群也將在二月底來到台北參與活動，我們有幸的與 Tor、OONI 的團隊在會議前舉辦一場工作坊與講座活動，目前時間預定在 2025/02/23 下午與晚上，有興趣來到現場瞭解 Tor、OONI 專案或與專案團隊成員交流，也請把握這次機會喔！
 
-!!! question "如何報名？"
+??? question "如何報名？"
 
     由於活動報名流程還在籌備中，可以先訂閱[郵件群組](https://groups.google.com/g/ocftw-ooni-research){target="_blank"}，當活動地點與報名方式確定，將會透過專案郵件群組發送提醒通知，不要錯過了！

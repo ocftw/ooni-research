@@ -102,3 +102,11 @@ OONI Probe 觀測程式提供[行動裝置版本](https://ooni.org/install/){tar
 - [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
 
 </div>
+
+## :material-chat-question: 一同瞭解
+
+<div class="grid cards" markdown>
+
+- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
+
+</div>
