@@ -55,7 +55,7 @@ jobs:
       - name: Build Docs
         run: |
           cd docs
-          poetry shell
+          source ./.venv/bin/activate
           sh ./run.sh
           sh ./run_zh-tw.sh
           sh ./run_en.sh
