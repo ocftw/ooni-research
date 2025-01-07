@@ -1,0 +1,70 @@
+name: BuildDocs
+
+on:
+  push:
+    branches:
+      - "docs"
+    paths:
+      - ".github/workflows/build_docs.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: ["ubuntu-20.04"]
+        python-version: ["3.12"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Update libs
+        run: sudo apt-get update
+      - name: Install ca
+        run: sudo apt-get install ca-certificates
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Cache Poetry venv
+        uses: actions/cache@v4
+        with:
+          path: ./docs/.venv
+          key: poetry-venv-${{ matrix.python-version }}${{ hashFiles('**/poetry.lock') }}
+      - name: Cache Poetry local
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/share/pypoetry
+          key: poetry-local-${{ matrix.python-version }}${{ hashFiles('**/poetry.lock') }}
+      - name: Cache Poetry cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pypoetry
+          key: poetry-cache-${{ matrix.python-version }}${{ hashFiles('**/poetry.lock') }}
+      - name: Install mkdocs-material social dependencies
+        run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+      - name: Install and configure Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: 1.8.5
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          installer-parallel: true
+      - name: Install dependencies
+        run: cd docs; poetry install --with=dev
+      - name: Build Docs
+        run: cd docs; poetry shell; sh ./run.sh;
+      - name: Build Docs (zh-tw)
+        run: cd docs; poetry shell; sh ./run_zh-tw.sh;
+      - name: Build Docs (en)
+        run: cd docs; poetry shell; sh ./run_en.sh;
+      - name: Clean the all files
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.DOC_S3_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.DOC_S3_KEY }}
+        run: cd docs; poetry shell; aws s3 rm s3://${{ secrets.DOC_BUCKET }}/docs --recursive
+      - name: Upload to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.DOC_S3_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.DOC_S3_KEY }}
+        run: cd docs; poetry shell ; aws s3 sync ./output s3://${{ secrets.DOC_BUCKET }}/docs/ --acl public-read
