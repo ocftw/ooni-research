@@ -28,7 +28,7 @@ icon: material/list-status
 
 ## 臺灣觀察名單現況
 
-目前臺灣的名單 [tw.csv](https://github.com/citizenlab/test-lists/blob/master/lists/tw.csv){target="_blank" } 大部分在 2017 年新增建立的，但由於後需沒有持續維護的關係，目前名單上有滿多網站已經結束或已更換品牌網址、舊網址無效或 `http://` 開頭⋯等問題，勢必需要先整理目前的名單內容。
+目前臺灣的名單 [tw.csv](https://github.com/citizenlab/test-lists/blob/master/lists/tw.csv){target="_blank" } 大部分在 2017 年新增建立的，但由於後續沒有持續維護的關係，目前名單上有滿多網站已經結束或已更換品牌網址、舊網址無效或 `http://` 開頭⋯等問題，勢必需要先整理目前的名單內容。
 
 !!! note "http:// → https://"
 
