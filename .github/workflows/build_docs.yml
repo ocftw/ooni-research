@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - "docs"
-    paths:
-      - ".github/workflows/build_docs.yml"
   workflow_dispatch:
 
 jobs:
