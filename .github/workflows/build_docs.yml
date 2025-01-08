@@ -50,11 +50,11 @@ jobs:
           installer-parallel: true
       - name: Install dependencies
         run: cd docs; poetry install --with=dev
-      - name: Build Docs
+      - name: Build Docs (/)
         run: cd docs; source ./.venv/bin/activate; sh ./run.sh;
-      - name: Build Docs
+      - name: Build Docs (/zh-tw)
         run: cd docs; source ./.venv/bin/activate; sh ./run_zh-tw.sh;
-      - name: Build Docs
+      - name: Build Docs (/en)
         run: cd docs; source ./.venv/bin/activate; sh ./run_en.sh;
       - name: Clean the all files
         env:
