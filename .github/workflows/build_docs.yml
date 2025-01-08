@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        os: ["ubuntu-20.04"]
+        os: ["ubuntu-24.04"]
         python-version: ["3.12"]
     runs-on: ${{ matrix.os }}
     steps:
@@ -60,9 +60,9 @@ jobs:
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.DOC_S3_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.DOC_S3_KEY }}
-        run: cd docs; poetry shell; aws s3 rm s3://${{ secrets.DOC_BUCKET }}/docs --recursive
+        run: cd docs; source ./.venv/bin/activate; aws s3 rm s3://${{ secrets.DOC_BUCKET }}/docs --recursive
       - name: Upload to S3
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.DOC_S3_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.DOC_S3_KEY }}
-        run: cd docs; poetry shell ; aws s3 sync ./output s3://${{ secrets.DOC_BUCKET }}/docs/ --acl public-read
+        run: cd docs; source ./.venv/bin/activate; aws s3 sync ./output s3://${{ secrets.DOC_BUCKET }}/docs/ --acl public-read
