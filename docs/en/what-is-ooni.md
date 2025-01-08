@@ -94,6 +94,14 @@ Observed data is instantly transmitted to OONI's database and can be analyzed on
         </a>
     </figure>
 
+## :material-chat-question: Learn Together
+
+<div class="grid cards" markdown>
+
+- [:fontawesome-regular-circle-question: Why does Internet Freedom matter?](./internet-freedom-matter.md)
+
+</div>
+
 ## :fontawesome-solid-diagram-project: Next Steps
 
 <div class="grid cards" markdown>
@@ -101,13 +109,5 @@ Observed data is instantly transmitted to OONI's database and can be analyzed on
 - [:material-access-point-network: ASNs Observation Data Analysis](./ooni-asns-coverage.md)
 - [:material-list-status: OONI Website Testing List](./ooni-weblists.md)
 - [:material-translate-variant: L10n and Documentation Translation](./ooni-i18n.md)
-
-</div>
-
-## :material-chat-question: Learn Together
-
-<div class="grid cards" markdown>
-
-- [:fontawesome-regular-circle-question: Why does Internet Freedom matter?](./internet-freedom-matter.md)
 
 </div>

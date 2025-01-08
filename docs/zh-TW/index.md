@@ -28,6 +28,7 @@ OONI（Open Observatory of Network Interference）是一個觀察網路審查的
 - [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
 - [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
 - [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
+- [:octicons-mark-github-24: 專案研究預先準備](./setup-repo.md)
 
 </div>
 

@@ -28,6 +28,7 @@ OONI (Open Observatory of Network Interference) is a project focused on observin
 - [:material-access-point-network: ASNs Observation Data Analysis](./ooni-asns-coverage.md)
 - [:material-list-status: OONI Website Testing List](./ooni-weblists.md)
 - [:material-translate-variant: L10n and Documentation Translation](./ooni-i18n.md)
+- [:octicons-mark-github-24: Project Research Preparation](./setup-repo.md)
 
 </div>
 

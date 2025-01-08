@@ -93,6 +93,14 @@ OONI Probe 觀測程式提供[行動裝置版本](https://ooni.org/install/){tar
         </a>
     </figure>
 
+## :material-chat-question: 一同瞭解
+
+<div class="grid cards" markdown>
+
+- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
+
+</div>
+
 ## :fontawesome-solid-diagram-project: 下一步可參與的專案
 
 <div class="grid cards" markdown>
@@ -100,13 +108,5 @@ OONI Probe 觀測程式提供[行動裝置版本](https://ooni.org/install/){tar
 - [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
 - [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
 - [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
-
-</div>
-
-## :material-chat-question: 一同瞭解
-
-<div class="grid cards" markdown>
-
-- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
 
 </div>
