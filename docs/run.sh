@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdocs build -v -d ./output
+mkdocs build -v -s -d ./output

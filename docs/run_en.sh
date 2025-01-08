@@ -14,4 +14,4 @@ export FONT_TEXT='Public Sans'
 export FONT_CODE='DM Mono'
 export OVERRIDES='overrides_en'
 
-mkdocs build -v -d ./output/en
+mkdocs build -v -s -d ./output/en
