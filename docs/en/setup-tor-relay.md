@@ -82,12 +82,18 @@ Setting up a Middle Relay or Guard Relay requires some technical knowledge and b
     - How much bandwidth/monthly traffic do you want to allow for Tor traffic?
     - Does the server have an IPv6 address?
 
-Install tor.
+### Install tor
 
 ```bash
 apt update
 apt install tor
 ```
+
+!!! info "Choosing Different Versions"
+
+    There might be situations where Tor is not the latest version in various Linux distributions. If you need to install the latest or testing version, you can refer to the official documentation to make adjustments: [Why and how can I enable the Tor Package Repository in Debian?](https://support.torproject.org/apt/tor-deb-repo/){target="_blank"}
+
+### Setup
 
 Edit configuration file: `/etc/tor/torrc`
 

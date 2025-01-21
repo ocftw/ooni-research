@@ -77,17 +77,23 @@ Pluggable Transports：
 
     - 您想要建立一個 Tor 出口節點還是非出口（橋接、入口、中間）節點？
     - 如果您想建立一個出口節點：您要在出口政策中允許哪些連線埠？更多的連線埠通常代表可能會有更多的濫用或違法投訴。
-    - 您希望使用哪個外部 TCP 連線埠來接受 Tor 連接？「ORPort」設定：如果您的伺服器上沒有其他服務佔用此連線埠，我們建議使用 443 連線埠。推薦使用 ORPort 443，是因為這通常是公共 Wi-Fi 網絡中少數幾個開放的端口之一。端口 9001 也是另一個常用的 ORPort。
-    - 您將使用哪個電子郵件地址作為節點的聯絡訊息（ContactInfo）欄位？這個資訊將會公開。
+    - 您希望使用哪個外部 TCP 連線埠來接受 Tor 連接？`ORPort` 設定：如果您的伺服器上沒有其他服務佔用此連線埠，我們建議使用 443 連線埠。推薦使用 `ORPort 443`，是因為這通常是公共 Wi-Fi 網絡中少數幾個開放的端口之一。連線埠 9001 也是另一個常用的 `ORPort`。
+    - 您將使用哪個電子郵件作為節點的聯絡訊息 `ContactInfo` 欄位？這個資訊將會公開。
     - 您希望允許多少頻寬、每月流量用於 Tor 流量？
     - 伺服器是否允許 IPv6 地址？
 
-安裝 tor
+### 安裝 tor
 
 ```bash
 apt update
 apt install tor
 ```
+
+!!! info "不同版本的選擇"
+
+    Tor 在各 Linux 發行版中可能會有非最新版本的狀況，如需要安裝最新或測試版本，可以參考官方說明文件來調整：[Why and how I can enable Tor Package Repository in Debian?](https://support.torproject.org/apt/tor-deb-repo/){target="_blank"}
+
+### 設定
 
 調整設定檔 `/etc/tor/torrc`
 
