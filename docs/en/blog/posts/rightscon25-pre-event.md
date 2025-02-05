@@ -66,6 +66,8 @@ Read more:
 
     This workshop reserves spots for partners who are **journalists** and **CSOs members**. Please use your organization's email address when registering.
 
+    Please note that we manually approve applications after registration on KKTIX platform. We conduct basic due diligence checks on participants to ensure a comfortable experience for both trainers and attendees. Participants will be reviewed based on our criteria for this event, prioritizing human rights defenders (HRDs), journalists, and activists.
+
 ### Workshop 2: Detecting and Measuring Internet Censorship with OONI
 
 - Date: February 23rd @ 18:00 - 19:00
