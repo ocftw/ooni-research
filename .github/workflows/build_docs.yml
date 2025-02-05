@@ -54,8 +54,12 @@ jobs:
         run: cd docs; poetry install --with=dev
       - name: Build Docs (/)
         run: cd docs; source ./.venv/bin/activate; sh ./run.sh;
+      - name: Replaces og
+        run: cd docs/output/assets/images/social/blog/posts; wget https://s3.toomore.net/ocf/tor-pre-event-zh-tw.png -O ./rightscon25-pre-event.png;
       - name: Build Docs (/zh-tw)
         run: cd docs; source ./.venv/bin/activate; sh ./run_zh-tw.sh;
+      - name: Replaces og
+        run: cd docs/output/zh-tw/assets/images/social/blog/posts; wget https://s3.toomore.net/ocf/tor-pre-event-zh-tw.png -O ./rightscon25-pre-event.png;
       - name: Build Docs (/en)
         run: cd docs; source ./.venv/bin/activate; sh ./run_en.sh;
       - name: Replaces og
