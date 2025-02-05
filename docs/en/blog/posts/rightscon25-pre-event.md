@@ -27,6 +27,10 @@ Thie event will feature:
 
     Please register for the sessions you wish to attend by selecting the appropriate type of ticket. Due to venue limitations, some sessions have a cap on the number of participants, so please register early. The exact location of the event will be announced separately closer to the date.
 
+!!! tip "Recruiting Volunteers"
+
+    We are currently recruiting on-site volunteers for the event and expect to need help from 10 volunteers. If you're available on the day (even if you can't participate the entire time), please register at [OCF Volunteer](https://volunteer.ocf.tw/){target="_blank"}. We plan to begin assigning tasks soon. Thank you!
+
 <!-- more -->
 
 ## Workshops
