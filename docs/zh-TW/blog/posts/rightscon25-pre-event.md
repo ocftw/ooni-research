@@ -42,6 +42,7 @@ description: "邀請您於 2025 年 2 月 23 日在台北參加一場全天活�
 
 - 日期：2025/02/23 14:00 - 17:30、語言：英文
 - 地點：台北科技大學
+- 人數：25 人
 - 協作者：
       - Raya, Education Coordinator @ The Tor Project
       - Gus, Community Team Lead @ The Tor Project
@@ -69,6 +70,7 @@ description: "邀請您於 2025 年 2 月 23 日在台北參加一場全天活�
 
 - 日期：2025/02/23 18:00 - 19:00、語言：英文
 - 地點：台北科技大學
+- 人數：50 人
 - 協作者：
       - Maria Xynou, Director of Strategic Engagement @ OONI
       - Elizaveta Yachmeneva, Research & Community Coordinator @ OONI

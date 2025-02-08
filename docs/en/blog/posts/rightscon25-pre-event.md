@@ -70,8 +70,8 @@ Read more:
 
 ### Workshop 2: Detecting and Measuring Internet Censorship with OONI
 
-- Date: February 23rd @ 18:00 - 19:00
-- Capacity: 25 participants
+- Date: February 23rd @ 18:00 - 19:00 (+08:00)
+- Capacity: 50 participants
 - Language: English.
 - Facilitators:
       - Maria Xynou, Director of Strategic Engagement @ OONI
@@ -91,7 +91,7 @@ In this workshop, participants will gain hands-on experience using OONI (Open Ob
 ### Keynote: Tor: Defending your online privacy in a surveillance world
 
 - Speaker: Roger Dingledine, Co-founder of The Tor Project
-- Date: February 23rd, 2025, @ 19:30 - 21:00.
+- Date: February 23rd, 2025, @ 19:30 - 21:00 (+08:00)
 - Capacity: 120 participants
 - Location: Near MRT Songjiang Nanjing Station and Nanjing Fuxing Station.
 
