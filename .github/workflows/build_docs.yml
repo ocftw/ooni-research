@@ -65,9 +65,9 @@ jobs:
       - name: Replaces og
         run: cd docs/output/en/assets/images/social/blog/posts; wget https://s3.toomore.net/ocf/tor-pre-event.png -O ./rightscon25-pre-event.png;
       - name: Replaces og
-        run: cd docs/output/assets/images/social/blog/posts; cp docs/output/blog/assets/images/g0v-hackath65n.webp ./g0v-hackath65n.png;
+        run: cd docs/output/assets/images/social/blog/posts; cp ../../../../../blog/assets/images/g0v-hackath65n.webp ./g0v-hackath65n.png;
       - name: Replaces og (/zh-tw)
-        run: cd docs/output/zh-tw/assets/images/social/blog/posts; cp docs/output/zh-tw/blog/assets/images/g0v-hackath65n.webp ./g0v-hackath65n.png;
+        run: cd docs/output/zh-tw/assets/images/social/blog/posts; cp ../../../../../blog/assets/images/g0v-hackath65n.webp ./g0v-hackath65n.png;
       - name: Clean the all files
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.DOC_S3_ID }}
