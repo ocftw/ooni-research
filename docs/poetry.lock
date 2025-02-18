@@ -2,17 +2,17 @@
 
 [[package]]
 name = "awscli"
-version = "1.37.16"
+version = "1.37.22"
 description = "Universal Command Line Environment for AWS."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "awscli-1.37.16-py3-none-any.whl", hash = "sha256:737996c0ab89887b1cc54ff106980f085dcafaa9776572aaea1313e8f2323d02"},
-    {file = "awscli-1.37.16.tar.gz", hash = "sha256:c198380131c4f05f883612ebdff7d39f2a5e4ad12da56f44dce6ce5c9546746c"},
+    {file = "awscli-1.37.22-py3-none-any.whl", hash = "sha256:552fa964144c24d6af8f5992dd8ec3b4b5a058df1839a770c1ebc2180d066898"},
+    {file = "awscli-1.37.22.tar.gz", hash = "sha256:2587493dcbd469f3b76bdcdb4dd6df90d9bc0129af79f49da86b49fa86b2ee69"},
 ]
 
 [package.dependencies]
-botocore = "1.36.16"
+botocore = "1.36.22"
 colorama = ">=0.2.5,<0.4.7"
 docutils = ">=0.10,<0.17"
 PyYAML = ">=3.10,<6.1"
@@ -35,13 +35,13 @@ dev = ["backports.zoneinfo", "freezegun (>=1.0,<2.0)", "jinja2 (>=3.0)", "pytest
 
 [[package]]
 name = "botocore"
-version = "1.36.16"
+version = "1.36.22"
 description = "Low-level, data-driven core of boto 3."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "botocore-1.36.16-py3-none-any.whl", hash = "sha256:aca0348ccd730332082489b6817fdf89e1526049adcf6e9c8c11c96dd9f42c03"},
-    {file = "botocore-1.36.16.tar.gz", hash = "sha256:10c6aa386ba1a9a0faef6bb5dbfc58fc2563a3c6b95352e86a583cd5f14b11f3"},
+    {file = "botocore-1.36.22-py3-none-any.whl", hash = "sha256:75d6b34acb0686ee4d54ff6eb285e78ccfe318407428769d1e3e13351714d890"},
+    {file = "botocore-1.36.22.tar.gz", hash = "sha256:59520247d5a479731724f97c995d5a1c2aae3b303b324f39d99efcfad1d3019e"},
 ]
 
 [package.dependencies]
@@ -644,13 +644,13 @@ dev = ["click", "codecov", "mkdocs-gen-files", "mkdocs-git-authors-plugin", "mkd
 
 [[package]]
 name = "mkdocs-material"
-version = "9.6.3"
+version = "9.6.4"
 description = "Documentation that simply works"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "mkdocs_material-9.6.3-py3-none-any.whl", hash = "sha256:1125622067e26940806701219303b27c0933e04533560725d97ec26fd16a39cf"},
-    {file = "mkdocs_material-9.6.3.tar.gz", hash = "sha256:c87f7d1c39ce6326da5e10e232aed51bae46252e646755900f4b0fc9192fa832"},
+    {file = "mkdocs_material-9.6.4-py3-none-any.whl", hash = "sha256:414e8376551def6d644b8e6f77226022868532a792eb2c9accf52199009f568f"},
+    {file = "mkdocs_material-9.6.4.tar.gz", hash = "sha256:4d1d35e1c1d3e15294cb7fa5d02e0abaee70d408f75027dc7be6e30fb32e6867"},
 ]
 
 [package.dependencies]
