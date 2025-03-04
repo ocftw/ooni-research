@@ -15,8 +15,9 @@ copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
 nav:
   - index.md
   - !ENV [NAV_INTRO, "專案簡介"]:
-      - what-is-ooni.md
       - internet-freedom-matter.md
+      - what-is-ooni.md
+      - what-is-tails.md
   - !ENV [NAV_PP, "參與專案"]:
       - ooni-asns-coverage.md
       - ooni-weblists.md
