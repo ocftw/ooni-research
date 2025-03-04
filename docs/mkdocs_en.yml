@@ -1,0 +1,131 @@
+docs_dir: !ENV [DOCS_DIR, "zh-TW"]
+site_name: !ENV [SITE_NAME, "OONI-Research 網路干預開放觀察計畫"]
+site_url: !ENV [SITE_URL, "https://ooni-research.ocf.tw/docs/"]
+edit_uri:
+  !ENV [
+    EDIT_URI,
+    "https://github.com/ocftw/ooni-research/blob/main/docs/zh-TW/",
+  ]
+
+site_description: !ENV [SITE_DESC, "ASNs 觀測涵蓋、檢測名單、在地推廣與翻譯"]
+site_author: OONI-Research Volunteer
+repo_url: https://github.com/ocftw/ooni-research
+repo_name: ocftw/ooni-research
+copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
+nav:
+  - index.md
+  - !ENV [NAV_INTRO, "專案簡介"]:
+      - internet-freedom-matter.md
+      - what-is-ooni.md
+  - !ENV [NAV_PP, "參與專案"]:
+      - ooni-asns-coverage.md
+      - ooni-weblists.md
+      - ooni-i18n.md
+  - !ENV [NAV_PPP, "參與準備"]:
+      - setup-repo.md
+      - setup-tor-relay.md
+  - !ENV [NAV_POST, "資訊更新"]:
+      - blog/index.md
+theme:
+  name: material
+  icon:
+    logo: material/database-search-outline
+    repo: fontawesome/brands/github
+  favicon: assets/images/favicon.svg
+  font:
+    text: !ENV [FONT_TEXT, "Roboto"]
+    code: !ENV [FONT_CODE, "Noto Sans Mono"]
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      accent: lime
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  language: !ENV [LANGUAGE, "zh-TW"]
+  custom_dir: !ENV [OVERRIDES, "overrides"]
+  features:
+    - navigation.top
+    - navigation.expand
+    - navigation.sections
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.view
+    - content.action.edit
+    - content.tooltips
+    - content.code.copy
+extra:
+  analytics:
+    provider: google
+    property: G-X3DG2E5E3W
+  alternate:
+    - name: 臺灣正體（zh-TW）
+      link: /docs/zh-tw/
+      lang: zh-TW
+    - name: English (en-US)
+      link: /docs/en/
+      lang: en
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - social:
+      cards_layout_options:
+        font_family: Noto Sans TC
+        color: "#ffffff"
+        background_color: "#0287cf"
+  - privacy
+  - git-revision-date-localized:
+      type: iso_datetime
+      locale: en
+      enable_creation_date: true
+  - blog:
+      post_url_date_format: yyyy/MM
+      post_url_format: "{date}/{slug}"
+      archive: false
+      categories: true
+      categories_name: !ENV [CATE_NAME, "文章類型"]
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+        as_update: git
+      categories:
+        - categories
+        - tages
+      pretty_print: false
+      abstract_chars_count: -1
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {}
+  - footnotes
