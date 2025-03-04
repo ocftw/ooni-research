@@ -64,3 +64,22 @@ Pluggable Transports：
 ## 如何參與 Relay 建立
 
 如何建立 Tor Relay 提供 Tor 網路節點與頻寬，可以參考「[如何搭建 Tor Relay](./setup-tor-relay.md)」
+
+## :material-chat-question: 一同瞭解
+
+<div class="grid cards" markdown>
+
+- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
+- [:material-chat-question: 如何搭建 Tor Relay](./setup-tor-relay.md)
+
+</div>
+
+## :fontawesome-solid-diagram-project: 下一步可參與的專案
+
+<div class="grid cards" markdown>
+
+- [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
+- [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
+- [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
+
+</div>

@@ -138,5 +138,23 @@ Tails 可從 Windows、macOS、Ubuntu/Linux 作業系統中製作 USB 開機磁�
         - Tails 無法在 [ARM](https://zh.wikipedia.org/zh-tw/ARM%E6%9E%B6%E6%A7%8B){target="_blank"}、[PowerPC](https://zh.wikipedia.org/zh-tw/PowerPC){target="_blank"} 或 32 位元的處理器上執行。
     - 至少 2 GB 的記憶體大小在該電腦裝置上，避免使用時會卡頓或系統崩解。
 
+## :material-chat-question: 一同瞭解
+
+<div class="grid cards" markdown>
+
+- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
+
+</div>
+
+## :fontawesome-solid-diagram-project: 下一步可參與的專案
+
+<div class="grid cards" markdown>
+
+- [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
+- [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
+- [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
+
+</div>
+
 [^1]: [圖片來源自 tails.net](https://tails.net/)
 [^2]: [Should I update Tails using apt upgrade or Synaptic?](https://tails.net/support/faq/index.en.html#upgrade)
