@@ -39,6 +39,6 @@ OONI（Open Observatory of Network Interference）是一個觀察網路審查的
 <div class="grid cards" markdown>
 
 - [:material-bullhorn-outline: 近期公告](./blog/index.md)
-- [:material-email-fast-outline: 訂閱郵件群組](https://groups.google.com/g/ocftw-ooni-research){target="_blank"}
+- [:material-email-fast-outline: 訂閱郵件群組](./contact.md)
 
 </div>
