@@ -95,7 +95,7 @@ plugins:
       type: iso_datetime
       locale: en
       enable_creation_date: true
-      enable_parallel_processing: false
+      enable_parallel_processing: true
   - blog:
       post_url_date_format: yyyy/MM
       post_url_format: "{date}/{slug}"
