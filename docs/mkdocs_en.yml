@@ -32,9 +32,6 @@ theme:
     logo: material/database-search-outline
     repo: fontawesome/brands/github
   favicon: assets/images/favicon.svg
-  font:
-    text: !ENV [FONT_TEXT, "Roboto"]
-    code: !ENV [FONT_CODE, "Noto Sans Mono"]
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
