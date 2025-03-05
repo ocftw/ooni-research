@@ -71,9 +71,6 @@ theme:
     - content.tooltips
     - content.code.copy
 extra:
-  analytics:
-    provider: google
-    property: G-X3DG2E5E3W
   alternate:
     - name: 臺灣正體（zh-TW）
       link: /docs/zh-tw/
