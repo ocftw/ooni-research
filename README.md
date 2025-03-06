@@ -1,6 +1,6 @@
 # OONI 網路干預開放觀察
 
-[安裝 OONI Probe](https://ooni.org/install/) | [觀測資料](https://explorer.ooni.org/)
+[專案文件](https://ooni-research.ocf.tw/) | [安裝 OONI Probe](https://ooni.org/install/) | [觀測資料](https://explorer.ooni.org/)
 
 `English below`
 
