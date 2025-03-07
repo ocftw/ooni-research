@@ -8,9 +8,10 @@ This project primarily assists the OONI local community's research. We will regu
 
 OONI (Open Observatory of Network Interference) is a project focused on observing internet censorship. Volunteers around the world help execute the monitoring applications, detect blockages, and report their findings back to the organization. The [Open Culture Foundation](https://ocf.tw/){target="_blank"} (OCF), as one of OONI's [community partners](https://ooni.org/partners/open-culture-foundation/){target="_blank"}, assists in advocating for regional internet censorship issues and promoting the installation of OONI's monitoring software.
 
-!!! tip "Recruiting Project Volunteers and Event Announcements!"
+!!! tip "Updated"
 
-    The OONI-Research project is currently recruiting volunteers. Interested individuals can join the [mailing list](./contact.md) first, and we will notify you as soon as the application process is confirmed. Additionally, we will be hosting a **Tor and OONI workshop and international seminar in Taipei on the afternoon and evening of 2/23 (Sunday).** Please join the mailing list to receive registration information.
+    - [Review: Internet Freedom Workshop: Tor、Tails、OONI](./blog/posts/rightscon25-tor-tails-ooni-after.md) - 09 Mar, 2025
+    - The OONI-Research project is currently recruiting volunteers. Interested individuals can join the [mailing list](./contact.md) first, and we will notify you as soon as the application process is confirmed.
 
 ## :fontawesome-regular-circle-question: Inside The Project
 

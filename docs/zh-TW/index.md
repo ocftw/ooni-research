@@ -8,9 +8,12 @@ icon: material/home-circle
 
 OONI（Open Observatory of Network Interference）是一個觀察網路審查的專案。由全球的志工協助執行觀測應用程式並偵測阻擋與回報其觀察結果到該組織。[開放文化基金會](https://ocf.tw/){target="_blank"}（Open Culture Foundation、OCF）身為 OONI 的[社群夥伴](https://ooni.org/partners/open-culture-foundation/){target="_blank"}之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
 
-!!! tip "招募專案志工與活動預告！"
+!!! tip "重要資訊"
 
-    目前 OONI-Research 專案正在招募志工，有興趣的夥伴可以先加入[郵件群組](./contact.md){target="_blank"}，等待申請流程確定後會再第一時間告知。另外我們也將在 **2/23 （日）下午與晚上、於台北舉辦 Tor、OONI 工作坊與國際講座**，也請先加入郵件群組以獲取報名資訊。
+    - [回顧：網路自由工作坊：Tor、Tails、OONI](./blog/posts/rightscon25-tor-tails-ooni-after.md) - 2025/03/09
+    - 新增：「[什麼是 Tor？](./what-is-tor.md)」、「[什麼是 Tails？](./what-is-tails.md)」頁面。 - 2025/03/04
+    - 目前 OONI-Research 專案正在招募志工，有興趣的夥伴可以先加入[郵件群組](./contact.md){target="_blank"}，等待申請流程確定後會再第一時間告知。
+
 
 ## :fontawesome-regular-circle-question: 專案簡介
 

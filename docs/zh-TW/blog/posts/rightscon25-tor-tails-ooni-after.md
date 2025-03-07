@@ -90,12 +90,12 @@ Tor 則是透過三台主機（Tor Relay），傳輸內容也加密三次，各�
 
 OONI Run 在建立新的名單是也可以指定一組關聯號碼（Link ID），這組關聯號碼可以在 OONI Explorer 上快速搜尋出檢測資料，方便透過簡單圖表辨識目前的網路狀況。
 
-[![OONI Link ID 10137](./assets/images/ooni-link-id-10137.webp)](https://explorer.ooni.org/search?since=2025-02-23&until=2025-02-24&test_name=web_connectivity&failure=true&ooni_run_link_id=10137){target="_blank"}
+[![OONI Link ID 10137](./assets/images/ooni-link-id-10137.webp){style="border-radius: 5px; border: 1px solid #cdcdcd;"}](https://explorer.ooni.org/search?since=2025-02-23&until=2025-02-24&test_name=web_connectivity&failure=true&ooni_run_link_id=10137){target="_blank"}
 
 !!! info "或許你會感興趣的內容"
 
     1. [什麼是 OONI？](../../what-is-ooni.md){target="_blank"}
-    2. 活動當天建立的 OONI Run Link ID 為 [10137](https://explorer.ooni.org/chart/mat?since=2025-02-22&until=2025-03-07&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&ooni_run_link_id=10137){target="_blank"}，可以看到臨時建立的名單透過眾人[協助檢測](https://explorer.ooni.org/search?since=2025-02-23&until=2025-02-24&test_name=web_connectivity&failure=true){target="_blank"}快速了解網路狀況。
+    2. 活動當天建立的 OONI Run Link ID 為 [10137](https://explorer.ooni.org/chart/mat?since=2025-02-22&until=2025-03-07&time_grain=day&axis_x=measurement_start_day&test_name=web_connectivity&ooni_run_link_id=10137){target="_blank"}，可以看到臨時建立的名單透過眾人[協助檢測](https://explorer.ooni.org/search?since=2025-02-23&until=2025-02-24&test_name=web_connectivity&failure=true&ooni_run_link_id=10137){target="_blank"}快速了解網路狀況。
     3. [Probe Security Without Identification, Michele Orrù, 2025-02-20](https://ooni.org/post/2025-probe-security-without-identification/){target="_blank"}：隨著 OONI 探測網路狀況的增進，但也存在一些風險，例如使用者可能會故意或無意地上傳錯誤的觀察資料，這可能會影響 OONI 觀測的可信度。文章提到攻擊者可能會利用假資料來污染OONI 的觀察資料庫，以試圖打擊平台的信任，透過增加透明度並揭露數位權利的侵害。
     4. 2024 OONI 回顧：<https://ooni.org/post/2024-year-in-review/>{target="_blank"}
     5. [於 OONI 觀測資料中臺灣 ASNs 狀況（2023/12）](../../ooni-asns-coverage.md){target="_blank"}
