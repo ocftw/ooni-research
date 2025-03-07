@@ -1,18 +1,18 @@
 ---
-title: 持續關注
-description: 如何與我們保持聯繫，即使此刻無法直接參與也沒問題的！
+title: Stay Informed
+description: How to stay in touch with us, even if you can't participate directly right now!
 icon: material/email-fast-outline
 ---
 
-# :material-email-fast-outline: 持續關注
+# :material-email-fast-outline: Stay Informed
 
-目前我們會用比較保守、不過度打擾的方式提供目前專案的進度回報與活動資訊的發佈。您可以透過加入郵件群組的方式持續關注我們或參與討論。
+We currently provide updates on project progress and event information in a conservative manner to avoid overloading you. You can stay informed or join discussions by subscribing to our mailing list.
 
-- 訂閱郵件群組：<https://groups.google.com/g/ocftw-ooni-research>{target="_blank"}
+- Subscribe to the mailing list: <https://groups.google.com/g/ocftw-ooni-research>{target="_blank"}
 
-或是您有較無法公開的討論，也可以透過此信箱直接聯繫專案團隊成員。
+If you have discussions that cannot be made public, you can directly contact the project team members through this email address.
 
-- OONI Research 專案團隊 <ooni-research@ocf.tw>
+- OONI Research Project Team <ooni-research@ocf.tw>
 - PGP: [8368A3B01D707BBFE1613336F821C1F095EC4578](./assets/8368A3B01D707BBFE1613336F821C1F095EC4578.asc)
 
 ```plain

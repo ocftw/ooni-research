@@ -71,10 +71,9 @@ In the second half of the Tor/Tails workshop, around 30 USB sticks will be avail
 
 !!! info "Content You Might Be Interested In"
 
-    1. What are Tor and Tails?
-    2. Tor Project and Tails Join Forces: <https://blog.torproject.org/tor-tails-join-forces/>{target="_blank"}
-    3. [Arti Project](https://gitlab.torproject.org/tpo/core/arti){target="_blank"}, a project to reimplement Tor in the memory-safe Rust language.
-    4. Google Summer of Code 2025: <https://blog.torproject.org/tor-in-google-summer-of-code-mentorship/>{target="_blank"}`
+    1. Tor Project and Tails Join Forces: <https://blog.torproject.org/tor-tails-join-forces/>{target="_blank"}
+    2. [Arti Project](https://gitlab.torproject.org/tpo/core/arti){target="_blank"}, a project to reimplement Tor in the memory-safe Rust language.
+    3. Google Summer of Code 2025: <https://blog.torproject.org/tor-in-google-summer-of-code-mentorship/>{target="_blank"}`
 
 ## OONI Workshop
 

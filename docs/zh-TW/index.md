@@ -10,7 +10,7 @@ OONI（Open Observatory of Network Interference）是一個觀察網路審查的
 
 !!! tip "招募專案志工與活動預告！"
 
-    目前 OONI-Research 專案正在招募志工，有興趣的夥伴可以先加入[郵件群組](https://groups.google.com/g/ocftw-ooni-research){target="_blank"}，等待申請流程確定後會再第一時間告知。另外我們也將在 **2/23 （日）下午與晚上、於台北舉辦 Tor、OONI 工作坊與國際講座**，也請先加入郵件群組以獲取報名資訊。
+    目前 OONI-Research 專案正在招募志工，有興趣的夥伴可以先加入[郵件群組](./contact.md){target="_blank"}，等待申請流程確定後會再第一時間告知。另外我們也將在 **2/23 （日）下午與晚上、於台北舉辦 Tor、OONI 工作坊與國際講座**，也請先加入郵件群組以獲取報名資訊。
 
 ## :fontawesome-regular-circle-question: 專案簡介
 

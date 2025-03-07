@@ -10,7 +10,7 @@ OONI (Open Observatory of Network Interference) is a project focused on observin
 
 !!! tip "Recruiting Project Volunteers and Event Announcements!"
 
-    The OONI-Research project is currently recruiting volunteers. Interested individuals can join the [mailing list](https://groups.google.com/g/ocftw-ooni-research){target="_blank"} first, and we will notify you as soon as the application process is confirmed. Additionally, we will be hosting a **Tor and OONI workshop and international seminar in Taipei on the afternoon and evening of 2/23 (Sunday).** Please join the mailing list to receive registration information.
+    The OONI-Research project is currently recruiting volunteers. Interested individuals can join the [mailing list](./contact.md) first, and we will notify you as soon as the application process is confirmed. Additionally, we will be hosting a **Tor and OONI workshop and international seminar in Taipei on the afternoon and evening of 2/23 (Sunday).** Please join the mailing list to receive registration information.
 
 ## :fontawesome-regular-circle-question: Inside The Project
 
@@ -37,6 +37,6 @@ OONI (Open Observatory of Network Interference) is a project focused on observin
 <div class="grid cards" markdown>
 
 - [:material-bullhorn-outline: Recent Announcements](./blog/index.md)
-- [:material-email-fast-outline: Subscribe to the Mailing List](https://groups.google.com/g/ocftw-ooni-research){target="_blank"}
+- [:material-email-fast-outline: Subscribe to the Mailing List](./contact.md){target="_blank"}
 
 </div>
