@@ -18,8 +18,6 @@ nav:
   - !ENV [NAV_INTRO, "專案簡介"]:
       - internet-freedom-matter.md
       - what-is-ooni.md
-      - what-is-tor.md
-      - what-is-tails.md
   - !ENV [NAV_PP, "參與專案"]:
       - ooni-asns-coverage.md
       - ooni-weblists.md

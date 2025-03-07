@@ -13,4 +13,4 @@ export LANGUAGE='en'
 export FONT_TEXT='Public Sans'
 export FONT_CODE='DM Mono'
 
-mkdocs build -v -s -d ./output/en
+mkdocs build -v -s -f ./mkdocs_en.yml -d ./output/en
