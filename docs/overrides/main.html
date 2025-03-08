@@ -1,1 +1,9 @@
-{% extends "base.html" %} {% block scripts %} {{ super() }} {% endblock %}
+{% extends "base.html" %} {% block scripts %} {{ super() }}
+<!-- Cloudflare Web Analytics -->
+<script
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{"token": "0bdd45140cce43b887b8d95bb66bb833"}'
+></script>
+<!-- End Cloudflare Web Analytics -->
+{% endblock %}
