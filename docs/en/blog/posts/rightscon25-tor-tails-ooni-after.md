@@ -127,3 +127,9 @@ Actions We Can Take:
 
     1. During the talk, Roger also mentioned different ways to connect to Tor, with [Snowflake](https://snowflake.torproject.org/){target="_blank"} allowing connections disguised as streaming to assist Tor users. Snowflake is the easiest and most convenient way to contribute bandwidth to Tor, requiring only the installation and activation of a browser extension.
     2. [Tor University Challenge - Electronic Frontier Foundation](https://toruniversity.eff.org/administrators/){target="_blank"}: Initiated by the EFF, the "Tor University Challenge" aims to encourage more universities to run Tor relays to enhance Tor network stability and resistance to censorship. The website provides various resources to assist university administrators and technical teams in setting up and managing Tor relays, supporting efforts for internet freedom and anti-censorship.
+
+---
+
+!!! note "Future Plans "
+
+    The OONI-Research project will continue promoting the use of Tor/Tails and OONI in Taiwan, working on issues of internet freedom and censorship. If you're interested in participating or want to continue receiving our updates, please refer to the "[Stay Informed](../../contact.md)" section for how to join. We plan to hold Tor/Tails and OONI workshops at the COSCUP event in August 2025, conducted in **Mandarin**, with assistants to help participants (tentatively). Before the event, we will need to edit training materials, provide training, and make necessary preparations. If you are interested in participating in this event, please refer to the contact information in the "[Stay Informed](../../contact.md)" section to let us know.
