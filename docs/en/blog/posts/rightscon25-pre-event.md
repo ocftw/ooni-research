@@ -12,6 +12,10 @@ description: "Join us on February 23rd, 2025, in Taipei, Taiwan, for a full-day 
 
 # Internet Freedom Workshop: Tor、Tails、OONI
 
+!!! note ""
+
+    The event has successfully concluded. You can [refer to](./rightscon25-tor-tails-ooni-after.md) this event recap for related topic discussions and presentations.
+
 ![Pre-event - Tor, Tails, OONI](../../assets/images/tor-pre-event.webp)
 
 We are thrilled to invite you to a full-day event dedicated to online privacy, censorship circumvention, and censorship monitoring, hosted in partnership with Open Culture Foundation, the Open Observatory of Network Interference (OONI), and The Tor Project on February 23rd, 2025, in Taipei, Taiwan.

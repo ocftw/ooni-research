@@ -126,3 +126,9 @@ OONI Run 在建立新的名單是也可以指定一組關聯號碼（Link ID）�
 
     1. Roger 在演講中也提到透過不同方式連結到 Tor，其中 [Snowflake](https://snowflake.torproject.org/){target="_blank"} 則是可以偽裝成串流方式協助導引 Tor 使用者連線。Snowflake 是參與貢獻 Tor 頻寬中門檻最低最方便的方式，只需要安裝一個瀏覽器套件後開啟就完成了！
     2. [Tor University Challenge - Electronic Frontier Foundation](https://toruniversity.eff.org/administrators/){target="_blank"}：來自 EFF 發起的「Tor 大學挑戰賽」，其目的是鼓勵更多的大學運行 Tor 中繼節點，以增強 Tor 網路的穩定性和抵禦審查能力。網站中提供了各類資源，協助大學管理者與技術團隊設定和管理 Tor 中繼節點，從而支持網路自由與對抗審查的努力。
+
+---
+
+!!! note "專案後續"
+
+    [OONI-Research 專案](../../index.md)也將持續在臺灣推廣 Tor/Tails、OONI 的使用，對於網路自由、網路審查的議題上繼續努力，有興趣參與或想要繼續收到我們的訊息，可以參考「[持續關注](../../contact.md)」的加入方式。我們預計在 2025/08 的 COSCUP 活動中舉辦 Tor/Tails、OONI 的工作坊，會以**華語**的方式進行，再由助教從旁協助參與者進行（暫定）。活動前我們會需要編修教材、培訓 ... 等籌備準備，如果您對這活動有興趣參與，也歡迎參閱「[持續關注](../../contact.md)」的聯繫方式告知我們。

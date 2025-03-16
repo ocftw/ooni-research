@@ -15,19 +15,27 @@ icon: material/email-fast-outline
 - OONI Research 專案團隊 <ooni-research@ocf.tw>
 - PGP: [8368A3B01D707BBFE1613336F821C1F095EC4578](./assets/8368A3B01D707BBFE1613336F821C1F095EC4578.asc)
 
-```plain
------BEGIN PGP PUBLIC KEY BLOCK-----
+    ??? quote "PGP 公開金鑰檔案"
 
-mDMEZ8cTUhYJKwYBBAHaRw8BAQdAY+SSMr2u17yv8paTDjZdwG26NV4xgaQEUfJ2
-WVLOm4a0MU9PTkktUmVzZWFyY2ggUHJvamVjdCBUZWFtIDxvb25pLXJlc2VhcmNo
-QG9jZi50dz6ImQQTFgoAQRYhBINoo7AdcHu/4WEzNvghwfCV7EV4BQJnxxNSAhsD
-BQkFo5qABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEPghwfCV7EV48noA
-/jb8vvURlbHexX7Jd6OJjwFhzfHZR4KMvoxAU1Ay+xGPAQCVVMTZI6+z4veSZdEF
-GxdupGhgGbV8mKNwc/4SfJGMAbg4BGfHE1ISCisGAQQBl1UBBQEBB0B7DhJB4X54
-ydcI5PwKM6k2/yF8drEHgilxqaBYCohCcAMBCAeIfgQYFgoAJhYhBINoo7AdcHu/
-4WEzNvghwfCV7EV4BQJnxxNSAhsMBQkFo5qAAAoJEPghwfCV7EV4L/0BAJP859VY
-EbXpUpnAc+dCPCJ0Bhl5+u+oIq3/U5kIPOvPAQD/HRG0h8ejyIQ8RqVCzB/HxyDs
-O2z9ZZ6pUoBvLoP2AQ==
-=G+X0
------END PGP PUBLIC KEY BLOCK-----
-```
+        ```plain
+        -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+        mDMEZ8cTUhYJKwYBBAHaRw8BAQdAY+SSMr2u17yv8paTDjZdwG26NV4xgaQEUfJ2
+        WVLOm4a0MU9PTkktUmVzZWFyY2ggUHJvamVjdCBUZWFtIDxvb25pLXJlc2VhcmNo
+        QG9jZi50dz6ImQQTFgoAQRYhBINoo7AdcHu/4WEzNvghwfCV7EV4BQJnxxNSAhsD
+        BQkFo5qABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEPghwfCV7EV48noA
+        /jb8vvURlbHexX7Jd6OJjwFhzfHZR4KMvoxAU1Ay+xGPAQCVVMTZI6+z4veSZdEF
+        GxdupGhgGbV8mKNwc/4SfJGMAbg4BGfHE1ISCisGAQQBl1UBBQEBB0B7DhJB4X54
+        ydcI5PwKM6k2/yF8drEHgilxqaBYCohCcAMBCAeIfgQYFgoAJhYhBINoo7AdcHu/
+        4WEzNvghwfCV7EV4BQJnxxNSAhsMBQkFo5qAAAoJEPghwfCV7EV4L/0BAJP859VY
+        EbXpUpnAc+dCPCJ0Bhl5+u+oIq3/U5kIPOvPAQD/HRG0h8ejyIQ8RqVCzB/HxyDs
+        O2z9ZZ6pUoBvLoP2AQ==
+        =G+X0
+        -----END PGP PUBLIC KEY BLOCK-----
+        ```
+
+## Github 討論區
+
+我們非常歡迎**公開的**討論與詢問事項，不論是 Tor/Tails、OONI 操作上的問題或是與「網路自由」、「網路審查」、「匿名網路」... 等議題，或是想要發起一個簡易的調查、神來一筆的想法，都非常的歡迎！
+
+- <https://github.com/ocftw/ooni-research/discussions>{target="_blank"}

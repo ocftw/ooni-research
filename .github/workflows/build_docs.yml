@@ -68,6 +68,12 @@ jobs:
         run: cd docs/output/assets/images/social/blog/posts; cp ../../../../../blog/assets/images/g0v-hackath65n.webp ./g0v-hackath65n.png;
       - name: Replaces og (/zh-tw)
         run: cd docs/output/zh-tw/assets/images/social/blog/posts; cp ../../../../../blog/assets/images/g0v-hackath65n.webp ./g0v-hackath65n.png;
+      - name: Replaces og
+        run: cd docs/output/assets/images/social/blog/posts; cp ../../../../../blog/assets/images/tor-tails-workshop-slide.webp ./rightscon25-tor-tails-ooni-after.png;
+      - name: Replaces og (/zh-tw)
+        run: cd docs/output/zh-tw/assets/images/social/blog/posts; cp ../../../../../blog/assets/images/tor-tails-workshop-slide.webp ./rightscon25-tor-tails-ooni-after.png;
+      - name: Replaces og (/en)
+        run: cd docs/output/en/assets/images/social/blog/posts; cp ../../../../../blog/assets/images/tor-tails-workshop-slide.webp ./rightscon25-tor-tails-ooni-after.png;
       - name: Clean the all files
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.DOC_S3_ID }}

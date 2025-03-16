@@ -12,6 +12,10 @@ description: "邀請您於 2025 年 2 月 23 日在台北參加一場全天活�
 
 # 網路自由工作坊：Tor、Tails、OONI
 
+!!! note ""
+
+    活動已順利結束，相關的議題討論與簡報可以參考[這篇活動回顧](./rightscon25-tor-tails-ooni-after.md)。
+
 ![Pre-event - Tor, Tails, OONI](../../assets/images/tor-pre-event.webp)
 
 在我們所身處的臺灣，相較於其他國家，我們享有較高的網路自由。然而，我們不能忽視鄰近國家的公民面臨著嚴格的國家監控與網路審查。在這種情況下，如何有效地規避和突破那些阻礙網路自由的高牆，成為許多人關心的議題。

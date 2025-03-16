@@ -15,19 +15,27 @@ If you have discussions that cannot be made public, you can directly contact the
 - OONI Research Project Team <ooni-research@ocf.tw>
 - PGP: [8368A3B01D707BBFE1613336F821C1F095EC4578](./assets/8368A3B01D707BBFE1613336F821C1F095EC4578.asc)
 
-```plain
------BEGIN PGP PUBLIC KEY BLOCK-----
+    ??? quote "PGP Plain Key"
 
-mDMEZ8cTUhYJKwYBBAHaRw8BAQdAY+SSMr2u17yv8paTDjZdwG26NV4xgaQEUfJ2
-WVLOm4a0MU9PTkktUmVzZWFyY2ggUHJvamVjdCBUZWFtIDxvb25pLXJlc2VhcmNo
-QG9jZi50dz6ImQQTFgoAQRYhBINoo7AdcHu/4WEzNvghwfCV7EV4BQJnxxNSAhsD
-BQkFo5qABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEPghwfCV7EV48noA
-/jb8vvURlbHexX7Jd6OJjwFhzfHZR4KMvoxAU1Ay+xGPAQCVVMTZI6+z4veSZdEF
-GxdupGhgGbV8mKNwc/4SfJGMAbg4BGfHE1ISCisGAQQBl1UBBQEBB0B7DhJB4X54
-ydcI5PwKM6k2/yF8drEHgilxqaBYCohCcAMBCAeIfgQYFgoAJhYhBINoo7AdcHu/
-4WEzNvghwfCV7EV4BQJnxxNSAhsMBQkFo5qAAAoJEPghwfCV7EV4L/0BAJP859VY
-EbXpUpnAc+dCPCJ0Bhl5+u+oIq3/U5kIPOvPAQD/HRG0h8ejyIQ8RqVCzB/HxyDs
-O2z9ZZ6pUoBvLoP2AQ==
-=G+X0
------END PGP PUBLIC KEY BLOCK-----
-```
+        ```plain
+        -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+        mDMEZ8cTUhYJKwYBBAHaRw8BAQdAY+SSMr2u17yv8paTDjZdwG26NV4xgaQEUfJ2
+        WVLOm4a0MU9PTkktUmVzZWFyY2ggUHJvamVjdCBUZWFtIDxvb25pLXJlc2VhcmNo
+        QG9jZi50dz6ImQQTFgoAQRYhBINoo7AdcHu/4WEzNvghwfCV7EV4BQJnxxNSAhsD
+        BQkFo5qABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEPghwfCV7EV48noA
+        /jb8vvURlbHexX7Jd6OJjwFhzfHZR4KMvoxAU1Ay+xGPAQCVVMTZI6+z4veSZdEF
+        GxdupGhgGbV8mKNwc/4SfJGMAbg4BGfHE1ISCisGAQQBl1UBBQEBB0B7DhJB4X54
+        ydcI5PwKM6k2/yF8drEHgilxqaBYCohCcAMBCAeIfgQYFgoAJhYhBINoo7AdcHu/
+        4WEzNvghwfCV7EV4BQJnxxNSAhsMBQkFo5qAAAoJEPghwfCV7EV4L/0BAJP859VY
+        EbXpUpnAc+dCPCJ0Bhl5+u+oIq3/U5kIPOvPAQD/HRG0h8ejyIQ8RqVCzB/HxyDs
+        O2z9ZZ6pUoBvLoP2AQ==
+        =G+X0
+        -----END PGP PUBLIC KEY BLOCK-----
+        ```
+
+## Github Discussions
+
+We warmly welcome open discussions and inquiries, whether they are about the operation of Tor/Tails or OONI, or topics such as "internet freedom," "internet censorship," "anonymous networks," and more. We also encourage initiating a simple survey or sharing a spontaneous idea. All are very welcome!
+
+- <https://github.com/ocftw/ooni-research/discussions>{target="_blank"}
