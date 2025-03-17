@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:17.4-alpine3.21
+    environment:
+      POSTGRES_DB: ${PG_DB}
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+    restart: always
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    ports:
+      - "${PG_HOST}:5432"
+
+  backend:
+    depends_on:
+      - db
+    build: ./backend
