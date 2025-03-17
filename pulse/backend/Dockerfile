@@ -3,6 +3,8 @@ FROM python:3.12.9-alpine3.21
 WORKDIR /app
 ADD pyproject.toml \
     poetry.lock \
+    structs.py \
+    tor_onionoo.py \
     tor.py \
     ./
 

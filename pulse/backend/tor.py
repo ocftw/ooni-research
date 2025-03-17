@@ -3,47 +3,23 @@
     https://metrics.torproject.org/onionoo.html
 
 """
-from datetime import datetime
+import logging
+import sys
 from pprint import pprint
+from sqlite3 import SQLITE_DBCONFIG_LEGACY_FILE_FORMAT
+from structs import Relay
+from tor_onionoo import TorOnionoo
 
 import click
-from pydantic import BaseModel, Field
-from requests.sessions import Session
 
 
-class TorMetrics(Session):
-    ''' Fetch Tor Metrics '''
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler(stream=sys.stdout), ],
+)
 
-    def get_relays(self, country='tw'):
-        ''' Get Relays '''
-        return self.get('https://onionoo.torproject.org/details',
-                        params={'country': country}).json()
-
-
-class Relay(BaseModel):
-    ''' Relay Structs '''
-    nickname: str
-    fingerprint: str
-    running: bool
-    measured: bool
-    asn: str = Field(alias='as')
-    as_name: str
-    consensus_weight: int
-    platform: str
-    version: str
-    contact: str = ""
-    flags: list[str]
-    first_seen: datetime
-    last_seen: datetime
-    last_changed: datetime = Field(alias='last_changed_address_or_port')
-    bandwidth_rate: int
-    bandwidth_burst: int
-    observed_bandwidth: int
-    advertised_bandwidth: int
-    guard_probability: float = 0
-    middle_probability: float = 0
-    exit_probability: float = 0
-
+logger = logging.getLogger('tor-details')
 
 @click.group()
 def cli():
@@ -54,19 +30,16 @@ def cli():
 @click.option('--country', default='tw', help='country code')
 def details(country='tw'):
     ''' Get details '''
-    resp_relays = TorMetrics().get_relays(country=country)
-    relays = []
-
-    for relay in resp_relays['relays']:
-        relays.append(Relay.model_validate(relay))
+    resp_details = TorOnionoo().get_details(country=country)
 
     bandwidth = 0
-    for relay in relays:
+    for relay in resp_details.relays:
         bandwidth += relay.observed_bandwidth
-        pprint(relay)
+        logger.info(relay)
 
-    print(
+    logger.info(
         f'bandwidth: {bandwidth/1000/1000:.4f} MB/s ({bandwidth/1000/1000*8:.4f} Mb/s)')
+    logger.info(f'relays: {len(resp_details.relays)}')
 
 
 if __name__ == '__main__':
