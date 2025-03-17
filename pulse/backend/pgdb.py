@@ -1,0 +1,35 @@
+""" PostgreSQL """
+import setting
+import psycopg
+from typing import Self
+
+class PGConn:
+    ''' PG DB Conn '''
+    def __init__(self) -> None:
+        self.conn = psycopg.connect(setting.PG_CONN)
+        self.cur = self.conn.cursor()
+
+    def __enter__(self) -> Self:
+        return self
+
+    def __exit__(self, exc_type, exc_value, exc_traceback) -> None:
+        self.conn.commit()
+        self.conn.close()
+        print('Connect Closed!', exc_type, exc_value, exc_traceback)
+
+    def save_one(self) -> None:
+        ''' save one '''
+        self.cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (121, "asdds"))
+
+    def show_all(self) -> None:
+        ''' Show All '''
+        self.cur.execute("SELECT * FROM test")
+
+        for row in self.cur.fetchall():
+            print(row)
+
+
+if __name__ == '__main__':
+    with PGConn() as pg:
+        pg.save_one()
+        pg.show_all()
