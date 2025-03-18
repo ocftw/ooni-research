@@ -4,6 +4,8 @@ WORKDIR /app
 ADD pyproject.toml \
     poetry.lock \
     structs.py \
+    setting.py \
+    pgdb.py \
     tor_onionoo.py \
     tor.py \
     ./

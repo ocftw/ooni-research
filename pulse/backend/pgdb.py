@@ -6,7 +6,7 @@ from typing import Self
 class PGConn:
     ''' PG DB Conn '''
     def __init__(self) -> None:
-        self.conn = psycopg.connect(setting.PG_CONN)
+        self.conn = psycopg.connect(setting.PG_CONN, autocommit=True)
         self.cur = self.conn.cursor()
 
     def __enter__(self) -> Self:
@@ -28,8 +28,16 @@ class PGConn:
         for row in self.cur.fetchall():
             print(row)
 
+def create_table():
+    with open('./dbtxt/relay_details.sql', 'r+') as files:
+        sql = files.read()
+
+    with PGConn() as pg:
+        pg.cur.execute(sql)
+
 
 if __name__ == '__main__':
     with PGConn() as pg:
         pg.save_one()
         pg.show_all()
+    create_table()

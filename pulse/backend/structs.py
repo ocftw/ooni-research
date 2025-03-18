@@ -15,6 +15,8 @@ class Relay(BaseModel):
     platform: str
     version: str
     contact: str = ""
+    country: str
+    country_name: str
     flags: list[str]
     first_seen: datetime
     last_seen: datetime
