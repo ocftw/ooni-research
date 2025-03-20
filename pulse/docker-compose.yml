@@ -15,3 +15,12 @@ services:
     depends_on:
       - db
     build: ./backend
+
+  api:
+    depends_on:
+      - db
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.api
+    ports:
+      - "${API_HOST}:8000"
