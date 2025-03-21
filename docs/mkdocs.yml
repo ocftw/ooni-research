@@ -28,7 +28,7 @@ nav:
       - setup-repo.md
       - setup-tor-relay.md
   - !ENV [NAV_WATCHER, "監控觀察"]:
-      - tor-relays.md
+      - watcher-tor-relays.md
   - !ENV [NAV_POST, "資訊更新"]:
       - blog/index.md
 theme:
