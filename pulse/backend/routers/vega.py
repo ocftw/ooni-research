@@ -7,7 +7,7 @@ from enum import Enum
 
 router = APIRouter(
     prefix='/vega',
-    tags=['vaga', ],
+    tags=['vega', ],
     responses={status.HTTP_404_NOT_FOUND: {'description': 'Not found'}},
 )
 
