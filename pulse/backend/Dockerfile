@@ -25,6 +25,6 @@ RUN \
 RUN \
     echo "@reboot cd /app; poetry run python3 tor.py details" >> /etc/crontabs/root
 RUN \
-    echo "*/5 * * * * cd /app; poetry run python3 tor.py details" >> /etc/crontabs/root
+    echo "5 * * * * cd /app; poetry run python3 tor.py details" >> /etc/crontabs/root
 
 ENTRYPOINT ["/bin/sh", "-c", "crond -f"]
