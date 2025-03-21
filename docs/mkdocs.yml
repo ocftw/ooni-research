@@ -119,7 +119,7 @@ plugins:
       pretty_print: false
       abstract_chars_count: -1
   - charts:
-      vega_theme_light: googlecharts
+      vega_theme_light: powerbi
       vega_theme_dark: carbong100
       integrations:
         mkdocs_material:
