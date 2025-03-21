@@ -27,6 +27,8 @@ nav:
   - !ENV [NAV_PPP, "參與準備"]:
       - setup-repo.md
       - setup-tor-relay.md
+  - !ENV [NAV_WATCHER, "監控觀察"]:
+      - tor-relays.md
   - !ENV [NAV_POST, "資訊更新"]:
       - blog/index.md
 theme:
@@ -80,6 +82,10 @@ extra:
       lang: en
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
 plugins:
   - search:
       lang:
@@ -112,13 +118,26 @@ plugins:
         - tages
       pretty_print: false
       abstract_chars_count: -1
+  - charts:
+      vega_theme_light: googlecharts
+      vega_theme_dark: carbong100
+      integrations:
+        mkdocs_material:
+          themes_light:
+            - default
+          themes_dark:
+            - slate
 markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
   - pymdownx.blocks.caption
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:

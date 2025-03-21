@@ -623,6 +623,21 @@ i18n = ["babel (>=2.9.0)"]
 min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4)", "ghp-import (==1.0)", "importlib-metadata (==4.4)", "jinja2 (==2.11.1)", "markdown (==3.3.6)", "markupsafe (==2.0.1)", "mergedeep (==1.3.4)", "mkdocs-get-deps (==0.2.0)", "packaging (==20.5)", "pathspec (==0.11.1)", "pyyaml (==5.1)", "pyyaml-env-tag (==0.1)", "watchdog (==2.0)"]
 
 [[package]]
+name = "mkdocs-charts-plugin"
+version = "0.0.12"
+description = "MkDocs plugin to add charts from data"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "mkdocs_charts_plugin-0.0.12-py3-none-any.whl", hash = "sha256:b3b2c8b06d87903e7f50318dd8c908e44455ea83ffc99c49d518ab0cf93a2ec2"},
+    {file = "mkdocs_charts_plugin-0.0.12.tar.gz", hash = "sha256:095150824a966852a4556fe5f501d17c08346acccdd0d43c340e3adcea686314"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.1"
+pymdown-extensions = ">=9.2"
+
+[[package]]
 name = "mkdocs-get-deps"
 version = "0.2.0"
 description = "MkDocs extension that lists all dependencies according to a mkdocs.yml file"
@@ -1274,4 +1289,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "bcb48f86e27ef1587adc69aa53427ddeab6920e9e7d3885ed366da0b631f3d9c"
+content-hash = "725a1f3ddd62d286e5a3c710c7d1a03541eaaa962159ab58293d5e13aa71d400"
