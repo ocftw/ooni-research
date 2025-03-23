@@ -152,6 +152,32 @@ icon: material/chart-bar
     }
   }
 ```
+
+- Number of Flags Types[^6]
+```vegalite
+  {
+    "description": "Tor Relays Flags (count), Taiwan",
+    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/flags?country=tw"},
+    "mark": {
+      "type": "area",
+      "tooltip": true,
+      "interpolate": "cardinal",
+      "line": true,
+      "point": false,
+      "tension": 1
+    },
+    "encoding": {
+      "x": {"field": "created_at",
+            "type": "temporal",
+            "timeUnit": "yearmonthdate",
+            "axis": {"format": "%m/%d"},
+            "title": "Created At (Month/Day)"
+           },
+      "y": {"field": "count", "type": "quantitative", "title": "Count"},
+      "color": { "field": "flag", "title": "Flags" }
+    }
+  }
+```
 </div>
 
 !!! example "In ongoing development"
@@ -163,3 +189,4 @@ icon: material/chart-bar
 [^3]: Version Count: Calculate the number of different Tor version numbers used by Tor Relays in Taiwan daily, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
 [^4]: Daily Unique ASN Count: Calculate the daily count of Autonomous System Numbers (ASN) for Tor Relays in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
 [^5]: Number of Relay Types: Calculate the daily number of Tor Relay types in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
+[^6]: Number of Flags Types: Calculate the daily number of Tor Relay flag types in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.

@@ -152,6 +152,32 @@ icon: material/chart-bar
     }
   }
 ```
+
+- 標籤類型數量[^6]
+```vegalite
+  {
+    "description": "Tor Relays Flags (count), Taiwan",
+    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/flags?country=tw"},
+    "mark": {
+      "type": "area",
+      "tooltip": true,
+      "interpolate": "cardinal",
+      "line": true,
+      "point": false,
+      "tension": 1
+    },
+    "encoding": {
+      "x": {"field": "created_at",
+            "type": "temporal",
+            "timeUnit": "yearmonthdate",
+            "axis": {"format": "%m/%d"},
+            "title": "Created At (Month/Day)"
+           },
+      "y": {"field": "count", "type": "quantitative", "title": "Count"},
+      "color": { "field": "flag", "title": "Flags" }
+    }
+  }
+```
 </div>
 
 !!! example "持續開發中"
@@ -163,3 +189,4 @@ icon: material/chart-bar
 [^3]: 版本數量：計算每日在臺灣 Tor Relay 所使用的 Tor 版本號數量，計算區間每小時不重複的 Tor Relay。
 [^4]: ASN 每日唯一數量：計算每日在臺灣的 Tor Relay 自治網路編號數量，計算區間每小時不重複的 Tor Relay。
 [^5]: 中繼點類型數量：計算每日在臺灣的 Tor Relay 類型數量，計算區間每小時不重複的 Tor Relay。
+[^6]: 標籤類型數量：計算每日在臺灣的 Tor Relay 標籤類型數量，計算區間每小時不重複的 Tor Relay。
