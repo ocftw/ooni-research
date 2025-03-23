@@ -126,6 +126,32 @@ icon: material/chart-bar
     }
   }
 ```
+
+- Number of Relay Types[^5]
+```vegalite
+  {
+    "description": "Tor Relays Node Type (count), Taiwan",
+    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/node_type?country=tw"},
+    "mark": {
+      "type": "area",
+      "tooltip": true,
+      "interpolate": "cardinal",
+      "line": true,
+      "point": true,
+      "tension": 1
+    },
+    "encoding": {
+      "x": {"field": "created_at",
+            "type": "temporal",
+            "timeUnit": "yearmonthdate",
+            "axis": {"format": "%m/%d"},
+            "title": "Created At (Month/Day)"
+           },
+      "y": {"field": "count", "type": "quantitative", "title": "Count"},
+      "color": { "field": "node", "title": "Node Type" }
+    }
+  }
+```
 </div>
 
 !!! example "In ongoing development"
@@ -136,3 +162,4 @@ icon: material/chart-bar
 [^2]: Total Daily Bandwidth Provision: Calculate the total daily bandwidth (MB/s) of Tor Relays in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
 [^3]: Version Count: Calculate the number of different Tor version numbers used by Tor Relays in Taiwan daily, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
 [^4]: Daily Unique ASN Count: Calculate the daily count of Autonomous System Numbers (ASN) for Tor Relays in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
+[^5]: Number of Relay Types: Calculate the daily number of Tor Relay types in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.

@@ -126,6 +126,32 @@ icon: material/chart-bar
     }
   }
 ```
+
+- 中繼點類型數量[^5]
+```vegalite
+  {
+    "description": "Tor Relays Node Type (count), Taiwan",
+    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/node_type?country=tw"},
+    "mark": {
+      "type": "area",
+      "tooltip": true,
+      "interpolate": "cardinal",
+      "line": true,
+      "point": true,
+      "tension": 1
+    },
+    "encoding": {
+      "x": {"field": "created_at",
+            "type": "temporal",
+            "timeUnit": "yearmonthdate",
+            "axis": {"format": "%m/%d"},
+            "title": "Created At (Month/Day)"
+           },
+      "y": {"field": "count", "type": "quantitative", "title": "Count"},
+      "color": { "field": "node", "title": "Node Type" }
+    }
+  }
+```
 </div>
 
 !!! example "持續開發中"
@@ -136,3 +162,4 @@ icon: material/chart-bar
 [^2]: 每日提供的總頻寬：計算每日在臺灣的 Tor Relay 總頻寬（MB/s），計算區間每小時不重複的 Tor Relay。
 [^3]: 版本數量：計算每日在臺灣 Tor Relay 所使用的 Tor 版本號數量，計算區間每小時不重複的 Tor Relay。
 [^4]: ASN 每日唯一數量：計算每日在臺灣的 Tor Relay 自治網路編號數量，計算區間每小時不重複的 Tor Relay。
+[^5]: 中繼點類型數量：計算每日在臺灣的 Tor Relay 類型數量，計算區間每小時不重複的 Tor Relay。
