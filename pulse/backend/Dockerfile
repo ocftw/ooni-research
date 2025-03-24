@@ -25,6 +25,19 @@ RUN \
 RUN \
     echo "@reboot cd /app; poetry run python3 tor.py details" >> /etc/crontabs/root
 RUN \
+    echo "@reboot cd /app; poetry run python3 tor.py details --country=jp" >> /etc/crontabs/root
+RUN \
+    echo "@reboot cd /app; poetry run python3 tor.py details --country=kr" >> /etc/crontabs/root
+RUN \
+    echo "@reboot cd /app; poetry run python3 tor.py details --country=hk" >> /etc/crontabs/root
+
+RUN \
     echo "5 * * * * cd /app; poetry run python3 tor.py details" >> /etc/crontabs/root
+RUN \
+    echo "5 * * * * cd /app; poetry run python3 tor.py details --country=jp" >> /etc/crontabs/root
+RUN \
+    echo "5 * * * * cd /app; poetry run python3 tor.py details --country=kr" >> /etc/crontabs/root
+RUN \
+    echo "5 * * * * cd /app; poetry run python3 tor.py details --country=hk" >> /etc/crontabs/root
 
 ENTRYPOINT ["/bin/sh", "-c", "crond -f"]

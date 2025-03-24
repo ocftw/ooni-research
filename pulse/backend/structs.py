@@ -10,7 +10,7 @@ class Relay(BaseModel):
     running: bool
     measured: bool
     asn: str = Field(alias='as')
-    as_name: str
+    as_name: str = ""
     consensus_weight: int
     platform: str
     version: str
