@@ -16,28 +16,28 @@ RUN \
     apk update && apk upgrade && \
     apk add --no-cache ca-certificates && \
     apk add --no-cache --virtual .build-deps curl && \
-    curl -sSL https://install.python-poetry.org | python3 - && \
-    poetry install --no-root --only main && \
+    curl -LsSf https://astral.sh/uv/install.sh | sh && \
+    uv sync && \
     apk del .build-deps && \
     cd ~/.cache/ && \
     rm -rf /var/cache/apk/* /var/lib/apk/* /etc/apk/cache/*
 
 RUN \
-    echo "@reboot cd /app; poetry run python3 tor.py details" >> /etc/crontabs/root
+    echo "@reboot cd /app; uv run tor.py details" >> /etc/crontabs/root
 RUN \
-    echo "@reboot cd /app; poetry run python3 tor.py details --country=jp" >> /etc/crontabs/root
+    echo "@reboot cd /app; uv run tor.py details --country=jp" >> /etc/crontabs/root
 RUN \
-    echo "@reboot cd /app; poetry run python3 tor.py details --country=kr" >> /etc/crontabs/root
+    echo "@reboot cd /app; uv run tor.py details --country=kr" >> /etc/crontabs/root
 RUN \
-    echo "@reboot cd /app; poetry run python3 tor.py details --country=hk" >> /etc/crontabs/root
+    echo "@reboot cd /app; uv run tor.py details --country=hk" >> /etc/crontabs/root
 
 RUN \
-    echo "5 * * * * cd /app; poetry run python3 tor.py details" >> /etc/crontabs/root
+    echo "5 * * * * cd /app; uv run tor.py details" >> /etc/crontabs/root
 RUN \
-    echo "5 * * * * cd /app; poetry run python3 tor.py details --country=jp" >> /etc/crontabs/root
+    echo "5 * * * * cd /app; uv run tor.py details --country=jp" >> /etc/crontabs/root
 RUN \
-    echo "5 * * * * cd /app; poetry run python3 tor.py details --country=kr" >> /etc/crontabs/root
+    echo "5 * * * * cd /app; uv run tor.py details --country=kr" >> /etc/crontabs/root
 RUN \
-    echo "5 * * * * cd /app; poetry run python3 tor.py details --country=hk" >> /etc/crontabs/root
+    echo "5 * * * * cd /app; uv run tor.py details --country=hk" >> /etc/crontabs/root
 
 ENTRYPOINT ["/bin/sh", "-c", "crond -f"]
