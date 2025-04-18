@@ -2,7 +2,7 @@ FROM python:3.12.9-alpine3.21
 
 WORKDIR /app
 ADD pyproject.toml \
-    poetry.lock \
+    uv.lock \
     structs.py \
     setting.py \
     pgdb.py \
