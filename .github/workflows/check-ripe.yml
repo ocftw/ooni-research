@@ -30,8 +30,6 @@ jobs:
         uses: astral-sh/setup-uv@v5
       - name: Sync Packages
         run: uv sync
-      - name: Show Python Version
-        run: cat .python-version
       - name: Show packages
         run: uv tree
       - name: Run Download ASN Lists (ALL)
