@@ -9,8 +9,8 @@ jobs:
   check_list:
     strategy:
       matrix:
-        os: ["ubuntu-20.04", "ubuntu-22.04", "ubuntu-24.04"]
-        python-version: ["3.11", "3.12"]
+        os: ["ubuntu-22.04", "ubuntu-24.04"]
+        python-version: ["3.11", "3.12", "3.13"]
     runs-on: ${{ matrix.os }}
     defaults:
       run:
@@ -26,22 +26,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install and configure Poetry
-        uses: snok/install-poetry@v1
-        with:
-          version: 1.8.4
-          virtualenvs-create: true
-          virtualenvs-in-project: true
-          installer-parallel: true
-      - name: Install dependencies
-        run: poetry install -v
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - name: Sync Packages
+        run: uv sync
       - name: Show packages
-        run: poetry show --tree
+        run: uv tree
       - name: Run Lookback OONI Data TW
-        run: poetry run python3 ./ooni.py lookback --units=36 --loc=TW
+        run: uv run ./ooni.py lookback --units=36 --loc=TW
       - name: Run Lookback OONI Data JP
-        run: poetry run python3 ./ooni.py lookback --units=36 --loc=JP
+        run: uv run ./ooni.py lookback --units=36 --loc=JP
       - name: Run Lookback OONI Data HK
-        run: poetry run python3 ./ooni.py lookback --units=36 --loc=HK
+        run: uv run ./ooni.py lookback --units=36 --loc=HK
       - name: Run Lookback OONI Data CN
-        run: poetry run python3 ./ooni.py lookback --units=36 --loc=CN
+        run: uv run ./ooni.py lookback --units=36 --loc=CN
