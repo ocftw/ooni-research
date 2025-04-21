@@ -92,13 +92,13 @@ Python 的設計哲學強調程式碼的可讀性和簡潔性，開發者能夠�
         2. 驗證安裝：
             - 在終端機中輸入 `python3 --version` 以驗證安裝。
 
-### Poetry
+### uv
 
-[Poetry](https://python-poetry.org/){target="_blank"} 是一個專門用於管理 Python 專案套件庫的工具。它透過簡化套件管理，讓開發者更方便地建立和配置虛擬開發環境，確保專案間的依賴不會彼此衝突。此外，Poetry 還提供了打包和發布 Python 套件包的功能，讓分享和佈署程式碼變得更加容易。
+[uv](https://docs.astral.sh/uv/){target="_blank"} 是一個專門用於管理 Python 專案套件庫的工具。它透過簡化套件管理，讓開發者更方便地建立和配置虛擬開發環境，確保專案間的依賴不會彼此衝突。此外，uv 還提供了打包和發布 Python 套件包的功能，讓分享和佈署程式碼變得更加容易。
 
-!!! tip "如何安裝 Poetry"
+!!! tip "如何安裝 uv"
 
-    - 如何安裝請參考[官方文件說明](https://python-poetry.org/docs/){target="_blank"}。
+    - 如何安裝請參考[官方文件說明](https://docs.astral.sh/uv/getting-started/installation/){target="_blank"}。
 
 ### VS Code
 

@@ -92,13 +92,13 @@ Python's design philosophy emphasizes code readability and simplicity, allowing 
         2. Verify Installation:
            - In terminal, type `python3 --version` to verify the installation.
 
-### Poetry
+### uv
 
-[Poetry](https://python-poetry.org/){target="_blank"} is a tool specifically designed for managing Python project dependencies. It streamlines package management, allowing developers to easily set up and configure virtual development environments, ensuring that dependencies between projects do not conflict with each other. Additionally, Poetry offers functionality for packaging and publishing Python packages, making it easier to share and deploy code.
+[uv](https://docs.astral.sh/uv/){target="_blank"} is a tool specifically designed for managing Python project dependencies. It streamlines package management, allowing developers to easily set up and configure virtual development environments, ensuring that dependencies between projects do not conflict with each other. Additionally, uv offers functionality for packaging and publishing Python packages, making it easier to share and deploy code.
 
-!!! tip "How to Install Poetry"
+!!! tip "How to Install uv"
 
-    - For installation instructions, please refer to the [official documentation](https://python-poetry.org/docs/){target="_blank"}.
+    - For installation instructions, please refer to the [official documentation](https://docs.astral.sh/uv/getting-started/installation/)){target="_blank"}.
 
 ### VS Code
 
