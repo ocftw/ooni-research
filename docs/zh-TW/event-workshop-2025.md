@@ -6,7 +6,7 @@ icon: material/calendar-star
 
 # :material-calendar-star: 匿名網路工作坊 2025/08
 
-!!! info "活動頁面共用"
+!!! info ""
 
     - 我們即將在今年 08/09 ~ 08/10 的 [COSCUP 開源人年會](https://blog.coscup.org/2025/04/coscup-2025-call-for-proposals.html){target="_blank"}上舉辦「匿名網路工作坊」活動。在活動開始前需要招募**工作夥伴**、**培訓小幫手**、**活動籌備志工**。如果你對於此活動有興趣，願意和我們一起籌備工作坊，請詳閱以下說明後、找到合適的參與方式加入我們！
     - 面向**活動參與者**報名資訊預計在 2025/07 也於此頁面上建立、更新資訊。
@@ -41,11 +41,22 @@ icon: material/calendar-star
 
 </div>
 
+### 報名工作人員
+
+這場工作坊活動需要「活動籌備人員」、「工作坊小幫手」，沒有限定只能擇一參與，只要您的時間允許、想一起規劃工作坊活動，都歡迎把握這次機會一起參與！
+
+報名方式請依照以下範例問題來回答，當然還可以隨意補充更多，或是您是透過電子報知悉此活動，也可以直接回覆電子報信件！
+
+    - 暱稱：（如何稱呼或顯示你的名稱）
+    - 自我介紹：（簡單快速介紹你自己，如果參與過之前的活動，也可提及，幫助我們喚起記憶！）
+    - 想要報名的角色：[ ] 活動籌備人員、[ ] 工作坊小幫手。
+    - 在工作坊活動中可以貢獻與獲得的事項：（讓我們可以避免安排不好玩的事務給你！）
+
+報名信件請寄到：`OONI Research 專案團隊 <ooni-research@ocf.tw>`，期待與感謝你的參與！
+
 ### :fontawesome-solid-clipboard-user: 活動籌備人員
 
 工作坊活動籌備期間從 2025/05 ~ 2025/08 初，大約三個月的籌備期間。期間需要籌備工作人員協助針對工作坊的宣傳、報名、通知、場地協調等事宜安排。活動地點在臺灣科技大學研陽大樓教室中，目前確切的活動日還未公布，可能會在 2025/07/09 大會議程表公告時得知日期與教室位置。
-
-[報名參與「活動籌備人員」](#報名工作人員){ .md-button .md-button--primary }
 
 #### 時程表
 
@@ -83,9 +94,11 @@ icon: material/calendar-star
 === "2025/08"
 
     - [ ] <code>:star2:</code> 活動日執行。
-    - [ ] `回饋`{style="color: dodgerblue;"} 給 Tor/Tails、OONI 團隊關於活動紀錄。
     - [ ] `公告`{style="color: red;"} 工作坊活動後紀錄文章。
     - [ ] `通知`{style="color: darkorange;"} 報名者意見回饋與活動後可延續參與的建議。
+    - [ ] `回饋`{style="color: dodgerblue;"} 給 Tor/Tails、OONI 團隊關於活動紀錄。
+
+[報名參與「活動籌備人員」](#報名工作人員){ .md-button .md-button--primary }
 
 ### :fontawesome-solid-clipboard-user: 工作坊小幫手
 
@@ -107,13 +120,11 @@ icon: material/calendar-star
 
 </div>
 
-[報名參與「工作坊小幫手」](#報名工作人員){ .md-button .md-button--primary }
-
 #### :octicons-bookmark-16: Tor、Tails 匿名網路
 
 協助參與者瞭解 Tor 匿名網路的運作方式、洋蔥網路是什麼？如何透過 Tails 隨身碟作業系統方式使用。使用的情境有哪些？成為小幫手需要以下的基本能力，可以先評估自己目前在哪一個階段，我們預計努力培訓大家到 **Basic L3** 的等級。
 
-!!! Abstract "Tor 技能分級表"
+??? Abstract "Tor 技能分級表"
 
     === ":material-checkbox-marked-circle-outline: Tor: Basic L1"
 
@@ -150,7 +161,7 @@ icon: material/calendar-star
         - [x] 建立 WebTunnel 中繼點。
         - [x] 建立 **.onion** 網站。
 
-!!! Abstract "Tails 技能分級表"
+??? Abstract "Tails 技能分級表"
 
     === ":material-checkbox-marked-circle-outline: Tails: Basic L1"
 
@@ -191,7 +202,7 @@ icon: material/calendar-star
 
 協助參與者瞭解 OONI 觀測資料內涵，如何使用 OONI Probe 檢測應用程式提供觀察結果、如何解讀線上觀測資料數據。成為小幫手需要以下的基本能力，可以先評估自己目前在哪一個階段，我們預計努力培訓大家到 **Basic L3** 的等級。
 
-!!! Abstract "OONI 技能分級表"
+??? Abstract "OONI 技能分級表"
 
     === ":material-checkbox-marked-circle-outline: OONI: Basic L1"
 
@@ -224,19 +235,4 @@ icon: material/calendar-star
         - [x] 透過原始觀測資料（Raw Data）進行資料數據整理與分析。
         - [x] 協助名單整理與修正。
 
----
-
-## 報名工作人員
-
-這場工作坊活動需要「活動籌備人員」、「工作坊小幫手」，沒有限定只能擇一參與，只要您的時間允許、想一起規劃工作坊活動，都歡迎把握這次機會一起參與！
-
-報名方式請依照以下範例問題來回答，當然還可以隨意補充更多，或是您是透過電子報知悉此活動，也可以直接回覆電子報信件！
-
-    - 暱稱：（如何稱呼或顯示你的名稱）
-    - 自我介紹：（簡單快速介紹你自己，如果參與過之前的活動，也可提及，幫助我們喚起記憶！）
-    - 想要報名的角色：[ ] 活動籌備人員、[ ] 工作坊小幫手。
-    - 在工作坊活動中可以貢獻與獲得的事項：（讓我們可以避免安排不好玩的事務給你！）
-
-報名信件請寄到：`OONI Research 專案團隊 <ooni-research@ocf.tw>`
-
-期待與感謝你的參與！
+[報名參與「工作坊小幫手」](#報名工作人員){ .md-button .md-button--primary }
