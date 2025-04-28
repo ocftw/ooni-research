@@ -10,9 +10,9 @@ OONI（Open Observatory of Network Interference）是一個觀察網路審查的
 
 !!! tip "重要資訊"
 
-    - 新增：[Arti 1.4.1 更新發佈](./blog/posts/arti-141.md)、[OONI：去識別化的觀測資料安全](./blog/posts/2025-probe-security-without-identification.md) - 2025/03/16
-    - [回顧：網路自由工作坊：Tor、Tails、OONI](./blog/posts/rightscon25-tor-tails-ooni-after.md) - 2025/03/09
-    - 新增：「[什麼是 Tor？](./what-is-tor.md)」、「[什麼是 Tails？](./what-is-tails.md)」頁面。 - 2025/03/04
+    - `活動`{style="color: OrangeRed;"}：「[匿名網路工作坊 2025/08](./event-workshop-2025.md)」已開始招募工作人員與小幫手。 - 2025/04/28
+    - `新增`{style="color: DodgerBlue;"}：[Arti 1.4.1 更新發佈](./blog/posts/arti-141.md)、[OONI：去識別化的觀測資料安全](./blog/posts/2025-probe-security-without-identification.md) - 2025/03/16
+    - `回顧`{style="color: purple;"}：[網路自由工作坊：Tor、Tails、OONI](./blog/posts/rightscon25-tor-tails-ooni-after.md) - 2025/03/09
     - 目前 OONI-Research 專案正在招募志工，有興趣的夥伴可以先加入[郵件群組](./contact.md){target="_blank"}，等待申請流程確定後會再第一時間告知。
 
 

@@ -88,7 +88,7 @@ icon: material/calendar-star
 
     - [ ] `公告`{style="color: red;"} 工作坊課程內容與報名方式。
     - [ ] `通知`{style="color: darkorange;"} 報名者活動出席與時間。
-    - [ ] `製作`{style="color: midnightblue;"} 手量活動傳單印製，於 OCF 攤位與佈告欄張貼。
+    - [ ] `製作`{style="color: midnightblue;"} 少量活動傳單印製，於 OCF 攤位放置與佈告欄張貼。
     - [ ] `確認`{style="color: purple;"} 活動日當天工作人員的任務。
 
 === "2025/08"
