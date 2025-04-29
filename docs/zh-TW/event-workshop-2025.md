@@ -6,6 +6,8 @@ icon: material/calendar-star
 
 # :material-calendar-star: 匿名網路工作坊 2025/08
 
+![匿名網路工作坊招募工作人員與培訓小幫手](./assets/images/event-workshop-2025.png){style="border-radius: 5px;box-shadow:1px 1px 0.6rem #00aeff;"}
+
 !!! info ""
 
     - 我們即將在今年 08/09 ~ 08/10 的 [COSCUP 開源人年會](https://blog.coscup.org/2025/04/coscup-2025-call-for-proposals.html){target="_blank"}上舉辦「匿名網路工作坊」活動。在活動開始前需要招募**工作夥伴**、**培訓小幫手**、**活動籌備志工**。如果你對於此活動有興趣，願意和我們一起籌備工作坊，請詳閱以下說明後、找到合適的參與方式加入我們！
