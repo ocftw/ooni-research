@@ -15,6 +15,8 @@ copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
 nav:
   - index.md
   - contact.md
+  - !ENV [NAV_EVENT, "活動參與"]:
+      - event-workshop-2025.md
   - !ENV [NAV_INTRO, "專案簡介"]:
       - internet-freedom-matter.md
       - what-is-ooni.md
@@ -138,6 +140,8 @@ markdown_extensions:
           format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
