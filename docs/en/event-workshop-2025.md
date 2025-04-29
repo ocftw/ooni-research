@@ -5,7 +5,7 @@ icon: material/calendar-star
 ---
 # :material-calendar-star: Anonymous Network Workshop 2025/08
 
-![Recruiting staff to help organize the event!](./assets/images/event-workshop-2025.png){style="border-radius: 5px;box-shadow:1px 1px 0.6rem #00aeff;"}
+![Recruiting staff to help organize the event!](./assets/images/event-workshop-2025.png){style="border-radius: 10px;box-shadow:1px 1px 0.6rem #00aeff;"}
 
 !!! info ""
     - We are organizing the "Anonymous Network Workshop" at the [COSCUP Open Source Annual Conference](https://blog.coscup.org/2025/04/coscup-2025-call-for-proposals.html){target="_blank"} on 08/09 ~ 08/10. We need to recruit **partners**, **helpers**, and **event preparation volunteers** before the event starts. If you're interested in this event and willing to help organize the workshop, please read the following instructions and find a suitable way to join us!
@@ -68,8 +68,8 @@ The preparation period for the workshop runs from May 2025 to early August 2025,
 
 === "2025/05"
 
-    - [ ] `Announcement`{style="color: red;"} Start recruiting staff and helpers for the workshop.
-    - [ ] `Notification`{style="color: darkorange;"} Workshop preparations have begun, welcome to join!
+    - [x] `Announcement`{style="color: red;"} Start recruiting staff and helpers for the workshop.
+    - [x] `Notification`{style="color: darkorange;"} Workshop preparations have begun, welcome to join!
     - [ ] `Confirmation`{style="color: purple;"} Online kickoff meeting in May.
     - [ ] `Materials`{style="color: green;"} Translate Tor/Tails presentation.
 

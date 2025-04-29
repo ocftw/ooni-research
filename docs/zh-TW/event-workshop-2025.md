@@ -6,7 +6,7 @@ icon: material/calendar-star
 
 # :material-calendar-star: 匿名網路工作坊 2025/08
 
-![匿名網路工作坊招募工作人員與培訓小幫手](./assets/images/event-workshop-2025.png){style="border-radius: 5px;box-shadow:1px 1px 0.6rem #00aeff;"}
+![匿名網路工作坊招募工作人員與培訓小幫手](./assets/images/event-workshop-2025.png){style="border-radius: 10px;box-shadow:1px 1px 0.6rem #00aeff;"}
 
 !!! info ""
 
@@ -73,8 +73,8 @@ icon: material/calendar-star
 
 === "2025/05"
 
-    - [ ] `公告`{style="color: red;"} 工作坊開始招募工作人員與小幫手。
-    - [ ] `通知`{style="color: darkorange;"} 工作坊籌備已開始，歡迎加入！
+    - [x] `公告`{style="color: red;"} 工作坊開始招募工作人員與小幫手。
+    - [x] `通知`{style="color: darkorange;"} 工作坊籌備已開始，歡迎加入！
     - [ ] `確認`{style="color: purple;"} 五月份線上啟動會議。
     - [ ] `教材`{style="color: green;"} 翻譯 Tor/Tails 簡報。
 
