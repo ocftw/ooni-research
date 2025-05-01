@@ -88,7 +88,7 @@ description: "發佈全新 OONI Explorer 主題審查頁面！全球社群媒體
 ### 新聞媒體的封鎖
 
 <figure markdown="span">
-  ![OONI Explorer Social Media page](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-3_hu3940790595712228193.png){style="border: 1px #ababab solid;"}
+  ![OONI Explorer Social Media page](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-3.png){style="border: 1px #ababab solid;"}
   <figcaption>圖片來源：<a target="_blank" href="https://explorer.ooni.org/social-media">OONI Explorer Social Media page</a></figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ description: "發佈全新 OONI Explorer 主題審查頁面！全球社群媒體
 ### 翻牆工具的可達性
 
 <figure markdown="span">
-  ![OONI Explorer Circumvention Tools page](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-4_hu8521154627828645121.png){style="border: 1px #ababab solid;"}
+  ![OONI Explorer Circumvention Tools page](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-4.png){style="border: 1px #ababab solid;"}
   <figcaption>圖片來源：<a target="_blank" href="https://explorer.ooni.org/circumvention">OONI Explorer Circumvention Tools page</a></figcaption>
 </figure>
 
