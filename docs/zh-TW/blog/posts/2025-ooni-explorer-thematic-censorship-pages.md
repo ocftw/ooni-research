@@ -75,7 +75,7 @@ description: "發佈全新 OONI Explorer 主題審查頁面！全球社群媒體
 ### 社群媒體和即時通訊應用程式的封鎖
 
 <figure markdown="span">
-  ![OONI Explorer Social Media page](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-2_hu6743994332842999878.png){style="border: 1px #ababab solid;"}
+  ![OONI Explorer Social Media page](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-2.png){style="border: 1px #ababab solid;"}
   <figcaption>圖片來源：<a target="_blank" href="https://explorer.ooni.org/social-media">OONI Explorer Social Media page</a></figcaption>
 </figure>
 
