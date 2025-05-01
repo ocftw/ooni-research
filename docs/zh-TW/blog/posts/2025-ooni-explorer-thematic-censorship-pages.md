@@ -20,7 +20,7 @@ description: "發佈全新 OONI Explorer 主題審查頁面！全球社群媒體
     - [Launch: New OONI Explorer thematic censorship pages, Maria Xynou 2025-04-02](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/){target="_blank"}
 
 <figure markdown="span">
-  ![New OONI Explorer thematic censorship pages](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-1_hu18045183049061541971.png){style="border-radius: 10px;border:1px solid hsl(0, 0%, 100%);"}
+  ![New OONI Explorer thematic censorship pages](https://ooni.org/post/2025-ooni-explorer-thematic-censorship-pages/images/image-1.png){style="border-radius: 10px;border:1px solid hsl(0, 0%, 100%);"}
   <figcaption>圖片來源：<a target="_blank" href="https://explorer.ooni.org/social-media">OONI Explorer thematic censorship pages</a></figcaption>
 </figure>
 

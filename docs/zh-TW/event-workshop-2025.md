@@ -108,13 +108,13 @@ icon: material/calendar-star
 
 <div class="grid cards" markdown>
 
-- **[:octicons-bookmark-16: Tor、Tails 匿名網路](#TorTails-%E5%8C%BF%E5%90%8D%E7%B6%B2%E8%B7%AF)**
+- **[:octicons-bookmark-16: Tor、Tails 匿名網路](#TorTails-匿名網路)**
 
     ---
 
     預計工作坊參與者來自新聞媒體、獨立調查記者、公民團體、人權捍衛者（HRDs）、科技社群，並協助瞭解透過 Tor、Tails 來增強工作任務於個人電腦中使用的隱私保護能力。
 
-- **[:octicons-bookmark-16: OONI 網路干預觀察](#OONI-%E7%B6%B2%E8%B7%AF%E5%B9%B2%E9%A0%90%E8%A7%80%E5%AF%9F)**
+- **[:octicons-bookmark-16: OONI 網路干預觀察](#OONI-網路干預觀察)**
 
     ---
 
