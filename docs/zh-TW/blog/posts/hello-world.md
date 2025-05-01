@@ -4,6 +4,7 @@ authors:
     - toomore
 categories:
     - 公告
+image: "assets/images/post-update.png"
 ---
 
 # 專案重啟 2025

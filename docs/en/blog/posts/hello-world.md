@@ -4,6 +4,7 @@ authors:
     - toomore
 categories:
     - News
+image: "assets/images/post-update.png"
 ---
 
 # Project Relaunch 2025
