@@ -10,7 +10,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Running (count), Taiwan",
-    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/running?country=tw"},
+    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/running?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -43,7 +43,7 @@ icon: material/chart-bar
 ```vegalite
 {
   "description": "Tor Relays Running (observed_bandwidth), Taiwan",
-  "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/running?country=tw"},
+  "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/running?country=tw"},
   "mark": {
     "type": "area",
     "tooltip": true,
@@ -79,7 +79,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Version (count), Taiwan",
-    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/version?country=tw"},
+    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/version?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -105,7 +105,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays ASN (count), Taiwan",
-    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/asn?country=tw"},
+    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/asn?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -131,7 +131,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Node Type (count), Taiwan",
-    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/node_type?country=tw"},
+    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/node_type?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -157,7 +157,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Flags (count), Taiwan",
-    "data": {"url" : "https://ooni-research.ocf.tw/api/vega/tor/relays/flags?country=tw"},
+    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/flags?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -182,7 +182,7 @@ icon: material/chart-bar
 
 !!! example "In ongoing development"
 
-    - :tools: The **observation data** and **presentation format** on this page are still being adjusted. The data retrieval is provided through the [Data Extraction API Service](https://ooni-research.ocf.tw/api/docs){target="_blank"}, which is also under continuous development.
+    - :tools: The **observation data** and **presentation format** on this page are still being adjusted. The data retrieval is provided through the [Data Extraction API Service](https://tor-watcher.toomore.net/api/docs){target="_blank"}, which is also under continuous development.
 
 [^1]: Number of Active and Inactive Relays: Calculate the daily count of operational Tor Relays in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
 [^2]: Total Daily Bandwidth Provision: Calculate the total daily bandwidth (MB/s) of Tor Relays in Taiwan, ensuring each unique Tor Relay is counted once per hour in the calculation interval.
