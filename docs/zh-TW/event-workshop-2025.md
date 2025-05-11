@@ -75,7 +75,7 @@ icon: material/calendar-star
 
     - [x] `公告`{style="color: red;"} 工作坊開始招募工作人員與小幫手。
     - [x] `通知`{style="color: darkorange;"} 工作坊籌備已開始，歡迎加入！
-    - [ ] `確認`{style="color: purple;"} 五月份線上啟動會議。
+    - [ ] `確認`{style="color: purple;"} 五月份線上啟動會議。（:arrow_right: `協助`{style="color: fuchsia;"}[調查會議時間](https://formbricks.toomore.net/s/cmai3bdkh0000ll01u5xywqfs){target="_blank"}）
     - [ ] `教材`{style="color: green;"} 翻譯 Tor/Tails 簡報。
 
 === "2025/06"
