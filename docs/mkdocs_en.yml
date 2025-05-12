@@ -80,6 +80,13 @@ extra:
     - name: English (en-US)
       link: /docs/en/
       lang: en
+  social:
+    - icon: material/home
+      link: https://ooni-research.ocf.tw/docs/en/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ocftw/ooni-research
+    - icon: simple/torbrowser
+      link: http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion/en/
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
