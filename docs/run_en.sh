@@ -14,5 +14,6 @@ export CATE_NAME='Categories'
 export LANGUAGE='en'
 export FONT_TEXT='Public Sans'
 export FONT_CODE='DM Mono'
+export OVERRIDES='overrides_en'
 
 mkdocs build -v -s -f ./mkdocs_en.yml -d ./output/en
