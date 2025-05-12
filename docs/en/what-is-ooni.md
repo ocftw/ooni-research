@@ -1,6 +1,6 @@
 ---
 title: What is OONI?
-description: OONI, which stands for "Open Observatory of Network Interference," is a global initiative primarily aimed at monitoring and reporting internet censorship and interference.
+description: OONI, which stands for 'Open Observatory of Network Interference,' is a global initiative primarily aimed at monitoring and reporting internet censorship and interference.
 icon: material/chat-question
 
 ---
