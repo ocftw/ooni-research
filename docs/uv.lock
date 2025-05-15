@@ -4,7 +4,7 @@ requires-python = ">=3.12"
 
 [[package]]
 name = "awscli"
-version = "1.40.12"
+version = "1.40.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
@@ -14,9 +14,9 @@ dependencies = [
     { name = "rsa" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f3/7b/472ae318bebcfd199e712918fd607f6e88ccbe17dc904600fb2a015c2202/awscli-1.40.12.tar.gz", hash = "sha256:9cb0f3c15ed3d70804db57bb4f8b18c9a3ca6e2f56ffa79470813f1351b7fe56", size = 1890965 }
+sdist = { url = "https://files.pythonhosted.org/packages/73/d2/8628553f71e079e5c4e4421ac668cfa0936acdc11f2cdb0369635b61c58d/awscli-1.40.15.tar.gz", hash = "sha256:74e94b69a769140f11b0533d11cfb5daea47479f4ace39c0483b40e156c05175", size = 1890676 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/13/6f7ec5464fd5a106359d3e39cef31be71d0f6ec845d963f6d7a4258011f9/awscli-1.40.12-py3-none-any.whl", hash = "sha256:4ad44380b94d9cf530e8417c7a65bf09047e560ca829c6ffac9babdf528d0797", size = 4663003 },
+    { url = "https://files.pythonhosted.org/packages/22/ef/003f6a82a64d57d30df9d5dcefc41e4209289a9680944be3da46384be160/awscli-1.40.15-py3-none-any.whl", hash = "sha256:e52b15667f3a27b40fe47d66017b53a7684efdd27c646dbfd60804e58371a2fd", size = 4663007 },
 ]
 
 [[package]]
@@ -43,16 +43,16 @@ wheels = [
 
 [[package]]
 name = "botocore"
-version = "1.38.13"
+version = "1.38.16"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/de/36/5b0faba074684744244e1e030e73fd5612bc2c38f557eec0a7f1a3d7ddd2/botocore-1.38.13.tar.gz", hash = "sha256:22feee15753cd3f9f7179d041604078a1024701497d27b22be7c6707e8d13ccb", size = 13882010 }
+sdist = { url = "https://files.pythonhosted.org/packages/ab/1b/fc86b24cfe9a5e88a9e4ee73ece2c5448cdf4551d9dabd87ff2ff69b2d8b/botocore-1.38.16.tar.gz", hash = "sha256:bf3666611259844b8e9478b88b162009082767789ed929059db4bbd370b75ee8", size = 13897669 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/94/df/a7a8097471d5a3bc7d408850222292d874ffc190aef7e1cacf9af770339e/botocore-1.38.13-py3-none-any.whl", hash = "sha256:de29fee43a1f02787fb5b3756ec09917d5661ed95b2b2d64797ab04196f69e14", size = 13544507 },
+    { url = "https://files.pythonhosted.org/packages/2b/7c/5a50b58ad354f8328c1c93dff9414a5556d36255021cd4894d3303dab924/botocore-1.38.16-py3-none-any.whl", hash = "sha256:e0e6f7cf0d94b31561034900e41f97fd0db0a2608ab41ff3605bbebd32325ec3", size = 13559362 },
 ]
 
 [[package]]
@@ -87,7 +87,7 @@ wheels = [
 
 [[package]]
 name = "cairosvg"
-version = "2.7.1"
+version = "2.8.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cairocffi" },
@@ -96,9 +96,9 @@ dependencies = [
     { name = "pillow" },
     { name = "tinycss2" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/d5/e6/ec5900b724e3c44af7f6f51f719919137284e5da4aabe96508baec8a1b40/CairoSVG-2.7.1.tar.gz", hash = "sha256:432531d72347291b9a9ebfb6777026b607563fd8719c46ee742db0aef7271ba0", size = 8399085 }
+sdist = { url = "https://files.pythonhosted.org/packages/94/83/509a2c3c2e94897e5daa12250c97a49b04dec0183f4dde2e3b2d57646413/cairosvg-2.8.1.tar.gz", hash = "sha256:4429086d4b6aa47192ccbc4a93ada8b705098e01ee3b8f6094e51137d1ffa7d1", size = 8398517 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/01/a5/1866b42151f50453f1a0d28fc4c39f5be5f412a2e914f33449c42daafdf1/CairoSVG-2.7.1-py3-none-any.whl", hash = "sha256:8a5222d4e6c3f86f1f7046b63246877a63b49923a1cd202184c3a634ef546b3b", size = 43235 },
+    { url = "https://files.pythonhosted.org/packages/79/6d/1aab635b9e7e2e40084f5bf51217b5d355d0fe87da2a87c0a1a1e57de16a/cairosvg-2.8.1-py3-none-any.whl", hash = "sha256:5ebb6095bbb3eb7edf68b94f28f1a867535f09225ced62a662bba2e928e570a4", size = 45774 },
 ]
 
 [[package]]
@@ -429,7 +429,7 @@ wheels = [
 
 [[package]]
 name = "mkdocs-material"
-version = "9.6.13"
+version = "9.6.14"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "babel" },
@@ -444,9 +444,9 @@ dependencies = [
     { name = "pymdown-extensions" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2c/7d/fbf31a796feb2a796194b587153c5fa9e722720e9d3e338168402dde73ed/mkdocs_material-9.6.13.tar.gz", hash = "sha256:7bde7ebf33cfd687c1c86c08ed8f6470d9a5ba737bd89e7b3e5d9f94f8c72c16", size = 3951723 }
+sdist = { url = "https://files.pythonhosted.org/packages/b3/fa/0101de32af88f87cf5cc23ad5f2e2030d00995f74e616306513431b8ab4b/mkdocs_material-9.6.14.tar.gz", hash = "sha256:39d795e90dce6b531387c255bd07e866e027828b7346d3eba5ac3de265053754", size = 3951707 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a5/b7/98a10ad7b6efb7a10cae1f804ada856875637566d23b538855cd43757d71/mkdocs_material-9.6.13-py3-none-any.whl", hash = "sha256:3730730314e065f422cc04eacbc8c6084530de90f4654a1482472283a38e30d3", size = 8703765 },
+    { url = "https://files.pythonhosted.org/packages/3a/a1/7fdb959ad592e013c01558822fd3c22931a95a0f08cf0a7c36da13a5b2b5/mkdocs_material-9.6.14-py3-none-any.whl", hash = "sha256:3b9cee6d3688551bf7a8e8f41afda97a3c39a12f0325436d76c86706114b721b", size = 8703767 },
 ]
 
 [package.optional-dependencies]
@@ -692,14 +692,14 @@ wheels = [
 
 [[package]]
 name = "pyyaml-env-tag"
-version = "1.0"
+version = "1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c2/95/32c8c79d784552ed687c676924381c0dc88b2a0248b50a32f4b5ac0ba03c/pyyaml_env_tag-1.0.tar.gz", hash = "sha256:bc952534a872b583f66f916e2dd83e7a7b9087847f4afca6d9c957c48b258ed2", size = 4462 }
+sdist = { url = "https://files.pythonhosted.org/packages/eb/2e/79c822141bfd05a853236b504869ebc6b70159afc570e1d5a20641782eaa/pyyaml_env_tag-1.1.tar.gz", hash = "sha256:2eb38b75a2d21ee0475d6d97ec19c63287a7e140231e4214969d0eac923cd7ff", size = 5737 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1a/8c/c35fdb193c3717bdb4dea0ea361dbe81997164e01deaa2809cc2d71aa6b6/pyyaml_env_tag-1.0-py3-none-any.whl", hash = "sha256:37f081041b8dca44ed8eb931ce0056f97de17251450f0ed08773dc2bcaf9e683", size = 4681 },
+    { url = "https://files.pythonhosted.org/packages/04/11/432f32f8097b03e3cd5fe57e88efb685d964e2e5178a48ed61e841f7fdce/pyyaml_env_tag-1.1-py3-none-any.whl", hash = "sha256:17109e1a528561e32f026364712fee1264bc2ea6715120891174ed1b980d2e04", size = 4722 },
 ]
 
 [[package]]
