@@ -9,8 +9,6 @@ icon: material/translate-variant
 OONI currently has several tools and web services available for translation through the Transifex collaboration platform. Please [register](https://www.transifex.com/signup/){target="_blank"} on the platform first, and then proceed to assist in translating each product.
 
 1. [OONI Probe Application](https://ooni.org/install/){target="_blank"}: Join the [translation project](https://app.transifex.com/otf/ooniprobe/){target="_blank"} and read the [translation manual](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md){target="_blank"}.
-   - [OONI Probe Mobile User Guide](https://ooni.org/support/ooni-probe-mobile){target="_blank"}: Join the [translation project](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/){target="_blank"}.
-   - [OONI Probe Desktop User Guide](https://ooni.org/support/ooni-probe-desktop){target="_blank"}: Join the [translation project](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/){target="_blank"}.
 2. [OONI Explorer](https://explorer.ooni.org/){target="_blank"}: Join the [translation project](https://app.transifex.com/otf/ooni-explorer/){target="_blank"} and read the [translation manual](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md){target="_blank"}.
 3. [OONI Run](https://run.ooni.io/){target="_blank"}: Join the [translation project](https://app.transifex.com/otf/ooni-run/){target="_blank"}.
 

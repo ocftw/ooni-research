@@ -9,8 +9,6 @@ icon: material/translate-variant
 OONI 目前有需多工具與網站服務是透過 transifex 協作翻譯平台來進行，請先在平台上[註冊](https://www.transifex.com/signup/){target="_blank"}後，再依各產品前往協助翻譯。
 
 1. [OONI Probe 應用程式](https://ooni.org/install/){target="_blank"}：加入[翻譯專案](https://app.transifex.com/otf/ooniprobe/){target="_blank"}，並閱讀[翻譯手冊](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Probe.md){target="_blank"}。
-    - [OONI Probe 行動裝置說明手冊](https://ooni.org/support/ooni-probe-mobile){target="_blank"}：加入[翻譯專案](https://app.transifex.com/otf/ooni-probe-mobile-user-guide/){target="_blank"}。
-    - [OONI Probe 桌面版說明手冊](https://ooni.org/support/ooni-probe-desktop){target="_blank"}：加入[翻譯專案](https://app.transifex.com/otf/ooni-probe-desktop-user-guide/){target="_blank"}。
 2. [OONI Explorer](https://explorer.ooni.org/){target="_blank"}：加入[翻譯專案](https://app.transifex.com/otf/ooni-explorer/){target="_blank"}，並閱讀[翻譯手冊](https://github.com/ooni/translations/blob/master/Guidelines%20for%20OONI%20Explorer.md){target="_blank"}。
 3. [OONI Run](https://run.ooni.io/){target="_blank"}：加入[翻譯專案](https://app.transifex.com/otf/ooni-run/){target="_blank"}。
 
