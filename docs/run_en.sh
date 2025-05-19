@@ -9,6 +9,7 @@ export NAV_EVENT='Events'
 export NAV_PP='Projects'
 export NAV_PPP='Preparation'
 export NAV_POST='News'
+export NAV_EVENT_PREPARE="Pre-Event"
 export NAV_WATCHER='Monitoring'
 export CATE_NAME='Categories'
 export LANGUAGE='en'
