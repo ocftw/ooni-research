@@ -4,7 +4,7 @@ requires-python = ">=3.12"
 
 [[package]]
 name = "awscli"
-version = "1.40.15"
+version = "1.40.17"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
@@ -14,9 +14,9 @@ dependencies = [
     { name = "rsa" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/73/d2/8628553f71e079e5c4e4421ac668cfa0936acdc11f2cdb0369635b61c58d/awscli-1.40.15.tar.gz", hash = "sha256:74e94b69a769140f11b0533d11cfb5daea47479f4ace39c0483b40e156c05175", size = 1890676 }
+sdist = { url = "https://files.pythonhosted.org/packages/62/7e/3181c84c1b868a3d04bdf149b9964aa2c3e56f8d257db92523e525005798/awscli-1.40.17.tar.gz", hash = "sha256:22bdd7a538a3a8a017f64938729144918bac39b24c61986648dcacd307864df6", size = 1891037 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/22/ef/003f6a82a64d57d30df9d5dcefc41e4209289a9680944be3da46384be160/awscli-1.40.15-py3-none-any.whl", hash = "sha256:e52b15667f3a27b40fe47d66017b53a7684efdd27c646dbfd60804e58371a2fd", size = 4663007 },
+    { url = "https://files.pythonhosted.org/packages/83/d3/a630d24b8b57e4ebefa8c643aa156ee28e03453eb9e986215faaba5360bf/awscli-1.40.17-py3-none-any.whl", hash = "sha256:9115c4c0c80cb885b7512327e6c1d31b48691024bc0c04d9fd228fc9eeee0cb0", size = 4663007 },
 ]
 
 [[package]]
@@ -43,16 +43,16 @@ wheels = [
 
 [[package]]
 name = "botocore"
-version = "1.38.16"
+version = "1.38.18"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ab/1b/fc86b24cfe9a5e88a9e4ee73ece2c5448cdf4551d9dabd87ff2ff69b2d8b/botocore-1.38.16.tar.gz", hash = "sha256:bf3666611259844b8e9478b88b162009082767789ed929059db4bbd370b75ee8", size = 13897669 }
+sdist = { url = "https://files.pythonhosted.org/packages/4a/56/d5a1c308d0a005c390e908c005dc141f12c9289ca963f311d8fcdb792e1c/botocore-1.38.18.tar.gz", hash = "sha256:ae4c97383e797e9648f8721bb0217fd9efd228e9fbc661d83dc0959be083ec5c", size = 13908359 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2b/7c/5a50b58ad354f8328c1c93dff9414a5556d36255021cd4894d3303dab924/botocore-1.38.16-py3-none-any.whl", hash = "sha256:e0e6f7cf0d94b31561034900e41f97fd0db0a2608ab41ff3605bbebd32325ec3", size = 13559362 },
+    { url = "https://files.pythonhosted.org/packages/6e/d4/367dda8f499a2c2e954a7989ab1250209a156d85d981870cd9b830715011/botocore-1.38.18-py3-none-any.whl", hash = "sha256:0b5ddf195f15218f30ec63d8aba9e55cf60af2984c068276b9fd206059043310", size = 13569219 },
 ]
 
 [[package]]
@@ -87,7 +87,7 @@ wheels = [
 
 [[package]]
 name = "cairosvg"
-version = "2.8.1"
+version = "2.8.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cairocffi" },
@@ -96,9 +96,9 @@ dependencies = [
     { name = "pillow" },
     { name = "tinycss2" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/94/83/509a2c3c2e94897e5daa12250c97a49b04dec0183f4dde2e3b2d57646413/cairosvg-2.8.1.tar.gz", hash = "sha256:4429086d4b6aa47192ccbc4a93ada8b705098e01ee3b8f6094e51137d1ffa7d1", size = 8398517 }
+sdist = { url = "https://files.pythonhosted.org/packages/ab/b9/5106168bd43d7cd8b7cc2a2ee465b385f14b63f4c092bb89eee2d48c8e67/cairosvg-2.8.2.tar.gz", hash = "sha256:07cbf4e86317b27a92318a4cac2a4bb37a5e9c1b8a27355d06874b22f85bef9f", size = 8398590 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/79/6d/1aab635b9e7e2e40084f5bf51217b5d355d0fe87da2a87c0a1a1e57de16a/cairosvg-2.8.1-py3-none-any.whl", hash = "sha256:5ebb6095bbb3eb7edf68b94f28f1a867535f09225ced62a662bba2e928e570a4", size = 45774 },
+    { url = "https://files.pythonhosted.org/packages/67/48/816bd4aaae93dbf9e408c58598bc32f4a8c65f4b86ab560864cb3ee60adb/cairosvg-2.8.2-py3-none-any.whl", hash = "sha256:eab46dad4674f33267a671dce39b64be245911c901c70d65d2b7b0821e852bf5", size = 45773 },
 ]
 
 [[package]]
