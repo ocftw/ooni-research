@@ -254,9 +254,11 @@ icon: octicons/workflow-24
 
 ### 候選討論議題
 
-目前初步規劃三大類、六項討論議題，協調員加入時可能會有調整，或以協調員所設定的議題來討論。
+目前初步規劃三大類、六項討論議題，協調員加入時可能會有調整，或以協調員所設定的議題來討論。在活動前我們有一份議題討論的[問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){target="_blank"}，大約 2 分鐘的作答時間，請協助我們`（可匿名）`{style="color: purple;"}瞭解各議題的喜好程度，感謝！
 
-??? abstract "開源技術與匿名工具的交集"
+[協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
+
+??? abstract "主題一：開源技術與匿名工具的交集"
 
     #### 「Tor/Tails/OONI 的開源基礎與在地參與可能」
 
@@ -270,7 +272,9 @@ icon: octicons/workflow-24
     - 有哪些實際技術與行政、法律挑戰？（如主機費用、被封鎖、法律疑慮）
     - 能不能以社群的方式協助運作與培訓新手？
 
-??? abstract "開源精神與網路自由的社會連結"
+    [協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
+
+??? abstract "主題二：開源精神與網路自由的社會連結"
 
     #### 「自由軟體與數位人權：為何開源是匿名工具的關鍵？」
 
@@ -284,7 +288,9 @@ icon: octicons/workflow-24
     - 工具包長怎樣？（如 Live USB image、本地語系包、手冊）？
     - 推出「臺灣版本」的簡化套件（適合 NGO、記者、新手）
 
-??? abstract "在地社群與協作實踐"
+    [協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
+
+??? abstract "主題三：在地社群與協作實踐"
 
     #### 「推動一個去中心、開源協作的匿名網路推廣計畫」
 
@@ -297,3 +303,5 @@ icon: octicons/workflow-24
     - 如東南亞區域、香港、中國、日本、韓國 … 等地也有類似的開源匿名專案或推廣團隊
     - 能否建立跨地協作？例如協作翻譯 OONI 檢測結果、共寫教材
     - 臺灣能否成為連結點？（安全性、言論自由、技術社群都具備）
+
+    [協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
