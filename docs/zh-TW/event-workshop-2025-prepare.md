@@ -256,7 +256,7 @@ icon: octicons/workflow-24
 
 目前初步規劃三大類、六項討論議題，協調員加入時可能會有調整，或以協調員所設定的議題來討論。在活動前我們有一份議題討論的[問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){target="_blank"}，大約 2 分鐘的作答時間，請協助我們`（可匿名）`{style="color: purple;"}瞭解各議題的喜好程度，感謝！
 
-[協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
+[協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"} [:material-qrcode-scan: QRcode](./assets/images/workshop_form_zh.png){target="_blank"}
 
 ??? abstract "主題一：開源技術與匿名工具的交集"
 
