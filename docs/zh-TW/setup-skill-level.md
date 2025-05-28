@@ -187,3 +187,93 @@ icon: octicons/paste-24
     !!! warning ""
 
         :wave: 評量參考資訊內容預計在 2025/Q3 完成 Advanced 部分。
+
+## Tails 技能分級表
+
+### :material-checkbox-marked-circle-auto-outline: Tails-Basic
+
+=== ":material-checkbox-marked-circle-outline: Tails: Basic L1"
+
+    - [x] 瞭解 Tails 是什麼與運作原理。
+    - [x] 瞭解網路自由為什麼重要、匿名網路是什麼。
+    - [x] 臺灣的網路自由嗎？
+    - [x] 我們周遭的國家目前的網路狀況。
+
+    !!! abstract "Tails: Basic L1"
+
+        ??? question "瞭解 Tails 是什麼與運作原理。"
+
+            可以先從這個「[什麼是 Tails？](./what-is-tails.md){target="_blank"}」章節，開始了解。
+
+        ??? question "瞭解網路自由為什麼重要、匿名網路是什麼。"
+
+            可以先從這個「[網路自由為什麼重要？](./internet-freedom-matter.md){target="_blank"}」章節，開始了解。
+
+            :octicons-question-24: **補充內容**
+
+            臺灣的網路算是自由的，但我們周邊鄰近的國家，對於網路管控的程度有著嚴峻的差異。
+
+            1. **網路自由的重要性**：網路自由是一個涉及**言論自由**、**資訊流通**和**隱私權**的議題。自由的網路讓人們可以不受拘束地交流思想、獲取資訊以及表達觀點，這對民主和創新的發展至關重要。在某些國家，網路管控嚴格，政府可能會封鎖網站、限制社交媒體，甚至監控個人流量，這不僅影響了人民的基本人權，也限制了資訊的多樣性與透明度。
+            2. 匿名網路是什麼：匿名網路是一種讓使用者能在隱藏身份的情況下瀏覽網路的技術，以保護使用者的隱私及安全。這些網路通常依賴於多層加密及路由技術，例如 Tor 洋蔥路由，讓使用者的流量難以被追蹤。匿名網路在複雜的政治環境下成為一些使用者的安全港，尤其是那些想要規避審查或保護機敏資訊的人。
+            3. 匿名網路的優點與風險：使用匿名網路可以保護隱私，並幫助使用者繞過網路審查，到達被封鎖的網站以及和更多的人交流。然而，匿名網路也被一些非法活動所利用，因此可能會引起法律機構的注意和干預。因此，使用者在獲得匿名性和自由的同時，必須理解和承擔由此帶來的風險。
+
+        ??? question "臺灣的網路自由嗎？"
+
+            你覺得臺灣網路自由嗎？當我們在回頭思考這件事的時候，可能可以有一些比較的事件或是參考的資料。
+
+            :octicons-question-24: **補充內容**
+
+            1. **國際排名與報告**：根據「自由之家」（Freedom House）發佈的年度報告，臺灣通常被評為網路自由度高的國家之一。這份報告評估了全球各國在網路訪問的開放性、言論自由以及用戶權利保障等方面的表現。臺灣的網民可以自由地訪問大部分的國際網站，並能在網路上公開表達不同的政治觀點，這在一些鄰近國家可能會面臨限制或風險。
+            2. **事件比較**：相比之下，中國實行「防火長城」（Great Firewall）技術，全面封鎖多個國際網站，如 Google、Facebook 和 Twitter/X，進行網路審查。香港在《國安法》實施後，網路自由度也受到影響，出現了部分網頁被封鎖的情況。這些情況使臺灣的網路自由顯得尤為突出。
+            3. **當地事件與政策**：在臺灣，雖然網路言論自由受到高度保障，但也面臨著**假消息**和**網路霸凌**的挑戰，政府及民間組織也在積極尋求法律和技術手段加以改善。網路監控方面，政府要求電信業者配合偵查必要時需提供使用者資料，但大多數情況下，這些都受到法律制約，保障公民的隱私權。
+            4. **資料參考**：根據多個國際組織的評估，臺灣在網路自由指數上得分較高。這些評估基於網路審查的嚴重性、監控措施、言論自由以及法律制度等方面。
+
+        ??? question "我們周遭的國家目前的網路狀況。"
+
+            這一題是開放的議題，希望可以自行動手搜尋、瞭解臺灣周圍國家網路自由的狀況。以下是一些指引，可以從這裡出發：
+
+            **關鍵字**
+
+            1. **網路自由報告** - 了解各國在網路自由方面的排名及情況，例如搜尋「Freedom House Internet Freedom Report」。
+            2. **防火長城（Great Firewall）** - 中國大陸的網路審查機制。
+            3. **國家安全法（National Security Law）** - 香港影響網路自由的法律。
+            4. **假消息和資訊操縱（Disinformation and Information Manipulation）** - 各國面臨的假消息挑戰。
+            5. **網路中斷（Internet Shutdowns）** - 與緬甸相關的事件及其對社會的影響。
+            6. **網路監控法規（Internet Surveillance Laws）** - 各國的監控措施和其影響。
+
+            **事件**
+
+            1. **2021 年緬甸軍事政變** - 對該國網路自由的影響。
+            2. **新加坡防止網絡謠言法案（POFMA）** - 關於假訊息法案及其實施效果。
+            3. **泰國街頭示威與王室批評** - 探討政府對網路監控及言論自由的壓制。
+            4. **越南的內容封鎖措施** - 包含網路使用者備受控制的具體事例。
+
+=== ":material-checkbox-marked-circle-outline: Tails: Basic L2"
+
+    - [x] 瞭解如何安裝、製作 Tails 作業系統隨身碟。
+    - [x] 瞭解電腦如何設定從隨身碟開機。
+    - [x] 瞭解 Mac 電腦哪些類型無法使用 Tails。
+    - [x] 瞭解 Tails 使用情境與限制。
+
+=== ":material-checkbox-marked-circle-outline: Tails: Basic L3"
+
+    - [x] 安裝 Tails，並實際使用至少一週。
+    - [x] 建立持久性加密磁區（Persistent Storage）。
+    - [x] 使用 Bridge 橋接設定 Tails 網路連線方式。
+    - [x] 使用 OnionShare 軟體分享檔案。
+
+### :material-checkbox-marked-circle-auto-outline: Tails-Advanced
+
+=== ":material-checkbox-marked-circle-auto-outline: Tails: Advanced L1"
+
+    - [x] 透過 Thunderbird 建立連接 Gmail 信箱的接收與傳送（IMAP 協定）。
+    - [x] 更新 Tails 到下一個最新版本。
+    - [x] 瞭解 MAC 位址匿名化（MAC Address Anonymization）。
+    - [x] 備份持久性加密磁區（Persistent Storage）。
+
+=== ":material-checkbox-marked-circle-auto-outline: Tails: Advanced L2"
+
+    - [x] 使用密碼管理器 KeePassXC。
+    - [x] 使用 GnuPG 與 Kleopatra 建立加密金鑰與加密檔案。
+    - [x] 透過 Thunderbird 寄送加密郵件到 `ooni-research@ocf.tw`（取得公開金鑰請參考「[持續關注](./contact.md)」）。
+    - [x] 安全的移除檔案操作流程。
