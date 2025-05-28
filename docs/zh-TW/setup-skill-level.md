@@ -255,6 +255,32 @@ icon: octicons/paste-24
     - [x] 瞭解 Mac 電腦哪些類型無法使用 Tails。
     - [x] 瞭解 Tails 使用情境與限制。
 
+    !!! abstract "Tails: Basic L2"
+
+        ??? question "瞭解如何安裝、製作 Tails 作業系統隨身碟。"
+
+            - **下載 Tails**：前往 [Tails 官方網站](https://tails.net/){target="_blank"}，下載 Tails ISO 映像檔。
+            - **準備工具**：需要一個至少 8GB 的 USB 隨身碟以及 [Balena Etcher](https://etcher.balena.io/){target="_blank"} 或 [Rufus](https://rufus.ie/zh_TW/){target="_blank"} 等工具來製作開機隨身碟。
+            - **安裝與製作**：[參閱官網](https://tails.net/install/index.en.html){target="_blank"}所提供的製作流程，選擇合適的作業系統執行。
+
+        ??? question "瞭解電腦如何設定從隨身碟開機。"
+
+            -  **進入 BIOS/UEFI 設定**：在大多數電腦中，重新啟動後會出現按鍵選項（如 F2、F12、Delete），按下對應的鍵進入 BIOS 或 UEFI 設定。
+            -  **調整開機順序**：在開機選單中，調整設定使 USB 隨身碟成為主要開機裝置。儲存變更後，重新啟動電腦，系統將自動從 USB 開機。
+
+        ??? question "瞭解 Mac 電腦哪些類型無法使用 Tails。"
+
+            - **不支援的類型**：某些新型 Mac，特別是使用 Apple T2 晶片或 Apple Silicon (M 系列晶片)，由於啟動安全機制，可能會無法順利從非蘋果認證的 USB 裝置啟動。
+
+        ??? question "瞭解 Tails 使用情境與限制。"
+
+            - **使用情境**：Tails 作業系統主要針對需要高隱私保護的人士所設計，例如記者、人權團體或任何希望匿名瀏覽的人。它不留痕跡的運行在記憶體中，關閉後不會在電腦上留下資料。
+            - **限制**：
+                1. **硬體相容性**：Tails 對於某些硬體驅動程式（特別是新的無線網卡）可能支援有限。
+                2. **操作**：由於 Tails 是基於 Linux 的系統、Debian 作業系統、GNOME 桌面環境，對於不熟悉 Linux 環境的人會有一些學習曲線。
+                3. **永久儲存**：儘管它可以建立持久性加密磁區（Persistent Storage）以保留某些資料數據，但它的設計初衷是不留痕跡。
+                4. **更新頻繁**：為了安全性，Tails 經常更新，需要確保持續更新以保護隱私。
+
 === ":material-checkbox-marked-circle-outline: Tails: Basic L3"
 
     - [x] 安裝 Tails，並實際使用至少一週。
