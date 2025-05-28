@@ -139,6 +139,31 @@ icon: octicons/paste-24
     - [x] 操作切換目前的連線路徑。
     - [x] 連線至 **.onion** 網域。
 
+    !!! abstract "Tor: Basic L3"
+
+        ??? question "安裝 Tor 瀏覽器，並實際使用至少一週。"
+
+            1. 前往 [Tor Project 官方網站](https://www.torproject.org/zh-TW/){target="_blank"}，下載適用於你的作業系統的 Tor 瀏覽器。
+            2. 完成下載後，按照指示安裝並啟動 Tor 瀏覽器。
+            3. 在整個使用的一週內，用 Tor 瀏覽器進行日常的網路瀏覽，以熟悉其界面和特性，注意使用時的匿名性和安全性。也留意可能造成的不便之處，有無可以解決的方式。
+
+        ??? question "透過**直接連線**與**橋接方式**連線到 Tor 網路。"
+
+            1. 啟動 Tor 瀏覽器時，通常會看到瀏覽器正在建立連線。
+            2. 輸入網址即直接透過 Tor 網路瀏覽，此途徑最適合未封鎖 Tor 網路的國家。
+            3. 可以透過網址列上位於左側第一個圖示（Tor Circuit，類是這樣的圖示 :material-map-marker-path:）點擊查看目前的路線與連線方式。
+            4. 假設你的網路封鎖了 Tor，請選擇「設定（Settings）」、「連線（Connection）」、「橋接（Bridges）」，可從內建的橋接伺服器類型中選擇，或者輸入你從其他途徑取得的橋接連結資訊。
+
+        ??? question "操作切換目前的連線路徑。"
+
+            1. 可以透過網址列上位於左側第一個圖示（Tor Circuit，類是這樣的圖示 :material-map-marker-path:）點擊查看目前的路線與連線方式。
+            2. 點擊最後一行「New Tor circuit for this site」，讓 Tor 瀏覽器重新建立連線路徑。這個適合在出口節點剛好被網站阻擋時，嘗試切換不同國家的方式連線。
+
+        ??? question "連線至 .onion 網域"
+
+            1. 連線到[專案網站](https://ooni-research.ocf.tw/docs/){target="_blank"}、注意網址列後方出現紫色按鈕「.onion available」 按下後即可跳轉到 .onion 網域。當出現這個按鈕表示該網站有主動提供指引連線到 .onion 網域。
+            2. DuckDuckGo 也提供了 .onion 服務：<https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/>{target="_blank"}
+
 ### :material-checkbox-marked-circle-auto-outline: Tor-Advanced
 
 === ":material-checkbox-marked-circle-auto-outline: Tor: Advanced L1"
