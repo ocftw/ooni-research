@@ -173,9 +173,17 @@ icon: octicons/paste-24
     - [x] 啟動 Tor 並透過 SOCKS v5 方式連結。
     - [x] 使用 [metrics.torproject.org](https://metrics.torproject.org){target="_blank"} 查詢臺灣地區的中繼點。
 
+    !!! warning ""
+
+        :wave: 評量參考資訊內容預計在 2025/Q3 完成 Advanced 部分。
+
 === ":material-checkbox-marked-circle-auto-outline: Tor: Advanced L2"
 
     - [x] 建立 Tor Relay 中繼點。
     - [x] 建立 Tor Bridge 橋接點。
     - [x] 建立 WebTunnel 中繼點。
     - [x] 建立 **.onion** 網站。
+
+    !!! warning ""
+
+        :wave: 評量參考資訊內容預計在 2025/Q3 完成 Advanced 部分。
