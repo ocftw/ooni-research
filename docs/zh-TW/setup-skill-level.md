@@ -175,7 +175,7 @@ icon: octicons/paste-24
 
     !!! warning ""
 
-        :wave: 評量參考資訊內容預計在 2025/Q3 完成 Advanced 部分。
+        :wave: 評量參考內容預計在 2025/Q3 完成 Advanced 部分。
 
 === ":material-checkbox-marked-circle-auto-outline: Tor: Advanced L2"
 
@@ -186,7 +186,7 @@ icon: octicons/paste-24
 
     !!! warning ""
 
-        :wave: 評量參考資訊內容預計在 2025/Q3 完成 Advanced 部分。
+        :wave: 評量參考內容預計在 2025/Q3 完成 Advanced 部分。
 
 ## Tails 技能分級表
 
@@ -288,6 +288,33 @@ icon: octicons/paste-24
     - [x] 使用 Bridge 橋接設定 Tails 網路連線方式。
     - [x] 使用 OnionShare 軟體分享檔案。
 
+    !!! abstract "Tails: Basic L3"
+
+        ??? question "安裝 Tails，並實際使用至少一週。"
+
+            - 參考之前提到的步驟，下載並製作 Tails 開機隨身碟。
+            - 插入 USB 隨身碟，重新開機並從 USB 開機，以進入 Tails 作業系統。
+            - 使用 Tails 進行一般日常的網路操作一週，這期間熟悉 Tails 的功能和設定，如 Tor 瀏覽、電子郵件的安全使用等。
+
+        ??? question "建立持久性加密磁區（Persistent Storage）。"
+
+            - 開啟 Tails 後，在桌面上找到「Applications」選單，選擇「Tails」>「Configure persistent volume」。
+            - 依照指示設定持久性加密磁區，這個區域讓您可以保存一些設定檔案、電子郵件等個人資料，這層磁區是透過加密保護方式確保資料數據安全。
+            - 完成加密磁區的建立後，當您重啟 Tails 時，可在登入頁面時選擇是否啟用這個加密磁區。
+
+        ??? question "使用 Bridge 橋接設定 Tails 網路連線方式。"
+
+            - 登入 Tails 後，會出現連線到 Tor 的網路設定。
+            - 選擇設定橋接（Bridge）方式，假設你的地區封鎖了直接連接至 Tor。
+            - 你可以選擇內建的橋接或手動輸入您已獲得的橋接資訊以繞過封鎖。
+
+        ??? question "使用 OnionShare 軟體分享檔案。"
+
+            - OnionShare 是一個可以透過 Tor 網路安全分享檔案的小工具。
+            - 在 Tails 的「Applications」選單中找到並啟動 OnionShare。
+            - 透過拖放方式或選取檔案的方式，將想要分享的檔案載入 OnionShare。
+            - 啟動分享後，OnionShare 會生成一個 .onion 網址，您可以將這網址提供給信任的人，他們即可使用 Tor 瀏覽器下載。
+
 ### :material-checkbox-marked-circle-auto-outline: Tails-Advanced
 
 === ":material-checkbox-marked-circle-auto-outline: Tails: Advanced L1"
@@ -297,9 +324,17 @@ icon: octicons/paste-24
     - [x] 瞭解 MAC 位址匿名化（MAC Address Anonymization）。
     - [x] 備份持久性加密磁區（Persistent Storage）。
 
+    !!! warning ""
+
+        :wave: 評量參考內容預計在 2025/Q3 完成 Advanced 部分。
+
 === ":material-checkbox-marked-circle-auto-outline: Tails: Advanced L2"
 
     - [x] 使用密碼管理器 KeePassXC。
     - [x] 使用 GnuPG 與 Kleopatra 建立加密金鑰與加密檔案。
     - [x] 透過 Thunderbird 寄送加密郵件到 `ooni-research@ocf.tw`（取得公開金鑰請參考「[持續關注](./contact.md)」）。
     - [x] 安全的移除檔案操作流程。
+
+    !!! warning ""
+
+        :wave: 評量參考內容預計在 2025/Q3 完成 Advanced 部分。
