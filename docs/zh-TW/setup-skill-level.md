@@ -412,6 +412,36 @@ icon: octicons/paste-24
     - [x] 檢視目前網路封鎖的報告。
     - [x] 建立 OONI Run 檢測連結並找到該連結的線上報告內容。
 
+    !!! abstract "OONI: Basic L3"
+
+        ??? question "透過 OONI Explorer 整理臺灣近半年的觀測資料。"
+
+            - 前往 [OONI Explorer](https://explorer.ooni.org/zh-Hant/){target="_blank"} 網站。
+            - 在國家欄中找到「台灣」作為觀測地點。
+            - 使用日期範圍選擇功能，設定為過去六個月的時間範圍。
+            - 查看不同類型的測試結果，例如網站封鎖、即時通訊應用程式的連接情況等。
+            - 您可以下載或記錄這段期間出現的相關數據和事件，以進行進一步分析。
+
+        ??? question "透過 OONI Explorer 比較三個國家的觀測資料"
+
+            - 在 OONI Explorer 頁面上，縱軸（Rows）選擇「國家」，使用篩選器（Filters）分別選擇您需要比較的三個國家。（[參考設定](https://explorer.ooni.org/zh-Hant/chart/mat?test_name=web_connectivity&axis_x=measurement_start_day&since=2025-05-01&until=2025-05-30&time_grain=day&axis_y=probe_cc){target="_blank"}）
+            - 查看這些國家在不同種類測試中的結果差異，包括網站封鎖、中間人攻擊檢測等。
+            - 匯出 CSV 資料比較資料數據。
+
+        ??? question "檢視目前網路封鎖的報告。"
+
+            - 在 OONI Explorer 主頁中，通常會有關於全球網路審查和封鎖的最新報告和趨勢。
+            - 瀏覽「[搜尋](https://explorer.ooni.org/zh-Hant/search){target="_blank"}」或搜尋特定服務和網站以查看它們目前連接性狀況。
+            - 可以查看「[網路審查](https://explorer.ooni.org/zh-Hant/social-media){target="_blank"}」底下不同的測試類型，例如：社群網站、新聞媒體...等。
+
+        ??? question "建立 OONI Run 檢測連結並找到該連結的線上報告內容。"
+
+            - 在 [OONI Run](https://run.ooni.org/){target="_blank"} 頁面上提供電子郵件取得登入連結。
+            - 透過連結登入後，依表單上的必填項目完成填寫。
+            - 在「Add URL+」項目新增要檢測的網站網址。完成後按下「Create Link」完成建立。
+            - 分享網址或點擊網址後、依引導開啟 OONI Probe 開始檢測。（[參考檢測](https://run.ooni.org/v2/10182){target="_blank"}）
+            - 網址後方 `https://run.ooni.org/v2/10182` 的數字 `10182` 即為 OONI Run Link ID，可以在 OONI Explorer 直接輸入 ID 找到檢測結果。（[參考結果](https://explorer.ooni.org/search?since=2025-04-29&until=2026-07-01&failure=false&ooni_run_link_id=10182){target="_blank"}）
+
 ### :material-checkbox-marked-circle-auto-outline: OONI-Advanced
 
 === ":material-checkbox-marked-circle-auto-outline: OONI: Advanced L1"
@@ -419,7 +449,15 @@ icon: octicons/paste-24
     - [x] 使用命令列的方式啟動 OONI Probe。
     - [x] 瞭解網站觀測名單收錄方式。
 
+    !!! warning ""
+
+        :wave: 評量參考內容預計在 2025/Q3 完成 Advanced 部分。
+
 === ":material-checkbox-marked-circle-auto-outline: OONI: Advanced L2"
 
     - [x] 透過原始觀測資料（Raw Data）進行資料數據整理與分析。
     - [x] 協助名單整理與修正。
+
+    !!! warning ""
+
+        :wave: 評量參考內容預計在 2025/Q3 完成 Advanced 部分。
