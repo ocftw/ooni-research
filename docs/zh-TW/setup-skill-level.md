@@ -338,3 +338,63 @@ icon: octicons/paste-24
     !!! warning ""
 
         :wave: 評量參考內容預計在 2025/Q3 完成 Advanced 部分。
+
+## OONI 技能分級表
+
+### :material-checkbox-marked-circle-auto-outline: OONI-Basic
+
+=== ":material-checkbox-marked-circle-outline: OONI: Basic L1"
+
+    - [x] 瞭解 OONI 是什麼。
+    - [x] 瞭解網路監視（surveillance）與網路審查（censorship）是什麼。
+    - [x] OONI 檢測的運作方式。
+    - [x] 臺灣與其他國家在網路監視與網路審查的差異。
+
+    !!! abstract "OONI: Basic L1"
+
+        ??? question "瞭解 OONI 是什麼"
+
+            可以先從這個「[什麼是 OONI？](./what-is-ooni.md){target="_blank"}」章節，開始了解。
+
+        ??? question "瞭解網路監視（surveillance）與網路審查（censorship）是什麼。"
+
+            - **網路監視（surveillance）**：指政府、組織或個人監看和記錄使用者的網路活動，如電子郵件、搜尋歷史、網站瀏覽及通話的過程。監視通常會牽涉到使用監控技術，如資料數據封包檢測，以獲得特定的網路流量資訊。
+            - **網路審查（censorship）**：指限制或控制使用者對網際網路上某些資訊的訪問。這可能包括封鎖網站、過濾內容或禁止某些關鍵字搜尋等。審查往往是由政府實施，但也可能由企業或其他機構施行。
+
+        ??? question "OONI 檢測的運作方式。"
+
+            - OONI 提供了免費的開源測試工具 OONI Probe，使用者可以在自己的網路環境執行這些測試來檢測他們的網路是否被審查。
+            - OONI Probe 測試會定期發送請求至多個網站和服務，確認在[名單上](./ooni-weblists.md){target="_blank"}的網站、服務是否可以正常訪問。
+            - 測試結果會**匿名上傳**到 OONI 的資料伺服器中，並於 [OONI Explorer](https://explorer.ooni.org/zh-Hant){target="_blank"} 上公開，供研究者和公眾使用，以促進對網路自由的理解。
+
+        ??? question "臺灣與其他國家在網路監視與網路審查的差異。"
+
+            - **臺灣**：臺灣的網路環境相對自由，政府並未大規模實施網路審查或監控。使用者可自由瀏覽網際網路的各種內容，政府對於個人隱私權的保護也相對重視。
+            - **其他國家**：例如，中國大陸執行嚴格的網路封鎖和審查政策，通常被稱為「防火長城」（Great Firewall），限制訪問許多外國網站和服務。北韓等國則對網路訪問進行更極端的限制，僅允許極少數精選內容。其他一些國家，如俄羅斯和伊朗，也進行不同程度的網路監控和網站封鎖。
+            - 可以參考「[網路自由為什麼重要？](./internet-freedom-matter.md){target="_blank"}」章節。
+
+=== ":material-checkbox-marked-circle-outline: OONI: Basic L2"
+
+    - [x] 安裝並使用 OONI Probe 產生檢測報告。
+    - [x] 瞭解是否可以使用 VPN 方式使用 OONI Probe 檢測。
+    - [x] 瞭解 OONI Probe 使用時的風險。
+    - [x] 瞭解 ASN 自治網路的運作。
+
+=== ":material-checkbox-marked-circle-outline:OONI: Basic L3"
+
+    - [x] 透過 OONI Explorer 整理臺灣近半年的觀測資料。
+    - [x] 透過 OONI Explorer 比較三個國家的觀測資料。
+    - [x] 檢視目前網路封鎖的報告。
+    - [x] 建立 OONI Run 檢測連結並找到該連結的線上報告內容。
+
+### :material-checkbox-marked-circle-auto-outline: OONI-Advanced
+
+=== ":material-checkbox-marked-circle-auto-outline: OONI: Advanced L1"
+
+    - [x] 使用命令列的方式啟動 OONI Probe。
+    - [x] 瞭解網站觀測名單收錄方式。
+
+=== ":material-checkbox-marked-circle-auto-outline: OONI: Advanced L2"
+
+    - [x] 透過原始觀測資料（Raw Data）進行資料數據整理與分析。
+    - [x] 協助名單整理與修正。
