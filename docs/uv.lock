@@ -4,7 +4,7 @@ requires-python = ">=3.12"
 
 [[package]]
 name = "awscli"
-version = "1.40.23"
+version = "1.40.24"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
@@ -14,9 +14,9 @@ dependencies = [
     { name = "rsa" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/57/c7/9393e6c291489fc88961ce23e5bce5336363ca646155eeb5fbfda4266a72/awscli-1.40.23.tar.gz", hash = "sha256:ce3a598f1b59bdfc0a1cfb80bb50107f1f860cb2580e096e610604e64e816987", size = 1893513 }
+sdist = { url = "https://files.pythonhosted.org/packages/35/ec/baf5a65e8e756745fa240bc73f80e5b68c85ad1ded308c10b370170ff5bb/awscli-1.40.24.tar.gz", hash = "sha256:a5d8dffa523f332839ec95501364df45d763c3000f9a61247324e6cfa46a3bf2", size = 1893618 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/88/ab/f6727bef3a36e6f3f534e1f4396dff663debd6ae5d467f530d891ec8574d/awscli-1.40.23-py3-none-any.whl", hash = "sha256:03c0413329e462d29a87762780a8e9afa1d566f29906821970401d5c953d31aa", size = 4671651 },
+    { url = "https://files.pythonhosted.org/packages/0c/c2/60d01f51cff3ea52016ef72260f6ce42d8e56303fa35253be3d51e144ed6/awscli-1.40.24-py3-none-any.whl", hash = "sha256:6dbd7baebd5e01cd983dc8a816dfaa09155ce1825099ee09fd2044ea60024a3e", size = 4671654 },
 ]
 
 [[package]]
@@ -43,16 +43,16 @@ wheels = [
 
 [[package]]
 name = "botocore"
-version = "1.38.24"
+version = "1.38.25"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/95/1b/1e38f24245e1b0461470176335bc0a443050459e9e64a0d881244a0a8a5e/botocore-1.38.24.tar.gz", hash = "sha256:43563d5c2dfd56ebbcd9e25f482fc45000bfaec5966b26c77b331bd340c46376", size = 13909191 }
+sdist = { url = "https://files.pythonhosted.org/packages/6b/00/bed5bf325d1fdb98d6212d106bd44cd0bbe65563e3a2c3f87b64cc4d75c2/botocore-1.38.25.tar.gz", hash = "sha256:8c73e97d9662a6c92be33dab66cd1e2b59797154c7ec379ce3bb5d6779d9d78c", size = 13914295 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6c/58/197221be8faf51ae4fb72c227601db468ef7981c107efbff27d794445942/botocore-1.38.24-py3-none-any.whl", hash = "sha256:5901667b96d3a8603479879ab097560216cdc4c2918d433fc6509555d0ada29c", size = 13570245 },
+    { url = "https://files.pythonhosted.org/packages/2f/ae/3b52634df58cbd506ad804315a1c979ea06942cf88b591dcd671f45adf63/botocore-1.38.25-py3-none-any.whl", hash = "sha256:5a960bd990a11cdb78865e908a58ed712d87d9b419f55ad21c99d7d21f0d6726", size = 13574906 },
 ]
 
 [[package]]
@@ -414,7 +414,7 @@ wheels = [
 
 [[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
-version = "1.4.6"
+version = "1.4.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "babel" },
@@ -422,9 +422,9 @@ dependencies = [
     { name = "mkdocs" },
     { name = "pytz" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/be/ad/d60ac868e1b734f2b71b5a134323c8097805a004692f0a88bfa358cae6a0/mkdocs_git_revision_date_localized_plugin-1.4.6.tar.gz", hash = "sha256:a09f70e45d5824f89d9f45b39c0ab501ad030a3ff54bfdc6e8327e7b402d9462", size = 450547 }
+sdist = { url = "https://files.pythonhosted.org/packages/5e/f8/a17ec39a4fc314d40cc96afdc1d401e393ebd4f42309d454cc940a2cf38a/mkdocs_git_revision_date_localized_plugin-1.4.7.tar.gz", hash = "sha256:10a49eff1e1c3cb766e054b9d8360c904ce4fe8c33ac3f6cc083ac6459c91953", size = 450473 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/11/c4/6c8a4cc930d9c06948e9efd443e672f2f969455e177e3ec865bae7fbd8f7/mkdocs_git_revision_date_localized_plugin-1.4.6-py3-none-any.whl", hash = "sha256:d36e454db0904553274bc3a51e0b5f06d6c03dca946779fca8f905a3b5148f47", size = 25382 },
+    { url = "https://files.pythonhosted.org/packages/53/b6/106fcc15287e7228658fbd0ad9e8b0d775becced0a089cc39984641f4a0f/mkdocs_git_revision_date_localized_plugin-1.4.7-py3-none-any.whl", hash = "sha256:056c0a90242409148f1dc94d5c9d2c25b5b8ddd8de45489fa38f7fa7ccad2bc4", size = 25382 },
 ]
 
 [[package]]
