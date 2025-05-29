@@ -380,6 +380,31 @@ icon: octicons/paste-24
     - [x] 瞭解 OONI Probe 使用時的風險。
     - [x] 瞭解 ASN 自治網路的運作。
 
+    !!! abstract "OONI: Basic L2"
+
+        ??? question "安裝並使用 OONI Probe 產生檢測報告"
+
+            - **安裝 OONI Probe**：透過 OONI 官方網站[下載](https://ooni.org/install/){target="_blank"} OONI Probe 應用程式。
+            - **使用 OONI Probe**：
+                - 啟動應用程式後，您可以選擇要進行的測試類型，例如測試網站封鎖、即時通訊應用程序的連接性、或中間盒（middleboxes）干擾。
+                - 點選開始測試後，OONI Probe 會自動執行檢測並產生結果。
+                - 結果會上傳至 OONI 的伺服器，並顯示在您的應用程式中，也可以在 OONI Explorer 網站上檢視更詳細的報告。
+
+        ??? question "瞭解是否可以使用 VPN 方式使用 OONI Probe 檢測"
+
+            - 不建議使用 VPN 於 OONI Probe 測試，因為 VPN 會改變您的流量路徑和 IP 地址，這可能會導致檢測到被改變的網路環境，而非您實際所在的網路中可能存在的審查或干擾。
+            - 目的是**測試本地網路**的審查情形，應該在不使用 VPN 的情況下進行，才能測量真實的網路狀況。
+
+        ??? question "瞭解 OONI Probe 使用時的風險"
+
+            - 使用 OONI Probe 進行檢測可能會引起您所在網路管理員的注意，尤其在網路審查較嚴格的國家。因此，應了解所在區域的網路政策，衡量使用 OONI Probe 所可能帶來的風險。
+            - 在進行測試時，OONI Probe 會訪問不同的網站、服務，這可能會促發網絡監控系統的觀察與紀錄。
+
+        ??? question "瞭解 ASN 自治網路的運作"
+
+            - ASN 是用於識別自治網路（AS）的唯一標識碼。
+            - 自治網路是一個或多個 IP 區塊的集合，並由一個或多個網路服務提供者（ISP）或大型企業單位間進行的路由。每個 AS 通過 ASN 在網際網路上相互通訊，以便達到路由資訊和 IP 資料包的交換。ASN 系統機制讓全社界網際網路更有效率的運作，並確保不同網路之間的流量能夠正確到達目標地。可以參考「[ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md){target="_blank"}」中第一段的介紹。
+
 === ":material-checkbox-marked-circle-outline:OONI: Basic L3"
 
     - [x] 透過 OONI Explorer 整理臺灣近半年的觀測資料。
