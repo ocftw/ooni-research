@@ -4,7 +4,7 @@ requires-python = ">=3.12"
 
 [[package]]
 name = "awscli"
-version = "1.40.24"
+version = "1.40.26"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
@@ -14,9 +14,9 @@ dependencies = [
     { name = "rsa" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/35/ec/baf5a65e8e756745fa240bc73f80e5b68c85ad1ded308c10b370170ff5bb/awscli-1.40.24.tar.gz", hash = "sha256:a5d8dffa523f332839ec95501364df45d763c3000f9a61247324e6cfa46a3bf2", size = 1893618 }
+sdist = { url = "https://files.pythonhosted.org/packages/6d/72/0805137f01ec518f6dcc94f8a4706740167cf3eb7e714d80451df6898a9d/awscli-1.40.26.tar.gz", hash = "sha256:9992f0240fd35e50ba17548b433bc70946c1e0b57dc80206e6971bf7106fb6ad", size = 1893617 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0c/c2/60d01f51cff3ea52016ef72260f6ce42d8e56303fa35253be3d51e144ed6/awscli-1.40.24-py3-none-any.whl", hash = "sha256:6dbd7baebd5e01cd983dc8a816dfaa09155ce1825099ee09fd2044ea60024a3e", size = 4671654 },
+    { url = "https://files.pythonhosted.org/packages/d6/5d/0166db8369d65cebc948b01a7d35c0e570e6ab7bf67c456ecc2110b3ca21/awscli-1.40.26-py3-none-any.whl", hash = "sha256:a89b54432dc75dc2436eab6461a96f4cd94d0ca3bf443d0100b5da235372769f", size = 4671670 },
 ]
 
 [[package]]
@@ -43,16 +43,16 @@ wheels = [
 
 [[package]]
 name = "botocore"
-version = "1.38.25"
+version = "1.38.27"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6b/00/bed5bf325d1fdb98d6212d106bd44cd0bbe65563e3a2c3f87b64cc4d75c2/botocore-1.38.25.tar.gz", hash = "sha256:8c73e97d9662a6c92be33dab66cd1e2b59797154c7ec379ce3bb5d6779d9d78c", size = 13914295 }
+sdist = { url = "https://files.pythonhosted.org/packages/36/5e/67899214ad57f7f26af5bd776ac5eb583dc4ecf5c1e52e2cbfdc200e487a/botocore-1.38.27.tar.gz", hash = "sha256:9788f7efe974328a38cbade64cc0b1e67d27944b899f88cb786ae362973133b6", size = 13919963 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/ae/3b52634df58cbd506ad804315a1c979ea06942cf88b591dcd671f45adf63/botocore-1.38.25-py3-none-any.whl", hash = "sha256:5a960bd990a11cdb78865e908a58ed712d87d9b419f55ad21c99d7d21f0d6726", size = 13574906 },
+    { url = "https://files.pythonhosted.org/packages/7e/83/a753562020b69fa90cebc39e8af2c753b24dcdc74bee8355ee3f6cefdf34/botocore-1.38.27-py3-none-any.whl", hash = "sha256:a785d5e9a5eda88ad6ab9ed8b87d1f2ac409d0226bba6ff801c55359e94d91a8", size = 13580545 },
 ]
 
 [[package]]
@@ -466,7 +466,7 @@ wheels = [
 
 [[package]]
 name = "mkdocs-rss-plugin"
-version = "1.17.2"
+version = "1.17.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cachecontrol", extra = ["filecache"] },
@@ -475,9 +475,9 @@ dependencies = [
     { name = "requests" },
     { name = "tzdata", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/66/78/75ef07d360b7a45d20961d8681571c4643e72ed50e5ccb2934a63d239dde/mkdocs_rss_plugin-1.17.2.tar.gz", hash = "sha256:20bff2a11708735b83a1bc2e4307850d38be9dd19efe7454cb2641a9b28bca9a", size = 34477 }
+sdist = { url = "https://files.pythonhosted.org/packages/19/c0/a45a66d87634e7c5ed69783dcd286f297cbe26d60759fc070897af983f8a/mkdocs_rss_plugin-1.17.3.tar.gz", hash = "sha256:0a5b3e03dd68cc6b94feb50fc2e47fd427d39c452affe0fc3135289da9810a6d", size = 34485 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/42/a5/b075e1afe2daa7dee243ec2c3cb9a7e4ea638e5614fed6e80c7a2cbda5e9/mkdocs_rss_plugin-1.17.2-py2.py3-none-any.whl", hash = "sha256:9990a7ebb16d866740d1cfd0af6f82331dc20887ea71e6d0ff82ff108dac367c", size = 30311 },
+    { url = "https://files.pythonhosted.org/packages/00/ee/2c9081c7bcc6289c79bae717bad5727f8a764b1159786c83debb14542623/mkdocs_rss_plugin-1.17.3-py2.py3-none-any.whl", hash = "sha256:15b99c6b3370f50503fe189e814600b375e5a0d8f99d19f6d8d9b80c1aa56f5c", size = 30319 },
 ]
 
 [[package]]
