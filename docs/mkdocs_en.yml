@@ -24,6 +24,7 @@ nav:
       - !ENV [NAV_PPP, "參與準備"]:
           - setup-repo.md
           - setup-tor-relay.md
+          - setup-skill-level.md
   - !ENV [NAV_EVENT, "活動參與"]:
       - event-workshop-2025.md
       - !ENV [NAV_EVENT_PREPARE, "籌備頁面"]:
