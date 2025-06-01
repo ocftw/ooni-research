@@ -1,9 +1,9 @@
 ---
 title: Tor Snowflake
 description: Creating bridges as a video communication method through WebRTC.
-icon: simple/snowflake
+icon: material/snowflake
 ---
-# :simple-snowflake: Tor Snowflake Bridges (WebRTC)
+# :material-snowflake: Tor Snowflake Bridges (WebRTC)
 
 Directly create a Tor bridge through a web page by simply enabling it in one step, which can help establish onion connections for those unable to connect via traditional Tor methods.
 

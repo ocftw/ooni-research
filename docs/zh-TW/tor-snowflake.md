@@ -1,9 +1,9 @@
 ---
 title: Tor Snowflake
 description: 透過 WebRTC 偽裝為視訊通訊方式協助建立橋接點
-icon: simple/snowflake
+icon: material/snowflake
 ---
-# :simple-snowflake: Tor Snowflake 橋接點建立（網頁版）
+# :material-snowflake: Tor Snowflake 橋接點建立（網頁版）
 
 直接透過網頁的方式建立 Tor 橋接點，只需要一個步驟「啟用」，就可以協助無法透過傳統的 Tor 連線方式建立 onion 連線。
 
