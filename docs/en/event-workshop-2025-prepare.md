@@ -70,7 +70,7 @@ The preparation period for the workshop runs from May 2025 to early August 2025,
 
     - [x] `Announcement`{style="color: red;"} Start recruiting staff and helpers for the workshop.
     - [x] `Notification`{style="color: darkorange;"} Workshop preparations have begun, welcome to join!
-    - [ ] `Confirmation`{style="color: purple;"} Online kickoff meeting in May.
+    - [x] `Confirmation`{style="color: purple;"} Online kickoff meeting in May.
     - [ ] `Materials`{style="color: green;"} Translate Tor/Tails presentation.
 
 === "2025/06"
