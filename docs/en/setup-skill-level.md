@@ -22,7 +22,7 @@ Here is a self-evaluation scale to help quickly assess your understanding of Tor
 
         ??? question "Understand what Tor is."
 
-            You can start by exploring the "[What is Tor?](./what-is-tor.md){target="_blank"}" section to gain an understanding.
+            You can start by exploring the "[What is Tor?](https://support.torproject.org/about/what-is-tor/){target="_blank"}" section to gain an understanding.
 
             Tor typically refers to "The Onion Router," which relays network connections randomly through three nodes. The "Tor Browser" is designed by the Tor team using the open-source browser Firefox to facilitate accessing websites ending in .onion via the onion network.
 
@@ -201,7 +201,7 @@ Here is a self-evaluation scale to help quickly assess your understanding of Tor
 
         ??? question "Understand what Tails is and how it works."
 
-            You can start by exploring the "[What is Tails?](./what-is-tails.md){target="_blank"}" section to gain an understanding.
+            You can start by exploring the "[What is Tails?](https://tails.net/){target="_blank"}" section to gain an understanding.
 
         ??? question "Understand why internet freedom is important, and what anonymous networks are."
 
