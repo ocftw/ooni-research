@@ -226,11 +226,7 @@ Here is a self-evaluation scale to help quickly assess your understanding of Tor
             3. **Local Events and Policies**: In Taiwan, while internet freedom of speech is highly secured, challenges such as **fake news** and **cyberbullying** remain, pushing the government and civil organizations to actively seek legal and technical improvements. Regarding internet surveillance, the government may require telecommunications providers to cooperate by providing user information when necessary for investigations, but most of these actions are legally constrained to protect citizens' privacy rights.
             4. **Reference Data**: According to evaluations by multiple international organizations, Taiwan scores high on internet freedom indices. These evaluations are based on the severity of internet censorship, surveillance measures, freedom of speech, and the legal system.
 
-        ??? question "Current internet conditions in ne- OnionShare is a tool for securely sharing files through the Tor network.
-
-            - Find and launch OnionShare in the "Applications" menu within Tails.
-            - Load files you want to share into OnionShare by dragging and dropping them, or by selecting the files.
-            - After starting the share, OnionShare will generate a .onion address that you can share with trusted individuals. They can then use the Tor Browser to download the files.ighboring countries."
+        ??? question "Current internet conditions in neighboring countries."
 
             This is an open topic, and it is encouraged that you research and understand the state of internet freedom in the countries surrounding Taiwan. Here are some guidelines to get you started:
 
