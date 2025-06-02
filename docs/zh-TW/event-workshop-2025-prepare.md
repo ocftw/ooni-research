@@ -254,9 +254,9 @@ icon: octicons/workflow-24
 
 ### 候選討論議題
 
-目前初步規劃三大類、六項討論議題，協調員加入時可能會有調整，或以協調員所設定的議題來討論。在活動前我們有一份議題討論的[問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){target="_blank"}，大約 2 分鐘的作答時間，請協助我們`（可匿名）`{style="color: purple;"}瞭解各議題的喜好程度，感謝！
+目前初步規劃三大類、六項討論議題，協調員加入時可能會有調整，或以協調員所設定的議題來討論。在活動前我們有一份議題討論的[問卷調查](https://form.anoni.net/s/cmaxjo2p40000o10131byw3do){target="_blank"}，大約 2 分鐘的作答時間，請協助我們`（可匿名）`{style="color: purple;"}瞭解各議題的喜好程度，感謝！
 
-[協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"} [:material-qrcode-scan: QRcode](./assets/images/workshop_form_zh.png){target="_blank"}
+[協助填寫：議題討論問卷調查](https://form.anoni.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"} [:material-qrcode-scan: QRcode](./assets/images/workshop_form_zh.png){target="_blank"}
 
 ??? abstract "主題一：開源技術與匿名工具的交集"
 
@@ -272,7 +272,7 @@ icon: octicons/workflow-24
     - 有哪些實際技術與行政、法律挑戰？（如主機費用、被封鎖、法律疑慮）
     - 能不能以社群的方式協助運作與培訓新手？
 
-    [協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
+    [協助填寫：議題討論問卷調查](https://form.anoni.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
 
 ??? abstract "主題二：開源精神與網路自由的社會連結"
 
@@ -288,7 +288,7 @@ icon: octicons/workflow-24
     - 工具包長怎樣？（如 Live USB image、本地語系包、手冊）？
     - 推出「臺灣版本」的簡化套件（適合 NGO、記者、新手）
 
-    [協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
+    [協助填寫：議題討論問卷調查](https://form.anoni.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
 
 ??? abstract "主題三：在地社群與協作實踐"
 
@@ -304,4 +304,4 @@ icon: octicons/workflow-24
     - 能否建立跨地協作？例如協作翻譯 OONI 檢測結果、共寫教材
     - 臺灣能否成為連結點？（安全性、言論自由、技術社群都具備）
 
-    [協助填寫：議題討論問卷調查](https://formbricks.toomore.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
+    [協助填寫：議題討論問卷調查](https://form.anoni.net/s/cmaxjo2p40000o10131byw3do){ .md-button .md-button--primary target="_blank"}
