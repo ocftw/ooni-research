@@ -15,6 +15,7 @@ copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
 nav:
   - index.md
   - !ENV [NAV_INTRO, "專案簡介"]:
+      - intro/index.md
       - internet-freedom-matter.md
       - what-is-ooni.md
       - what-is-tor.md
@@ -72,6 +73,7 @@ theme:
     - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
     - toc.integrate
     - search.suggest
     - search.highlight
