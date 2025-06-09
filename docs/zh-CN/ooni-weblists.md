@@ -1,61 +1,61 @@
 ---
-title: OONI 網站檢測清單
+title: OONI 网站检测清单
 icon: material/list-status
 ---
-# :material-list-status: OONI 網站檢測清單
+# :material-list-status: OONI 网站检测清单
 
 <figure markdown="span">
     <a target="_blank"
        href="../assets/images/ooni_asn.svg">
         <img src="../assets/images/ooni_asn.svg"
-            alt="OONI Probe 檢測流程"
-            title="OONI Probe 檢測流程"
+            alt="OONI Probe 检测流程"
+            title="OONI Probe 检测流程"
         >
     </a>
-    <caption>OONI Probe 檢測流程</caption>
+    <caption>OONI Probe 检测流程</caption>
 </figure>
 
-在使用 OONI Probe 進行「網站」檢測時，檢測程式會根據事先列舉的「網站清單」逐一檢測。而這裡所提及的「網站清單」實際上是透過 [Citizen Lab](https://citizenlab.ca/){target="_blank"} 所維護的 [test-lists](https://github.com/citizenlab/test-lists){target="_blank"} 專案，分別收錄本地（local）、全球（global）熱門的網站網址。
+在使用 OONI Probe 进行“网站”检测时，检测程序会根据事先列举的“网站清单”逐一检测。而这里提及的“网站清单”实际上是通过 [Citizen Lab](https://citizenlab.ca/){target="_blank"} 所维护的 [test-lists](https://github.com/citizenlab/test-lists){target="_blank"} 项目，分别收录本地（local）、全球（global）热门的网站网址。
 
-全球（global）名單上的大多數網站以英語呈現。而本地名單則由地區提供，內容涵蓋當地和地區層級的多種分類，並使用當地語言。在有網際網路審查的國家，本地清單還包括了許多已被封鎖的網站。
+全球（global）名单上的大多数网站以英语呈现。而本地名单则由地区提供，内容涵盖当地和地区层级的多种分类，并使用当地语言。在有互联网审查的国家，本地清单还包括了许多已被封锁的网站。
 
-名單收錄標準大致上可廣泛的分為四大類：
+名单收录标准大致上可广泛分为四大类：
 
-1. **政治：**主要關注於那些表達與現任政府持不同立場的網站。與人權、言論自由、少數族裔權利和宗教運動更廣泛相關的內容也被納入考量。
-2. **社會：**包括與性別、賭博、非法藥物和酒精相關，以及其他可能在社會上被視為敏感或具冒犯性的話題。
-3. **衝突、安全：**包括與武裝衝突、邊界爭議、分裂運動和激進團體相關的內容。
-4. **網際網路工具：**提供電子郵件、雲端空間、搜尋、翻譯、網路電話（VoIP）服務和規避審查方法的網站被歸類在這一類別中。
+1. **政治：**主要关注于那些表达与现任政府持不同立场的网站。与人权、言论自由、少数族裔权利和宗教运动更广泛相关的内容也被纳入考虑。
+2. **社会：**包括与性别、赌博、非法药物和酒精相关，以及其他可能在社会上被视为敏感或具冒犯性的话题。
+3. **冲突、安全：**包括与武装冲突、边界争议、分裂运动和激进团体相关的内容。
+4. **互联网工具：**提供电子邮件、云端空间、搜索、翻译、网络电话（VoIP）服务和规避审查方法的网站被归类在这一类别中。
 
-## 臺灣觀察名單現況
+## 台湾观察名单现况
 
-目前臺灣的名單 [tw.csv](https://github.com/citizenlab/test-lists/blob/master/lists/tw.csv){target="_blank" } 大部分在 2017 年新增建立的，但由於後續沒有持續維護的關係，目前名單上有滿多網站已經結束或已更換品牌網址、舊網址無效或 `http://` 開頭⋯等問題，勢必需要先整理目前的名單內容。
+目前台湾的名单 [tw.csv](https://github.com/citizenlab/test-lists/blob/master/lists/tw.csv){target="_blank"} 大部分是在2017年新增建立的，但由于后续没有持续维护，目前名单上有很多网站已经关闭或更换品牌网址、旧网址无效或以 `http://` 开头等问题，因此需要先整理目前的名单内容。
 
 !!! note "http:// → https://"
 
-    有些網站不會自動將 `http://` 開頭的傳輸協定透過轉址方式（如：[`301 Moved Permanently`](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status/301){target="_blank"}、[`308 Permanent Redirect`](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Status/308){target="_blank"}）到 `https://` 而造成檢測錯誤。而目前在申請 TLS/SSL 憑證門檻降低與加密傳輸過程為基本網站建構的條件下，`https://` 應為預設的輸入網址格式。
+    有些网站不会自动将以 `http://` 开头的传输协议通过重定向方式（如：[`301 Moved Permanently`](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status/301){target="_blank"}、[`308 Permanent Redirect`](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Status/308){target="_blank"}）转换到 `https://`，这可能导致检测错误。而目前在申请 TLS/SSL 证书门槛降低和加密传输过程成为基本网站建设条件的情况下，`https://` 应为默认的输入网址格式。
 
-## 名單更新
+## 名单更新
 
-如同現況的問題，我們第一步需要逐一檢查目前在 [tw.csv](https://github.com/citizenlab/test-lists/blob/master/lists/tw.csv){target="_blank"} 上所列舉的網站的狀況，標記：需更新或可棄用。再提交一份 [Pull Request](https://gitbook.tw/chapters/github/pull-request){target="_blank"} 到 [citizenlab/test-lists](https://github.com/citizenlab/test-lists){target="_blank"} 請求更新。
+如同现况的问题，第一步我们需要逐一检查目前在 [tw.csv](https://github.com/citizenlab/test-lists/blob/master/lists/tw.csv){target="_blank"} 上列举的网站状况，标记：需更新或可弃用。然后提交一份 [Pull Request](https://gitbook.tw/chapters/github/pull-request){target="_blank"} 到 [citizenlab/test-lists](https://github.com/citizenlab/test-lists){target="_blank"} 请求更新。
 
 !!! info "PR #1444"
 
-    在 2023/09/28 [已提交](https://github.com/citizenlab/test-lists/pull/1444){target="_blank"}過一份檢測名單修正，但因為後續無持續更新進度，預計在 2025 將重新提交一份修正與正確的調整方式。
+    在 2023/09/28 [已提交](https://github.com/citizenlab/test-lists/pull/1444){target="_blank"}过一份检测名单修正，但因为后续没有持续更新进度，预计在 2025 年将重新提交一份修正与正确的调整方式。
 
-## 名單新增
+## 名单新增
 
-如同名單於 2017 年所建立，已有約 8 年無作修正與調整，需要再透過審視目前也需要加入檢測的網站清單。
+由于名单是在 2017 年建立的，已有约 8 年未进行修正与调整，因此需要重新审视当前需要加入检测的网站清单。
 
-!!! warning "後續規劃"
+!!! warning "后续规划"
 
-    如何新增與募集挑選這部份還需要規劃後進行，預計在 2025/Q2、待名單初步修正後再來規劃「新增」的項目。
+    如何新增与募集挑选这部分还需要规划后进行，预计在 2025/Q2 待名单初步修正后再来规划“新增”的项目。
 
 ## :fontawesome-solid-diagram-project: 下一步
 
 <div class="grid cards" markdown>
 
-- [:material-chat-question: 什麼是 OONI？](./what-is-ooni.md)
-- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
-- [:octicons-mark-github-24: 專案研究預先準備](./setup-repo.md)
+- [:material-chat-question: 什么是 OONI？](./what-is-ooni.md)
+- [:material-chat-question: 网络自由为什么重要？](./internet-freedom-matter.md)
+- [:octicons-mark-github-24: 项目研究预先准备](./setup-repo.md)
 
 </div>
