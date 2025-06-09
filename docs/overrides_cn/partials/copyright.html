@@ -1,0 +1,19 @@
+<div class="md-copyright">
+  {% if config.copyright %}
+  <div class="md-copyright__highlight">{{ config.copyright }}</div>
+  <div>
+    Tor：<a
+      href="http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion/{{page.url}}"
+      >http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion/{{page.url}}</a
+    >
+  </div>
+  {% endif %} {% if not config.extra.generator == false %} Made with
+  <a
+    href="https://squidfunk.github.io/mkdocs-material/"
+    target="_blank"
+    rel="noopener"
+  >
+    Material for MkDocs
+  </a>
+  {% endif %}
+</div>

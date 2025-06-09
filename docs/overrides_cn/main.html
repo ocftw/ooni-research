@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block site_meta %} {{ super() }}
+<meta
+  http-equiv="onion-location"
+  content="http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion/{{page.url}}"
+/>
+{% endblock %} {% block scripts %} {{ super() }}
+<!-- Cloudflare Web Analytics -->
+<script
+  defer
+  src="https://static.cloudflareinsights.com/beacon.min.js"
+  data-cf-beacon='{"token": "0bdd45140cce43b887b8d95bb66bb833"}'
+></script>
+<!-- End Cloudflare Web Analytics -->
+{% endblock %}

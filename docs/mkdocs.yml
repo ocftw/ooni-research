@@ -89,6 +89,9 @@ extra:
     - name: 臺灣正體（zh-TW）
       link: /docs/zh-tw/
       lang: zh-TW
+    - name: 簡體中文（zh-CN）
+      link: /docs/zh-cn/
+      lang: zh-CN
     - name: English (en-US)
       link: /docs/en/
       lang: en
