@@ -9,10 +9,10 @@ icon: material/folder-open
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-regular-circle-question: 网络自由为什么重要？](../internet-freedom-matter.md)
-- [:fontawesome-regular-circle-question: 什么是 OONI？](../what-is-ooni.md)
-- [:fontawesome-regular-circle-question: 什么是 Tor？](../what-is-tor.md)
-- [:fontawesome-regular-circle-question: 什么是 Tails？](../what-is-tails.md)
+- [:material-chat-question: 网络自由为什么重要？](../internet-freedom-matter.md)
+- [:material-chat-question: 什么是 OONI？](../what-is-ooni.md)
+- [:material-chat-question: 什么是 Tor？](../what-is-tor.md)
+- [:material-chat-question: 什么是 Tails？](../what-is-tails.md)
 
 </div>
 

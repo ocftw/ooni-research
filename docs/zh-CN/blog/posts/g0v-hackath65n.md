@@ -49,12 +49,12 @@ description: "邀請您於 2025 年 2 月 22 日 g0v Hackath65n 零時政府第 
 
 [:material-arrow-right-circle-outline: 所有產品列表](../../ooni-i18n.md){ .md-button target="_blank" }
 
-## :fontawesome-regular-circle-question: 其他資源
+## :material-chat-question: 其他資源
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-regular-circle-question: 什麼是 OONI？](../../what-is-ooni.md)
-- [:fontawesome-regular-circle-question: 網路自由為什麼重要？](../../internet-freedom-matter.md)
+- [:material-chat-question: 什麼是 OONI？](../../what-is-ooni.md)
+- [:material-chat-question: 網路自由為什麼重要？](../../internet-freedom-matter.md)
 - [:octicons-mark-github-24: 專案研究預先準備](../../setup-repo.md)
 
 </div>

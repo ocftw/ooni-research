@@ -15,14 +15,14 @@ OONI（网络干扰开放观察）是一个用于监测网络审查的项目。�
     - `回顾`{style="color: purple;"}：[网络自由工作坊：Tor、Tails、OONI](./blog/posts/rightscon25-tor-tails-ooni-after.md) - 2025/03/09
     - 目前 OONI-Research 项目正在招募志愿者，有兴趣的伙伴可以先加入[邮件群组](./contact.md){target="_blank"}，等待申请流程确定后会在第一时间告知。
 
-## :fontawesome-regular-circle-question: 项目简介
+## :material-chat-question: 项目简介
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-regular-circle-question: 什么是 OONI？](./what-is-ooni.md)
-- [:fontawesome-regular-circle-question: 网络自由为什么重要？](./internet-freedom-matter.md)
-- [:fontawesome-regular-circle-question: 什么是 Tor？](./what-is-tor.md)
-- [:fontawesome-regular-circle-question: 什么是 Tails？](./what-is-tails.md)
+- [:material-chat-question: 什么是 OONI？](./what-is-ooni.md)
+- [:material-chat-question: 网络自由为什么重要？](./internet-freedom-matter.md)
+- [:material-chat-question: 什么是 Tor？](./what-is-tor.md)
+- [:material-chat-question: 什么是 Tails？](./what-is-tails.md)
 
 </div>
 

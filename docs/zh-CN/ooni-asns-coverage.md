@@ -166,6 +166,6 @@ python3 ./ripe.py save --loc=TW
 <div class="grid cards" markdown>
 
 - [:octicons-mark-github-24: 项目研究预先准备](./setup-repo.md)
-- [:fontawesome-regular-circle-question: 什么是 OONI？](./what-is-ooni.md)
+- [:material-chat-question: 什么是 OONI？](./what-is-ooni.md)
 
 </div>
