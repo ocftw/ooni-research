@@ -57,6 +57,6 @@ description: "邀请您于 2025 年 2 月 22 日参加 g0v Hackath65n 零时政�
 - [:material-chat-question: 网络自由为什么重要？](../../internet-freedom-matter.md)
 - [:material-chat-question: 什么是 Tor？](../../what-is-tor.md)
 - [:material-chat-question: 什么是 Tails？](../../what-is-tails.md)
-- [:octicons-mark-github-24: 项目研究预先准备](./setup-repo.md)
+- [:octicons-mark-github-24: 项目研究预先准备](../../setup-repo.md)
 
 </div>
