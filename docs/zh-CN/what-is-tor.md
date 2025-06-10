@@ -1,85 +1,85 @@
 ---
-title: 什麼是 Tor？
-description: Tor（The Onion Router）是一個開源的匿名通訊網絡，旨在保護用戶的隱私和自由。Tor 通過多層加密和路由技術使使用者的網路活動匿名化，從而防止網絡監控和流量分析。
+title: 什么是 Tor？
+description: Tor（The Onion Router）是一个开源的匿名通信网络，旨在保护用户的隐私和自由。Tor 通过多层加密和路由技术使用户的网络活动匿名化，从而防止网络监控和流量分析。
 icon: material/chat-question
 
 ---
 
-# 什麼是 Tor？
+# 什么是 Tor？
 
 <figure markdown="span">
     <a target="_blank"
        href="../assets/images/tor_diagram.original.webp">
         <img src="../assets/images/tor_diagram.original.webp"
-            alt="Tor Relay 運作流程"
-            title="Tor Relay 運作流程"
+            alt="Tor Relay 运作流程"
+            title="Tor Relay 运作流程"
         >
     </a>
-    <caption>Tor Relay 運作流程</caption>
+    <caption>Tor Relay 运作流程</caption>
 </figure>
 
-[Tor（The Onion Router）](https://www.torproject.org/){target="_blank"}是一個開源的匿名通訊網絡，旨在保護用戶的隱私和自由。Tor 通過多層加密和路由技術使使用者的網路活動匿名化，從而防止網絡監控和流量分析。
+[Tor（The Onion Router）](https://www.torproject.org/){target="_blank"}是一个开源的匿名通信网络，旨在保护用户的隐私和自由。Tor通过多层加密和路由技术使用户的网络活动匿名化，从而防止网络监控和流量分析。
 
-- **多層加密（Onion Routing）：**每次使用者發送請求時，Tor 客戶端會選擇一條隨機路徑，通過多個中繼節點（relays）傳送資料。封包資料在每個節點都進行一次加密和解密，就像剝洋蔥一樣，直到到達目標位置。每個節點只知道前一個和下一個節點，這樣可以防止任何單一節點知道完整的資料傳輸路徑。
-- **匿名性：**使用者的 IP 位址和網路活動被隱藏，從而提高了匿名性。Tor 網路使得追踪使用者的網絡行為變得非常困難。
-- **隱私保護：**Tor 保護使用者免受 ISP（網路服務提供商）、政府和其他監控機構的監控。它還可以幫助使用者規避網絡審查和訪問被限制的網站。
-- **暗網（Dark Web）：**Tor 支援訪問 .onion 域名，這些域名只在 Tor 網路內部可被連結，提供了額外的匿名層級。暗網上有一些合法用途，如保護言論自由和隱私，但也存在非法活動。
-- **使用方式：**使用者可以下載並安裝 Tor 瀏覽器，這是一個基於 Firefox 修改的瀏覽器，預設設定了 Tor 網路。許多使用者使用 Tor 瀏覽器來匿名瀏覽網路，保護個人隱私。
+- **多层加密（Onion Routing）：**每次用户发送请求时，Tor客户端会选择一条随机路径，通过多个中继节点（relays）传输数据。数据包在每个节点都进行一次加密和解密，就像剥洋葱一样，直到到达目标位置。每个节点只知道前一个和下一个节点，这样可以防止任何单一节点知道完整的数据传输路径。
+- **匿名性：**用户的IP地址和网络活动被隐藏，从而提高了匿名性。Tor网络使得追踪用户的网络行为变得非常困难。
+- **隐私保护：**Tor保护用户免受ISP（网络服务提供商）、政府和其他监控机构的监控。它还可以帮助用户规避网络审查和访问被限制的网站。
+- **暗网（Dark Web）：**Tor支持访问 .onion 域名，这些域名只在Tor网络内部可被连接，提供了额外的匿名层级。暗网上有一些合法用途，如保护言论自由和隐私，但也存在非法活动。
+- **使用方式：**用户可以下载并安装Tor浏览器，这是一个基于Firefox修改的浏览器，默认设置为Tor网络。许多用户使用Tor浏览器来匿名浏览网络，保护个人隐私。
 
-## 中繼節點、橋接點
+## 中继节点、桥接节点
 
-### 什麼是中繼點（Relay）？
+### 什么是中继节点（Relay）？
 
 <figure markdown="span">
     <a target="_blank"
        href="../assets/images/tor_relays.svg">
         <img src="../assets/images/tor_relays.svg"
-            alt="Tor Relay 類型"
-            title="Tor Relay 類型"
+            alt="Tor Relay 类型"
+            title="Tor Relay 类型"
         >
     </a>
-    <caption>Tor Relay 類型</caption>
+    <caption>Tor Relay 类型</caption>
 </figure>
 
-在 Tor 網路中，中繼點（Relay）是由志工運行的伺服器，用於轉發使用者的流量，以實現匿名網路通訊。這些中繼點是 Tor 網路的核心組成部分，它們共同工作以隱藏用戶的 IP 位址和網路活動。中繼點可以分為三種類型：入口節點（Guard Relay）、中間節點（Middle Relay）和出口節點（Exit Relay）。每種類型的中繼點在 Tor 網路中扮演不同的角色：
+在 Tor 网络中，中继点（Relay）是由志愿者运行的服务器，用于转发用户的流量，以实现匿名网络通讯。这些中继点是 Tor 网络的核心组成部分，它们共同工作以隐藏用户的 IP 地址和网络活动。中继点可以分为三种类型：入口节点（Guard Relay）、中间节点（Middle Relay）和出口节点（Exit Relay）。每种类型的中继点在 Tor 网络中扮演不同的角色：
 
-- **入口節點（Guard Relay）：**入口節點是用戶連接到 Tor 網絡的第一個節點。它知道使用者的真實 IP 位址，但不知道用戶的最終目標。通常，Tor 客戶端會選擇一組信任的入口節點，並在一段時間內重複使用，以減少攻擊面。
-- **中間節點（Middle Relay）：**中間節點處於入口節點和出口節點之間，用於轉發流量。它只知道前一個節點和下一個節點，無法知道使用者的真實 IP 位址或最終目標。這種設計確保即使中間節點被攻擊或監控，攻擊者也無法追踪整個網路傳遞訊息路徑。
-- **出口節點（Exit Relay）：**出口節點是使用者流量離開 Tor 網路並進入公開網路的最後一個節點。它知道使用者的最終目標，但不知道使用者的真實 IP 位址。出口節點伺服器的志工需要承擔一定的風險，因為從它們流出的流量可能包含敏感或非法內容。
+- **入口节点（Guard Relay）：** 入口节点是用户连接到 Tor 网络的第一个节点。它知道用户的真实 IP 地址，但不知道用户的最终目标。通常，Tor 客户端会选择一组信任的入口节点，并在一段时间内重复使用，以减少攻击面。
 
-### 什麼是橋接點（Bridge）？
+- **中间节点（Middle Relay）：** 中间节点处于入口节点和出口节点之间，用于转发流量。它只知道前一个节点和下一个节点，无法知道用户的真实 IP 地址或最终目标。这种设计确保即使中间节点被攻击或监控，攻击者也无法追踪整个网络传递信息的路径。
 
-除了中繼點（Relay），Tor 網路中還有一種重要的節點叫做橋接節點（Bridge）。Bridge 是專門設計用來繞過網路審查或阻止 Tor 使用的節點。它們在 Tor 網路中扮演特殊角色，主要目的是幫助那些生活在限制嚴格的國家或地區的人們使用 Tor 網路。以下是有關 Bridge 的一些關鍵點：
+- **出口节点（Exit Relay）：** 出口节点是用户流量离开 Tor 网络并进入公开网络的最后一个节点。它知道用户的最终目标，但不知道用户的真实 IP 地址。出口节点服务器的志愿者需要承担一定的风险，因为从它们流出的流量可能包含敏感或非法内容。
 
-特點和用途：
+### 什么是桥接节点（Bridge）？
 
-- 隱藏性：與普通的中繼點不同，Bridge 的 IP 位址不會被公開列在 Tor 網路的公開索引中。這使得審查機構難以識別和封鎖它們，因為這些機構通常會根據公開的中繼點列表來進行封鎖。
-- 繞過審查：在某些國家和地區，政府或 ISP 會阻擋對 Tor 網路的訪問，這時候用戶可以使用 Bridge 來繞過這些封鎖。Bridge 是一個隱秘入口，幫助使用者建立初始連接，之後他們的流量會被轉發到普通的 Tor 中繼點。
-- 分發方式：由於 Bridge 的 IP 位址是非公開的，使用者需要通過特定的方式來獲取這些地址。使用者可以通過 Tor 官網、發送電子郵件或使用其他渠道（如橋接分發工具）來獲取 Bridge 位址。
+除了中继点（Relay），Tor 网络中还有一种重要的节点叫做桥接节点（Bridge）。Bridge 是专门设计用来绕过网络审查或阻止 Tor 使用的节点。它们在 Tor 网络中扮演特殊角色，主要目的是帮助那些生活在限制严格的国家或地区的人们使用 Tor 网络。以下是有关 Bridge 的一些关键点：
 
-Pluggable Transports：
+- **隐藏性：** 与普通的中继点不同，Bridge 的 IP 地址不会被公开列在 Tor 网络的公共索引中。这使得审查机构难以识别和封锁它们，因为这些机构通常会根据公开的中继点列表来进行封锁。
+- **绕过审查：** 在某些国家和地区，政府或 ISP 会阻挡对 Tor 网络的访问，这时候用户可以使用 Bridge 来绕过这些封锁。Bridge 是一个隐秘入口，帮助用户建立初始连接，之后他们的流量会被转发到普通的 Tor 中继点。
+- **分发方式：** 由于 Bridge 的 IP 地址是非公开的，用户需要通过特定的方式来获取这些地址。用户可以通过 Tor 官网、发送电子邮件或使用其他渠道（如桥接分发工具）来获取 Bridge 地址。
 
-- 為了進一步躲避審查，Bridge 經常使用 Pluggable Transports，這些協議可以改變 Tor 流量的特徵，使其看起來像普通的 HTTPS 流量或其他類型的流量。這些技術包括 Obfs4、meek、[Snowflake](https://snowflake.torproject.org/){target="_blank"} 等，它們可以混淆 Tor 流量，使得檢測和封鎖變得更加困難。
+**Pluggable Transports：**
 
-## 如何參與 Relay 建立
+- 为了进一步躲避审查，Bridge 经常使用 Pluggable Transports，这些协议可以改变 Tor 流量的特征，使其看起来像普通的 HTTPS 流量或其他类型的流量。这些技术包括 Obfs4、meek、[Snowflake](https://snowflake.torproject.org/) 等，它们可以混淆 Tor 流量，使得检测和封锁变得更加困难。
 
-如何建立 Tor Relay 提供 Tor 網路節點與頻寬，可以參考「[如何搭建 Tor Relay](./setup-tor-relay.md)」
+## 如何参与 Relay 建立
 
-## :material-chat-question: 一同瞭解
+如何建立 Tor Relay 提供 Tor 网络节点与带宽，可以参考「[如何搭建 Tor Relay](./setup-tor-relay.md)」。
+
+## :material-chat-question: 一同了解
 
 <div class="grid cards" markdown>
 
-- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
+- [:material-chat-question: 网络自由为什么重要？](./internet-freedom-matter.md)
 - [:material-chat-question: 如何搭建 Tor Relay](./setup-tor-relay.md)
 
 </div>
 
-## :fontawesome-solid-diagram-project: 下一步可參與的專案
+## :fontawesome-solid-diagram-project: 下一步可参与的项目
 
 <div class="grid cards" markdown>
 
-- [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
-- [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
-- [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
+- [:material-access-point-network: ASNs 自治网络观测数据分析](./ooni-asns-coverage.md)
+- [:material-list-status: OONI 网站检测列表](./ooni-weblists.md)
+- [:material-translate-variant: 中文化与文件翻译](./ooni-i18n.md)
 
 </div>
