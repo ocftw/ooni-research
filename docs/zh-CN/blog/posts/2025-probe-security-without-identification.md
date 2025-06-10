@@ -58,7 +58,7 @@ OONI 的基础设施相当特殊：用户上传的隐私在网络层级和应用
 
 近年来，一些大型 VPN 供应商和内容交付网络（CDN）采取了一种方法，我们也一直密切关注：**匿名凭证**。
 
-匿名凭证是一种签名，但签名持有者不是直接揭示它，而是在零知识的情况下证明这些属性满足某个特定条件。展示凭证可以证明用户具备特定属性，但不会揭露过多的信息。我们称这个过程为展示凭证。发行凭证的实体称为“发行者”；接收到凭证的实体称为“证明者”。验证凭证的实体称为“验证者”。在 OONI 的语境中，[OONI Probe](https://ooni.org/install/){target="_blank"} 是用户，而 [OONI 后端](https://github.com/ooni/backend){target="_blank"}则同时是发行者和验证者。
+匿名凭证是一种签名，但签名持有者不是直接揭示它，而是在零知识的情况下证明这些属性满足某个特定条件。展示凭证可以证明用户具备特定属性，但不会揭露过多的信息。我们称这个过程为展示凭证。发行凭证的实体称为「发行者」；接收到凭证的实体称为「证明者」。验证凭证的实体称为「验证者」。在 OONI 的语境中，[OONI Probe](https://ooni.org/install/){target="_blank"} 是用户，而 [OONI 后端](https://github.com/ooni/backend){target="_blank"}则同时是发行者和验证者。
 
 ## 文献回顾：匿名凭证
 
@@ -79,7 +79,7 @@ OONI 的基础设施相当特殊：用户上传的隐私在网络层级和应用
 
 凭证还可以从另一个角度进行观察：
 
-1. **单次使用凭证**：这类凭证在用户出示一次后便不可再次使用。它们的处理速度非常快，甚至可以简单到只需使用盲签名方案（例如20世纪80年代由 David Chaum \[[Chaum82]{target="_blank"}\] 发明的方案）。单次使用的键控验证凭证（KVAC）有时被称为“匿名令牌（anonymous tokens）”，通常受到可验证随机函数 \[[RFC9497](https://datatracker.ietf.org/doc/rfc9497/){target="_blank"}\] 的启发，它依赖于由Jarecki等人 \[[JarKiaKra14](https://eprint.iacr.org/2014/650.pdf){target="_blank"}\] 用于 [IETF 隐私通行证](https://datatracker.ietf.org/wg/privacypass/documents/){target="_blank"}标准的 VOPRF，或是 Chaum \[[Chaum82]{target="_blank"}\] 的盲 RSA 签名方案。此处一些应用例子包括：
+1. **单次使用凭证**：这类凭证在用户出示一次后便不可再次使用。它们的处理速度非常快，甚至可以简单到只需使用盲签名方案（例如20世纪80年代由 David Chaum \[[Chaum82]{target="_blank"}\] 发明的方案）。单次使用的键控验证凭证（KVAC）有时被称为「匿名令牌（anonymous tokens）」，通常受到可验证随机函数 \[[RFC9497](https://datatracker.ietf.org/doc/rfc9497/){target="_blank"}\] 的启发，它依赖于由Jarecki等人 \[[JarKiaKra14](https://eprint.iacr.org/2014/650.pdf){target="_blank"}\] 用于 [IETF 隐私通行证](https://datatracker.ietf.org/wg/privacypass/documents/){target="_blank"}标准的 VOPRF，或是 Chaum \[[Chaum82]{target="_blank"}\] 的盲 RSA 签名方案。此处一些应用例子包括：
 [Chaum82]: https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF
       * Google 的 BoringSSL 实现了匿名令牌 \[[KLOR20](https://eprint.iacr.org/2020/072.pdf){target="_blank"}\]。
       * 盲 RSA 签名也被 [Apple Cloud Relay](https://www.apple.com/icloud/docs/iCloud_Private_Relay_Overview_Dec2021.pdf){target="_blank"} 和 [Google One 的 VPN 服务](https://one.google.com/about/vpn/howitworks){target="_blank"}所使用。
@@ -100,11 +100,11 @@ OONI 的基础设施相当特殊：用户上传的隐私在网络层级和应用
 
 为什么有人需要多次出示一个凭证呢？想想纸质的身份文件：它们也会被多次出示（但它们在隐私保护方面很差）。在 OONI 中，我们预期用户会多次上传观测报告，虽然我们可以发送一批单次使用的凭证（这在过去被 Cloudflare 用于 [Internet Challenge Bypass Privacy Pass](https://research.cloudflare.com/publications/Davidson2018/){target="_blank"}），但这样的方式效率不高。
 
-当然，可以想象一个应用程序发放 1,000 个一次性令牌，然后每次“烧掉”其中一个来替代多次使用凭证。然而，这样会在应用层面增加负担，必须调整凭证发放的数量并确定何时检查、更新可用令牌的库存。因此专门为多次使用情境设计的方案就更有效率。
+当然，可以想象一个应用程序发放 1,000 个一次性令牌，然后每次「烧掉」其中一个来替代多次使用凭证。然而，这样会在应用层面增加负担，必须调整凭证发放的数量并确定何时检查、更新可用令牌的库存。因此专门为多次使用情境设计的方案就更有效率。
 
 ![Credentials Hardness](https://ooni.org/post/2025-probe-security-without-identification/images/credentials-hardness.png)
 
-除了基本的凭证系统中，允许用户仅表示他们已被系统“信任”之外，还有许多非必要的功能可以匿名地向服务器证明。这些密码学扩展功能包括：
+除了基本的凭证系统中，允许用户仅表示他们已被系统「信任」之外，还有许多非必要的功能可以匿名地向服务器证明。这些密码学扩展功能包括：
 
 * **有效期限：**实施基于时间的凭证有效期限。
 * **网络相关身份：**在不同网络中保持用户不可关联性，但在相同网络中保持一致的临时标记。
@@ -132,7 +132,7 @@ OONI 的基础设施相当特殊：用户上传的隐私在网络层级和应用
 
 1. **基于通用盲签章的凭证：**这些凭证非常轻量，但在效率和可用性之间进行了取舍，对支持的功能和使用次数加以限制。在过去几年中出现了多种一次性凭证，尤其是在键控验证环境中，Verifiable Oblivious Pseudorandom Functions 已经成为主要方案。尽管这些签章很简单，但在离散对数环境中发行这些签章需要**超过**一次的交互。
 
-2. **基于支持零知识的签名方案和消息验证码的凭证：**这种方法选择具有优良“代数”属性的签名方案。若这些“代数”属性与零知识证明系统中的代数运算兼容，就能得到一个匿名凭证，用户可以证明任何基于底层零知识证明系统所支持的内容。例如，这些签名不需要依赖哈希函数，通常是基于离散对数问题难以解决的群。这些数据结构的一个优势是可以在一次互动中完成：在发行时，用户可以请求凭证，服务器会立即回应。
+2. **基于支持零知识的签名方案和消息验证码的凭证：**这种方法选择具有优良「代数」属性的签名方案。若这些「代数」属性与零知识证明系统中的代数运算兼容，就能得到一个匿名凭证，用户可以证明任何基于底层零知识证明系统所支持的内容。例如，这些签名不需要依赖哈希函数，通常是基于离散对数问题难以解决的群。这些数据结构的一个优势是可以在一次互动中完成：在发行时，用户可以请求凭证，服务器会立即回应。
 
 3. **基于零知识证明的凭证：**这一广泛类别的凭证通常依赖于 SNARKs 和递归 SNARKs，通常集中在为一个标准化的通用签名方案证明签名验证，或完全去除签名，建立用户所拥有的秘密密钥的哈希树，然后通过证明成员资格和非成员资格用于身份验证。这种类别通常缺乏公开的可验证安全性形式化。在区块链等难以确认有签名权的单一实体或小群体的情境中，这是常见的状况。但在理论上很难见到这种方法的形式化。以下是两个例子：
 

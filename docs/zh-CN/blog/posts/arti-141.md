@@ -24,7 +24,7 @@ description: "Arti 是 Tor Project 正在进行的项目，使用 Rust 开发新
 
 Arti 是我们正在进行的项目，用于使用 Rust 开发新一代的 Tor 用户端。我们现在宣布最新版本 Arti 1.4.1 的发布。
 
-此版本新增了用户端对 [Family IDs](https://spec.torproject.org/proposals/321-happy-families.html){target="_blank"}（也称为“Happy Families”）的实现功能，当此功能被全面采用时，将可节省中继节点管理员的时间与带宽。此外，此版本也开始为全面实现 [Conflux](https://spec.torproject.org/proposals/329-traffic-splitting.html){target="_blank"} 打好基础，通过多路径传输流量来提升性能。
+此版本新增了用户端对 [Family IDs](https://spec.torproject.org/proposals/321-happy-families.html){target="_blank"}（也称为「Happy Families」）的实现功能，当此功能被全面采用时，将可节省中继节点管理员的时间与带宽。此外，此版本也开始为全面实现 [Conflux](https://spec.torproject.org/proposals/329-traffic-splitting.html){target="_blank"} 打好基础，通过多路径传输流量来提升性能。
 
 若想了解我们完成的所有细节，以及许多较小且不那么显眼的更动信息，请参阅 [CHANGELOG](https://gitlab.torproject.org/tpo/core/arti/-/blob/main/CHANGELOG.md#arti-141--3-march-2025){target="_blank"}。感谢所有对此版本做出贡献的人，包括 kpcyrd 和 Neel Chauhan。
 
