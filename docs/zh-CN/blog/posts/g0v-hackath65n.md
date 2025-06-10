@@ -3,58 +3,60 @@ date: 2025-02-18
 authors:
     - toomore
 categories:
-    - 活動
+    - 活动
 slug: g0v-hackath65n
 image: "assets/images/g0v-hackath65n.webp"
-summary: "邀請您於 2025 年 2 月 22 日 g0v Hackath65n 零時政府第 65 次黑客松活動，一起推進專案進度！"
-description: "邀請您於 2025 年 2 月 22 日 g0v Hackath65n 零時政府第 65 次黑客松活動，一起推進專案進度！"
+summary: "邀请您于 2025 年 2 月 22 日参加 g0v Hackath65n 零时政府第 65 次黑客松活动，一起推进项目进度！"
+description: "邀请您于 2025 年 2 月 22 日参加 g0v Hackath65n 零时政府第 65 次黑客松活动，一起推进项目进度！"
 ---
 
-# 專案提案 - g0v Hackath65n 零時政府第 65 次黑客松
+# 提案 - g0v Hackath65n 零时政府第 65 次黑客松
 
-![g0v hackath65n / 零時政府第 65 次 黑客松](./assets/images/g0v-hackath65n.webp)
+![g0v hackath65n / 零时政府第 65 次黑客松](./assets/images/g0v-hackath65n.webp)
 
-除了 2/23 的[工作坊活動](./rightscon25-pre-event.md){target="_blank"}外，前一天 2/22 我們也有報名參與「[g0v Hackath65n 零時政府第 65 次黑客松](https://jothon.g0v.tw/){target="_blank"}」的活動，這次提案內容將動手啟動 OONI-Reseatch 2025 年度專案目標項目。
+除了 2/23 的[工作坊活动](./rightscon25-pre-event.md){target="_blank"}外，前一天 2/22 我们也有报名参与「[g0v Hackath65n 零时政府第 65 次黑客松](https://jothon.g0v.tw/){target="_blank"}」的活动，这次提案内容将动手启动 OONI-Research 2025 年度项目目标项目。
 
-目前看起來活動還有一點點名額，如果對於我們的專案有興趣、想要做出貢獻的話，歡迎在活動當天加入我們（不論你來自什麼背景、專業）！
+目前看起来活动还有一些名额，如果对我们的项目有兴趣、想要做出贡献的话，欢迎在活动当天加入我们（无论你来自什么背景、专业）！
 
-- 時間：2025/02/22 (Sat) 09:30 ~ 17:30 (+0800)
-- 地點：國立臺灣大學 學新館 SPACE M
+- 时间：2025/02/22 (周六) 09:30 ~ 17:30 (+0800)
+- 地点：国立台湾大学 学新馆 SPACE M
 
 <!-- more -->
 
-## 黑客松目標
+## 黑客松目标
 
-2/22 的黑客松活動有三個專案目標要推進：
+2/22 的黑客松活动有三个项目目标要推进：
 
-1. [OONI 網站檢測清單更新](../../ooni-weblists.md)
-2. [ASNs 自治網路觀測資料分析](../../ooni-asns-coverage.md)
-3. [中文化與詞彙校閱](../../ooni-i18n.md)
+1. [OONI 网站检测清单更新](../../ooni-weblists.md)
+2. [ASNs 自治网络观测数据分析](../../ooni-asns-coverage.md)
+3. [中文化与词汇校阅](../../ooni-i18n.md)
 
-### OONI 網站檢測清單更新
+### OONI 网站检测清单更新
 
-名單自從 2017 年後就已經很久沒有更新了。除了繼續更新名單外，在這次的黑客松活動中，我們也計畫「建立和新增」需列入觀察的網站網址。關於收錄標準、如何自動化整理等問題，我們需要大家在當天一起動腦思考與協助！
+名单自从 2017 年后就已经很久没有更新了。除了继续更新名单外，在这次的黑客松活动中，我们也计划“建立和新增”需列入观察的网站网址。关于收录标准、如何自动化整理等问题，我们需要大家在当天一起动脑思考与协助！
 
-[:material-arrow-right-circle-outline: 瞭解此專案的背景](../../ooni-weblists.md){ .md-button target="_blank" }
+[:material-arrow-right-circle-outline: 了解此项目的背景](../../ooni-weblists.md){ .md-button target="_blank" }
 
-### ASNs 自治網路觀測資料分析
+### ASNs 自治网络观测数据分析
 
-針對 OONI 觀測資料多樣性不足的問題，我們要如何隨時監控資料的品質呢？是否可以透過某種量化指標或數字來快速掌握狀況？要如何將其實作並建立起來呢？在這次活動，我們將討論資料流架構、自動化分析等相關問題。最後，我們也需要思考如何吸引更多人參與 OONI 觀察資料的蒐集。
+针对 OONI 观测数据多样性不足的问题，我们要如何随时监控数据的质量呢？是否可以通过某种量化指标或数字来快速掌握状况？要如何将其实施并建立起来呢？在这次活动中，我们将讨论数据流架构、自动化分析等相关问题。最后，我们也需要思考如何吸引更多人参与 OONI 观测数据的收集。
 
-[:material-arrow-right-circle-outline: 瞭解此專案目前的進度](../../ooni-weblists.md){ .md-button target="_blank" }
+[:material-arrow-right-circle-outline: 了解此项目目前的进度](../../ooni-weblists.md){ .md-button target="_blank" }
 
-### 中文化與詞彙校閱
+### 中文化与词汇校阅
 
-我們需要進行年度詞彙校準的作業！現有的正體中文翻譯中，可能存在一些誤用或不通順的詞句，這正是我們檢視並修正為更符合我們習慣用語的好時機。
+我们需要进行年度词汇校准作业！现有的繁体中文翻译中，可能存在一些误用或不通顺的词句，这正是我们检视并修正为更符合我们习惯用语的好时机。
 
-[:material-arrow-right-circle-outline: 所有產品列表](../../ooni-i18n.md){ .md-button target="_blank" }
+[:material-arrow-right-circle-outline: 所有产品列表](../../ooni-i18n.md){ .md-button target="_blank" }
 
-## :material-chat-question: 其他資源
+## :material-chat-question: 其他资源
 
 <div class="grid cards" markdown>
 
-- [:material-chat-question: 什麼是 OONI？](../../what-is-ooni.md)
-- [:material-chat-question: 網路自由為什麼重要？](../../internet-freedom-matter.md)
-- [:octicons-mark-github-24: 專案研究預先準備](../../setup-repo.md)
+- [:material-chat-question: 什么是 OONI？](../../what-is-ooni.md)
+- [:material-chat-question: 网络自由为什么重要？](../../internet-freedom-matter.md)
+- [:material-chat-question: 什么是 Tor？](../../what-is-tor.md)
+- [:material-chat-question: 什么是 Tails？](../../what-is-tails.md)
+- [:octicons-mark-github-24: 项目研究预先准备](./setup-repo.md)
 
 </div>
