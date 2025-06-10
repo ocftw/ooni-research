@@ -1,4 +1,4 @@
-FROM python:3.12.9-alpine3.21
+FROM python:3.12.11-alpine3.22
 
 WORKDIR /app
 ADD pyproject.toml \
