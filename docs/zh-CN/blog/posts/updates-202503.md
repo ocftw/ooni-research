@@ -6,57 +6,58 @@ categories:
     - 更新
 slug: updates-202503
 image: "assets/images/watcher-tor-relays.png"
-summary: "專案目前近況與更新 2025/03"
-description: "專案目前近況與更新 2025/03"
+summary: "项目当前近况与更新 2025/03"
+description: "项目当前近况与更新 2025/03"
 ---
-# 2025/03 專案進度更新
 
-時間過的飛快，三月份快過完了！而 2025 第一季也即將告一段落，我們來回顧一下專案目前的進度與一些成果。這一期更新我們會提到工作坊後續規劃、OONI 團隊發佈「匿名憑證」的實作概念、專案目前翻譯成果與 Tor Relays 觀測站的建立！
+# 2025/03 项目进度更新
+
+时间过得飞快，三月份将近过完！2025 第一季度也即将告一段落，让我们回顾一下项目当前的进度与一些成果。这期更新会提到工作坊后续规划、OONI 团队发布“匿名凭证”的实施概念、项目当前的翻译成果与 Tor Relays 观测站的建立！
 
 <!-- more -->
 
-## 工作坊活動
+## 工作坊活动
 
 ![](./assets/images/tor-tails-workshop-slide.webp){style="border-radius: 5px; border: 1px solid #cdcdcd;"}
 
-RightsCon 2025 順利在二月最後一週舉辦完畢，我們在活動前一天與 Tor/Tails、OONI 團隊[一同舉辦](./rightscon25-pre-event.md){target="_blank"}工作坊活動，總參加人次達三百多人，是一個稍微有點意外報名人數如此踴躍的活動，也感謝 Tor/Tails、OONI 團隊的支援。而這次活動也感謝志工夥伴的協助，開放文化基金會的其他夥伴都分別協助 RightsCon 的支援，在人手不夠的狀態下給予我們有力的協助！
+RightsCon 2025 顺利在二月最后一周举办完毕，我们在活动前一天与 Tor/Tails、OONI 团队[一同举办](./rightscon25-pre-event.md){target="_blank"}了工作坊，总参加人次达三百多人，是一个报名人数意料之外踊跃的活动，也感谢 Tor/Tails、OONI 团队的支持。这次活动也感谢志愿者伙伴的协助，开放文化基金会的其他伙伴都分别协助 RightsCon 的支持，在人手不够的状态下给予了我们有力的帮助！
 
-活動後，我們整理了這場工作坊、講座的重點摘要文章、簡報蒐集，不論你當天是否有參與或是想要回顧活動內容的，都可以參考[這篇文章](./rightscon25-tor-tails-ooni-after.md){target="_blank"}的內容。
+活动后，我们整理了这场工作坊、讲座的重点摘要文章、简报收集。无论当天是否有参与或是想要回顾活动内容的，都可以参考[这篇文章](./rightscon25-tor-tails-ooni-after.md){target="_blank"}的内容。
 
-### 工作坊的延續
+### 工作坊的延续
 
-在這次的活動中 Tor/Tails、OONI 工作坊的參與者對於「網路自由」、「匿名網路」議題上有著初步的理解與動手操作工具來提升安全與隱私的抵禦能力，而活動後也收到許多對於工作坊安排的回饋與建議，我們決定申請今年 COSCUP 開源人年會的工作坊議程，繼續將此議題調整更切合臺灣在地的脈絡與語言來繼續推廣使用。
+在这次的活动中，Tor/Tails、OONI 工作坊的参与者对“网络自由”、“匿名网络”议题上有着初步的理解，并动手操作工具来提升安全与隐私的抵御能力。活动后，我们收到了许多关于工作坊安排的反馈与建议，因此决定申请今年 COSCUP 开源人年会的工作坊议程，继续把此议题调整得更切合台湾本地的脉络与语言进行推广。
 
-COSCUP 預計 8/9、10 於臺灣科技大學舉辦，我們會在這兩天的其中一天舉辦工作坊活動，在八月前，我們需要針對簡報、教材調整成華語與臺灣用語的內容。另外也需要開始募集工作夥伴籌備工作坊活動與培訓工作坊小幫手。如果你對工作坊活動有興趣的，請記得與[我們聯絡](../../contact.md){target="_blank"}，預計在四月的第二週開始啟動籌備。
+COSCUP 预计在 8/9、10 于台湾科技大学举办，我们会在这两天的其中一天举办工作坊。在八月前，我们需要针对简报、教材调整成华语与台湾用语的内容。另外也需要开始招募工作伙伴筹备工作坊活动与培训工作坊小助手。如果你对工作坊活动有兴趣，请记得与[我们联系](../../contact.md){target="_blank"}，预计在四月的第二周开始启动筹备。
 
-## 「匿名憑證」
+## 「匿名凭证」
 
 ![Security without identification: transaction systems to make big brother obsolete](https://ooni.org/post/2025-probe-security-without-identification/images/chaum.png)
 
-最近我們翻譯了一篇來自 OONI 團隊如何計畫改善與增強匿名資料提供的驗證，如何在保有隱私與資料可信度上作一個增進、抵禦來自惡意上傳髒資料影響整體資料庫的解決辦法。有興趣的可以前往閱讀[這篇文章](./2025-probe-security-without-identification.md){target="_blank"}。
+最近我们翻译了一篇来自 OONI 团队如何计划改善与增强匿名数据提供的验证，如何在保有隐私与数据可信度上做出改进、抵御来自恶意上传脏数据影响整体数据库的解决方法。有兴趣的可以阅读[这篇文章](./2025-probe-security-without-identification.md){target="_blank"}。
 
-這篇文章提供了相關領域的文獻回顧，以及未來 OONI 團隊要如何實作「匿名憑證」的流程。這篇文章稍微有點專業硬領域，可能不太好閱讀，但非常推薦稍微花點時間瞭解，或與我們討論與建議！
+这篇文章提供了相关领域的文献回顾，以及未来 OONI 团队要如何实施“匿名凭证”的流程。这篇文章稍微有点专业硬领域，可能不太好阅读，但非常推荐稍微花点时间了解，或与我们讨论并提供建议！
 
-或許與最近由數位發展部推動的[數位皮夾](https://wallet.gov.tw/){target="_blank"}是同一個領域的概念！
+或许与最近由数位发展部推动的[数字皮夹](https://wallet.gov.tw/){target="_blank"}是同一领域的概念！
 
-## 翻譯文章
+## 翻译文章
 
-除了前面所提到的「匿名憑證」的文章外，我們也會針對 Tor、Tails、OONI 所發佈較重要的文章進行翻譯，例如：你知道嗎？Tor 也打算用 Rust 來實作，其專案名稱為 Arti。Tor 是使用 C 語言的方式建構，但 C 語言在記憶體操作上有一定的技巧，處理不好可能會造成資安問題，因此決定使用 Rust 語言來重新打造一個較為安全的 Tor 應用程式，Arti 專案目前也逐步實作 C 語言 Tor 的功能，有興趣可以參考[這篇已翻譯的文章](./arti-141.md){target="_blank"}。
+除了前面所提到的“匿名凭证”的文章外，我们也会针对 Tor、Tails、OONI 所发布较重要的文章进行翻译，例如：你知道吗？Tor 也打算用 Rust 来实现，其项目名称为 Arti。Tor 是使用 C 语言构建的，由于 C 语言在内存操作上的挑战，处理不好可能会造成资安问题，因此决定使用 Rust 语言来重新打造一个较为安全的 Tor 应用程序。Arti 项目目前也逐步实现 C 语言 Tor 的功能，有兴趣可以参考[这篇已翻译的文章](./arti-141.md){target="_blank"}。
 
 ![EFF, Tor University](./assets/images/eff-tor-university.png){style="border-radius: 5px;"}
 
-此外，我們現在也正在翻譯一個專案網站，來自 [EFF](https://www.eff.org/){target="_blank"} 與 Tor 合作推出的 [Tor 大學挑戰賽計畫](https://toruniversity.eff.org/){target="_blank"}，希望可以在三月底前完成，到時候會有更詳細的說明。
+此外，我们现在也正在翻译一个项目网站，来自 [EFF](https://www.eff.org/){target="_blank"} 与 Tor 合作推出的 [Tor 大学挑战赛计划](https://toruniversity.eff.org/){target="_blank"}，希望可以在三月底前完成，到时候会有更详细的说明。
 
-## Tor Relays 觀測站
+## Tor Relays 观测站
 
-![Tor Relays 觀測站](./assets/images/watcher-tor-relays.png){style="border:1px solid #cdcdcd; border-radius: 5px;"}
+![Tor Relays 观测站](./assets/images/watcher-tor-relays.png){style="border:1px solid #cdcdcd; border-radius: 5px;"}
 
-在專案頁面新增一個 [Tor Relays 觀察站](../../watcher-tor-relays.md){target="_blank"}，這頁面主要是觀察目前臺灣的 Tor Relays 中繼站的數量、運作狀況。Tor 官方網站提供一個 [Tor Metrics](https://metrics.torproject.org/){target="_blank"} 的查詢網站，我們每小時會透過擷取網站上的紀錄資訊、回來整理成好閱讀的圖表資訊，方便我們在推廣時能有一個較好說故事的版面。
+在项目页面新增了 [Tor Relays 观察站](../../watcher-tor-relays.md){target="_blank"}，此页面主要是观察当前台湾的 Tor Relays 中继站的数量、运作状况。Tor 官方网站提供了一个 [Tor Metrics](https://metrics.torproject.org/){target="_blank"} 的查询网站，我们每小时会通过抓取网站上的记录信息、整理成易于阅读的图表，方便我们在推广时有一个便于讲故事的页面。
 
-目前這個頁面還在開發與嘗試中，不保證 24 小時都會運作（我們正在解決穩定性問題 XD），開發的程式碼也還沒有合併到主線上，有興趣的夥伴可以參考 [pulse](https://github.com/ocftw/ooni-research/compare/main...pulse?expand=1){target="_blank"} 與 [api](https://github.com/ocftw/ooni-research/compare/main...api?expand=1){target="_blank"} 這兩個分支，或是可以直接在 [API 文件頁面](https://tor-watcher.toomore.net/api/docs){target="_blank"}隨意嘗試，目前用到 Python 語言的 [FastAPI](https://fastapi.tiangolo.com/){target="_blank"}、[Pydantic](https://docs.pydantic.dev/latest/){target="_blank"} 作為開發的框架。
+目前这个页面还在开发与尝试中，不保证 24 小时都能运作（我们正在解决稳定性问题 XD），开发的代码也还没有合并到主线上，有兴趣的伙伴可以参考 [pulse](https://github.com/ocftw/ooni-research/compare/main...pulse?expand=1){target="_blank"} 与 [api](https://github.com/ocftw/ooni-research/compare/main...api?expand=1){target="_blank"} 这两个分支，或是在 [API 文档页面](https://tor-watcher.toomore.net/api/docs){target="_blank"}随意尝试，目前用到 Python 语言的 [FastAPI](https://fastapi.tiangolo.com/){target="_blank"}、[Pydantic](https://docs.pydantic.dev/latest/){target="_blank"} 作为开发的框架。
 
-當然，我們也在找熟悉大量處理資料的夥伴，有興趣也可以直接與[我們聯絡](../../contact.md){target="_blank"}！
+当然，我们也在找寻熟悉大量处理数据的伙伴，有兴趣也可以直接与[我们联系](../../contact.md){target="_blank"}！
 
-## 最後
+## 最后
 
-以上，是目前此專案的活動進度，我們會持續翻譯重要的文章、持續匯入 Tor、OONI 的觀察資料，以及準備八月的工作坊活動籌備事項！歡迎持續關注我們或是透過 RSS 的方式[訂閱此頁面](../index.md){target="_blank"}的訊息發佈。
+以上，是目前此项目的活动进度，我们会持续翻译重要的文章、继续导入 Tor、OONI 的观测数据，以及准备八月的工作坊活动筹备事项！欢迎持续关注我们或通过 RSS 的方式[订阅此页面](../index.md){target="_blank"}的信息发布。
