@@ -16,4 +16,4 @@ export CATE_NAME='文章类型'
 export LANGUAGE='zh'
 export OVERRIDES='overrides_cn'
 
-mkdocs build -s -f ./mkdocs_cn.yml -d ./output/zh-cn
+mkdocs build -v -s -f ./mkdocs_cn.yml -d ./output/zh-cn
