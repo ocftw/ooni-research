@@ -1,160 +1,159 @@
 ---
-title: 什麼是 Tails？
-description: Tails，全名為「The Amnesic Incognito Live System」（無記憶的匿蹤系統），是一個以提升使用者的隱私與網路匿名性為目標的操作系統。
+title: 什么是 Tails？
+description: Tails，全名为「The Amnesic Incognito Live System」（无记忆的匿踪系统），是一个以提升用户隐私与网络匿名性为目标的操作系统。
 icon: material/chat-question
 
 ---
-# 什麼是 Tails？
+# 什么是 Tails？
 
 <figure markdown="span">
     <a href="https://upload.wikimedia.org/wikipedia/commons/9/99/Tails-logo-flat-inverted.svg" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Tails-logo-flat-inverted.svg"
-            alt="Tails 是一個可攜式作業系統，能抵禦網路監控與審查。"
-            title="Tails 是一個可攜式作業系統，能防範監控與審查。"
+            alt="Tails 是一个可携带的操作系统，能够抵御网络监控与审查。"
+            title="Tails 是一个可携带的操作系统，能够抵御网络监控与审查。"
         >
     </a>
-    <capture>Tails 是一個可攜式作業系統，能防範監控與審查[^1]</capture>
+    <capture>Tails 是一个可携带的操作系统，能够抵御网络监控与审查。[^1]</capture>
 </figure>
 
-[Tails](https://tails.net/){target="_blank"}，全名為「The Amnesic Incognito Live System」（無記憶的匿蹤系統），是一個以提升使用者的隱私與網路匿名性為目標的操作系統。基於 [Debian Linux](https://zh.wikipedia.org/zh-tw/Debian){target="_blank"}，Tails 可從 USB 隨身碟或外接硬碟中啟動，無需安裝在電腦硬碟上，並在關閉後不留下任何使用者痕跡。這樣的設計使其成為追求隱私和對抗監控的使用者的理想選擇。
+[Tails](https://tails.net/){target="_blank"}，全名为「The Amnesic Incognito Live System」（无记忆的匿踪系统），是一个以提升用户隐私与网络匿名性为目标的操作系统。基于 [Debian Linux](https://zh.wikipedia.org/zh-cn/Debian){target="_blank"}，Tails 可以从 USB 随身碟或外接硬盘启动，无需安装在电脑硬盘上，并在关闭后不留下任何用户痕迹。这样的设计使其成为追求隐私和对抗监控的用户的理想选择。
 
-Tails 的核心功能是通過預先安裝好的 Tor 網路來匿名化網路流量。Tor 能夠隱藏使用者的 IP 地址，並加密傳輸數據資料，使其難以被追蹤或監控。Tails 也內建多種隱私保護工具，包括加密的電子郵件軟體、用於安全地刪除文件的工具以及使文件匿名化的應用軟體。
+Tails 的核心功能是通过预先安装好的 Tor 网络来匿名化网络流量。Tor 能够隐藏用户的 IP 地址，并加密传输数据，使其难以被追踪或监控。Tails 也内建多种隐私保护工具，包括加密的电子邮件软件、用于安全地删除文件的工具以及使文件匿名化的应用软件。
 
 <figure markdown="span">
     <a href="https://tails.net/index/laptop.svg" target="_blank">
         <img src="https://tails.net/index/laptop.svg"
-            alt="Tails 可運行在 USB 隨身碟或外接硬碟中。"
-            title="Tails 可運行在 USB 隨身碟或外接硬碟中。"
+            alt="Tails 可以运行在 USB 随身碟或外接硬盘中。"
+            title="Tails 可以运行在 USB 随身碟或外接硬盘中。"
             style="width: 80%;"
         >
     </a>
-    <capture>Tails 可運行在 USB 隨身碟或外接硬碟中[^1]</capture>
+    <capture>Tails 可以运行在 USB 随身碟或外接硬盘中[^1]</capture>
 </figure>
 
-Tails 也注重使用者的便利性，提供一套完整且熟悉的桌面環境，讓使用者能夠在安全的情況下使用日常的應用軟體。為了應對不斷變化的網絡威脅，Tails 定期更新（通常四週為一個更新週期[^2]），以持續提升其安全性。
+Tails 也注重用户的便利性，提供一套完整且熟悉的桌面环境，让用户能够在安全的情况下使用日常的应用软件。为了应对不断变化的网络威胁，Tails 定期更新（通常四周为一个更新周期[^2]），以持续提升其安全性。
 
-在現今注重網路自由與隱私的時代，Tails 成為那些面對網路審查、新聞媒體、獨立記者、公民團體以及任何重視個人隱私的使用者的重要工具。透過與 Tor 和 OONI 等組織的合作，Tails 努力保障每一個人都能在網路世界中自由自在地交流與表達意見。
+在现今注重网络自由与隐私的时代，Tails 成为那些面临网络审查、新闻媒体、独立记者、公民团体以及任何重视个人隐私的用户的重要工具。通过与 Tor 和 OONI 等组织的合作，Tails 努力保障每一个人都能在网络世界中自由自在地交流与表达意见。
 
-!!! info "工作坊活動"
+!!! info "工作坊活动"
+    我们曾经在 2025/02/23 与 Tor/Tails 团队举办过一场[工作坊活动](./blog/posts/rightscon25-pre-event.md)，活动对象针对在台湾的新闻媒体、独立记者、公民团体的日常使用情境推广使用。预计规划在台湾举办更多的工作坊活动，可以通过这里持续关注我们。
 
-    我們曾經在 2025/02/23 與 Tor/Tails 團隊舉辦過一場[工作坊活動](./blog/posts/rightscon25-pre-event.md)，活動對象針對在臺灣的新聞媒體、獨立記者、公民團體的日常使用情境推廣使用。預計規劃在臺灣舉辦更多的工作坊活動，可以透過這裡持續關注我們。
+## 如何运作
 
-## 如何運作
+### 何处都是你的电脑
 
-### 何處都是你的電腦
+Tails 的下载大小为 1.6 GB，安装时间约为半小时。Tails 可以安装在任何至少 8 GB 的 USB 随身碟上，并可在大多数不超过 10 年的电脑上运行。关闭 Tails 后，即可重新启动该电脑上原本的操作系统。
 
-Tails 的下載大小為 1.6 GB，安裝時間約為半小時。Tails 可以安裝在任何至少 8 GB 的 USB 隨身碟上。可在大多數不超過 10 年的電腦上運行。關閉 Tails 後，即可重新啟動該電腦上原本的作業系統。
+您不必担心电脑中有病毒，因为 Tails 是独立于其他操作系统运行的，并且从不使用该电脑的硬盘（因为是运行在内存中）。但是，如果您从有病毒的电脑上初次安装 Tails，或者在具有恶意硬件（例如键盘记录器）的电脑上使用 Tails，它不一定能够始终保护您。
 
-您不必擔心電腦中有病毒，因為 Tails 是獨立於其他作業系統運行的，並且從不使用該電腦的硬碟（因為是運行在記憶體中）。但是，如果您從有病毒的電腦上初次安裝 Tails，或者在具有惡意硬體（例如鍵盤記錄器）的電腦上使用 Tails，它不一定能夠始終保護您。
-
-### 自動遺忘
+### 自动遗忘
 
 <figure markdown="span">
     <a href="https://tails.net/about/amnesia.svg" target="_blank">
         <img src="https://tails.net/about/amnesia.svg"
-            alt="Tails 關閉後會自動遺忘，重啟後如同全新的環境不留下蹤跡"
-            title="Tails 關閉後會自動遺忘，重啟後如同全新的環境不留下蹤跡"
+            alt="Tails 关闭后会自动遗忘，重启后如同全新的环境不留下踪迹"
+            title="Tails 关闭后会自动遗忘，重启后如同全新的环境不留下踪迹"
             style="width: 80%;"
         >
     </a>
-    <capture>Tails 關閉後會自動遺忘，重啟後如同全新的環境不留下蹤跡[^1]</capture>
+    <capture>Tails 关闭后会自动遗忘，重启后如同全新的环境不留下踪迹[^1]</capture>
 </figure>
 
-Tails 總是從原始乾淨狀態開始，當您關閉 Tails 時，您所做的一切都會自動消失。沒有使用 Tails 的情況下，幾乎您做的每件事情都可能在電腦上留下痕跡：
+Tails 总是从原始干净状态开始，当您关闭 Tails 时，您所做的一切都会自动消失。在没有使用 Tails 的情况下，几乎您做的每件事情都可能在电脑上留下痕迹：
 
-- 您曾造訪的網站，即使是在隱私模式下
-- 您開啟過的檔案，即使您已刪除它們
-- 密碼，即使您使用密碼管理器
-- 您使用過的所有裝置和 Wi-Fi 網路
+- 您曾造访的网站，即使是在隐私模式下
+- 您打开过的文件，即使您已删除它们
+- 密码，即使您使用密码管理器
+- 您使用过的所有设备和 Wi-Fi 网络
 
-相反地，Tails 從不將任何資料寫入硬碟，而是僅從電腦的記憶體中運行。當您關閉 Tails 時，記憶體會被完全刪除，抹去所有可能的痕跡。
+相反地，Tails 从不将任何数据写入硬盘，而是仅从电脑的内存中运行。当您关闭 Tails 时，内存会被完全删除，抹去所有可能的痕迹。
 
-### 數位安全工具包
+### 数字安全工具包
 
-Tails 包含了一系列開源應用軟體，用於處理機敏文件和安全的通訊。所有應用程式均為即時可用，並設置為安全的預設值以防止後續調整錯誤。
+Tails 包含了一系列开源应用软件，用于处理敏感文件和保证安全的通信。所有应用程序均为即时可用，并设置为安全的默认值以防止后续调整错误。
 
 Tails 包含：
 
-- **Tor 瀏覽器**搭配 **uBlock**，一個安全的瀏覽器和廣告攔截器
-- **Thunderbird**，用於加密電子郵件
-- **KeePassXC**，用於創建和儲存強密碼
-- **LibreOffice**，一套辦公室軟體套件
-- **OnionShare**，用於通過 Tor 共享檔案、網站和聊天室
-- **Metadata Cleaner**，用於移除檔案中的中繼資料
-- ... 以及[其他更多的軟體](https://tails.net/doc/about/features/index.en.html){target="_blank"}。
+- **Tor 浏览器**搭配 **uBlock**，一款安全的浏览器和广告拦截器
+- **Thunderbird**，用于加密电子邮件
+- **KeePassXC**，用于创建和存储强密码
+- **LibreOffice**，一套办公软件套件
+- **OnionShare**，用于通过 Tor 共享文件、网站和聊天室
+- **Metadata Cleaner**，用于移除文件中的元数据
+- ... 以及[其他更多的软件](https://tails.net/doc/about/features/index.en.html){target="_blank"}。
 
-為了防止錯誤：
+为了防止错误：
 
-- 應用程式若試圖不透過 Tor 連接到網際網路則會自動被斷線。
-- 永久儲存中的所有內容都會自動加密。
-- Tails 不會將任何內容寫入硬碟，關機時記憶體會被完全刪除。
+- 应用程序若试图不通过 Tor 连接到互联网，则会自动被断线。
+- 永久存储中的所有内容都会自动加密。
+- Tails 不会将任何内容写入硬盘，关机时内存会被完全删除。
 
-### 在網際網路上不留下蹤跡
+### 在互联网上不留下痕迹
 
 <figure markdown="span">
     <a href="https://tails.net/about/footprints.svg" target="_blank">
         <img src="https://tails.net/about/footprints.svg"
-            alt="Tails 不留下蹤跡"
-            title="Tails 不留下蹤跡"
+            alt="Tails 不留下踪迹"
+            title="Tails 不留下踪迹"
             style="height: 350px;"
         >
     </a>
-    <capture>Tails 不留下蹤跡[^1]</capture>
+    <capture>Tails 不留下踪迹[^1]</capture>
 </figure>
 
-- Tails 進行的網路活動都會經由 Tor 網路，Tor 通過三個中繼節點來加密和匿名化您的連線。每個中繼節點都由世界各地的不同個人或組織運營。單個中繼節點永遠不會同時知道加密連線的來源和目的地，即使某些節點具有惡意，Tor 透過其設計確保安全。Tor 網路擁有超過 6,000 個中繼節點，運營這些節點的組織多樣，包括 MIT 等大學、Riseup 等科技社群、Derechos Digitales 等非營利組織，以及 Private Internet Access 等網際網路託管公司等。運營 Tor 節點的多樣性增加了其安全性和可持續性。
-- Tails 可以防止他人監視您的網路連線，從而得知您在網路上的活動。因為審查者無法知道您正在造訪哪些網站，可藉此規避網路審查。如果您所在的地區無法連接 Tor 或連接 Tor 具有危險性（例如在某些審查嚴重的國家），您可以使用 "橋接（bridge）" 來隱藏您已連接到 Tor 網路的事實。
-- Tails 可以防止您造訪的網站知道您的所在位置和身份，同時可以匿名瀏覽網站或更改身份。追蹤者和廣告商將無法追踪您的網路活動。您可以使用 Tails 完全匿名地瀏覽或管理社群媒體，只要您僅在 Tails 上訪問它，這些活動就無法與您相關聯。您可以在永久儲存中存放與此不同身份相關的文件和圖片，使用 KeePassXC 保管密碼，並在 Thunderbird 裡使用專門的電子郵件等。
+- Tails 的网络活动都会经过 Tor 网络，Tor 通过三个中继节点来加密和匿名化您的连接。每个中继节点都由世界各地的不同个人或组织运营。单个中继节点永远不会同时知道加密连接的来源和目的地，即使某些节点具有恶意，Tor 通过其设计确保安全。Tor 网络拥有超过 6,000 个中继节点，运营这些节点的组织多样，包括 MIT 等大学、Riseup 等科技社群、Derechos Digitales 等非营利组织，以及 Private Internet Access 等互联网托管公司。运营 Tor 节点的多样性增加了其安全性和可持续性。
+- Tails 可以防止他人监视您的网络连接，从而得知您在网络上的活动。因为审查者无法知道您正在访问哪些网站，因此可以规避网络审查。如果您所在的地区无法连接 Tor 或连接 Tor 具有危险性（例如在某些审查严格的国家），您可以使用 "桥接（bridge）" 来隐藏您已连接到 Tor 网络的事实。
+- Tails 可以防止您访问的网站知道您的所在位置和身份，同时可以匿名浏览网站或更改身份。追踪者和广告商将无法追踪您的网络活动。您可以使用 Tails 完全匿名地浏览或管理社交媒体，只要您仅在 Tails 上访问它，这些活动就无法与您关联。您可以在永久存储中存放与此不同身份相关的文件和图片，使用 KeePassXC 保管密码，并在 Thunderbird 里使用专门的电子邮件等。
 
-## 如何安裝
+## 如何安装
 
-Tails 可從 Windows、macOS、Ubuntu/Linux 作業系統中製作 USB 開機磁碟，詳細的安裝過程與步驟可以[參考網站上介紹](https://tails.net/install/index.en.html){target="_blank"}。
+Tails 可以从 Windows、macOS、Ubuntu/Linux 操作系统中制作 USB 启动盘，详细的安装过程与步骤可以[参考网站上的介绍](https://tails.net/install/index.en.html){target="_blank"}。
 
-??? warning "硬體系統要求"
+??? warning "硬件系统要求"
 
-    Tails 可以運行在：
+    Tails 可以运行在：
 
-    - 大部分不超過 10 年的電腦。
-    - 一些使用 Inel 處理器的舊電腦上。
+    - 大部分不超过 10 年的电脑。
+    - 一些使用 Intel 处理器的旧电脑上。
 
-    Tails 不能運行在：
+    Tails 不能运行在：
 
-    - 新的蘋果電腦，如 M 系列晶片上（M1 ~ M4）。
-    - 智慧型手機與平板。
+    - 新的苹果电脑，如 M 系列芯片上（M1 ~ M4）。
+    - 智能手机与平板。
     - Raspberry Pi。
 
-    Tails 或許不能運行在：
+    Tails 或许不能运行在：
 
-    - 記憶體不足 2 GB 的舊電腦上。
-    - 某些較新的電腦，舉例來說，如果其顯示卡與 Linux 不兼容，可能會有問題。Nvidia 或 AMD Radeon 顯示卡在 Tails 中常常無法正常運作。
+    - 内存不足 2 GB 的旧电脑上。
+    - 某些较新的电脑，例如，如果其显卡与 Linux 不兼容，可能会有问题。Nvidia 或 AMD Radeon 显卡在 Tails 中常常无法正常运作。
 
-    了解更多目前已知的[硬體問題](https://tails.net/support/known_issues/index.en.html){target="_blank"}。
+    了解更多目前已知的[硬件问题](https://tails.net/support/known_issues/index.en.html){target="_blank"}。
 
-??? info "建議的硬體需求"
+??? info "建议的硬件需求"
 
-    - 至少 8 GB 大小的 USB 隨身碟。（安裝時 USB 上的資料會全部清空）
-    - 可以從 USB 啟動的裝置。
-    - 64 位元 [x86-64](https://zh.wikipedia.org/zh-tw/X86-64){target="_blank"} 或 [IBM PC 相容](https://zh.wikipedia.org/zh-tw/IBM_PC%E5%85%BC%E5%AE%B9%E6%9C%BA){target="_blank"} 的處理器。
-        - Tails 無法在 [ARM](https://zh.wikipedia.org/zh-tw/ARM%E6%9E%B6%E6%A7%8B){target="_blank"}、[PowerPC](https://zh.wikipedia.org/zh-tw/PowerPC){target="_blank"} 或 32 位元的處理器上執行。
-    - 至少 2 GB 的記憶體大小在該電腦裝置上，避免使用時會卡頓或系統崩解。
+    - 至少 8 GB 大小的 USB 随身碟。（安装时 USB 上的数据会全部清空）
+    - 可以从 USB 启动的设备。
+    - 64 位元 [x86-64](https://zh.wikipedia.org/zh-cn/X86-64){target="_blank"} 或 [IBM PC 兼容](https://zh.wikipedia.org/zh-cn/IBM_PC%E5%85%BC%E5%AE%B9%E6%9C%BA){target="_blank"} 的处理器。
+        - Tails 无法在 [ARM](https://zh.wikipedia.org/zh-cn/ARM%E6%9E%B6%E6%A7%8B){target="_blank"}、[PowerPC](https://zh.wikipedia.org/zh-cn/PowerPC){target="_blank"} 或 32 位元的处理器上执行。
+    - 至少 2 GB 的内存大小在该计算机设备上，以避免使用时卡顿或系统崩溃。
 
-## :material-chat-question: 一同瞭解
-
-<div class="grid cards" markdown>
-
-- [:material-chat-question: 網路自由為什麼重要](./internet-freedom-matter.md)
-
-</div>
-
-## :fontawesome-solid-diagram-project: 下一步可參與的專案
+## :material-chat-question: 一同了解
 
 <div class="grid cards" markdown>
 
-- [:material-access-point-network: ASNs 自治網路觀測資料分析](./ooni-asns-coverage.md)
-- [:material-list-status: OONI 網站檢測清單](./ooni-weblists.md)
-- [:material-translate-variant: 中文化與文件翻譯](./ooni-i18n.md)
+- [:material-chat-question: 网络自由为什么重要？](./internet-freedom-matter.md)
 
 </div>
 
-[^1]: [圖片來源自 tails.net](https://tails.net/)
+## :fontawesome-solid-diagram-project: 下一步可参与的项目
+
+<div class="grid cards" markdown>
+
+- [:material-access-point-network: ASNs 自治网络观测数据分析](./ooni-asns-coverage.md)
+- [:material-list-status: OONI 网站检测列表](./ooni-weblists.md)
+- [:material-translate-variant: 中文化与文件翻译](./ooni-i18n.md)
+
+</div>
+
+[^1]: [图片来源自 tails.net](https://tails.net/)
 [^2]: [Should I update Tails using apt upgrade or Synaptic?](https://tails.net/support/faq/index.en.html#upgrade)
