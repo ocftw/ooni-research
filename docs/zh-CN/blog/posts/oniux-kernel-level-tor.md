@@ -3,117 +3,115 @@ date: 2025-05-16
 authors:
     - toomore
 categories:
-    - 技術
+    - 技术
     - Tor
 slug: oniux-kernel-level-tor
 image: "assets/images/oniux-kernel-level-tor.webp"
-summary: "oniux：針對任何 Linux 應用程式的核心層級 Tor 隔離技術"
-description: "oniux：針對任何 Linux 應用程式的核心層級 Tor 隔離技術"
+summary: "oniux：针对任何 Linux 应用程序的内核级别 Tor 隔离技术"
+description: "oniux：针对任何 Linux 应用程序的内核级别 Tor 隔离技术"
 ---
 
-# 介紹 oniux：針對任何 Linux 應用程式的核心層級 Tor 隔離技術
+# 介绍 oniux：针对任何 Linux 应用程序的内核级别 Tor 隔离技术
 
 !!! info ""
 
-    以下內容原文翻譯來自以下文章，主詞角色為 Tor：
+    以下内容原文翻译来自以下文章，主词角色为 Tor：
 
     - [Introducing oniux: Kernel-level Tor isolation for any Linux app, cve 2025-05-14](https://blog.torproject.org/introducing-oniux-tor-isolation-using-linux-namespaces/){target="_blank"}
 
-![介紹 oniux：針對任何 Linux 應用程式的核心層級 Tor 隔離技術](https://blog.torproject.org/introducing-oniux-tor-isolation-using-linux-namespaces/lead.webp){style="border-radius: 10px;"}
+![介绍 oniux：针对任何 Linux 应用程序的内核级别 Tor 隔离技术](https://blog.torproject.org/introducing-oniux-tor-isolation-using-linux-namespaces/lead.webp){style="border-radius: 10px;"}
 
-當啟動對隱私極為重要的應用程式和服務時，開發者希望確保每一個資料封包都確實經由 Tor 傳送。一個錯誤的代理設定，或一次不小心在 SOCKS 封包之外的系統呼叫，可能就會讓你的資料處於風險之中。
+当启动对隐私极为重要的应用程序和服务时，开发者希望确保每一个数据包都确实通过 Tor 传送。一个错误的代理配置，或一次不小心在 SOCKS 外的系统调用，可能会让你的数据处于风险之中。
 
-正因如此，今天我們很高興地介紹 oniux：這是一款小型的命令列工具，它利用 Linux 命名空間為第三方應用程式提供 Tor 網路隔離。oniux 建構於 Arti 和 onionmasq 之上，可以將任何 Linux 程式分隔到其專屬的網路命名空間中，透過 Tor 路由，並消除資料洩露的可能性。如果你的工作、活動或研究需要堅如磐石的流量隔離，oniux 就能夠滿足這個需求。
+正因如此，今天我们很高兴地介绍 oniux：这是一款小型的命令行工具，它利用 Linux 命名空间为第三方应用程序提供 Tor 网络隔离。oniux 构建于 Arti 和 onionmasq 之上，可以将任何 Linux 程序分隔到其专属的网络命名空间中，通过 Tor 路由，并消除数据泄露的可能性。如果你的工作、活动或研究需要坚如磐石的流量隔离，oniux 就能满足这个需求。
 
 <!-- more -->
 
-## 什麼是 Linux 命名空間？🐧
+## 什么是 Linux 命名空间？🐧
 
-命名空間是 Linux 核心中的一項隔離功能，大約在 2000 年左右引入。它們提供了一種安全的方法，將應用程式的特定部分與系統的其餘部分隔離。命名空間有多種形式，例如網路命名空間、掛載命名空間、行程命名空間等等，每一種都把應用程式的某些系統資源隔離開來。
+命名空间是 Linux 内核中的一项隔离功能，大约在 2000 年左右引入。它们提供了一种安全的方法，将应用程序的特定部分与系统的其余部分隔离。命名空间有多种形式，例如网络命名空间、挂载命名空间、进程命名空间等，每一种都把应用程序的某些系统资源隔离开来。
 
-我們所說的「**系統資源**」指的是什麼呢？在 Linux 中，系統資源是由系統上的所有應用程式共用的。最顯著的例子可能是你的作業系統時鐘，但還有其他許多方面，例如所有行程的列表、檔案系統，以及使用者列表。
+我们所说的“**系统资源**”指的是什么呢？在 Linux 中，系统资源是由系统上的所有应用程序共享的。最显著的例子可能是你的操作系统时钟，但还有其他许多方面，例如所有进程的列表、文件系统，以及用户列表。
 
-命名空間會將應用程式的某個部分與作業系統的其餘部分「容器化」；這也正是 Docker 用來提供其隔離機制的方法。
+命名空间会将应用程序的某个部分与操作系统的其余部分“容器化”；这也正是 Docker 用来提供其隔离机制的方法。
 
-## Tor + 命名空間 = ❤️
+## Tor + 命名空间 = ❤️
 
-如上所述，命名空間是一個強大的功能，它可以讓我們隔離任意應用程式的 Tor 網路存取。我們將每個應用程式放到一個不具系統範圍網路介面存取權的網路命名空間（例如 `eth0`），而是提供一個自訂的網路介面 `onion0`。
+如上所述，命名空间是一项强大的功能，它可以让我们隔离任意应用程序的 Tor 网络访问。我们将每个应用程序放到一个不具系统范围网络接口访问权的网络命名空间（例如 `eth0`），而是提供一个自定义的网络接口 `onion0`。
 
-這樣我們就能夠在軟體層面上以最安全的方式透過 Tor 隔離任意應用程式，這主要是依賴於作業系統核心提供的安全基礎。不同於 SOCKS，在這種方式下，應用程式不會因為開發者的一時錯誤，導致未通過設定的 SOCKS 來建立某些連線而意外洩露資料。
+这样我们就能够在软件层面上以最安全的方式通过 Tor 隔离任意应用程序，这主要是依赖于操作系统内核提供的安全基础。不同于 SOCKS，在这种方式下，应用程序不会因为开发者的一时错误，导致未通过配置的 SOCKS 来建立某些连接而意外泄露数据。
 
 ## oniux vs. torsocks
 
-你可能也聽說過一個具有類似目標的工具，稱為 `torsocks`，其運作方式是通過覆寫所有與網路相關的 libc 函數，將流量導向由 Tor 提供的 SOCKS 代理。雖然這種方法在跨平台上稍具優勢，但其明顯的缺點是，如果應用程式以非動態連結的 libc 方式進行系統呼叫，不論是惡意或者無意，將會導致資料洩露。這尤其將純靜態二進位檔和 Zig 生態系統中的應用程式排除在外。
+你可能也听说过一个具有类似目标的工具，称为 `torsocks`，其运作方式是通过覆盖所有与网络相关的 libc 函数，将流量导向由 Tor 提供的 SOCKS 代理。虽然这种方法在跨平台上稍具优势，但其显著的缺点是，如果应用程序以非动态链接的 libc 方式进行系统调用，无论是恶意或者无意，将会导致数据泄露。这尤其将纯静态二进制文件和 Zig 生态系统中的应用程序排除在外。
 
-以下是 _oniux_ 與 _torsocks_ 的基本比較：
+以下是 _oniux_ 与 _torsocks_ 的基本比较：
 
 | oniux                | torsocks                                           |
 | -------------------- | -------------------------------------------------- |
-| 獨立應用程式         | 需要運行 Tor 常駐程式                              |
-| 使用 Linux 命名空間  | 使用 ld.so 預載入駭客技術                          |
-| 適用於所有應用程式   | 僅適用於透過 libc 進行系統呼叫的應用程式           |
-| 惡意應用程式無法洩漏 | 惡意應用程式可以透過直接的組合語言系統呼叫洩漏資料 |
-| 僅限 Linux           | 跨平台                                             |
-| 新專案且屬於實驗性質 | 經過超過 15 年的實作驗證                           |
-| 使用 Arti 作為其引擎 | 使用 CTor 作為其引擎                               |
-| 以 Rust 實作         | 以 C 實作                                          |
+| 独立应用程序         | 需要运行 Tor 常驻程序                              |
+| 使用 Linux 命名空间  | 使用 ld.so 预载入技术                              |
+| 适用于所有应用程序   | 仅适用于通过 libc 进行系统调用的应用程序           |
+| 恶意应用程序无法泄漏 | 恶意应用程序可以通过直接的汇编语言系统调用泄漏数据 |
+| 仅限 Linux           | 跨平台                                             |
+| 新项目且属于实验性质 | 经过超过 15 年的实施验证                           |
+| 使用 Arti 作为其引擎 | 使用 CTor 作为其引擎                               |
+| 以 Rust 实现         | 以 C 实现                                          |
 
 ## 如何使用 oniux？🧅
 
-首先，你需要一個已安裝 Rust 的 Linux 系統。之後，你可以透過以下指令來安裝 oniux：
+首先，你需要一个已安装 Rust 的 Linux 系统。之后，你可以通过以下指令来安装 oniux：
 
-``` bash
+```bash
 $ cargo install --git https://gitlab.torproject.org/tpo/core/oniux oniux@0.4.0
 ```
 
-完成後，你就可以開始使用 oniux 了！🙂
+完成后，你就可以开始使用 oniux 了！🙂
 
-使用 oniux 非常簡單：
+使用 oniux 非常简单：
 
-``` bash
-# 使用 oniux 進行簡單的 HTTPS 查詢！
+```bash
+# 使用 oniux 进行简单的 HTTPS 查询！
 $ oniux curl https://icanhazip.com
 <A TOR EXIT NODE IP ADDRESS>
 
-# oniux 當然也支援 IPv6！
+# oniux 当然也支持 IPv6！
 $ oniux curl -6 https://ipv6.icanhazip.com
 <A TOR EXIT NODE IPv6 ADDRESS>
 
-# 沒有洋蔥服務的 Tor 就像一輛沒有引擎的車……
+# 没有洋葱服务的 Tor 就像一辆没有引擎的车……
 $ oniux curl http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion/index.html
 
-# 如果你是技術控，也可以啟用日誌紀錄功能。🤓
+# 如果你是技术控，也可以启用日志记录功能。🤓
 $ RUST_LOG=debug oniux curl https://icanhazip.com
 
-# 如果你願意，你可以「Tor 化」整個 shell，將所有行程隔離在其中！
+# 如果你愿意，你可以“Tor 化”整个 shell，将所有进程隔离在其中！
 $ oniux bash
 
-# 如果你在桌面環境中，你也可以隔離圖形應用程式！
+# 如果你在桌面环境中，你也可以隔离图形应用程序！
 $ oniux hexchat
 ```
 
-## 這是如何在內部運作的呢？⚙️
+## 这是如何在内部运作的呢？⚙️
 
-_oniux_ 的運作方式是透過 `clone(2)` 系統呼叫立即產生一個子行程，該行程被隔離在其自己的網路、掛載、PID 和使用者命名空間中。然後，此行程會掛載其自己的 `/proc` 副本，接著按照父行程的 UID 和 GID 設定對應的 UID 和 GID 映射。
+_oniux_ 的运作方式是通过 `clone(2)` 系统调用立即产生一个子进程，该进程被隔离在其自己的网络、挂载、PID 和用户命名空间中。然后，此进程会挂载其自己的 `/proc` 副本，接着按照父进程的 UID 和 GID 设置对应的 UID 和 GID 映射。
 
-接著，該行程會建立一個臨時檔案，包含名稱伺服器（nameserver）項目，然後將這個檔案綁定掛載到 `/etc/resolv.conf` 上，使得在該空間運行的應用程式會使用支援經由 Tor 解析的自訂名稱解析器。
+接着，该进程会建立一个临时文件，包含名称服务器（nameserver）项目，然后将这个文件绑定挂载到 `/etc/resolv.conf` 上，使得在该空间运行的应用程序会使用支持经由 Tor 解析的自定义名称解析器。
 
-然後，子行程利用 onionmasq 建立一個名為 `onion0` 的 TUN 介面，接著透過一些必要的 `rtnetlink(7)` 操作來設置該介面，比如分配 IP 位址。
+然后，子进程利用 onionmasq 建立一个名为 `onion0` 的 TUN 接口，接着通过一些必要的 `rtnetlink(7)` 操作来设置该接口，比如分配 IP 地址。
 
-接下來，子行程會使用 Unix Domain socket 將 TUN 介面的檔案描述子（File descriptor）發送給一直在等待此訊息的父行程，自從執行最初的 `clone(2)` 後，父行程便在等待這個訊息。
+接下来，子进程会使用 Unix Domain socket 将 TUN 接口的文件描述子（File descriptor）发送给一直在等待此消息的父进程，自从执行最初的 `clone(2)` 后，父进程便在等待这个消息。
 
-完成這些步驟後，子行程會放棄因為身處使用者命名空間中的 root 行程而取得的所有特權。
+完成这些步骤后，子进程会放弃因为身处用户命名空间中的 root 进程而取得的所有特权。
 
-最後，使用者提供的指令會透過 Rust 標準庫所提供的功能來執行。
+最后，用户提供的指令会通过 Rust 标准库所提供的功能来执行。
 
-## oniux 是實驗性質的工具 ⚠️
+## oniux 是实验性质的工具 ⚠️
 
-儘管這一部分不應該讓你對使用 _oniux_ 感到卻步，但你應該記住，這是一個相對較新的功能，使用了新的 Tor 軟體，例如 _Arti_ 和 _onionmasq_。目前，雖然功能如預期運作，但像 _torsocks_ 這類工具已經存在了超過 15 年，因此在實戰經驗上更為豐富。然而，我們希望 _oniux_ 能夠達到類似的穩定狀態，因此歡迎你前去嘗試看看！
+尽管这一部分不应该让你对使用 _oniux_ 感到却步，但你应该记住，这是一项相对较新的功能，使用了新的 Tor 软件，例如 _Arti_ 和 _onionmasq_。目前，虽然功能如预期运作，但像 _torsocks_ 这类工具已经存在了超过 15 年，因此在实战经验上更为丰富。然而，我们希望 _oniux_ 能够达到类似的稳定状态，因此欢迎你前去尝试看看！
 
-## 致謝
+## 致谢
 
-非常感謝 `smoltcp` 的開發者，這是一個用 Rust 實作完整 IP 協定的 Rust crate，我們大量使用它來實現功能。
+非常感谢 `smoltcp` 的开发者，这是一款用 Rust 实现完整 IP 协议的 Rust crate，我们大量使用它来实现功能。还要感谢 `7ppKb5bW`，他教导我们如何在不使用 `capabilities(7)` 的情况下，正确地使用 `user_namespaces(7)` 来实现功能。
 
-還要感謝 `7ppKb5bW`，他教導我們如何在不使用 `capabilities(7)` 的情況下，正確地使用 `user_namespaces(7)` 來實現功能。
-
-最後但同樣重要的是，感謝所有財務上支持 Tor 的人和組織。The Tor Project, Inc. 是一個 501(c)(3) 非營利組織，致力於透過自由軟體和開放網路推動人權和保護線上隱私。oniux 的發佈由支持者的社群提供動力。請考慮今天[捐款](https://torproject.org/donate/donate-bp2-sc2025){target="_blank"}，繼續推進我們使隱私成為可能的工作。
+最后但同样重要的是，感谢所有财务上支持 Tor 的人和组织。The Tor Project, Inc. 是一个 501(c)(3) 非营利组织，致力于通过自由软件和开放网络推动人权和保护线上隐私。oniux 的发布由支持者的社区提供动力。请考虑今天[捐款](https://torproject.org/donate/donate-bp2-sc2025){target="_blank"}，继续推进我们使隐私成为可能的工作。
