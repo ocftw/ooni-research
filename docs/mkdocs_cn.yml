@@ -112,7 +112,7 @@ plugins:
         - en
   - social:
       cards_layout_options:
-        font_family: Noto Sans TC
+        font_family: Noto Sans SC
         color: "#ffffff"
         background_color: "#0287cf"
   - privacy
