@@ -1,36 +1,36 @@
 ---
 title: Tor Snowflake
-description: 透過 WebRTC 偽裝為視訊通訊方式協助建立橋接點
+description: 通过 WebRTC 伪装为视频通信方式协助建立桥接点
 icon: material/snowflake
 ---
-# :material-snowflake: Tor Snowflake 橋接點建立（網頁版）
+# :material-snowflake: Tor Snowflake 桥接点建立（网页版）
 
-直接透過網頁的方式建立 Tor 橋接點，只需要一個步驟「啟用」，就可以協助無法透過傳統的 Tor 連線方式建立 onion 連線。
+直接通过网页的方式建立 Tor 桥接点，只需要一步“启用”，即可帮助无法通过传统的 Tor 连接方式建立 onion 连接。
 
-## 啟動 Snowflake 橋接點
+## 启动 Snowflake 桥接点
 
 <div class="grid cards" markdown>
 
 -   <iframe src="https://snowflake.torproject.org/embed.html" width="100%" height="250" frameborder="0" scrolling="no"></iframe>
 
 -   
-    - 請直接「啟動」按鈕。
-    - 此頁面可放置在分頁背景中運作。
-    - 如果啟動後沒有正常運作，請檢查是否有啟用 WebRTC 功能，理論上可以建立視訊會議的瀏覽器都有支援。
-    - 可透過瀏覽器套件安裝，請參考[官方頁面](https://snowflake.torproject.org/){target="_blank"}說明。
+    - 请直接点击“启动”按钮。
+    - 此页面可放置在标签页后台中运行。
+    - 如果启动后没有正常运作，请检查是否启用了 WebRTC 功能，理论上可以建立视频会议的浏览器都支持。
+    - 可通过浏览器插件安装，详情请参考[官方页面](https://snowflake.torproject.org/){target="_blank"}说明。
 
 </div>
 
-## 常見問題
+## 常见问题
 
-### 什麼是 Snowflake？
+### 什么是 Snowflake？
 
-Tor Snowflake 是一種用於 Tor 網路的橋接技術，主要幫助使用者繞過網際網路審查。透過全世界志工使用 WebRTC 通訊建立臨時的點對點連接，使被封鎖或受限制的使用者能夠訪問被阻擋的網站和服務。
+Tor Snowflake 是一种用于 Tor 网络的桥接技术，主要帮助用户绕过互联网审查。通过全世界志愿者使用 WebRTC 通讯建立临时的点对点连接，使被封锁或受限的用户能够访问被阻挡的网站和服务。
 
-### Snowflake 如何運作？
+### Snowflake 如何运作？
 
-Snowflake 使用一種叫做 WebRTC 的技術，這項技術通常被應用在視訊會議軟體中。它的運作方式是讓你的 Tor 使用看起來像是在進行音訊或視訊通話，以此方式來掩蓋並避開網路上的審查。
+Snowflake 使用一种叫做 WebRTC 的技术，这项技术通常被应用在视频会议软件中。它的运作方式是让你的 Tor 使用看起来像是在进行音频或视频通话，以此方式来掩盖并避开网络审查。
 
-### 我可以使用瀏覽器擴充套件來繞過審查嗎？
+### 我可以使用浏览器扩展来绕过审查吗？
 
-如果你想繞過審查，你需要下載一個使用 Tor 技術的應用程式，像是 Tor Browser 或 Orbot。如果應用程式無法連線，並且看起來連線仍然被阻擋，你可以到應用程式的設定中，啟用 Snowflake 來協助解除封鎖。
+如果你想绕过审查，你需要下载一个使用 Tor 技术的应用程序，如 Tor Browser 或 Orbot。如果应用程序无法连接，并且看起来连接仍然被阻挡，你可以到应用程序的设置中，启用 Snowflake 来协助解封。
