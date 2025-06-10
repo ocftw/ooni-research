@@ -43,6 +43,8 @@ jobs:
         run: cd output/assets/images/social/blog/posts; wget https://s3.toomore.net/ocf/tor-pre-event-zh-tw.png -O ./rightscon25-pre-event.png;
       - name: Build Docs (/zh-tw)
         run: source ./.venv/bin/activate; sh ./run_zh-tw.sh;
+      - name: Build Docs (/zh-cn)
+        run: source ./.venv/bin/activate; sh ./run_zh-cn.sh;
       - name: Replaces og
         run: cd output/zh-tw/assets/images/social/blog/posts; wget https://s3.toomore.net/ocf/tor-pre-event-zh-tw.png -O ./rightscon25-pre-event.png;
       - name: Build Docs (/en)
