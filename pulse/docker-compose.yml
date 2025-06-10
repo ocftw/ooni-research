@@ -15,6 +15,7 @@ services:
     depends_on:
       - db
     build: ./backend
+    restart: always
 
   api:
     depends_on:
@@ -22,5 +23,6 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile.api
+    restart: always
     ports:
       - "${API_HOST}:8000"

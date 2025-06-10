@@ -28,16 +28,23 @@ class PGConn:
         for row in self.cur.fetchall():
             print(row)
 
-def create_table():
-    with open('./dbtxt/relay_details.sql', 'r+') as files:
-        sql = files.read()
-
+def create_table_relay_details():
     with PGConn() as pg:
-        pg.cur.execute(sql)
+        with open('./dbtxt/relay_details.sql', 'r+') as files:
+            sql = files.read()
+            pg.cur.execute(sql)
+
+def create_table_asn_count():
+    with PGConn() as pg:
+        with open('./dbtxt/asn_count.sql', 'r+') as files:
+            sql = files.read()
+            pg.cur.execute(sql)
 
 
 if __name__ == '__main__':
-    with PGConn() as pg:
-        pg.save_one()
-        pg.show_all()
-    create_table()
+    #with PGConn() as pg:
+    #    pg.save_one()
+    #    pg.show_all()
+
+    #create_table_relay_details()
+    create_table_asn_count()

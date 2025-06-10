@@ -26,7 +26,13 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:8000", ],
+    allow_origins=[
+        #"http://127.0.0.1:8000",
+        #"https://ooni-research.ocf.tw",
+        #"http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion",
+        #"unknown://nil",
+        "*",
+        ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
