@@ -5,7 +5,7 @@ icon: material/snowflake
 ---
 # :material-snowflake: Tor Snowflake 桥接点建立（网页版）
 
-直接通过网页的方式建立 Tor 桥接点，只需要一步“启用”，即可帮助无法通过传统的 Tor 连接方式建立 onion 连接。
+直接通过网页的方式建立 Tor 桥接点，只需要一步「启用」，即可帮助无法通过传统的 Tor 连接方式建立 onion 连接。
 
 ## 启动 Snowflake 桥接点
 
@@ -14,7 +14,7 @@ icon: material/snowflake
 -   <iframe src="https://snowflake.torproject.org/embed.html" width="100%" height="250" frameborder="0" scrolling="no"></iframe>
 
 -   
-    - 请直接点击“启动”按钮。
+    - 请直接点击「启动」按钮。
     - 此页面可放置在标签页后台中运行。
     - 如果启动后没有正常运作，请检查是否启用了 WebRTC 功能，理论上可以建立视频会议的浏览器都支持。
     - 可通过浏览器插件安装，详情请参考[官方页面](https://snowflake.torproject.org/){target="_blank"}说明。

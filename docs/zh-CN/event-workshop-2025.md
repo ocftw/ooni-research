@@ -21,6 +21,6 @@ icon: material/calendar-star
 
 !!! info ""
 
-    我们即将在今年 08/09 ~ 08/10 的 [COSCUP 开源人年会](https://blog.coscup.org/2025/04/coscup-2025-call-for-proposals.html){target="_blank"}上举办“匿名网络工作坊”活动。在活动开始前需要招募**工作伙伴**、**培训小助手**、**活动筹备志愿者**。如果您对这个活动感兴趣，并愿意和我们一起筹备工作坊，请详阅[筹备页面](./event-workshop-2025-prepare.md)说明后，找到合适的参与方式加入我们！
+    我们即将在今年 08/09 ~ 08/10 的 [COSCUP 开源人年会](https://blog.coscup.org/2025/04/coscup-2025-call-for-proposals.html){target="_blank"}上举办「匿名网络工作坊」活动。在活动开始前需要招募**工作伙伴**、**培训小助手**、**活动筹备志愿者**。如果您对这个活动感兴趣，并愿意和我们一起筹备工作坊，请详阅[筹备页面](./event-workshop-2025-prepare.md)说明后，找到合适的参与方式加入我们！
 
     [前往筹备页面](./event-workshop-2025-prepare.md){ .md-button .md-button--primary }

@@ -126,9 +126,9 @@ OONI Run 在建立新名单时也可以指定一组关联号码（Link ID），�
 
 !!! info "或许你会感兴趣的内容"
     1. Roger 在演讲中也提到通过不同方式连接到 Tor，其中 [Snowflake](https://snowflake.torproject.org/){target="_blank"} 则是可以伪装成串流方式协助引导 Tor 用户连接。Snowflake 是参与贡献 Tor 带宽中门槛最低最方便的方式，只需要安装一个浏览器插件后开启就完成了！
-    2. [Tor University Challenge - Electronic Frontier Foundation](https://toruniversity.eff.org/administrators/){target="_blank"}：来自 EFF 发起的“Tor 大学挑战赛”，其目的是鼓励更多的大学运行 Tor 中继节点，以增强 Tor 网络的稳定性和抵御审查能力。网站中提供了各类资源，协助大学管理者与技术团队设置和管理 Tor 中继节点，支持网络自由与对抗审查的努力。
+    2. [Tor University Challenge - Electronic Frontier Foundation](https://toruniversity.eff.org/administrators/){target="_blank"}：来自 EFF 发起的「Tor 大学挑战赛」，其目的是鼓励更多的大学运行 Tor 中继节点，以增强 Tor 网络的稳定性和抵御审查能力。网站中提供了各类资源，协助大学管理者与技术团队设置和管理 Tor 中继节点，支持网络自由与对抗审查的努力。
 
 ---
 
 !!! note "项目后续"
-    [OONI-Research 项目](../../index.md)也将持续在台湾推广 Tor/Tails、OONI 的使用，就网络自由、网络审查的议题上继续努力。若对参与或继续接收我们的信息有兴趣，可以参考“[持续关注](../../contact.md)”的加入方式。我们预计在 2025/08 的 COSCUP 活动中举办 Tor/Tails、OONI 的工作坊，会以**华语**的方式进行，并由助教从旁协助参与者进行（暂定）。活动前我们会需要编修教材、培训等筹备准备，如果您对这项活动有兴趣参与，也欢迎参阅“[持续关注](../../contact.md)”的联络方式告知我们。
+    [OONI-Research 项目](../../index.md)也将持续在台湾推广 Tor/Tails、OONI 的使用，就网络自由、网络审查的议题上继续努力。若对参与或继续接收我们的信息有兴趣，可以参考「[持续关注](../../contact.md)」的加入方式。我们预计在 2025/08 的 COSCUP 活动中举办 Tor/Tails、OONI 的工作坊，会以**华语**的方式进行，并由助教从旁协助参与者进行（暂定）。活动前我们会需要编修教材、培训等筹备准备，如果您对这项活动有兴趣参与，也欢迎参阅「[持续关注](../../contact.md)」的联络方式告知我们。

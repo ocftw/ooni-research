@@ -74,7 +74,7 @@ Python 的设计哲学强调代码的可读性和简洁性，开发者能够用�
     === "macOS"
 
         1. 使用 Homebrew 安装（推荐）：
-            - 打开“终端”（Terminal）。
+            - 打开「终端」（Terminal）。
             - 确保你已经安装了 Homebrew，如果没有，请先安装 Homebrew。
             - 输入 `brew install python` 来安装 Python。
         2. 从官网下载：

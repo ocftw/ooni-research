@@ -41,7 +41,7 @@ OONI，全名为「Open Observatory of Network Interference」（网络干扰开
 
 !!! question "台湾所处的网络是否真的自由？"
 
-    以上举例通常都是针对恶意网站、网络广告、钓鱼诈骗进行善意阻挡（如：[DNS RPZ](https://blog.twnic.tw/2020/09/23/15311/){target="_blank"}），但如果是刻意阻挡某些内容呢？或者来自某些未被观察记录到的 ASNs 的阻挡行为？**虽然目前观测的数据都无大规模阻挡**，但由于观测数据多样性不足，数据主要集中在中华电信（[AS3462](https://radar.cloudflare.com/zh-cn/as3462){target="_blank"}）的[观测资料](https://explorer.ooni.org/chart/mat?probe_cc=TW&since=2024-10-01&until=2024-12-31&time_grain=month&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity){target="_blank"}，因此在“各区域观察数据与 ASNs 覆盖率”研究项目中会比对目前我们还有多少在 TW 的 ASNs 是未被观测到的。
+    以上举例通常都是针对恶意网站、网络广告、钓鱼诈骗进行善意阻挡（如：[DNS RPZ](https://blog.twnic.tw/2020/09/23/15311/){target="_blank"}），但如果是刻意阻挡某些内容呢？或者来自某些未被观察记录到的 ASNs 的阻挡行为？**虽然目前观测的数据都无大规模阻挡**，但由于观测数据多样性不足，数据主要集中在中华电信（[AS3462](https://radar.cloudflare.com/zh-cn/as3462){target="_blank"}）的[观测资料](https://explorer.ooni.org/chart/mat?probe_cc=TW&since=2024-10-01&until=2024-12-31&time_grain=month&axis_x=measurement_start_day&axis_y=probe_asn&test_name=web_connectivity){target="_blank"}，因此在「各区域观察数据与 ASNs 覆盖率」研究项目中会比对目前我们还有多少在 TW 的 ASNs 是未被观测到的。
 
 ## 如何安装 OONI Probe 观测程序
 

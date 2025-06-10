@@ -15,7 +15,7 @@ icon: material/list-status
     <caption>OONI Probe 检测流程</caption>
 </figure>
 
-在使用 OONI Probe 进行“网站”检测时，检测程序会根据事先列举的“网站清单”逐一检测。而这里提及的“网站清单”实际上是通过 [Citizen Lab](https://citizenlab.ca/){target="_blank"} 所维护的 [test-lists](https://github.com/citizenlab/test-lists){target="_blank"} 项目，分别收录本地（local）、全球（global）热门的网站网址。
+在使用 OONI Probe 进行「网站」检测时，检测程序会根据事先列举的「网站清单」逐一检测。而这里提及的「网站清单」实际上是通过 [Citizen Lab](https://citizenlab.ca/){target="_blank"} 所维护的 [test-lists](https://github.com/citizenlab/test-lists){target="_blank"} 项目，分别收录本地（local）、全球（global）热门的网站网址。
 
 全球（global）名单上的大多数网站以英语呈现。而本地名单则由地区提供，内容涵盖当地和地区层级的多种分类，并使用当地语言。在有互联网审查的国家，本地清单还包括了许多已被封锁的网站。
 
@@ -48,7 +48,7 @@ icon: material/list-status
 
 !!! warning "后续规划"
 
-    如何新增与募集挑选这部分还需要规划后进行，预计在 2025/Q2 待名单初步修正后再来规划“新增”的项目。
+    如何新增与募集挑选这部分还需要规划后进行，预计在 2025/Q2 待名单初步修正后再来规划「新增」的项目。
 
 ## :fontawesome-solid-diagram-project: 下一步
 

@@ -9,7 +9,7 @@ image: "assets/images/post-update.png"
 
 # 项目重启 2025
 
-嗨，各位，OONI-Research 将在 2025 重新启动项目，目前规划三个子项目作为 2025 研究的方向与目标。如果对这些议题有兴趣，可以考虑加入我们，一起研究、讨论与“[网络自由](../../internet-freedom-matter.md){target="_blank"}”相关的议题。这个文档网站也将是未来持续更新进度、活动预告、研究结果发布的平台。建议可以先订阅[邮件群组](../../contact.md){target="_blank"}，后续有任何新的信息更新，我们也会使用邮件群组发送通知。
+嗨，各位，OONI-Research 将在 2025 重新启动项目，目前规划三个子项目作为 2025 研究的方向与目标。如果对这些议题有兴趣，可以考虑加入我们，一起研究、讨论与「[网络自由](../../internet-freedom-matter.md){target="_blank"}」相关的议题。这个文档网站也将是未来持续更新进度、活动预告、研究结果发布的平台。建议可以先订阅[邮件群组](../../contact.md){target="_blank"}，后续有任何新的信息更新，我们也会使用邮件群组发送通知。
 
 <!-- more -->
 
@@ -19,7 +19,7 @@ OONI-Research 计划目前包含三个子项目，涵盖数据分析、检测网
 
 ### ASNs 自治网络观测数据分析
 
-延续 2023、2024 所研究的“[ASNs 自治网络观察数据涵盖率](https://ocf.tw/p/ooni/report/202312.html){target="_blank"}”，报告将持续针对 ASNs 自治网络系统与网络审查、干预等因素寻找其关联性。另外也持续研究其他区域的 ASNs 覆盖状况，是否会因为数据的多样性不足而影响 OONI 观测数据的解释能力。预计也将建立数据流程基础架构（data pipeline architecture），在研究过程中的数据收集与整理，通过程序自动化完成，能够与 OONI Data 实现即时呈现结果的可能。
+延续 2023、2024 所研究的「[ASNs 自治网络观察数据涵盖率](https://ocf.tw/p/ooni/report/202312.html){target="_blank"}」，报告将持续针对 ASNs 自治网络系统与网络审查、干预等因素寻找其关联性。另外也持续研究其他区域的 ASNs 覆盖状况，是否会因为数据的多样性不足而影响 OONI 观测数据的解释能力。预计也将建立数据流程基础架构（data pipeline architecture），在研究过程中的数据收集与整理，通过程序自动化完成，能够与 OONI Data 实现即时呈现结果的可能。
 
 [:material-arrow-right-circle-outline: 了解更多此项目的说明](../../ooni-asns-coverage.md){ .md-button target="_blank" }
 
@@ -49,7 +49,7 @@ OONI Probe 网站检测来自于各地区提供的名单，而台湾（`tw.csv`�
 
 ## 参与方式
 
-这个文档网站的建立是希望吸引更多对“网络自由”、“内容审查”议题感兴趣的伙伴加入，也希望在迈出参与的第一步后，能有详细的文档作为先行阅读或补足项目进度。文档网站将是项目的入口，订阅[邮件群组](../../contact.md){target="_blank"}可以持续保持进度更新，未来也会使用 [GitHub](https://github.com/ocftw/ooni-research){target="_blank"} 作为工作任务分派，朝着能够多人协作与共享知识的方式进行。
+这个文档网站的建立是希望吸引更多对「网络自由」、「内容审查」议题感兴趣的伙伴加入，也希望在迈出参与的第一步后，能有详细的文档作为先行阅读或补足项目进度。文档网站将是项目的入口，订阅[邮件群组](../../contact.md){target="_blank"}可以持续保持进度更新，未来也会使用 [GitHub](https://github.com/ocftw/ooni-research){target="_blank"} 作为工作任务分派，朝着能够多人协作与共享知识的方式进行。
 
 ## 活动预告
 
