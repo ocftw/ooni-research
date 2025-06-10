@@ -10,21 +10,23 @@ summary: "在 2025/02/23 活动结束后，关于工作坊 Tor/Tails, OONI, 讲�
 description: "在 2025/02/23 活动结束后，关于工作坊 Tor/Tails, OONI, 讲座 Roger 的活动摘要与回顾。"
 ---
 
-# 回顧：網路自由工作坊：Tor、Tails、OONI
+# 回顾：网络自由工作坊：Tor、Tails、OONI
 
-[Tor/Tails、OONI 工作坊活動](./rightscon25-pre-event.md)順利在 2025/02/23 下午與晚上時段圓滿完成，無論你是否要到場全程參與，都非常感謝這次參與的夥伴、志工與 Tor、OONI 團隊！
+[Tor/Tails、OONI 工作坊活动](./rightscon25-pre-event.md)顺利在 2025/02/23 下午与晚上时段圆满完成，无论您是否到场全程参与，都非常感谢这次参与的伙伴、志愿者与 Tor、OONI 团队！
 
-回顧當天的活動狀況，我們稍微整理成**簡短摘要**與當日的**活動簡報**提供給你參考。
+回顾当天的活动情况，我们稍微整理成**简短摘要**与当日的**活动简报**供您参考。
 
-活動議程：
+活动议程：
 
-1. 工作坊 14:00 – 17:30 如何使用 Tor 避開審查並匿名瀏覽
+1. 工作坊 14:00 – 17:30 如何使用 Tor 避开审查并匿名浏览
     - Raya, Education Coordinator @ The Tor Project
     - Gus, Community Team Lead @ The Tor Project
-2. 工作坊 18:00 – 19:00 如何使用 OONI 偵測與觀察網路審查狀況
+
+2. 工作坊 18:00 – 19:00 如何使用 OONI 侦测与观察网络审查状况
     - Elizaveta Yachmeneva, Research & Community Coordinator @ OONI
     - Maria Xynou, Director of Strategic Engagement @ OONI
-3. 演講座 19:30 – 21:00 Tor 在網路監控的世界中捍衛個人線上隱私權
+
+3. 演讲座 19:30 – 21:00 Tor 在网络监控的世界中捍卫个人线上隐私权
     - Roger Dingledine, Co-founder of The Tor Project
 
 <!-- more -->
