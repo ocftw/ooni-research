@@ -115,7 +115,7 @@ Tails 可從 Windows、macOS、Ubuntu/Linux 作業系統中製作 USB 開機磁�
     Tails 可以運行在：
 
     - 大部分不超過 10 年的電腦。
-    - 一些使用 Inel 處理器的舊電腦上。
+    - 一些使用 Intel 處理器的舊電腦上。
 
     Tails 不能運行在：
 
