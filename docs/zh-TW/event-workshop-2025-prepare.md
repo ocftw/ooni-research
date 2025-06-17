@@ -66,12 +66,12 @@ icon: octicons/workflow-24
     - [x] `公告`{style="color: red;"} 工作坊開始招募工作人員與小幫手。
     - [x] `通知`{style="color: darkorange;"} 工作坊籌備已開始，歡迎加入！
     - [x] `確認`{style="color: purple;"} 五月份線上啟動會議。
-    - [ ] `教材`{style="color: green;"} 翻譯 Tor/Tails 簡報。
+    - [x] `教材`{style="color: green;"} 翻譯 Tor/Tails 簡報。
 
 === "2025/06"
 
-    - [ ] `公告`{style="color: red;"} 籌備進度與持續招募工作人員。
-    - [ ] `確認`{style="color: purple;"} 工作人員與小幫手名單。
+    - [x] `公告`{style="color: red;"} 籌備進度與持續招募工作人員。
+    - [x] `確認`{style="color: purple;"} 工作人員與小幫手名單。
     - [ ] `教材`{style="color: green;"} Tor/Tails 工作坊課程細節。
     - [ ] `教材`{style="color: green;"} OONI 工作坊課程細節。
     - [ ] `回饋`{style="color: dodgerblue;"} 給 Tor/Tails、OONI 團隊關於我們所設計的課程與教材。

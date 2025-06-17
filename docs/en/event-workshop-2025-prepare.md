@@ -71,12 +71,12 @@ The preparation period for the workshop runs from May 2025 to early August 2025,
     - [x] `Announcement`{style="color: red;"} Start recruiting staff and helpers for the workshop.
     - [x] `Notification`{style="color: darkorange;"} Workshop preparations have begun, welcome to join!
     - [x] `Confirmation`{style="color: purple;"} Online kickoff meeting in May.
-    - [ ] `Materials`{style="color: green;"} Translate Tor/Tails presentation.
+    - [x] `Materials`{style="color: green;"} Translate Tor/Tails presentation.
 
 === "2025/06"
 
-    - [ ] `Announcement`{style="color: red;"} Preparation progress and ongoing staff recruitment.
-    - [ ] `Confirmation`{style="color: purple;"} List of staff and helpers.
+    - [x] `Announcement`{style="color: red;"} Preparation progress and ongoing staff recruitment.
+    - [x] `Confirmation`{style="color: purple;"} List of staff and helpers.
     - [ ] `Materials`{style="color: green;"} Details of Tor/Tails workshop course.
     - [ ] `Materials`{style="color: green;"} Details of OONI workshop course.
     - [ ] `Feedback`{style="color: dodgerblue;"} Provide course and material design feedback to Tor/Tails, OONI teams.
