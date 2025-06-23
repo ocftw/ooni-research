@@ -28,6 +28,7 @@ nav:
           - setup-tor-relay.md
           - setup-skill-level.md
   - !ENV [NAV_EVENT, "活動參與"]:
+      - activity/index.md
       - event-workshop-2025.md
       - !ENV [NAV_EVENT_PREPARE, "籌備頁面"]:
           - event-workshop-2025-prepare.md
