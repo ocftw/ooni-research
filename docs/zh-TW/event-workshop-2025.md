@@ -12,6 +12,10 @@ icon: material/calendar-star
 
 > _:shield: 當新聞自由遭遇監控與審查，當倡議行動被監視、聲音被封鎖——我們還能如何安全發聲、守護人權與自由？_
 
+- 日期：2025/08/09（六）、2025/08/10（日）
+- 地點：國立臺灣科技大學 研揚教學大樓 TR-510 教室
+- 會議形式：工作坊、圓桌會議討論
+
 本工作坊將由在地開源社群「[匿名網路社群 anoni.net](https://anoni.net/){target="_blank"}」提供技術支援與實務引導，介紹 [Tor](./what-is-tor.md){target="_blank"}、[Tails](./what-is-tails.md){target="_blank"}、[OONI](./what-is-ooni.md){target="_blank"} 等開源匿名網路工具，協助參與者建立第二安全裝置、匿名連線與進行網路審查偵測，提升行動與倡議的數位韌性。讓我們一起實踐資訊自由的基礎建設，用技術守護真相與抵抗壓迫。
 
 [立即報名](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
