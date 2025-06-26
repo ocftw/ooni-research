@@ -93,25 +93,34 @@ icon: material/calendar-star
 - 時間：`2025/08/09 13:30 - 15:30 UTC+8`{style="color: green; font-weight: bold;"}
 - 您將暸解：
       - 擁有第二個裝置的概念與使情境
+        - 如何透過分開處理工作與個人活動來保護您的網路線上身份與資料
       - 瞭解 Tails 匿名作業系統
+        - Tails 如何與 Tor 洋蔥網路整合，以實現匿名瀏覽和通訊
       - 瞭解 Tor 的原理
+        - 如何連線到 .onion 的網域網站
       - 動手操作安裝 Tails
+        - 如何在 USB 隨身碟上安裝並設定 Tails，以便安全地進行線上和離線的操作
 
 [立即報名](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
 
-### 圓桌會議討論
+!!! warning "提醒"
 
-可以舉行討論會議的時間已固定，討論主題我們正在調整中，報名時請勾選有意願參與討論的議，我們在時間確定後另行通知。
+     - 活動進行時需要使用到筆記型電腦，報名此工作坊時請記得攜帶設備，現場有臨時搭建的網路可供教學時使用。
 
-#### 預計討論時段
+### 圓桌討論會議
 
-- Day 1
-      - 2025/08/09 11:00 - 12:00
-      - 2025/08/09 16:00 - 17:00
-- Day 2
-      - 2025/08/10 11:00 - 12:00
-      - 2025/08/10 13:00 - 14:00
-      - 2025/08/10 14:00 - 15:00
+除了工作坊活動外，我們也想把握這次機會，一起來探討**新聞媒體**、**獨立記者**、**公民團體**與**開源科技社群**共同參與的可能，當然也想要邀請大家一起討論對於未「匿名網路社群」的想像，我們可以透過怎樣的協助，不論在技術或是資源上的協調，希望透過這次的圓桌討論會議找到更多的可能！
+
+| 活動日 | 日期/時間                    | 討論議程                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------ | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 1  | 2025/08/09<br>11:00<br>12:00 | :material-chat-processing-outline:**「自由軟體與數位人權：為何開源是匿名工具的關鍵？」**<br>:material-arrow-right-bottom:對記者、公民團體來說，開源為何重要？如何建立對工具的信任？<br>:material-arrow-right-bottom:探討「可驗證性（verifiability）」、「抵禦審查」與「社群治理」等核心價值。<br>:material-arrow-right-bottom:開源 vs 封閉商業資安工具：我們該怎麼選擇？                             |
+| Day 1  | 2025/08/09<br>16:00<br>17:00 | :material-chat-processing-outline:**「推動一個去中心、開源協作的匿名網路推廣計畫」**<br>:material-arrow-right-bottom:若以公民科技社群、開源社群協作模式進行推廣，我們可以怎麼分工？<br>:material-arrow-right-bottom:是否能建立一個「開源維運小組」（工作小組模式）維護 Tor/OONI 伺服器、定期測試 ISP 封鎖狀況？<br>:material-arrow-right-bottom:有哪些非技術角色（設計、翻譯、講師、寫手）可以參與？ |
+
+| 活動日 | 日期/時間                    | 討論議程                                                                                                                                                                                                                                                                                                                                                                   |
+| ------ | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 2  | 2025/08/10<br>11:00<br>12:00 | :material-chat-processing-outline:**「從使用者到貢獻者：台灣如何建立 Tor/OONI 的社群節點與回饋模式」**<br>:material-arrow-right-bottom:臺灣有沒有 Tor relay、OONI probe 等基礎節點？運作情況如何？<br>:material-arrow-right-bottom:有哪些實際技術與行政、法律挑戰？（如主機費用、被封鎖、法律疑慮）<br>:material-arrow-right-bottom:能不能以社群的方式協助運作與培訓新手？ |
+| Day 2  | 2025/08/10<br>13:00<br>14:00 | :material-chat-processing-outline:**「Tor/Tails/OONI 的開源基礎與在地參與可能」**<br>:material-arrow-right-bottom:這些工具是怎麼運作的？採用哪些自由軟體與開源協定？<br>:material-arrow-right-bottom:台灣開發者或資安研究者能參與哪些部分？（例如翻譯、bug 回報、寫教學）<br>:material-arrow-right-bottom:如何降低「技術距離感」，讓更多人願意貢獻？                       |
+| Day 2  | 2025/08/10<br>14:00<br>15:00 | :material-chat-processing-outline:**「如何在地化一套開源匿名工具包？」**<br>:material-arrow-right-bottom:從日常瀏覽（Tor）到作業系統（Tails）到網路監測（OONI），有哪些開源工具還可以納入？<br>:material-arrow-right-bottom:工具包長怎樣？（如 Live USB image、本地語系包、手冊）？<br>:material-arrow-right-bottom:推出「臺灣版本」的簡化套件（適合 NGO、記者、新手）     |
 
 #### 討論議題說明
 
@@ -158,3 +167,24 @@ icon: material/calendar-star
     - 臺灣能否成為連結點？（安全性、言論自由、技術社群都具備）
 
 [立即報名](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+## 完整活動時程表
+
+- 日期：2025/08/09（六）、2025/08/10（日）
+- 地點：國立臺灣科技大學 研揚教學大樓 TR-510 教室
+      - 教學大樓靠近基隆路三段 155 巷、台大癌醫中心那側，建議不要從臺科大校門口進入，會很遠。
+      - 請[參考學校地圖](https://www.ntust.edu.tw/p/412-1000-102.php?Lang=zh-tw){target="_blank"}，標記 `15` 的位置。
+
+| 活動日 | 日期/時間                    | 討論議程                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------ | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 1  | 2025/08/09<br>11:00<br>12:00 | :material-chat-processing-outline:**「自由軟體與數位人權：為何開源是匿名工具的關鍵？」**<br>:material-arrow-right-bottom:對記者、公民團體來說，開源為何重要？如何建立對工具的信任？<br>:material-arrow-right-bottom:探討「可驗證性（verifiability）」、「抵禦審查」與「社群治理」等核心價值。<br>:material-arrow-right-bottom:開源 vs 封閉商業資安工具：我們該怎麼選擇？                             |
+| Day 1  | 2025/08/09<br>12:30<br>13:30 | :material-tools: **OONI 網路審核干預資料分析**<br>:material-arrow-right-bottom:什麼是 OONI 計畫？<br>:material-arrow-right-bottom:什麼是 OONI Probe 與如何運作？<br>:material-arrow-right-bottom:如何使用 OONI Explorer 介面解讀觀測資料<br>:material-arrow-right-bottom:使用 OONI Run v2 建立觀測網站名單列表<br>:material-arrow-right-bottom:其他與 OONI 類似的觀測資料計畫                        |
+| Day 1  | 2025/08/09<br>13:30<br>15:30 | :material-tools: **Tor/Tails 工作坊**<br>:material-arrow-right-bottom:擁有第二個裝置的概念與使情境<br>:material-arrow-right-bottom:瞭解 Tails 匿名作業系統<br>:material-arrow-right-bottom:瞭解 Tor 的原理<br>:material-arrow-right-bottom:動手操作安裝 Tails                                                                                                                                        |
+| Day 1  | 2025/08/09<br>16:00<br>17:00 | :material-chat-processing-outline:**「推動一個去中心、開源協作的匿名網路推廣計畫」**<br>:material-arrow-right-bottom:若以公民科技社群、開源社群協作模式進行推廣，我們可以怎麼分工？<br>:material-arrow-right-bottom:是否能建立一個「開源維運小組」（工作小組模式）維護 Tor/OONI 伺服器、定期測試 ISP 封鎖狀況？<br>:material-arrow-right-bottom:有哪些非技術角色（設計、翻譯、講師、寫手）可以參與？ |
+
+| 活動日 | 日期/時間                    | 討論議程                                                                                                                                                                                                                                                                                                                                                                   |
+| ------ | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 2  | 2025/08/10<br>11:00<br>12:00 | :material-chat-processing-outline:**「從使用者到貢獻者：台灣如何建立 Tor/OONI 的社群節點與回饋模式」**<br>:material-arrow-right-bottom:臺灣有沒有 Tor relay、OONI probe 等基礎節點？運作情況如何？<br>:material-arrow-right-bottom:有哪些實際技術與行政、法律挑戰？（如主機費用、被封鎖、法律疑慮）<br>:material-arrow-right-bottom:能不能以社群的方式協助運作與培訓新手？ |
+| Day 2  | 2025/08/10<br>13:00<br>14:00 | :material-chat-processing-outline:**「Tor/Tails/OONI 的開源基礎與在地參與可能」**<br>:material-arrow-right-bottom:這些工具是怎麼運作的？採用哪些自由軟體與開源協定？<br>:material-arrow-right-bottom:台灣開發者或資安研究者能參與哪些部分？（例如翻譯、bug 回報、寫教學）<br>:material-arrow-right-bottom:如何降低「技術距離感」，讓更多人願意貢獻？                       |
+| Day 2  | 2025/08/10<br>14:00<br>15:00 | :material-chat-processing-outline:**「如何在地化一套開源匿名工具包？」**<br>:material-arrow-right-bottom:從日常瀏覽（Tor）到作業系統（Tails）到網路監測（OONI），有哪些開源工具還可以納入？<br>:material-arrow-right-bottom:工具包長怎樣？（如 Live USB image、本地語系包、手冊）？<br>:material-arrow-right-bottom:推出「臺灣版本」的簡化套件（適合 NGO、記者、新手）     |
+
