@@ -134,6 +134,12 @@ icon: material/calendar-star
 - 地點：國立臺灣科技大學 研揚教學大樓 TR-510 教室
       - 教學大樓靠近基隆路三段 155 巷、台大癌醫中心那側，建議不要從臺科大校門口進入，會很遠。
       - 請[參考學校地圖](https://www.ntust.edu.tw/p/412-1000-102.php?Lang=zh-tw){target="_blank"}，標記 `15` 的位置。
+
+<figure markdown="span">
+  ![活動時程表](./assets/images/event_workshop_2025_schedule.svg)
+  <figcaption>活動二日當日預計的行程表。</figcaption>
+</figure>
+
 ### Day 1
 
 | 活動日 | 日期/時間                    | 討論議程                                                                                                                                                                                                                                                                                                                                                                                                                                               |
