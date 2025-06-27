@@ -271,7 +271,7 @@ Currently, we have initially planned three main categories with six discussion t
 
     #### "From User to Contributor: How Taiwan Can Establish Community Nodes and Feedback Models for Tor/OONI"
 
-    - Does Taiwan have foundational nodes like Tor relays or OONI probes? How are they functioning?
+    - Does Taiwan have foundational nodes like Tor relays or OONI Probe? How are they functioning?
     - What are the practical technical, administrative, and legal challenges? (e.g., hosting costs, blockages, legal concerns)
     - Can we operate and mentor newcomers through a community approach?
 
