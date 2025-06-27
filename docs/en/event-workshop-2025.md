@@ -1,21 +1,165 @@
 ---
 title: Anonymous Network Workshop 2025/08
-description: Recruiting staff to help organize the event!
+description: This workshop will be supported and guided by the local open-source community "Anonymous Network Community anoni.net," introducing open-source anonymous network tools such as Tor, Tails, and OONI. It will assist participants in setting up secondary secure devices, anonymous connections, and conducting network censorship detection, thereby enhancing the digital resilience of their movements and advocacy efforts. Let's work together to implement the infrastructure for information freedom, using technology to safeguard truth and resist oppression.
 icon: material/calendar-star
 ---
 # :material-calendar-star: Anonymous Network Workshop 2025/08
 
 ![Recruiting staff to help organize the event!](./assets/images/event-workshop-2025.png){style="border-radius: 10px;box-shadow:1px 1px 0.6rem #00aeff;"}
 
+In an environment where digital surveillance and internet censorship are increasingly pervasive, **journalists**, **civil society groups**, and **human rights advocates** are facing unprecedented information risks: communications may be intercepted, identities tracked, and the safety of interviewees threatened. In such times, we need to reclaim control over our communications, rather than just relying on platforms.
+
+> :shield: When press freedom encounters surveillance and censorship, when advocacy actions are monitored and voices suppressed—how can we continue to safely express ourselves and protect human rights and freedoms?_
+
+- Date: August 9 (Sat) and August 10 (Sun), 2025
+- Location: Room TR-510, Yan-Yang Teaching Building, National Taiwan University of Science and Technology（國立臺灣科技大學 研揚教學大樓 TR-510 教室）
+- Conference format: Workshop and roundtable discussions
+
+This workshop will be supported and guided by the local open-source community "[Anonymous Network Community anoni.net](https://anoni.net/en/){target="_blank"}," introducing open-source anonymous network tools such as Tor, Tails, and [OONI](./what-is-ooni.md){target="_blank"}. It will assist participants in setting up secondary secure devices, establishing anonymous connections, and conducting network censorship detection, thereby enhancing the digital resilience of their movements and advocacy efforts. Let's work together to implement the infrastructure for information freedom, using technology to safeguard truth and resist oppression.
+
+[Register Now](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+## :books: By attending the workshop, you will gain
+
+**:closed_lock_with_key: Digital Security and Anonymous Technology Applications**
+
+- How to use the Tor network for anonymous browsing
+- Establish a secure, untraceable **secondary work environment** (using Tails and USB devices)
+- Basic threat modeling assessment: Know your adversaries, risks, and corresponding actions
+- Use Bridges and [Snowflake](./tor-snowflake.md){target="_blank"} to bypass internet censorship in blocked countries or environments
+
+**:tools: Practical Skills and Tool Mastery**
+
+- Use Tails to create a **portable anonymous operating system** for secure work on public or untrusted devices
+- Learn how the [OONI Probe](https://ooni.org/install/){target="_blank"} measures internet censorship and service blocking, and how to report to the global open-source database
+- Use [TorBrowser](https://www.torproject.org/download/){target="_blank"} and [OnionShare](https://onionshare.org/){target="_blank"} for secure document sharing and collaboration
+
+**:jigsaw: Community Support and Continuous Learning**
+
+- Get to know Taiwan's local [Anonymous Network Community](https://anoni.net/){target="_blank"}
+- Learn how to contribute to international open-source projects (such as Tor/Tails or OONI)
+- Receive ongoing technical support, consultation, and advanced learning resources after the event
+
+**:speech_balloon: Applicable Scenarios and Fields**
+
+- Suitable for covering sensitive topics, **whistleblower** [scenarios](https://www.president.gov.tw/Page/294/49717){target="_blank"}, and cross-border data verification collaboration
+- Building anonymous communication and action channels for NGO transnational cooperation or advocacy in restricted countries and regions
+- Basic reference for digital security training and SOP development within organizations
+
+## :handshake: By participating in the roundtable discussions, you will gain deeper insights into
+
+**:jigsaw: Local Engagement and Infrastructure: The Practice Path of Open-Source Communities**
+
+- **How Open Source Becomes the Foundation of Anonymous Networks**: Understand the open-source principles behind tools like Tor, Tails, and OONI, and why only free software can truly protect privacy and resist censorship.
+- **Possibilities and Significance of Local Engagement**: Explore how users in Taiwan can transition from mere users to local contributors to Tor/OONI, bringing anonymous networks closer to our language and cultural environment.
+- **Establishment and Maintenance Models of Community Nodes**: Learn how to assist in establishing foundational nodes and relays like Tor relays and OONI testing points, participate in the infrastructure of internet freedom, and understand their risks and contribution models.
+
+**:globe_with_meridians: Dissemination and Collaboration: Building a Decentralized Promotion Network**
+
+- **Creating a Local Open-Source Anonymous Toolkit in Taiwan**: Discuss how to integrate these tools into an "anonymous toolkit" that local NGOs, news media, and independent journalists can easily use, promoting the tools' accessibility and usability.
+- **Strategies and Challenges of Decentralized Promotion**: Consider how a decentralized, open-source collaborative promotion plan can be implemented in Taiwan, balancing the allocation of educational, technical, and community collaborative energies.
+- **Building Connections with Anonymous Network Communities in the Indo-Pacific Region**: Learn about the potential and current state of regional cooperation, and understand how to establish mechanisms for exchange and collaboration on anonymous networks with other advocates in the Indo-Pacific region.
+
+[Register Now](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+---
+
 ## Workshop Registration
 
-!!! warning "Preparation in Progress…"
-    - The workshop is currently in preparation. We expect to promote and open registration in early July 2025. If you arrive at this page early and want to register, you can [join the group email](./contact.md) to receive our registration notifications instantly!
-        - Date: August 9, 2025, to August 10, 2025.
-        - Location: National Taiwan University of Science and Technology, TR-510 Classroom.
-    - Registration information for **event participants** is expected to be established and updated on this page in July 2025.
-
 !!! info ""
-    - We are organizing the "Anonymous Network Workshop" at the [COSCUP Open Source Annual Conference](https://blog.coscup.org/2025/04/coscup-2025-call-for-proposals.html){target="_blank"} on 08/09 ~ 08/10. We need to recruit **partners**, **helpers**, and **event preparation volunteers** before the event starts. If you're interested in this event and willing to help organize the workshop, please read the [instructions](./event-workshop-2025-prepare.md) and find a suitable way to join us!
 
-    [Go to the preparation page](./event-workshop-2025-prepare.md){ .md-button .md-button--primary }
+    This event will be divided into a **workshop** and **roundtable discussions**, held over two days. The event venue can accommodate only about 30 to 45 people, so please seize the opportunity to register and participate.
+
+### Event Information
+
+- Date: August 9 (Sat) and August 10 (Sun), 2025
+- Location: Room TR-510, Yan-Yang Teaching Building, National Taiwan University of Science and Technology
+      - In Chinese: 國立臺灣科技大學 研揚教學大樓 TR-510 教室
+      - The teaching building is near Lane 155, Section 3, Keelung Road, on the side of NTU Cancer Center. It is recommended not to enter from the main gate of NTUST, as it is quite far.
+      - Please refer to the [school map](https://oia-r.ntust.edu.tw/var/file/60/1060/img/layout_ntust_20240328_new-try.jpg){target="_blank"}, marked at location `15`.
+
+### OONI Network Interference Observation
+
+- Time: `2025/08/09 12:30 - 13:30 UTC+8`{style="color: green; font-weight: bold;"}
+- You will learn about:
+      - What is the OONI project?
+      - What is OONI Probe and how does it work?
+        - Installation and usage instructions for the OONI Probe mobile version, and the issue of outdated observation lists in Taiwan
+      - How to interpret observation data using the OONI Explorer interface
+        - Interval data, comparison by country category, determining observation results
+      - Using OONI Run v2 to create observation website lists
+        - Create your own internet observation list and how to view your results in OONI Explorer
+      - Other similar observation data projects
+        - Cloudflare Radar, IODA, Sinar Project
+
+### Tor, Tails Anonymous Network
+
+- Time: `2025/08/09 13:30 - 15:30 UTC+8`{style="color: green; font-weight: bold;"}
+- You will learn about:
+      - The concept and scenarios of having a second device
+        - How to protect your online identity and data by separating work and personal activities
+      - Understanding the Tails anonymous operating system
+        - How Tails integrates with the Tor Onion Network to enable anonymous browsing and communication
+      - Principles of Tor
+        - How to connect to .onion domain websites
+      - Hands-on installation of Tails
+        - How to install and set up Tails on a USB flash drive for secure online and offline operations
+
+[Register Now](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+!!! warning "Reminder"
+
+    - **A laptop is required during the event.** Please remember to bring your device when registering for this workshop. There will be temporary internet access available on-site for use during the workshop.
+
+### Roundtable Discussions
+
+In addition to the workshop activities, we would like to take this opportunity to explore the potential for collaboration between **news media**, **independent journalists**, **civil society groups**, and the **open-source technology community**. We also invite everyone to discuss their vision for the future of the "Anonymous Network Community." We aim to find ways to provide assistance, whether in terms of technical support or resource coordination. Hopefully, through this roundtable discussion, we can discover more possibilities!
+
+| Day   | Date/Time                    | Topic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ----- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 1 | 2025/08/09<br>11:00<br>12:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: Free Software and Digital Rights: Why Is Open Source Key to Anonymous Tools?</span><br>:material-arrow-right-bottom:Why is open source important for journalists and civic groups? How can trust in these tools be established?<br>:material-arrow-right-bottom:Explore core values such as "verifiability," "censorship resistance," and "community governance."<br>:material-arrow-right-bottom:Open-source vs. closed commercial cybersecurity tools: How should we choose?                                                                   |
+| Day 1 | 2025/08/09<br>16:00<br>17:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: Promoting a Decentralized, Open-Source Collaborative Anonymous Network Initiative</span><br>:material-arrow-right-bottom:How can we delegate tasks if we use a civic tech community and open-source community collaboration model?<br>:material-arrow-right-bottom:Can we establish an "Open-Source Maintenance Team" (working group model) to maintain Tor/OONI servers and regularly test ISP blocking conditions?<br>:material-arrow-right-bottom:What non-technical roles (e.g., design, translation, instructors, writers) can participate? |
+
+| Day   | Date/Time                    | Topic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ----- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Day 2 | 2025/08/10<br>11:00<br>12:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: From User to Contributor: How Taiwan Can Establish Community Nodes and Feedback Models for Tor/OONI</span><br>:material-arrow-right-bottom:Does Taiwan have foundational nodes like Tor relays or OONI probes? How are they functioning?<br>:material-arrow-right-bottom:What are the practical technical, administrative, and legal challenges? (e.g., hosting costs, blockages, legal concerns)<br>:material-arrow-right-bottom:Can we operate and mentor newcomers through a community approach?            |
+| Day 2 | 2025/08/10<br>13:00<br>14:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: The Open-Source Foundation and Local Participation Possibilities of Tor/Tails/OONI</span><br>:material-arrow-right-bottom:How do these tools operate? What free software and open-source protocols do they adopt?<br>:material-arrow-right-bottom:In what aspects can Taiwanese developers or cybersecurity researchers participate? (e.g., translation, bug reporting, creating tutorials)<br>:material-arrow-right-bottom:How can we reduce the "technical distance" to encourage more people to contribute? |
+| Day 2 | 2025/08/10<br>14:00<br>15:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: How to Localize an Open-Source Anonymous Toolkit?</span><br>:material-arrow-right-bottom:From everyday browsing (Tor) to operating systems (Tails) and internet monitoring (OONI), what other open-source tools can be included?<br>:material-arrow-right-bottom:What does the toolkit look like? (e.g., Live USB image, local language packs, manuals)<br>:material-arrow-right-bottom:Launching a "Taiwan version" of a simplified kit (suitable for NGOs, journalists, beginners)                           |
+
+[Register Now](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+## Complete Event Schedule
+
+- Date: August 9 (Sat) and August 10 (Sun), 2025
+- Location: Room TR-510, Yan-Yang Teaching Building, National Taiwan University of Science and Technology
+      - In Chinese: 國立臺灣科技大學 研揚教學大樓 TR-510 教室
+      - The teaching building is near Lane 155, Section 3, Keelung Road, on the side of NTU Cancer Center. It is recommended not to enter from the main gate of NTUST, as it is quite far.
+      - Please refer to the [school map](https://oia-r.ntust.edu.tw/var/file/60/1060/img/layout_ntust_20240328_new-try.jpg){target="_blank"}, marked at location `15`.
+
+<figure markdown="span">
+  ![Event Schedule](./assets/images/event_workshop_2025_schedule.svg)
+  <figcaption>Planned schedule for the two-day event.</figcaption>
+</figure>
+
+### Day 1
+
+| Day   | Date/Time                    | Topic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ----- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 1 | 2025/08/09<br>11:00<br>12:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: Free Software and Digital Rights: Why Is Open Source Key to Anonymous Tools?</span><br>:material-arrow-right-bottom:Why is open source important for journalists and civic groups? How can trust in these tools be established?<br>:material-arrow-right-bottom:Explore core values such as "verifiability," "censorship resistance," and "community governance."<br>:material-arrow-right-bottom:Open-source vs. closed commercial cybersecurity tools: How should we choose?                                                                   |
+| Day 1 | 2025/08/09<br>12:30<br>13:30 | <span style="color: dodgerblue; font-weight: bold;">:material-tools: OONI Network Interference Observation</span><br>:material-arrow-right-bottom:What is the OONI project?<br>:material-arrow-right-bottom:What is OONI Probe and how does it work?<br>:material-arrow-right-bottom:How to interpret observation data using the OONI Explorer interface<br>:material-arrow-right-bottom:Using OONI Run v2 to create observation website lists<br>:material-arrow-right-bottom:Other similar observation data projects                                                                                                             |
+| Day 1 | 2025/08/09<br>13:30<br>15:30 | <span style="color: dodgerblue; font-weight: bold;">:material-tools: Tor, Tails Anonymous Network</span><br>:material-arrow-right-bottom:The concept and scenarios of having a second device<br>:material-arrow-right-bottom:Understanding the Tails anonymous operating system<br>:material-arrow-right-bottom:Principles of Tor<br>:material-arrow-right-bottom:Hands-on installation of Tails                                                                                                                                                                                                                                   |
+| Day 1 | 2025/08/09<br>16:00<br>17:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: Promoting a Decentralized, Open-Source Collaborative Anonymous Network Initiative</span><br>:material-arrow-right-bottom:How can we delegate tasks if we use a civic tech community and open-source community collaboration model?<br>:material-arrow-right-bottom:Can we establish an "Open-Source Maintenance Team" (working group model) to maintain Tor/OONI servers and regularly test ISP blocking conditions?<br>:material-arrow-right-bottom:What non-technical roles (e.g., design, translation, instructors, writers) can participate? |
+
+[Register Now](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+---
+
+### Day 2
+
+| Day   | Date/Time                    | Topic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ----- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Day 2 | 2025/08/10<br>11:00<br>12:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: From User to Contributor: How Taiwan Can Establish Community Nodes and Feedback Models for Tor/OONI</span><br>:material-arrow-right-bottom:Does Taiwan have foundational nodes like Tor relays or OONI probes? How are they functioning?<br>:material-arrow-right-bottom:What are the practical technical, administrative, and legal challenges? (e.g., hosting costs, blockages, legal concerns)<br>:material-arrow-right-bottom:Can we operate and mentor newcomers through a community approach?            |
+| Day 2 | 2025/08/10<br>13:00<br>14:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: The Open-Source Foundation and Local Participation Possibilities of Tor/Tails/OONI</span><br>:material-arrow-right-bottom:How do these tools operate? What free software and open-source protocols do they adopt?<br>:material-arrow-right-bottom:In what aspects can Taiwanese developers or cybersecurity researchers participate? (e.g., translation, bug reporting, creating tutorials)<br>:material-arrow-right-bottom:How can we reduce the "technical distance" to encourage more people to contribute? |
+| Day 2 | 2025/08/10<br>14:00<br>15:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: How to Localize an Open-Source Anonymous Toolkit?</span><br>:material-arrow-right-bottom:From everyday browsing (Tor) to operating systems (Tails) and internet monitoring (OONI), what other open-source tools can be included?<br>:material-arrow-right-bottom:What does the toolkit look like? (e.g., Live USB image, local language packs, manuals)<br>:material-arrow-right-bottom:Launching a "Taiwan version" of a simplified kit (suitable for NGOs, journalists, beginners)                           |
+
+[Register Now](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
