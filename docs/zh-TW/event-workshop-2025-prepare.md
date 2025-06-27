@@ -72,7 +72,7 @@ icon: octicons/workflow-24
 
     - [x] `公告`{style="color: red;"} 籌備進度與持續招募工作人員。
     - [x] `確認`{style="color: purple;"} 工作人員與小幫手名單。
-    - [ ] `教材`{style="color: green;"} Tor/Tails 工作坊課程細節。
+    - [ ] `教材`{style="color: green;"} Tor/Tails 匿名網路工作坊課程細節。
     - [ ] `教材`{style="color: green;"} OONI 工作坊課程細節。
     - [ ] `回饋`{style="color: dodgerblue;"} 給 Tor/Tails、OONI 團隊關於我們所設計的課程與教材。
 

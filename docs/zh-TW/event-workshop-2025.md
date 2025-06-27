@@ -92,7 +92,7 @@ icon: material/calendar-star
       - 其他與 OONI 類似的觀測資料計畫
         - Cloudflare Radar、IODA、Sinar Project
 
-### Tor/Tails 工作坊
+### Tor/Tails 匿名網路工作坊
 
 - 時間：`2025/08/09 13:30 - 15:30 UTC+8`{style="color: green; font-weight: bold;"}
 - 您將暸解：
@@ -146,7 +146,7 @@ icon: material/calendar-star
 | ------ | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Day 1  | 2025/08/09<br>11:00<br>12:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline:「自由軟體與數位人權：為何開源是匿名工具的關鍵？」</span><br>:material-arrow-right-bottom:對記者、公民團體來說，開源為何重要？如何建立對工具的信任？<br>:material-arrow-right-bottom:探討「可驗證性（verifiability）」、「抵禦審查」與「社群治理」等核心價值。<br>:material-arrow-right-bottom:開源 vs 封閉商業資安工具：我們該怎麼選擇？                             |
 | Day 1  | 2025/08/09<br>12:30<br>13:30 | <span style="color: dodgerblue; font-weight: bold;">:material-tools: OONI 網路審核干預資料分析</span><br>:material-arrow-right-bottom:什麼是 OONI 計畫？<br>:material-arrow-right-bottom:什麼是 OONI Probe 與如何運作？<br>:material-arrow-right-bottom:如何使用 OONI Explorer 介面解讀觀測資料<br>:material-arrow-right-bottom:使用 OONI Run v2 建立觀測網站名單列表<br>:material-arrow-right-bottom:其他與 OONI 類似的觀測資料計畫                   |
-| Day 1  | 2025/08/09<br>13:30<br>15:30 | <span style="color: dodgerblue; font-weight: bold;">:material-tools: Tor/Tails 工作坊</span><br>:material-arrow-right-bottom:擁有第二個裝置的概念與使情境<br>:material-arrow-right-bottom:瞭解 Tails 匿名作業系統<br>:material-arrow-right-bottom:瞭解 Tor 的原理<br>:material-arrow-right-bottom:動手操作安裝 Tails                                                                                                                                   |
+| Day 1  | 2025/08/09<br>13:30<br>15:30 | <span style="color: dodgerblue; font-weight: bold;">:material-tools: Tor/Tails 匿名網路工作坊</span><br>:material-arrow-right-bottom:擁有第二個裝置的概念與使情境<br>:material-arrow-right-bottom:瞭解 Tails 匿名作業系統<br>:material-arrow-right-bottom:瞭解 Tor 的原理<br>:material-arrow-right-bottom:動手操作安裝 Tails                                                                                                                           |
 | Day 1  | 2025/08/09<br>16:00<br>17:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline:「推動一個去中心、開源協作的匿名網路推廣計畫」</span><br>:material-arrow-right-bottom:若以公民科技社群、開源社群協作模式進行推廣，我們可以怎麼分工？<br>:material-arrow-right-bottom:是否能建立一個「開源維運小組」（工作小組模式）維護 Tor/OONI 伺服器、定期測試 ISP 封鎖狀況？<br>:material-arrow-right-bottom:有哪些非技術角色（設計、翻譯、講師、寫手）可以參與？ |
 
 [立即報名](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
