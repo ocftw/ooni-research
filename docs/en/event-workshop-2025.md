@@ -9,7 +9,7 @@ icon: material/calendar-star
 
 In an environment where digital surveillance and internet censorship are increasingly pervasive, **journalists**, **civil society groups**, and **human rights advocates** are facing unprecedented information risks: communications may be intercepted, identities tracked, and the safety of interviewees threatened. In such times, we need to reclaim control over our communications, rather than just relying on platforms.
 
-> :shield: When press freedom encounters surveillance and censorship, when advocacy actions are monitored and voices suppressed—how can we continue to safely express ourselves and protect human rights and freedoms?_
+> _:shield: When press freedom encounters surveillance and censorship, when advocacy actions are monitored and voices suppressed—how can we continue to safely express ourselves and protect human rights and freedoms?_
 
 - Date: August 9 (Sat) and August 10 (Sun), 2025
 - Location: Room TR-510, Yan-Yang Teaching Building, National Taiwan University of Science and Technology（國立臺灣科技大學 研揚教學大樓 TR-510 教室）
