@@ -37,7 +37,7 @@ The materials are currently [being translated](https://docs.google.com/presentat
 This year at COSCUP, we have secured two days for our event, providing ample time for activities. We aim to include roundtable discussions to bring topics like the open source community, anonymous networks, and local community building to the forefront of the conference. We have roughly planned three major categories and six topics and are looking for suitable facilitators to help drive the discussions on these issues on the day. If you or someone you know would be a suitable candidate, please let us know. We would sincerely invite them to join the discussion. You can refer to the planning details on this [page](../../event-workshop-2025-prepare.md#Round-Table){target="_blank"} for more information on the discussions.
 
 - **Intersection of Open-Source Technology and Anonymous Tools**
-      - "The Open-Source Foundation and Local Participation Possibilities of Tor/Tails/OONI"
+      - "The Open-Source foundation and Local Participation Possibilities of Tor/Tails/OONI"
       - "From User to Contributor: How Taiwan Can Establish Community Nodes and Feedback Models for Tor/OONI"
 - **Social Connection between Open-Source Spirit and Internet Freedom**
       - "Free Software and Digital Rights: Why Is Open Source Key to Anonymous Tools?"

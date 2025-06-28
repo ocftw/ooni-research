@@ -263,7 +263,7 @@ Currently, we have initially planned three main categories with six discussion t
 
 ??? abstract "Intersection of Open-Source Technology and Anonymous Tools"
 
-    #### "The Open-Source Foundation and Local Participation Possibilities of Tor/Tails/OONI"
+    #### "The Open-Source foundation and Local Participation Possibilities of Tor/Tails/OONI"
 
     - How do these tools operate? What free software and open-source protocols do they adopt?
     - In what aspects can Taiwanese developers or cybersecurity researchers participate? (e.g., translation, bug reporting, creating tutorials)
