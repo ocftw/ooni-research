@@ -1,5 +1,5 @@
 docs_dir: !ENV [DOCS_DIR, "zh-TW"]
-site_name: !ENV [SITE_NAME, "OONI-Research 網路干預開放觀察計畫"]
+site_name: !ENV [SITE_NAME, "匿名網路社群 Anoni.net/Docs"]
 site_url: !ENV [SITE_URL, "https://anoni.net/docs/"]
 edit_uri:
   !ENV [
@@ -7,10 +7,11 @@ edit_uri:
     "https://github.com/ocftw/ooni-research/blob/main/docs/zh-TW/",
   ]
 
-site_description: !ENV [SITE_DESC, "ASNs 觀測涵蓋、檢測名單、在地推廣與翻譯"]
-site_author: OONI-Research Volunteer
+site_description:
+  !ENV [SITE_DESC, "推廣與翻譯匿名網路 Tor, Tails 與 OONI 觀測工具"]
+site_author: Anoni.net Volunteer
 repo_url: https://github.com/ocftw/ooni-research
-repo_name: ocftw/ooni-research
+repo_name: 匿名網路社群文件
 copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
 nav:
   - index.md
