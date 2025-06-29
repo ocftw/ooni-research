@@ -12,7 +12,7 @@ site_description:
 site_author: Anoni.net Volunteer
 repo_url: https://github.com/ocftw/ooni-research
 repo_name: 匿名網路社群文件
-copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
+copyright: "CC-BY 4.0 2023-2025 Anoni.net Docs Project"
 nav:
   - index.md
   - !ENV [NAV_INTRO, "專案簡介"]:

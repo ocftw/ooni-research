@@ -13,7 +13,6 @@ We plan to use open-source anonymous tools like Tor, Tails, and OONI to enhance 
 
     - `Event`{style="color: OrangeRed;"}: [Anonymous Network Workshop 2025/08](./event-workshop-2025.md) - 29 Apr, 2025
     - `Review`{style="color: Purple"}: [Internet Freedom Workshop: Tor、Tails、OONI](./blog/posts/rightscon25-tor-tails-ooni-after.md) - 09 Mar, 2025
-    - The OONI-Research project is currently recruiting volunteers. Interested individuals can join the [mailing list](./contact.md) first, and we will notify you as soon as the application process is confirmed.
 
 ## :fontawesome-regular-circle-question: Inside The Project
 

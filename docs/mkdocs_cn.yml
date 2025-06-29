@@ -9,10 +9,10 @@ edit_uri:
 
 site_description:
   !ENV [SITE_DESC, "推廣與翻譯匿名網路 Tor, Tails 與 OONI 觀測工具"]
-site_author: OONI-Research Volunteer
+site_author: Anoni.net Volunteer
 repo_url: https://github.com/ocftw/ooni-research
 repo_name: ocftw/ooni-research
-copyright: "CC-BY 4.0 2023-2025 OONI-Research Project"
+copyright: "CC-BY 4.0 2023-2025 Anoni.net Docs Project"
 nav:
   - index.md
   - !ENV [NAV_INTRO, "專案簡介"]:
