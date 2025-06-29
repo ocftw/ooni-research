@@ -330,7 +330,7 @@ Here is a self-evaluation scale to help quickly assess your understanding of Tor
 
     - [x] Use the KeePassXC password manager.
     - [x] Create encryption keys and encrypt files using GnuPG and Kleopatra.
-    - [x] Send encrypted mail to `ooni-research@ocf.tw` via Thunderbird (refer to [Stay Updated](./contact.md) for public keys).
+    - [x] Send encrypted mail to `whisper@anoni.net` via Thunderbird (refer to [Stay Updated](./contact.md) for public keys).
     - [x] Secure file deletion procedures.
 
     !!! warning ""

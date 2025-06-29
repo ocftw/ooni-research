@@ -44,7 +44,7 @@ icon: octicons/workflow-24
     - 想要報名的角色：[ ] 活動籌備人員、[ ] 工作坊小幫手。
     - 在工作坊活動中可以貢獻與獲得的事項：（讓我們可以避免安排不好玩的事務給你！）
 
-報名信件請寄到：`OONI Research 專案團隊 <ooni-research@ocf.tw>`，期待與感謝你的參與！
+報名信件請寄到：`匿名網路社群 Anoni.net <whisper@anoni.net>`，期待與感謝你的參與！
 
 ## :fontawesome-solid-clipboard-user: 活動籌備人員
 
@@ -187,7 +187,7 @@ icon: octicons/workflow-24
 
         - [x] 使用密碼管理器 KeePassXC。
         - [x] 使用 GnuPG 與 Kleopatra 建立加密金鑰與加密檔案。
-        - [x] 透過 Thunderbird 寄送加密郵件到 `ooni-research@ocf.tw`（取得公開金鑰請參考「[持續關注](./contact.md)」）。
+        - [x] 透過 Thunderbird 寄送加密郵件到 `whisper@anoni.net`（取得公開金鑰請參考「[持續關注](./contact.md)」）。
         - [x] 安全的移除檔案操作流程。
 
 ### :octicons-bookmark-16: OONI 網路干預觀察

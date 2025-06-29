@@ -329,7 +329,7 @@ icon: octicons/paste-24
 
     - [x] 使用密码管理器 KeePassXC。
     - [x] 使用 GnuPG 与 Kleopatra 建立加密密钥与加密文件。
-    - [x] 通过 Thunderbird 发送加密邮件到 `ooni-research@ocf.tw`（取得公开密钥请参考「[持续关注](./contact.md)」）。
+    - [x] 通过 Thunderbird 发送加密邮件到 `whisper@anoni.net`（取得公开密钥请参考「[持续关注](./contact.md)」）。
     - [x] 安全的移除文件操作流程。
 
     !!! warning ""

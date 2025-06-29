@@ -12,7 +12,7 @@ Currently, we adopt a cautious approach to provide updates on project progress a
 
 If you have discussions that cannot be made public, you can directly contact the project team members through this email address.
 
-- Anonymity Networks Community <whisper@anoni.net>>
+- Anonymity Networks Community <whisper@anoni.net>
 - PGP: [B7DF84305C7911D90D59A66061F66CF36EE386D4](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc)
 
     ??? quote "PGP Plain Key"

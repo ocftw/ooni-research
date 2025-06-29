@@ -332,7 +332,7 @@ icon: octicons/paste-24
 
     - [x] 使用密碼管理器 KeePassXC。
     - [x] 使用 GnuPG 與 Kleopatra 建立加密金鑰與加密檔案。
-    - [x] 透過 Thunderbird 寄送加密郵件到 `ooni-research@ocf.tw`（取得公開金鑰請參考「[持續關注](./contact.md)」）。
+    - [x] 透過 Thunderbird 寄送加密郵件到 `whisper@anoni.net`（取得公開金鑰請參考「[持續關注](./contact.md)」）。
     - [x] 安全的移除檔案操作流程。
 
     !!! warning ""

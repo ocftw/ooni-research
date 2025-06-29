@@ -49,7 +49,7 @@ Please follow these sample questions to apply, and feel free to add more or repl
     - Role you want to apply for: [ ] Event Organizer, [ ] Workshop Helper.
     - Things you can contribute and gain from the workshop: (Tell us to avoid arranging unenjoyable tasks for you!)
 
-Send your application email to: `OONI Research Team <ooni-research@ocf.tw>`, looking forward to and thanking you for your participation!
+Send your application email to: `Anonymity Networks Community <whisper@anoni.net>`, looking forward to and thanking you for your participation!
 
 ### :fontawesome-solid-clipboard-user: Event Organizer
 
@@ -192,7 +192,7 @@ Help participants understand how the Tor anonymous network works, what the Onion
 
         - [x] Use the KeePassXC password manager.
         - [x] Create encryption keys and encrypt files using GnuPG and Kleopatra.
-        - [x] Send encrypted mail to `ooni-research@ocf.tw` via Thunderbird (refer to [Stay Updated](./contact.md) for public keys).
+        - [x] Send encrypted mail to `whisper@anoni.net` via Thunderbird (refer to [Stay Updated](./contact.md) for public keys).
         - [x] Secure file deletion procedures.
 
 #### :octicons-bookmark-16: OONI Network Interference Observation
