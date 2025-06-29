@@ -6,36 +6,29 @@ icon: material/email-fast-outline
 
 # :material-email-fast-outline: Stay Informed
 
-We currently provide updates on project progress and event information in a conservative manner to avoid overloading you. You can stay informed or join discussions by subscribing to our mailing list.
+Currently, we adopt a cautious approach to provide updates on project progress and announcements about our activities without being intrusive. You can stay informed by subscribing to our newsletter.
 
-- Subscribe to the mailing list: <https://groups.google.com/g/ocftw-ooni-research>{target="_blank"}
+- Subscribe: <https://form.anoni.net/s/cmc9ceju1000dlj017fiathzq>{target="_blank"}
 
 If you have discussions that cannot be made public, you can directly contact the project team members through this email address.
 
-- OONI Research Project Team <ooni-research@ocf.tw>
-- PGP: [8368A3B01D707BBFE1613336F821C1F095EC4578](./assets/8368A3B01D707BBFE1613336F821C1F095EC4578.asc)
+- Anonymity Networks Community <whisper@anoni.net>>
+- PGP: [B7DF84305C7911D90D59A66061F66CF36EE386D4](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc)
 
     ??? quote "PGP Plain Key"
 
         ```plain
         -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-        mDMEZ8cTUhYJKwYBBAHaRw8BAQdAY+SSMr2u17yv8paTDjZdwG26NV4xgaQEUfJ2
-        WVLOm4a0MU9PTkktUmVzZWFyY2ggUHJvamVjdCBUZWFtIDxvb25pLXJlc2VhcmNo
-        QG9jZi50dz6ImQQTFgoAQRYhBINoo7AdcHu/4WEzNvghwfCV7EV4BQJnxxNSAhsD
-        BQkFo5qABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEPghwfCV7EV48noA
-        /jb8vvURlbHexX7Jd6OJjwFhzfHZR4KMvoxAU1Ay+xGPAQCVVMTZI6+z4veSZdEF
-        GxdupGhgGbV8mKNwc/4SfJGMAbg4BGfHE1ISCisGAQQBl1UBBQEBB0B7DhJB4X54
-        ydcI5PwKM6k2/yF8drEHgilxqaBYCohCcAMBCAeIfgQYFgoAJhYhBINoo7AdcHu/
-        4WEzNvghwfCV7EV4BQJnxxNSAhsMBQkFo5qAAAoJEPghwfCV7EV4L/0BAJP859VY
-        EbXpUpnAc+dCPCJ0Bhl5+u+oIq3/U5kIPOvPAQD/HRG0h8ejyIQ8RqVCzB/HxyDs
-        O2z9ZZ6pUoBvLoP2AQ==
-        =G+X0
+        mDMEaFKx6hYJKwYBBAHaRw8BAQdA4nXqSdmiYemRDOrCpdLyHy9IlGY9Og6CghHl
+        iKOTDt20J3doaXNwZXIgKGFub25pLm5ldCkgPHdoaXNwZXJAYW5vbmkubmV0PoiT
+        BBMWCgA7FiEEt9+EMFx5EdkNWaZgYfZs827jhtQFAmhSseoCGwMFCwkIBwICIgIG
+        FQoJCAsCBBYCAwECHgcCF4AACgkQYfZs827jhtT6pAD/TXMpj0BxRwKycpU5hTKI
+        9WG9cXND1pYtMoDbZ8tFJW0BAIC/WdaJ7GC/y1v0NuydqRKzDFt4SHsbn7vY42ix
+        UHMOuDgEaFKx6hIKKwYBBAGXVQEFAQEHQAtJGeOGK+5e2jgbzizxWWwxpXw47hHb
+        Z/3ZRjgJewBaAwEIB4h4BBgWCgAgFiEEt9+EMFx5EdkNWaZgYfZs827jhtQFAmhS
+        seoCGwwACgkQYfZs827jhtScFQD7B6rXgFc+OhQfEjyo9ZDPZ3g7oq5xfHD6KdkV
+        l740CBMA/AkWo4nSmejtm1CJqGuAv/dVD2SNU5QKbJglsX03MhgN
+        =TJp2
         -----END PGP PUBLIC KEY BLOCK-----
         ```
-
-## Github Discussions
-
-We warmly welcome open discussions and inquiries, whether they are about the operation of Tor/Tails or OONI, or topics such as "internet freedom," "internet censorship," "anonymous networks," and more. We also encourage initiating a simple survey or sharing a spontaneous idea. All are very welcome!
-
-- <https://github.com/ocftw/ooni-research/discussions>{target="_blank"}

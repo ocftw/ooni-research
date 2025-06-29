@@ -6,36 +6,29 @@ icon: material/email-fast-outline
 
 # :material-email-fast-outline: 持續關注
 
-目前我們會用比較保守、不過度打擾的方式提供目前專案的進度回報與活動資訊的發佈。您可以透過加入郵件群組的方式持續關注我們或參與討論。
+目前我們會用比較保守、不過度打擾的方式提供目前專案的進度回報與活動資訊的發佈。您可以透過訂閱電子報的方式持續關注我們。
 
-- 訂閱郵件群組：<https://groups.google.com/g/ocftw-ooni-research>{target="_blank"}
+- 訂閱電子報：<https://form.anoni.net/s/cmc9ceju1000dlj017fiathzq>{target="_blank"}
 
-或是您有較無法公開的討論，也可以透過此信箱直接聯繫專案團隊成員。
+或是您有較無法公開的討論，也可以透過此信箱直接聯繫團隊成員。
 
-- OONI Research 專案團隊 <ooni-research@ocf.tw>
-- PGP: [8368A3B01D707BBFE1613336F821C1F095EC4578](./assets/8368A3B01D707BBFE1613336F821C1F095EC4578.asc)
+- 匿名網路社群 Anoni.net <whisper@anoni.net>
+- PGP: [B7DF84305C7911D90D59A66061F66CF36EE386D4](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc)
 
     ??? quote "PGP 公開金鑰檔案"
 
         ```plain
         -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-        mDMEZ8cTUhYJKwYBBAHaRw8BAQdAY+SSMr2u17yv8paTDjZdwG26NV4xgaQEUfJ2
-        WVLOm4a0MU9PTkktUmVzZWFyY2ggUHJvamVjdCBUZWFtIDxvb25pLXJlc2VhcmNo
-        QG9jZi50dz6ImQQTFgoAQRYhBINoo7AdcHu/4WEzNvghwfCV7EV4BQJnxxNSAhsD
-        BQkFo5qABQsJCAcCAiICBhUKCQgLAgQWAgMBAh4HAheAAAoJEPghwfCV7EV48noA
-        /jb8vvURlbHexX7Jd6OJjwFhzfHZR4KMvoxAU1Ay+xGPAQCVVMTZI6+z4veSZdEF
-        GxdupGhgGbV8mKNwc/4SfJGMAbg4BGfHE1ISCisGAQQBl1UBBQEBB0B7DhJB4X54
-        ydcI5PwKM6k2/yF8drEHgilxqaBYCohCcAMBCAeIfgQYFgoAJhYhBINoo7AdcHu/
-        4WEzNvghwfCV7EV4BQJnxxNSAhsMBQkFo5qAAAoJEPghwfCV7EV4L/0BAJP859VY
-        EbXpUpnAc+dCPCJ0Bhl5+u+oIq3/U5kIPOvPAQD/HRG0h8ejyIQ8RqVCzB/HxyDs
-        O2z9ZZ6pUoBvLoP2AQ==
-        =G+X0
+        mDMEaFKx6hYJKwYBBAHaRw8BAQdA4nXqSdmiYemRDOrCpdLyHy9IlGY9Og6CghHl
+        iKOTDt20J3doaXNwZXIgKGFub25pLm5ldCkgPHdoaXNwZXJAYW5vbmkubmV0PoiT
+        BBMWCgA7FiEEt9+EMFx5EdkNWaZgYfZs827jhtQFAmhSseoCGwMFCwkIBwICIgIG
+        FQoJCAsCBBYCAwECHgcCF4AACgkQYfZs827jhtT6pAD/TXMpj0BxRwKycpU5hTKI
+        9WG9cXND1pYtMoDbZ8tFJW0BAIC/WdaJ7GC/y1v0NuydqRKzDFt4SHsbn7vY42ix
+        UHMOuDgEaFKx6hIKKwYBBAGXVQEFAQEHQAtJGeOGK+5e2jgbzizxWWwxpXw47hHb
+        Z/3ZRjgJewBaAwEIB4h4BBgWCgAgFiEEt9+EMFx5EdkNWaZgYfZs827jhtQFAmhS
+        seoCGwwACgkQYfZs827jhtScFQD7B6rXgFc+OhQfEjyo9ZDPZ3g7oq5xfHD6KdkV
+        l740CBMA/AkWo4nSmejtm1CJqGuAv/dVD2SNU5QKbJglsX03MhgN
+        =TJp2
         -----END PGP PUBLIC KEY BLOCK-----
         ```
-
-## Github 討論區
-
-我們非常歡迎**公開的**討論與詢問事項，不論是 Tor/Tails、OONI 操作上的問題或是與「網路自由」、「網路審查」、「匿名網路」... 等議題，或是想要發起一個簡易的調查、神來一筆的想法，都非常的歡迎！
-
-- <https://github.com/ocftw/ooni-research/discussions>{target="_blank"}
