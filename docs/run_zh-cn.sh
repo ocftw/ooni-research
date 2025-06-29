@@ -1,6 +1,6 @@
 #!/bin/bash
 export DOCS_DIR='zh-CN'
-export SITE_NAME='OONI-Research 网络干预开放观察计划'
+export SITE_NAME='匿名网络社群 Anoni.net/Docs'
 export SITE_URL='https://anoni.net/docs/zh-cn/'
 export EDIT_URI='https://github.com/ocftw/ooni-research/blob/main/docs/zh-CN/'
 export SITE_DESC='匿名网络、Tor、Tails、OONI、网络自由、网络审查、ASNs 观测范围、检测列表、本地推广与翻译 '

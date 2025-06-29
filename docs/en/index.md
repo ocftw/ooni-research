@@ -2,11 +2,12 @@
 title: Home
 icon: material/home-circle
 ---
-# OONI-Research
 
-This project primarily assists the OONI local community's research. We will regularly organize data and monitor the current state of internet freedom in Taiwan through ASN comparison queries, organizing the OONI tested websites list, and promoting localization and maintaining the Chinese version of OONI.
+# Anonymity Network Community
 
-OONI (Open Observatory of Network Interference) is a project focused on observing internet censorship. Volunteers around the world help execute the monitoring applications, detect blockages, and report their findings back to the organization. The [Open Culture Foundation](https://ocf.tw/){target="_blank"} (OCF), as one of OONI's [community partners](https://ooni.org/partners/open-culture-foundation/){target="_blank"}, assists in advocating for regional internet censorship issues and promoting the installation of OONI's monitoring software.
+In the rapidly evolving digital age, the internet has become an indispensable part of our lives. However, with the widespread adoption of the internet, personal privacy and online freedom are facing unprecedented challenges. In Taiwan, we aim to promote the concepts of "**anonymous networks**" and "**internet freedom**" to raise public awareness of these critical issues.
+
+We plan to use open-source anonymous tools like Tor, Tails, and OONI to enhance anonymity and security online. We hope that **news media**, **independent journalists**, **civil society groups**, and the **open-source technology community** will have more opportunities for collaboration and exchange. Together, we seek to explore and develop corresponding solutions to enhance our ability to protect privacy and expand the scope of international cooperation. This will give us the opportunity to jointly participate on the international stage in defending online privacy and freedom of expression.
 
 !!! tip "Updated"
 

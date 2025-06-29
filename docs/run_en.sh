@@ -1,6 +1,6 @@
 #!/bin/bash
 export DOCS_DIR='en'
-export SITE_NAME='OONI-Research'
+export SITE_NAME='Anonymity Network Community, Anoni.net/Docs'
 export SITE_URL='https://anoni.net/docs/en/'
 export EDIT_URI='https://github.com/ocftw/ooni-research/blob/main/docs/en/'
 export SITE_DESC='Promotion and Translation of Anonymous Network Tools: Tor, Tails, and OONI in Taiwan.'

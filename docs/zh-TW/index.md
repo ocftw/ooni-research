@@ -2,19 +2,17 @@
 title: 首頁
 icon: material/home-circle
 ---
-# OONI-Research
+# 匿名網路社群
 
-此專案主要協助 OONI 在地社群的研究，我們會定期資料整理與監測臺灣目前的網路自由狀況，透過 ASN 比對查詢、OONI 檢測網站清單整理以及 OONI 在地化推廣與中文化維護。
+在這個數位時代迅速發展的背景下，網路已成為我們生活中不可或缺的一部分。然而，隨著網路的普及，個人隱私和網路自由面臨前所未有的挑戰。在臺灣，我們希望藉由推廣「**匿名網路**」與「**網路自由**」的概念，喚起社會大眾對這些重要議題的重視。
 
-OONI（Open Observatory of Network Interference）是一個觀察網路審查的專案。由全球的志工協助執行觀測應用程式並偵測阻擋與回報其觀察結果到該組織。[開放文化基金會](https://ocf.tw/){target="_blank"}（Open Culture Foundation、OCF）身為 OONI 的[社群夥伴](https://ooni.org/partners/open-culture-foundation/){target="_blank"}之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
+我們計劃使用 Tor、Tails 和 OONI 等開源匿名工具，來增強在網路上的匿名性和安全性。並希望如**新聞媒體**、**獨立記者**、**公民團體**與**開源科技社群**能夠有更多機會協作與交流，共同探討並開發出相對應的解決方案，提升彼此在隱私抵禦的能力及國際合作的廣度，讓我們有機會在國際舞台上、共同參與捍衛網路隱私與言論自由。
 
 !!! tip "重要資訊"
 
     - `活動`{style="color: OrangeRed;"}：「[匿名網路工作坊 2025/08](./event-workshop-2025.md)」已開始招募工作人員與小幫手。 - 2025/04/28
     - `新增`{style="color: DodgerBlue;"}：[Arti 1.4.1 更新發佈](./blog/posts/arti-141.md)、[OONI：去識別化的觀測資料安全](./blog/posts/2025-probe-security-without-identification.md) - 2025/03/16
     - `回顧`{style="color: purple;"}：[網路自由工作坊：Tor、Tails、OONI](./blog/posts/rightscon25-tor-tails-ooni-after.md) - 2025/03/09
-    - 目前 OONI-Research 專案正在招募志工，有興趣的夥伴可以先加入[郵件群組](./contact.md){target="_blank"}，等待申請流程確定後會再第一時間告知。
-
 
 ## :fontawesome-regular-circle-question: 專案簡介
 
