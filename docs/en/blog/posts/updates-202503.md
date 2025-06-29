@@ -33,7 +33,7 @@ COSCUP is scheduled to be held on August 9th and 10th at National Taiwan Univers
 
 ![Security without identification: transaction systems to make big brother obsolete](https://ooni.org/post/2025-probe-security-without-identification/images/chaum.png)
 
-Recently, we translated an article from the OONI team that discusses their plans to improve and enhance the verification of anonymously submitted data. This includes ways to advance privacy and data credibility while combating the impact of malicious, false data submissions on the overall database. If you're interested, you can [read the article](https://ooni-research.ocf.tw/docs/blog/2025/03/2025-probe-security-without-identification/){target="_blank"}.
+Recently, we translated an article from the OONI team that discusses their plans to improve and enhance the verification of anonymously submitted data. This includes ways to advance privacy and data credibility while combating the impact of malicious, false data submissions on the overall database. If you're interested, you can [read the article](https://anoni.net/docs/blog/2025/03/2025-probe-security-without-identification/){target="_blank"}.
 
 The article provides a literature review of the relevant field and outlines the future implementation process of 'anonymous credentials' by the OONI team. The content is somewhat technical and might be challenging to read, but we highly recommend spending some time to understand it, or feel free to discuss and share your suggestions with us!
 
@@ -41,7 +41,7 @@ This concept might relate to the same field as the [digital wallets](https://wal
 
 ## Translated Articles
 
-In addition to the previously mentioned article about 'anonymous credentials,' we will also translate other significant articles released by Tor, Tails, and OONI. For example, did you know that Tor plans to implement using Rust? The project is named Arti. Tor was originally constructed using the C programming language, but C requires careful handling of memory operations, which, if not managed well, can lead to security issues. Therefore, they have decided to use Rust to develop a more secure Tor application. The Arti project is currently in the process of gradually implementing the functionalities of the C-based Tor. If you're interested, you can refer to this already [translated article](https://ooni-research.ocf.tw/docs/blog/2025/03/arti_1_4_1_released/){target="_blank"}.
+In addition to the previously mentioned article about 'anonymous credentials,' we will also translate other significant articles released by Tor, Tails, and OONI. For example, did you know that Tor plans to implement using Rust? The project is named Arti. Tor was originally constructed using the C programming language, but C requires careful handling of memory operations, which, if not managed well, can lead to security issues. Therefore, they have decided to use Rust to develop a more secure Tor application. The Arti project is currently in the process of gradually implementing the functionalities of the C-based Tor. If you're interested, you can refer to this already [translated article](https://anoni.net/docs/blog/2025/03/arti_1_4_1_released/){target="_blank"}.
 
 ![EFF, Tor University](./assets/images/eff-tor-university.png){style="border-radius: 5px;"}
 

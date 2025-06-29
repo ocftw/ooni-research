@@ -159,7 +159,7 @@ Here is a self-evaluation scale to help quickly assess your understanding of Tor
 
         ??? question "Connect to **.onion** domain."
 
-            1. Connect to the [project website](https://ooni-research.ocf.tw/docs/en/){target="_blank"}. Notice a purple button saying ".onion available" that appears at the end of the address bar. Clicking it will redirect you to the .onion domain, indicating that the site actively provides guidance to connect to its .onion domain.
+            1. Connect to the [project website](https://anoni.net/docs/en/){target="_blank"}. Notice a purple button saying ".onion available" that appears at the end of the address bar. Clicking it will redirect you to the .onion domain, indicating that the site actively provides guidance to connect to its .onion domain.
             2. DuckDuckGo also offers a .onion service: [https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/){target="_blank"}
 
 ### :material-checkbox-marked-circle-auto-outline: Tor-Advanced

@@ -161,7 +161,7 @@ icon: octicons/paste-24
 
         ??? question "连接至 .onion 域"
 
-            1. 连接到[项目网站](https://ooni-research.ocf.tw/docs/){target="_blank"}、注意地址栏后方出现紫色按钮「.onion available」 按下后即可跳转到 .onion 域。当出现这个按钮表示该网站有主动提供指引连接到 .onion 域。
+            1. 连接到[项目网站](https://anoni.net/docs/){target="_blank"}、注意地址栏后方出现紫色按钮「.onion available」 按下后即可跳转到 .onion 域。当出现这个按钮表示该网站有主动提供指引连接到 .onion 域。
             2. DuckDuckGo 也提供了 .onion 服务：<https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/>{target="_blank"}
 
 ### :material-checkbox-marked-circle-auto-outline: Tor-Advanced

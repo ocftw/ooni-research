@@ -1,7 +1,7 @@
 #!/bin/bash
 export DOCS_DIR='en'
 export SITE_NAME='OONI-Research'
-export SITE_URL='https://ooni-research.ocf.tw/docs/en/'
+export SITE_URL='https://anoni.net/docs/en/'
 export EDIT_URI='https://github.com/ocftw/ooni-research/blob/main/docs/en/'
 export SITE_DESC='OONI Probe and ASNs finding in Taiwan.'
 export NAV_ABOUT='About'

@@ -1,6 +1,6 @@
 docs_dir: !ENV [DOCS_DIR, "zh-TW"]
 site_name: !ENV [SITE_NAME, "OONI-Research 網路干預開放觀察計畫"]
-site_url: !ENV [SITE_URL, "https://ooni-research.ocf.tw/docs/"]
+site_url: !ENV [SITE_URL, "https://anoni.net/docs/"]
 edit_uri:
   !ENV [
     EDIT_URI,
@@ -98,7 +98,7 @@ extra:
       lang: en
   social:
     - icon: material/home
-      link: https://ooni-research.ocf.tw/docs/
+      link: https://anoni.net/docs/
     - icon: fontawesome/brands/github
       link: https://github.com/ocftw/ooni-research
     - icon: simple/torbrowser
