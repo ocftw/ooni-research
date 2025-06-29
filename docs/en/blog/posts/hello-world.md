@@ -53,7 +53,7 @@ OONI's services and tools are expanding, and ongoing localization will help main
 
 ## How to Participate
 
-This document site is established to attract more partners interested in topics like "internet freedom" and "content censorship" to join us. It aims to provide a starting point for participants with hands-on documents for reading or to complement the current project progress. The document site will serve as the project's gateway, and subscribing to the [mailing list](https://groups.google.com/g/ocftw/ocftw-ooni-research){target="_blank"} will help you stay updated. In the future, [Github](https://github.com/ocftw/ooni-research){target="_blank"} will be used for task assignments, working towards a collaborative approach to knowledge sharing.
+This document site is established to attract more partners interested in topics like "internet freedom" and "content censorship" to join us. It aims to provide a starting point for participants with hands-on documents for reading or to complement the current project progress. The document site will serve as the project's gateway, and subscribing to the [mailing list](https://groups.google.com/g/ocftw/ocftw-ooni-research){target="_blank"} will help you stay updated. In the future, [Github](https://github.com/anoni-net/docs){target="_blank"} will be used for task assignments, working towards a collaborative approach to knowledge sharing.
 
 ## Event Announcements
 

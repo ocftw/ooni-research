@@ -66,7 +66,7 @@ AS 可以被理解為一個單一的管理實體（例如：一家公司、一�
 
 [OONI](http://ooni.org/){target="_blank"} 是由全球一群志工夥伴協助透過 [Probe 觀測程式](https://ooni.org/install/){target="_blank"}，檢測所在地區是否有網路封鎖、內容審查等問題。透過 OONI Probe 檢查後的檢測資訊會上傳到專案的[公開資料庫](https://registry.opendata.aws/ooni/){target="_blank"}保存紀錄，並提供後續分析與利用。
 
-2023/11 ~ 2024/03 期間，我們有透過[程式抓取](https://github.com/ocftw/ooni-research/tree/main/asn_coverage){target="_blank"}分析公開資料，初步檢視目前觀測資料的樣態，究竟是觀測資料不足還存在其他的問題。
+2023/11 ~ 2024/03 期間，我們有透過[程式抓取](https://github.com/anoni-net/docs/tree/main/asn_coverage){target="_blank"}分析公開資料，初步檢視目前觀測資料的樣態，究竟是觀測資料不足還存在其他的問題。
 
 根據 2023/12 的[報告](https://ocf.tw/p/ooni/report/202312.html){target="_blank"}中的發現，目前臺灣的觀察資料在 OONI Explorer 資料庫中排名在前十名，以數量上來說是足夠的，但就資料樣本而言，大部份的觀察資料都集中在 [AS3462](https://radar.cloudflare.com/zh-tw/as3462){target="_blank"} 與 [AS18041](https://radar.cloudflare.com/zh-tw/as18041){target="_blank"} 所貢獻的觀測資料，約佔所有觀測資料的 78.94%。臺灣目前約有 437 組 ASNs，觀測資料中不重複的 ASNs 數量僅有 7.32%，多樣性的觀測顯為不足。
 
@@ -122,9 +122,9 @@ AS 可以被理解為一個單一的管理實體（例如：一家公司、一�
 
 ### 資料擷取
 
-透過 OONI Probe 的檢測後的觀測資料會回傳到 OONI 的 [AWS S3 Open Data](https://registry.opendata.aws/ooni/){target="_blank"} 中儲存。在 [OONI Docs](https://docs.ooni.org/data){target="_blank"} 中有簡單的擷取方式教學，或是透過我們已經完成的[擷取程式](https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py){target="_blank"}來使用，資料的欄位結構可以參考 [ooni/spec](https://github.com/ooni/spec){target="_blank"}。
+透過 OONI Probe 的檢測後的觀測資料會回傳到 OONI 的 [AWS S3 Open Data](https://registry.opendata.aws/ooni/){target="_blank"} 中儲存。在 [OONI Docs](https://docs.ooni.org/data){target="_blank"} 中有簡單的擷取方式教學，或是透過我們已經完成的[擷取程式](https://github.com/anoni-net/docs/blob/main/asn_coverage/ooni.py){target="_blank"}來使用，資料的欄位結構可以參考 [ooni/spec](https://github.com/ooni/spec){target="_blank"}。
 
-以下將透過[擷取程式](https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py){target="_blank"}來操作如何擷取檢測觀察資料。
+以下將透過[擷取程式](https://github.com/anoni-net/docs/blob/main/asn_coverage/ooni.py){target="_blank"}來操作如何擷取檢測觀察資料。
 
 ??? question "如何設定專案環境？"
 

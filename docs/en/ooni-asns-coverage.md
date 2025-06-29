@@ -69,7 +69,7 @@ You might wonder, since ASes sound like very "autonomous" entities, could there 
 
 [OONI](http://ooni.org/){target="_blank"} is supported by a global network of volunteers who use the [Probe software](https://ooni.org/install/){target="_blank"} to detect issues like internet blocking and content censorship in their regions. The test results from OONI Probe are uploaded to the project's [open data repository](https://registry.opendata.aws/ooni/){target="_blank"} for record-keeping and further analysis and use.
 
-From November 2023 to March 2024, we analyzed the open data using [scripted retrieval](https://github.com/ocftw/ooni-research/tree/main/asn_coverage){target="_blank"} to primarily assess the current state of observation data, whether there is a lack of data or other issues.
+From November 2023 to March 2024, we analyzed the open data using [scripted retrieval](https://github.com/anoni-net/docs/tree/main/asn_coverage){target="_blank"} to primarily assess the current state of observation data, whether there is a lack of data or other issues.
 
 According to findings in the [December 2023 report](https://ocf.tw/p/ooni/report/202312.html){target="_blank"}, Taiwan's observational data is ranked among the top ten in the OONI Explorer database in terms of volume, indicating adequacy. However, the data samples reveal that most observations are concentrated on contributions from [AS3462](https://radar.cloudflare.com/zh-tw/as3462){target="_blank"} and [AS18041](https://radar.cloudflare.com/zh-tw/as18041){target="_blank"}, accounting for about 78.94% of all observation data. Taiwan currently has approximately 437 ASNs, yet the number of unique ASNs in the observational data is only 7.32%, highlighting a lack of diversity in the observations.
 
@@ -125,9 +125,9 @@ Finally, in the "Raw Measurement Data" section, you can find all the raw data of
 
 ### Data Retrieval
 
-The data from tests conducted using OONI Probe is sent back for storage in OONI's [AWS S3 Open Data](https://registry.opendata.aws/ooni/){target="_blank"}. [OONI Docs](https://docs.ooni.org/data){target="_blank"} provides a simple tutorial on data retrieval, and you can also use our completed [retrieval script](https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py){target="_blank"}. The data field structure can be referenced from [ooni/spec](https://github.com/ooni/spec){target="_blank"}.
+The data from tests conducted using OONI Probe is sent back for storage in OONI's [AWS S3 Open Data](https://registry.opendata.aws/ooni/){target="_blank"}. [OONI Docs](https://docs.ooni.org/data){target="_blank"} provides a simple tutorial on data retrieval, and you can also use our completed [retrieval script](https://github.com/anoni-net/docs/blob/main/asn_coverage/ooni.py){target="_blank"}. The data field structure can be referenced from [ooni/spec](https://github.com/ooni/spec){target="_blank"}.
 
-Below is a guide on how to retrieve test observation data using the [retrieval script](https://github.com/ocftw/ooni-research/blob/main/asn_coverage/ooni.py){target="_blank"}.
+Below is a guide on how to retrieve test observation data using the [retrieval script](https://github.com/anoni-net/docs/blob/main/asn_coverage/ooni.py){target="_blank"}.
 
 ??? question "How to Set Up the Project Environment?"
 

@@ -2,7 +2,7 @@
 export DOCS_DIR='zh-CN'
 export SITE_NAME='匿名网络社群 Anoni.net/Docs'
 export SITE_URL='https://anoni.net/docs/zh-cn/'
-export EDIT_URI='https://github.com/ocftw/ooni-research/blob/main/docs/zh-CN/'
+export EDIT_URI='https://github.com/anoni-net/docs/blob/main/docs/zh-CN/'
 export SITE_DESC='匿名网络、Tor、Tails、OONI、网络自由、网络审查、ASNs 观测范围、检测列表、本地推广与翻译 '
 export NAV_ABOUT='关于我们'
 export NAV_INTRO='项目简介'
