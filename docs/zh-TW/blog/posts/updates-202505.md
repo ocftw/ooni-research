@@ -64,7 +64,7 @@ description: "專案目前近況與更新 2025/05"
 
 一開始我們也有點好奇，在臺灣有多少人關注「匿名網路」的議題，但上次舉辦第一次線上會議後，發現大家其實都滿在意或已是平時研究的議題，社群的建立似乎像是喊一下：「我們這裡也在聊著、做著一樣的事情喔！」而簡單的把大家聚在一起這樣！
 
-我們也盡量自己搭建或使用可匿名的服務（[Etherpad](https://pad.anoni.net/){target="_blank"}、[Formbricks](https://form.anoni.net/s/cmaxjo2p40000o10131byw3do){target="_blank"}、[Jitsi](https://jitsi.goodmeet.asia/){target="_blank"}），試著建立相對應的 onion 服務（[專案文件](http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion/){target="_blank"}、[Etherpad](http://pad.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/){target="_blank"}、[Formbricks](http://form.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/s/cmaxjo2p40000o10131byw3do){target="_blank"}），盡量有意識的協助參與夥伴可以保有一定的匿名方式與我們一起辦活動（行事曆還在尋找、郵件還在評估是否用 [Stalwart](https://stalw.art/){target="_blank"} 架設）。
+我們也盡量自己搭建或使用可匿名的服務（[Etherpad](https://pad.anoni.net/){target="_blank"}、[Formbricks](https://form.anoni.net/s/cmaxjo2p40000o10131byw3do){target="_blank"}、[Jitsi](https://jitsi.goodmeet.asia/){target="_blank"}），試著建立相對應的 onion 服務（[專案文件](http://docs.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/){target="_blank"}、[Etherpad](http://pad.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/){target="_blank"}、[Formbricks](http://form.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/s/cmaxjo2p40000o10131byw3do){target="_blank"}），盡量有意識的協助參與夥伴可以保有一定的匿名方式與我們一起辦活動（行事曆還在尋找、郵件還在評估是否用 [Stalwart](https://stalw.art/){target="_blank"} 架設）。
 
 目前希望把八月份的「[匿名網路工作坊](../../event-workshop-2025.md)」順利辦完後，可能要來開始思考一個「**社群**」可以長成怎樣的樣態，在臺灣或是在亞太地區、印太地區可以提供怎樣的服務、如何參與國際事務。我們希望大家可以多給我們一些意見，即使是**要求**也行 XD。
 

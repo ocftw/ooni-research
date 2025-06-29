@@ -100,7 +100,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ocftw/ooni-research
     - icon: simple/torbrowser
-      link: http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion/
+      link: http://docs.anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
