@@ -8,7 +8,7 @@ site_description:
   !ENV [SITE_DESC, "推廣與翻譯匿名網路 Tor, Tails 與 OONI 觀測工具"]
 site_author: Anoni.net Volunteer
 repo_url: https://github.com/anoni-net/docs
-repo_name: ocftw/ooni-research
+repo_name: 匿名网络社群文件
 copyright: "CC-BY 4.0 2023-2025 Anoni.net Docs Project"
 nav:
   - index.md
