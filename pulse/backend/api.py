@@ -14,25 +14,19 @@ app = FastAPI(
     root_path="/api",
     openapi_tags=TAG_META,
     contact={
-        'name': 'OCF OONI-Research Team',
-        'url': 'https://ooni-research.ocf.tw/',
-        'email': 'ooni-research@ocf.tw',
+        'name': 'Anoni.net',
+        'url': 'https://anoni.net/',
+        'email': 'whisper@anoni.net',
     },
     license_info={
         'name': 'GPL-3.0',
-        'url': 'https://github.com/ocftw/ooni-research/blob/main/asn_coverage/LICENSE',
+        'url': 'https://github.com/anoni-net/docs/blob/main/asn_coverage/LICENSE',
     }
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        #"http://127.0.0.1:8000",
-        #"https://ooni-research.ocf.tw",
-        #"http://tq36lsc3lrq3mzfkz7xpvteht3677v4qmcdaxntzatxm65cdefjpovad.onion",
-        #"unknown://nil",
-        "*",
-        ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

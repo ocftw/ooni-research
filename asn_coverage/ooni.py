@@ -24,7 +24,7 @@ class OONIS3:
     def __init__(self) -> None:
         self.s3client = boto3.client('s3', config=Config(
             region_name='eu-central-1',
-            user_agent='OCF.tw OONI-Research github.com/ocftw/ooni-research',
+            user_agent='OONI-Research github.com/anoni-net/docs/',
             signature_version=UNSIGNED,
             connect_timeout=120,
             read_timeout=120,

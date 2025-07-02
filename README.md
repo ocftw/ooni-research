@@ -1,12 +1,10 @@
 # OONI 網路干預開放觀察
 
-[專案文件](https://ooni-research.ocf.tw/) | [安裝 OONI Probe](https://ooni.org/install/) | [觀測資料](https://explorer.ooni.org/)
+[專案文件](https://anoni.net/docs/) | [安裝 OONI Probe](https://ooni.org/install/) | [觀測資料](https://explorer.ooni.org/)
 
 `English below`
 
 [OONI](https://ooni.org/)（Open Observatory of Network Interference）是一個觀察網路審查的專案。由全球的志工協助執行[觀測應用程式](https://ooni.org/install/)並偵測阻擋與回報其[觀察結果](https://explorer.ooni.org/)到該組織。
-
-開放文化基金會（Open Culture Foundation, [OCF](https://ocf.tw/)）身為 OONI 的[社群夥伴](https://ooni.org/partners/open-culture-foundation/)之一，協助區域在網路審查議題上的倡議與 OONI 觀察軟體的推廣安裝。
 
 ## OONI Probe
 
@@ -69,15 +67,9 @@ OONI 提供直接存取位於 AWS S3 上的觀察資料（[ooni-data-eu-fra](htt
    2. 校閱目前已翻譯的文字內容。
    3. 建立詞彙表（Glossary）。
 
-## 如何參與
-
-目前可以透過兩個方式參與專案：[寄信報名](mailto:"OCF%20財團法人開放文化基金會"%20<hi@ocf.tw>?subject=[OONI]%20參與計畫&body=請簡短自我介紹，後續會有專案人員與您聯絡)或[實習計畫](https://blog.ocf.tw/2023/09/ooni.html)或[討論區](https://github.com/ocftw/ooni-research/discussions)簡單的自我介紹，歡迎加入我們一起研究 OONI！
-
 ---
 
 # OONI-Research
-
-Open Culture Foundation ([OCF](https://ocf.tw/)), as a partner of the OONI community, supports censorship measurement from a local perspective and shares internet censorship findings with the public.
 
 You can find more introductions about OONI, OONI Probe, and OONI Explore [here](https://ooni.org/).
 
