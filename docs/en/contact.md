@@ -8,7 +8,7 @@ icon: material/email-fast-outline
 
 Currently, we adopt a cautious approach to provide updates on project progress and announcements about our activities without being intrusive. You can stay informed by subscribing to our newsletter.
 
-- Subscribe: <https://form.anoni.net/s/cmc9ceju1000dlj017fiathzq>{target="_blank"}
+- Subscribe: <https://form.anoni.net/s/w21855zpca072rvgp0s2govj>{target="_blank"}
 
 If you have discussions that cannot be made public, you can directly contact the project team members through this email address.
 
