@@ -171,3 +171,7 @@ icon: material/calendar-star
 | <span style="background-color: green; color: #ffffff; font-weight: bold; padding:3px;border-radius: 5px;">圆桌讨论</span> | 2025/08/10<br>14:00<br>15:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline:「如何本地化一套开源匿名工具包？」</span><br>:material-arrow-right-bottom:从日常浏览（Tor）到操作系统（Tails）到网络监测（OONI），有哪些开源工具还可以纳入？<br>:material-arrow-right-bottom:工具包长怎样？（如 Live USB image、本地语系包、手册）？<br>:material-arrow-right-bottom:推出“台湾版本”的简化套件（适合 NGO、记者、新手）     |
 
 [立即报名](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+!!! info "订阅电子报：随时获取活动更新状况"
+
+    由于在活动前我们还有可能调整活动细节、时间，如果您已经完成报名了，我们会通过**电子邮件**通知后续的信息。如果您还没有报名，建议可以先[订阅电子报](https://form.anoni.net/s/cmc9ceju1000dlj017fiathzq){target="_blank"}，我们也会将活动最新状况同步在电子报内容中！

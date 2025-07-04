@@ -171,3 +171,7 @@ icon: material/calendar-star
 | <span style="background-color: green; color: #ffffff; font-weight: bold; padding:3px;border-radius: 5px;">圓桌討論</span> | 2025/08/10<br>14:00<br>15:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline:「如何在地化一套開源匿名工具包？」</span><br>:material-arrow-right-bottom:從日常瀏覽（Tor）到作業系統（Tails）到網路監測（OONI），有哪些開源工具還可以納入？<br>:material-arrow-right-bottom:工具包長怎樣？（如 Live USB image、本地語系包、手冊）？<br>:material-arrow-right-bottom:推出「臺灣版本」的簡化套件（適合 NGO、記者、新手）     |
 
 [立即報名](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+!!! info "訂閱電子報：隨時取得活動更新狀況"
+
+    由於到活動前我們還有可能調整活動細節、時間，如果您已經完成報名了，我們會透過**電子郵件**通知後續的資訊。如果您還沒有報名，建議可以先[訂閱電子報](https://form.anoni.net/s/cmc9ceju1000dlj017fiathzq){target="_blank"}，我們也會將活動最新狀況同步在電子報內容中！

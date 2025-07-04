@@ -172,3 +172,7 @@ In addition to the workshop activities, we would like to take this opportunity t
 | <span style="background-color: green; color: #ffffff; font-weight: bold; padding:3px;border-radius: 5px;">Roundtable</span> | 2025/08/10<br>14:00<br>15:00 | <span style="color: green; font-weight: bold;">:material-chat-processing-outline: How to Localize an Open-Source Anonymous Toolkit?</span><br>:material-arrow-right-bottom:From everyday browsing (Tor) to operating systems (Tails) and internet monitoring (OONI), what other open-source tools can be included?<br>:material-arrow-right-bottom:What does the toolkit look like? (e.g., Live USB image, local language packs, manuals)<br>:material-arrow-right-bottom:Launching a "Taiwan version" of a simplified kit (suitable for NGOs, journalists, beginners)                           |
 
 [Register Now](https://form.anoni.net/s/cmc5t86n8000hlj0199ocqw2m){ .md-button .md-button--primary target="_blank"}
+
+!!! info "Subscribe to the Newsletter: Stay Updated on Event Changes"
+
+    Since there may be adjustments to the event details and timing before it takes place, if you have already registered, we will inform you of any updates via **email**. If you haven't registered yet, we recommend [subscribing to the newsletter](https://form.anoni.net/s/w21855zpca072rvgp0s2govj){target="_blank"} to receive the latest updates. We'll also share the most recent event developments in the newsletter!
