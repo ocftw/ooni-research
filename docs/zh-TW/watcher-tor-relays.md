@@ -10,7 +10,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Running (count), Taiwan",
-    "data": {"url" : "/api/vega/tor/relays/running?country=tw"},
+    "data": {"url" : "./api/vega/tor/relays/running?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -43,7 +43,7 @@ icon: material/chart-bar
 ```vegalite
 {
   "description": "Tor Relays Running (observed_bandwidth), Taiwan",
-  "data": {"url" : "/api/vega/tor/relays/running?country=tw"},
+  "data": {"url" : "./api/vega/tor/relays/running?country=tw"},
   "mark": {
     "type": "area",
     "tooltip": true,
@@ -79,7 +79,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Version (count), Taiwan",
-    "data": {"url" : "/api/vega/tor/relays/version?country=tw"},
+    "data": {"url" : "./api/vega/tor/relays/version?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -105,7 +105,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays ASN (count), Taiwan",
-    "data": {"url" : "/api/vega/tor/relays/asn?country=tw"},
+    "data": {"url" : "./api/vega/tor/relays/asn?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -131,7 +131,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Node Type (count), Taiwan",
-    "data": {"url" : "/api/vega/tor/relays/node_type?country=tw"},
+    "data": {"url" : "./api/vega/tor/relays/node_type?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -157,7 +157,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Flags (count), Taiwan",
-    "data": {"url" : "/api/vega/tor/relays/flags?country=tw"},
+    "data": {"url" : "./api/vega/tor/relays/flags?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
