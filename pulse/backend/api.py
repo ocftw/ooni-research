@@ -8,10 +8,11 @@ TAG_META = [
 ]
 
 app = FastAPI(
-    title="OCF OONI-Research API",
+    title="Anoni.net Tor-Watcher API",
     description="Store daily observational datas.",
-    version="2025.03.31",
+    version="2025.07.09",
     root_path="/api",
+    docs_url="/readme"
     openapi_tags=TAG_META,
     contact={
         'name': 'Anoni.net',
