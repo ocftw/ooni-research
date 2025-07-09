@@ -12,7 +12,7 @@ app = FastAPI(
     description="Store daily observational datas.",
     version="2025.07.09",
     root_path="/api",
-    docs_url="/readme"
+    docs_url="/readme",
     openapi_tags=TAG_META,
     contact={
         'name': 'Anoni.net',
