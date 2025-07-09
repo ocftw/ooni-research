@@ -10,7 +10,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Running (count), Taiwan",
-    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/running?country=tw"},
+    "data": {"url" : "https://anoni.net/api/vega/tor/relays/running?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -43,7 +43,7 @@ icon: material/chart-bar
 ```vegalite
 {
   "description": "Tor Relays Running (observed_bandwidth), Taiwan",
-  "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/running?country=tw"},
+  "data": {"url" : "https://anoni.net/api/vega/tor/relays/running?country=tw"},
   "mark": {
     "type": "area",
     "tooltip": true,
@@ -79,7 +79,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Version (count), Taiwan",
-    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/version?country=tw"},
+    "data": {"url" : "https://anoni.net/api/vega/tor/relays/version?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -105,7 +105,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays ASN (count), Taiwan",
-    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/asn?country=tw"},
+    "data": {"url" : "https://anoni.net/api/vega/tor/relays/asn?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -131,7 +131,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Node Type (count), Taiwan",
-    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/node_type?country=tw"},
+    "data": {"url" : "https://anoni.net/api/vega/tor/relays/node_type?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -157,7 +157,7 @@ icon: material/chart-bar
 ```vegalite
   {
     "description": "Tor Relays Flags (count), Taiwan",
-    "data": {"url" : "https://tor-watcher.toomore.net/api/vega/tor/relays/flags?country=tw"},
+    "data": {"url" : "https://anoni.net/api/vega/tor/relays/flags?country=tw"},
     "mark": {
       "type": "area",
       "tooltip": true,
@@ -182,7 +182,7 @@ icon: material/chart-bar
 
 !!! example "持續開發中"
 
-    - :tools: 目前此頁面的**觀察資料**與**呈現方式**都還在持續調整中，資料讀取的部分是透過[擷取資料 API 服務](https://tor-watcher.toomore.net/api/docs){target="_blank"}提供，而 API 資料服務也還在持續開發中。
+    - :tools: 目前此頁面的**觀察資料**與**呈現方式**都還在持續調整中，資料讀取的部分是透過[擷取資料 API 服務](https://anoni.net/api/readme){target="_blank"}提供，而 API 資料服務也還在持續開發中。
 
 [^1]: 持續與停止運作的數量：計算每日在臺灣的 Tor Relay 運作狀態數量，計算區間每小時不重複的 Tor Relay。
 [^2]: 每日提供的總頻寬：計算每日在臺灣的 Tor Relay 總頻寬（MB/s），計算區間每小時不重複的 Tor Relay。
